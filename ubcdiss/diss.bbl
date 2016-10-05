@@ -1,0 +1,29 @@
+\begin{thebibliography}{3}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bringhurst(2002)]{bringhurst-2002-teots}
+R.~Bringhurst.
+\newblock \emph{The Elements of Typographic Style}.
+\newblock Hartley \& Marks, 2.5 edition, 2002.
+\newblock ISBN 0881791326.
+
+\bibitem[Kiczales et~al.(1997)Kiczales, Lamping, Mendhekar, Maeda, Lopes,
+  Loingtier, and Irwin]{kiczales-1997-aop}
+G.~Kiczales, J.~Lamping, A.~Mendhekar, C.~Maeda, C.~Lopes, J.-M. Loingtier, and
+  J.~Irwin.
+\newblock Aspect-oriented programming.
+\newblock In \emph{Proceedings of the European Conference on Object-Oriented
+  Programming ({ECOOP})}, volume 2591 of \emph{Lecture Notes in Computer
+  Science}, pages 220--242, 1997.
+
+\bibitem[Lamport(1994)]{lamport-1994-ladps}
+L.~Lamport.
+\newblock \emph{\LaTeX: A Document Preparation System}.
+\newblock Addison-Wesley, 2 edition, 1994.
+\newblock ISBN 0201529831.
+
+\end{thebibliography}
