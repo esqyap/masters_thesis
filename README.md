@@ -5,6 +5,9 @@ This repo contains some of the work done for my Master's thesis. I'm a Master's 
 # Repo Organization
 For my sanity sake, this repo is organized in several folders. 
 
+## ubcdiss
+Writing my thesis using the [ubcdiss template](https://github.com/briandealwis/ubcdiss) by [Brian de Alwis](https://github.com/briandealwis)
+
 ## readings
 My attempt to make notes of every single paper I've read for this thesis. 
 
