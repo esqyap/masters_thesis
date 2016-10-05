@@ -1,4 +1,4 @@
-# Variant Calling in Amplicon-based Next Generation Sequencing Data from Formalin-fixed Paraffin-embedded Tumours
+# Targeted Next Generation Sequencing Panel for Clinical Diagnostics of Solid Tumours 
 
 This repo contains some of the work done for my Master's thesis. I'm a Master's student in the Experimental Medicine Program at the University of British Columbia (Vancouver, BC). My research supervisor is Dr. Aly Karsan who is the medical director of the Centre of Clinical Genomics at the British Columbia Cancer Agency and a full professor at the UBC Department of Pathology and Laboratory Medicine.
 
