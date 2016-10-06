@@ -6,24 +6,24 @@
 \contentsline {chapter}{Glossary}{viii}{chapter*.6}
 \contentsline {chapter}{Acknowledgments}{ix}{chapter*.7}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}Suggested Thesis Organization}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}Making Cross-References}{2}{section.1.2}
-\contentsline {section}{\numberline {1.3}Managing Bibliographies with BibT\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m }{2}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Describing References}{3}{subsection.1.3.1}
+\contentsline {section}{\numberline {1.1}Cancer as a Genetic Disease}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Making Cross-References}{1}{section.1.2}
+\contentsline {section}{\numberline {1.3}Managing Bibliographies with BibT\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m {}}{2}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Describing References}{2}{subsection.1.3.1}
 \contentsline {subsection}{\numberline {1.3.2}Citing References}{3}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Formatting Cited References}{4}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.3}Formatting Cited References}{3}{subsection.1.3.3}
 \contentsline {section}{\numberline {1.4}Typesetting Tables}{4}{section.1.4}
 \contentsline {section}{\numberline {1.5}Figures, Graphics, and Special Characters}{5}{section.1.5}
 \contentsline {section}{\numberline {1.6}Special Characters and Symbols}{6}{section.1.6}
 \contentsline {section}{\numberline {1.7}Changing Page Widths and Heights}{6}{section.1.7}
-\contentsline {subsection}{\numberline {1.7.1}The \texttt {geometry} Package}{7}{subsection.1.7.1}
+\contentsline {subsection}{\numberline {1.7.1}The \texttt {geometry} Package}{6}{subsection.1.7.1}
 \contentsline {subsection}{\numberline {1.7.2}Changing Page Layout Values By Hand}{7}{subsection.1.7.2}
-\contentsline {subsection}{\numberline {1.7.3}Making Temporary Changes to Page Layout}{8}{subsection.1.7.3}
-\contentsline {section}{\numberline {1.8}Keeping Track of Versions with Revision Control}{8}{section.1.8}
+\contentsline {subsection}{\numberline {1.7.3}Making Temporary Changes to Page Layout}{7}{subsection.1.7.3}
+\contentsline {section}{\numberline {1.8}Keeping Track of Versions with Revision Control}{7}{section.1.8}
 \contentsline {section}{\numberline {1.9}Recommended Packages}{8}{section.1.9}
 \contentsline {subsection}{\numberline {1.9.1}Typesetting}{8}{subsection.1.9.1}
-\contentsline {subsection}{\numberline {1.9.2}Figures, Tables, and Document Extracts}{9}{subsection.1.9.2}
+\contentsline {subsection}{\numberline {1.9.2}Figures, Tables, and Document Extracts}{8}{subsection.1.9.2}
 \contentsline {subsection}{\numberline {1.9.3}Bibliography Related Packages}{9}{subsection.1.9.3}
-\contentsline {section}{\numberline {1.10}Moving On}{10}{section.1.10}
+\contentsline {section}{\numberline {1.10}Moving On}{9}{section.1.10}
 \contentsline {chapter}{Bibliography}{11}{chapter*.11}
 \contentsline {chapter}{\numberline {A}Supporting Materials}{12}{appendix.A}
