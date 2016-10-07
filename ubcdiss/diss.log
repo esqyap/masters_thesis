@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  6 OCT 2016 09:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  6 OCT 2016 14:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -684,86 +684,97 @@ Chapter 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 18.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 18.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 18.
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 15.
-
-LaTeX Warning: Reference `sec:SuggestedThesisOrganization' on page 1 undefined 
-on input line 22.
-
-LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 57.
-LaTeX Font Info:    Try loading font information for OMS+phv on input line 58.
+(Font)              scaled to size 7.35999pt on input line 26.
+LaTeX Font Info:    Try loading font information for OMS+phv on input line 27.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsphv.fd
 File: omsphv.fd 
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 58.
- [1
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 27.
+
+
+LaTeX Warning: Reference `sec:CrossReferences' on page 1 undefined on input lin
+e 39.
+
+[1
 
 
 
 
 ]
 Package acronym Info: Label `acro:DOI' newly defined as it shall be overridden
-although it is yet undefined on input line 104.
-Package acronym Info: Label `acro:URL' overridden on input line 104.
- [2]
-Overfull \hbox (0.43488pt too wide) in paragraph at lines 190--200
+although it is yet undefined on input line 73.
+Package acronym Info: Label `acro:URL' overridden on input line 73.
+
+
+LaTeX Warning: Reference `sec:CrossReferences' on page 2 undefined on input lin
+e 79.
+
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 99.
+[2]
+Overfull \hbox (0.43488pt too wide) in paragraph at lines 159--169
 \OT1/ptm/m/n/10.95 do not emit all the in-for-ma-tion nec-es-sary to prop-erly 
 use []\OT1/pcr/m/n/10.95 \citet{}\OT1/ptm/m/n/10.95 , []\OT1/pcr/m/n/10.95 \cit
 ep{}\OT1/ptm/m/n/10.95 , []\OT1/pcr/m/n/10.95 \citeyear{}\OT1/ptm/m/n/10.95 ,
  []
 
-[3] [4]
+[3]
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 22.88956pt on input line 271.
+(Font)              scaled to size 22.88956pt on input line 240.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 271.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 240.
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 15.89755pt on input line 271.
-Package acronym Info: Label `acro:GPS' overridden on input line 302.
- [5]
+(Font)              scaled to size 15.89755pt on input line 240.
+ [4]
+Package acronym Info: Label `acro:GPS' overridden on input line 271.
+
+
+LaTeX Warning: Reference `sec:CrossReferences' on page 5 undefined on input lin
+e 277.
+
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 332.
-LaTeX Font Info:    Try loading font information for OML+ptm on input line 337.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 301.
+LaTeX Font Info:    Try loading font information for OML+ptm on input line 306.
 
- (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omlptm.fd
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omlptm.fd
 File: omlptm.fd 
 )
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <10.95> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 337.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 306.
 
-Overfull \hbox (3.2255pt too wide) in paragraph at lines 317--342
+Overfull \hbox (3.2255pt too wide) in paragraph at lines 286--311
 []\OT1/pcr/m/n/10.95 \{}&%\OT1/ptm/m/n/10.95 ) and math-e-mat-ics (i.e., []\OT1
 /pcr/m/n/10.95 $^_\OT1/ptm/m/n/10.95 ), and oth-ers are au-tomag-i-cally trans-
 formed into typographically-
  []
 
+[5]
 LaTeX Font Info:    Font shape `OT1/pcr/bx/n' in size <12> not available
-(Font)              Font shape `OT1/pcr/b/n' tried instead on input line 353.
-[6]
+(Font)              Font shape `OT1/pcr/b/n' tried instead on input line 322.
+ [6]
 Package acronym Info: Label `acro:RCS' newly defined as it shall be overridden
-although it is yet undefined on input line 417.
- [7]
+although it is yet undefined on input line 386.
 LaTeX Font Info:    Font shape `OT1/pcr/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/pcr/b/n' tried instead on input line 451.
- [8]
+(Font)              Font shape `OT1/pcr/b/n' tried instead on input line 420.
+ [7] [8]
 Package acronym Info: Label `acro:CTAN' newly defined as it shall be overridden
 
-although it is yet undefined on input line 533.
- [9]) [10] (./diss.bbl (./diss.brf)
+although it is yet undefined on input line 502.
+) [9] (./diss.bbl (./diss.brf)
 \tf@brf=\write9
 \openout9 = `diss.brf'.
 
-) [11
+) [10
 
 
 ]
@@ -771,7 +782,7 @@ although it is yet undefined on input line 533.
 
  (./appendix.tex
 Appendix A.
-) [12
+) [11
 
 
 ]
@@ -782,9 +793,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 413.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 413.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 413.
 Package rerunfilecheck Info: File `diss.out' has not changed.
-(rerunfilecheck)             Checksum: EAA7AB8386DB705CFB64A7B41C48DD32;2064.
+(rerunfilecheck)             Checksum: 8E03AE4450D231507837725147361D50;2041.
 Package rerunfilecheck Info: File `diss.brf' has not changed.
-(rerunfilecheck)             Checksum: C7B1BFA44F8106B0373F995FBF1B11FC;1133.
+(rerunfilecheck)             Checksum: EDFF293642FD4DE3AB89A5737BD890A8;1033.
 
 
 LaTeX Warning: There were undefined references.
@@ -792,13 +803,13 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 413.
  ) 
 Here is how much of TeX's memory you used:
- 10308 strings out of 493089
- 155575 string characters out of 6134842
- 265586 words of memory out of 5000000
+ 10307 strings out of 493089
+ 155570 string characters out of 6134842
+ 265568 words of memory out of 5000000
  13415 multiletter control sequences out of 15000+600000
- 70041 words of font info for 130 fonts, out of 8000000 for 9000
+ 71148 words of font info for 131 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,15n,39p,509b,1689s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,15n,39p,509b,1123s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
@@ -809,10 +820,10 @@ st/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2015/texmf-dist/font
 s/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/ur
 w/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/ut
 mri8a.pfb>
-Output written on diss.pdf (21 pages, 152661 bytes).
+Output written on diss.pdf (20 pages, 150107 bytes).
 PDF statistics:
- 510 PDF objects out of 1000 (max. 8388607)
- 473 compressed objects within 5 object streams
- 131 named destinations out of 1000 (max. 500000)
+ 488 PDF objects out of 1000 (max. 8388607)
+ 452 compressed objects within 5 object streams
+ 129 named destinations out of 1000 (max. 500000)
  233 words of extra memory for PDF output out of 10000 (max. 10000000)
 
