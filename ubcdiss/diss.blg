@@ -5,47 +5,50 @@ A level-1 auxiliary file: abstract.aux
 A level-1 auxiliary file: preface.aux
 A level-1 auxiliary file: ack.aux
 A level-1 auxiliary file: intro.aux
+A level-1 auxiliary file: mainbody.aux
 The style file: abbrvnat.bst
 A level-1 auxiliary file: appendix.aux
+I found no \citation commands---while reading file diss.aux
 Database file #1: biblio.bib
-You've used 3 entries,
+You've used 0 entries,
             2773 wiz_defined-function locations,
-            620 strings with 5115 characters,
-and the built_in function-call counts, 1499 in all, are:
-= -- 125
-> -- 86
-< -- 4
-+ -- 30
-- -- 27
-* -- 115
-:= -- 234
-add.period$ -- 11
-call.type$ -- 3
-change.case$ -- 18
-chr.to.int$ -- 3
-cite$ -- 6
-duplicate$ -- 74
-empty$ -- 120
-format.name$ -- 30
-if$ -- 313
+            602 strings with 4730 characters,
+and the built_in function-call counts, 33 in all, are:
+= -- 0
+> -- 0
+< -- 0
++ -- 0
+- -- 0
+* -- 2
+:= -- 10
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 1
+format.name$ -- 0
+if$ -- 1
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 5
-newline$ -- 25
-num.names$ -- 12
-pop$ -- 42
+missing$ -- 0
+newline$ -- 8
+num.names$ -- 0
+pop$ -- 0
 preamble$ -- 1
-purify$ -- 15
+purify$ -- 0
 quote$ -- 0
-skip$ -- 57
+skip$ -- 1
 stack$ -- 0
-substring$ -- 38
-swap$ -- 15
-text.length$ -- 2
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 23
+type$ -- 0
 warning$ -- 0
-while$ -- 12
+while$ -- 0
 width$ -- 0
-write$ -- 51
+write$ -- 7
+(There was 1 error message)

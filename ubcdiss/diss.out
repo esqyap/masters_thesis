@@ -6,31 +6,18 @@
 \BOOKMARK [0][-]{chapter*.6}{Glossary}{}% 6
 \BOOKMARK [0][-]{chapter*.7}{Acknowledgments}{}% 7
 \BOOKMARK [0][-]{chapter.1}{1 Introduction}{}% 8
-\BOOKMARK [1][-]{section.1.1}{1.1 Cancer as an \(Epi\)genetic Disease}{chapter.1}% 9
-\BOOKMARK [1][-]{section.1.2}{1.2 The Era of Precision Oncology}{chapter.1}% 10
-\BOOKMARK [2][-]{subsection.1.2.1}{1.2.1 Next-Generation Sequencing Technologies in the Clinic}{section.1.2}% 11
-\BOOKMARK [2][-]{subsection.1.2.2}{1.2.2 Clinical Application of Bioinformatics Pipelines}{section.1.2}% 12
-\BOOKMARK [2][-]{subsection.1.2.3}{1.2.3 Molecular Targeted Therapies}{section.1.2}% 13
-\BOOKMARK [2][-]{subsection.1.2.4}{1.2.4 Cancer Pharmacogenomics}{section.1.2}% 14
-\BOOKMARK [1][-]{section.1.3}{1.3 Challenges in Clinical Applications of Next-Generation Sequencing}{chapter.1}% 15
-\BOOKMARK [2][-]{subsection.1.3.1}{1.3.1 Formalin-Fixed Clinical Specimens}{section.1.3}% 16
-\BOOKMARK [2][-]{subsection.1.3.2}{1.3.2 Tumour-Only Profiling}{section.1.3}% 17
-\BOOKMARK [1][-]{section.1.4}{1.4 BibTeX}{chapter.1}% 18
-\BOOKMARK [2][-]{subsection.1.4.1}{1.4.1 Describing References}{section.1.4}% 19
-\BOOKMARK [2][-]{subsection.1.4.2}{1.4.2 Citing References}{section.1.4}% 20
-\BOOKMARK [2][-]{subsection.1.4.3}{1.4.3 Formatting Cited References}{section.1.4}% 21
-\BOOKMARK [1][-]{section.1.5}{1.5 Typesetting Tables}{chapter.1}% 22
-\BOOKMARK [1][-]{section.1.6}{1.6 Figures, Graphics, and Special Characters}{chapter.1}% 23
-\BOOKMARK [1][-]{section.1.7}{1.7 Special Characters and Symbols}{chapter.1}% 24
-\BOOKMARK [1][-]{section.1.8}{1.8 Changing Page Widths and Heights}{chapter.1}% 25
-\BOOKMARK [2][-]{subsection.1.8.1}{1.8.1 The geometry Package}{section.1.8}% 26
-\BOOKMARK [2][-]{subsection.1.8.2}{1.8.2 Changing Page Layout Values By Hand}{section.1.8}% 27
-\BOOKMARK [2][-]{subsection.1.8.3}{1.8.3 Making Temporary Changes to Page Layout}{section.1.8}% 28
-\BOOKMARK [1][-]{section.1.9}{1.9 Keeping Track of Versions with Revision Control}{chapter.1}% 29
-\BOOKMARK [1][-]{section.1.10}{1.10 Recommended Packages}{chapter.1}% 30
-\BOOKMARK [2][-]{subsection.1.10.1}{1.10.1 Typesetting}{section.1.10}% 31
-\BOOKMARK [2][-]{subsection.1.10.2}{1.10.2 Figures, Tables, and Document Extracts}{section.1.10}% 32
-\BOOKMARK [2][-]{subsection.1.10.3}{1.10.3 Bibliography Related Packages}{section.1.10}% 33
-\BOOKMARK [1][-]{section.1.11}{1.11 Moving On}{chapter.1}% 34
-\BOOKMARK [0][-]{chapter*.11}{Bibliography}{}% 35
-\BOOKMARK [0][-]{appendix.A}{A Supporting Materials}{}% 36
+\BOOKMARK [1][-]{section.1.1}{1.1 Objectives}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.2}{1.2 Pharmacogenomics in Clinical Oncology}{chapter.1}% 10
+\BOOKMARK [1][-]{section.1.3}{1.3 The Evolution of Next-Generation Sequencing}{chapter.1}% 11
+\BOOKMARK [1][-]{section.1.4}{1.4 Bioinformatics Tools for Variant Calling}{chapter.1}% 12
+\BOOKMARK [2][-]{subsection.1.4.1}{1.4.1 Types of Genomic Alterations}{section.1.4}% 13
+\BOOKMARK [2][-]{subsection.1.4.2}{1.4.2 Variant Calling Pipelines}{section.1.4}% 14
+\BOOKMARK [2][-]{subsection.1.4.3}{1.4.3 Variant Calling Algorithms}{section.1.4}% 15
+\BOOKMARK [1][-]{section.1.5}{1.5 Challenges in Clinical Next-Generation Sequencing Testing}{chapter.1}% 16
+\BOOKMARK [2][-]{subsection.1.5.1}{1.5.1 Formalin Artifacts in DNA}{section.1.5}% 17
+\BOOKMARK [2][-]{subsection.1.5.2}{1.5.2 Tumour-only Profiling}{section.1.5}% 18
+\BOOKMARK [1][-]{section.1.6}{1.6 Summary}{chapter.1}% 19
+\BOOKMARK [0][-]{chapter.2}{2 Variant Calling in Formalin-fixed Paraffin-embedded Tumours}{}% 20
+\BOOKMARK [1][-]{section.2.1}{2.1 Overview}{chapter.2}% 21
+\BOOKMARK [0][-]{chapter*.8}{Bibliography}{}% 22
+\BOOKMARK [0][-]{appendix.A}{A Supporting Materials}{}% 23
