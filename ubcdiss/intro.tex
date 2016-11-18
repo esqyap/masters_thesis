@@ -8,32 +8,47 @@
 \section{Objectives}
 \label{sec:Objectives}
 
-Genetic variants in genes encoding drug metabolizing enzymes, drug transporters, and drug targets can cause inter-individual differences in drug response. Pharmacogenomics (PGx) applies genomic approaches to evaluate the association of genetic variants with drug efficacy and toxicity. If a PGx variant demonstrates clinical utility, screening for this biomarker would guide treatment selection as well as optimization of treatment dosage and duration, thereby improving therapeutic effectiveness and safety. In the context of cancer, both somatic mutations in the tumour genome and germline genetic variants can influence a patient's treatment choice. While somatic mutations typically affect activity or expression of drug targets, germline variants present in normal tissues affect drug disposition which includes absorption, distribution, metabolism, and excretion of the administered drug. Although somatic mutations have been implicated in cancer PGx, this thesis will focus on germline PGx variants with significant impacts on treatment response to cytotoxic chemotherapy.
+Genetic variants in genes encoding drug metabolizing enzymes, drug transporters, and drug targets can cause interpatient differences in drug response. Pharmacogenomics (PGx) applies genomic approaches to evaluate the association of genetic variants with drug efficacy and toxicity. If a PGx variant demonstrates clinical utility, screening for this biomarker would guide treatment selection as well as optimization of treatment dosage and duration, thereby improving therapeutic effectiveness and safety. In the context of cancer, both somatic mutations in the tumour genome and germline genetic variants can influence a patient's treatment choice. While somatic mutations typically affect activity or expression of drug targets, germline variants present in normal tissues affect drug disposition which includes absorption, distribution, metabolism, and excretion of the administered drug. Although somatic mutations have been implicated in cancer PGx, this thesis will focus on germline PGx variants with significant impacts on treatment response to cytotoxic chemotherapy.
 
-Clinical use of genomic information has been rapidly adopted by oncology practice to arrive at more informed decision with regards to patient management and therapeutic intervention. This emerging framework of genomics-drive cancer medicine has been driven by advances in next-generation sequencing (NGS) technologies, declined cost in genome sequencing, and development of bioinformatics analytic tools. There are various genomic approaches that interrogate different proportions of the genome. At present, targeted NGS panels that screen for genomic alterations in a collection of genes are the most practical in the clinic based on clinical actionability, cost-efficiency, and short turnaround time. Other comprehensive approaches such as whole exome sequencing (WES) which survey coding regions in the genomie and whole genome sequencing (WGS) are also translated for clinical use. However, limitations to these comprehensive approaches exist due to due to the incomplete annotation of the human genome and difficulty in interpreting genomic data for medical decision-making.
+Clinical use of genomic information has been rapidly adopted by oncology practice to arrive at more informed decision with regards to patient management and therapeutic intervention. This emerging framework of genomics-driven cancer medicine has been revolutionized by advances in next-generation sequencing (NGS) technologies, declined cost in genome sequencing, and development of bioinformatics analytic tools. There are various genomic approaches that interrogate different proportions of the genome. At present, targeted NGS panels that screen for genomic alterations in a subset of genes are the most practical in the clinic based on clinical actionability, cost-efficiency, and short turnaround time. Other comprehensive approaches such as whole exome sequencing (WES) which survey only coding regions in the genome and whole genome sequencing (WGS) are also translated for clinical use. However, limitations to these comprehensive approaches exist due to incomplete annotation of the human genome and challenges in interpreting genomic data for medical decision-making.
 
-Although there are many promising applications of clinical NGS testing in cancer medicine, several challenges are yet to be resolved. One of the challenges is the sequencing of DNA from formalin-fixed paraffin-embedded (FFPE) tumours. Additional challenges include xx, but this thesis will be addressing formalin artifacts in DNA and disadvantages in tumour profiling without matched normal DNA.
+Despite the many promising applications of NGS-based testing in cancer medicine, several challenges are yet to be resolved. One of the challenges is sequence artifacts caused by formalin fixation. For decades, formalin fixation has been the standard procedure to preserve morphology and cellular characteristics of tissue biopsies for histologic examination. Compared to storing fresh-frozen tissues, long-term storage of formalin-fixed paraffin-embedded (FFPE) blocks at room temperature is more cost-effective and therefore, frequently used for molecular analysis. However, formalin fixation causes DNA fragmentation and base transition artifacts (i.e. C$>$T and G$>$A), which could result in false-positive or false-negative variations in the genome. This is particularly concerning in the clinic because this genomic information is used to inform therapeutic intervention of a patient. Secondly, the lack of matched normal DNA is a challenge faced by present-day clinical NGS-based testing. Processing of matched normal DNA is not a routine practice in the clinical setting due to logistical difficulties in obtaining a blood or saliva sample, increased cost, and an underappreciation of the potential value of the matched normal. Without matched normal DNA, detection of clinically relevant germline variations (e.g. germline PGx variants) from somatic mutations in the tumour genome rely heavily on filtering with existing variant databases such as dbSNP and ExAC. Additional challenges in clinical implementation of NGS-based testing include lack of methods to interrogate low-complexity regions of the genome, a consensus standard for variant calling and annotation, and methods for functional prediction of novel genomic variants. Nevertheless, the scope of this thesis will only address the first two challenges described through analyzing data from a targeted NGS panel for solid tumours.
 
-This emerging framework of genomics-driven cancer medicine involves screening for genomic alterations that have diagnostic, prognostic, predictive or pharmacogenomic (PGx) clinical utility.
+The primary objective of my research is to determine whether a clinical targeted NGS panel that only sequence FFPE tumour DNA can be harnessed to report high quality germline PGx variants that would inform chemotherapeutic intervention. To address this objective, I evaluated the concordance of germline PGx variants between FFPE tumour DNA and the gold standard peripheral blood DNA. In addition, I assessed the extent of formalin induced DNA damage and modification by comparing quality metrics of sequencing data and formalin artifacts between FFPE tumour and peripheral blood.
 
- Diagnostic biomarkers facilitate tumour type or subtype classification whereas prognostic biomarkers provide information on disease outcome based on overall and disease-free survival rates. Moreover, predictive biomarkers would inform treatment selection while PGx biomarkers assist with reducing drug toxicity through optimization of treatment dosage and duration.
-
-There are various genome sequencing strategies used in the clinic to screen and facilitate the discovery of clinical biomarkers. These strategies differ in the proportion of the genome they interrogate. There are various strategies that differ in the proportion of the genome
-
-patient care, treatment outcome, treatment response, risk stratification, susceptibility, toxicity, adverse drug events
-Key words: pharmacogenomic, germline variants, targeted amplicon-based MPS panel, formalin artifacts, tumour-only genomic profiling
+This introductory chapter will be organized into four sections to provide sufficient background information for the work presented in this thesis. The first section will introduce the adoption of PGx findings in oncology care by providing examples of promising applications with an emphasis on germline PGx variants that affect response to cytotoxic chemotherapy. The second chapter will focus on the evolution of NGS technologies and its contribution to the emergence of genomics-driven cancer medicine. Genomic approaches that interrogate different content of the genome will also be described and examples of their clinical use will be provided. In the third chapter, I will provide an overview on a variant calling pipeline and introduce different types of genomic alterations. I will also describe different variant calling algorithm and methods for variant annotation and interpretation. Finally, the fourth section will focus on challenges in the clinical application of NGS-based testing, expanding on formalin fixation artifacts and the lack of matched normal samples. These are problems addressed in this thesis which aims to investigate whether germline PGx variants can be detected with precision in a clinical targeted NGS panel that only sequence DNA from FFPE tumours.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Pharmacogenomics in Clinical Oncology}
 \label{sec:PharmacogenomicsinClinicalOncology}
 
+Cancer pharmacogenomics takes into account tumour-associated somatic mutations and germline variants. Somatic mutations in driver gen
 
+Pharmacogenomics (PGx) applies genomic approaches to evaluate the interaction of genetic variants with drug response. These variations affect genes encoding drug targets as well as drug disposition proteins involved in drug absorption, distribution, metabolism, and excretion (ADME). The goals of PGx studies are to elucidate biological mechanisms underlying interpatient variability in drug efficacy and toxicity as well as identify PGx biomarkers with clinical utility, which would guide selection of treatment type, optimal dosage, and duration.
+
+Cancer PGx takes into account tumour-associated somatic mutations and germline variants. Somatic mutations in driver genes promote malignant transformation through conferring selective growth advantage to the cells. Characterization of somatic driver mutations has provided an avenue for development of molecularly targeted drugs against specific tumour-defining somatic mutations. Hence, screening for these specific
+
+somatic mutations serving as genomic predictors of tumour response and providing new leads for drug development
+germline variants optimize cancer drug dosing and predict the susceptibility of patients to the adverse side effects of these drugs - knowledge that can be used to improve benefit:risk ratio of cancer treatment for individual patients
+
+\subsection{Somatic Mutations and Targeted Therapies}
+
+
+\subsection{Germline Variants and Chemotherapy-Associated Morbidity}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{The Evolution of Next-Generation Sequencing}
-\label{sec:TheEvolutionofNext-GenerationSequencing}
+\section{Applications of Next-Generation Sequencing}
+\label{sec:ApplicationsofNext-GenerationSequencing}
 
+\subsection{The Evolution of Next-Generation Sequencing}
 
+\subsection{Targeted Sequencing}
+
+\subsection{Whole Exome Sequencing}
+
+\subsection{Whole Genome Sequencing}
+
+\subsection{Summary}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Bioinformatics Tools for Variant Calling}
@@ -41,17 +56,18 @@ Key words: pharmacogenomic, germline variants, targeted amplicon-based MPS panel
 
 \subsection{Types of Genomic Alterations}
 
-\subsection{Variant Calling Pipelines}
-
 \subsection{Variant Calling Algorithms}
+
+\subsection{Variant Annotation and Interpretation}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Challenges in Clinical Next-Generation Sequencing Testing}
 \label{sec:Challenges in Clinical Next-Generation Sequencing Testing}
 
-\subsection{Formalin Artifacts in DNA}
+\subsection{Sequence Artifacts by Formalin Fixation}
+- Transition vs. transversion
 
-\subsection{Tumour-only Profiling}
+\subsection{Lack of Matched Normal DNA}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Summary}
@@ -59,6 +75,10 @@ Key words: pharmacogenomic, germline variants, targeted amplicon-based MPS panel
 
 
 \endinput
+
+Key words: pharmacogenomic, germline variants, targeted amplicon-based MPS panel, formalin artifacts, tumour-only genomic profiling, patient care, treatment outcome, treatment response, risk stratification, susceptibility, toxicity, adverse drug events
+
+This emerging framework of genomics-driven cancer medicine involves screening for genomic alterations that have diagnostic, prognostic, predictive or pharmacogenomic (PGx) clinical utility. Diagnostic biomarkers facilitate tumour type or subtype classification whereas prognostic biomarkers provide information on disease outcome based on overall and disease-free survival rates. Moreover, predictive biomarkers would inform treatment selection while PGx biomarkers assist with reducing drug toxicity through optimization of treatment dosage and duration.
 
 The genetic basis of cancer made it a suitable candidate for the emerging Genomics-driven cancer medicine is an emerging framework for diagnosis, patient management, and therapeutic intervention based on individual genetic variability. This framework has been revolutionized by advanced massive parallel sequencing (MPS) technologies and analytic tools. The step-wise accumulation of genomic alterations plays a significant role in driving cancer initiation, maintenance, and progression. Somatic mutations in oncogenes and tumour-suppressor genes, which are collectively known as cancer genes, results in dysregulation in key onco
 
