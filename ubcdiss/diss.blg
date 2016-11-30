@@ -6,13 +6,14 @@ A level-1 auxiliary file: preface.aux
 A level-1 auxiliary file: ack.aux
 A level-1 auxiliary file: intro.aux
 A level-1 auxiliary file: mainbody.aux
+A level-1 auxiliary file: conclusion.aux
 The style file: abbrvnat.bst
 A level-1 auxiliary file: appendix.aux
 I found no \citation commands---while reading file diss.aux
 Database file #1: biblio.bib
 You've used 0 entries,
             2773 wiz_defined-function locations,
-            602 strings with 4730 characters,
+            603 strings with 4744 characters,
 and the built_in function-call counts, 33 in all, are:
 = -- 0
 > -- 0
