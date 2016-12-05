@@ -8,31 +8,38 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Objectives}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Genomics-Driven Oncology}{2}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Definition}{2}{subsection.1.2.1}
-\contentsline {section}{\numberline {1.3}Massively Parallel Sequencing}{7}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Massively Parallel Sequencing Technologies}{7}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Applications of Massively Parallel Sequencing}{7}{subsection.1.3.2}
-\contentsline {subsubsection}{Targeted Sequencing}{7}{subsubsection*.8}
-\contentsline {subsection}{\numberline {1.3.3}Whole Exome Sequencing}{7}{subsection.1.3.3}
-\contentsline {subsection}{\numberline {1.3.4}Whole Genome Sequencing}{7}{subsection.1.3.4}
-\contentsline {section}{\numberline {1.4}Bioinformatics Tools for Variant Calling}{7}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}Types of Genomic Alterations}{7}{subsection.1.4.1}
-\contentsline {subsection}{\numberline {1.4.2}Variant Calling Pipeline}{7}{subsection.1.4.2}
-\contentsline {subsection}{\numberline {1.4.3}Variant Calling Algorithms}{7}{subsection.1.4.3}
-\contentsline {subsection}{\numberline {1.4.4}Variant Curation and Interpretation}{7}{subsection.1.4.4}
-\contentsline {section}{\numberline {1.5}Challenges in Clinical Genomics}{7}{section.1.5}
-\contentsline {subsection}{\numberline {1.5.1}DNA Damage by Formalin Fixation}{7}{subsection.1.5.1}
-\contentsline {subsection}{\numberline {1.5.2}Lack of Matched Normal DNA}{8}{subsection.1.5.2}
-\contentsline {subsection}{\numberline {1.5.3}Variant of Unknown Significance}{8}{subsection.1.5.3}
-\contentsline {subsection}{\numberline {1.5.4}Incidental Findings}{8}{subsection.1.5.4}
-\contentsline {section}{\numberline {1.6}Pharmacogenomics in Clinical Oncology}{8}{section.1.6}
-\contentsline {subsection}{\numberline {1.6.1}Targeted Therapies}{8}{subsection.1.6.1}
-\contentsline {subsection}{\numberline {1.6.2}Chemotherapy-Associated Morbidities}{8}{subsection.1.6.2}
-\contentsline {section}{\numberline {1.7}Summary}{8}{section.1.7}
-\contentsline {chapter}{\numberline {2}Germline Pharmacogenomics Testing in Formalin-Fixed Paraffin-Embedded Tumours}{9}{chapter.2}
-\contentsline {section}{\numberline {2.1}Overview}{9}{section.2.1}
-\contentsline {section}{\numberline {2.2}Methods}{10}{section.2.2}
-\contentsline {section}{\numberline {2.3}Results and Discussion}{10}{section.2.3}
-\contentsline {chapter}{\numberline {3}Conclusion}{11}{chapter.3}
-\contentsline {chapter}{Bibliography}{12}{chapter*.9}
-\contentsline {chapter}{\numberline {A}Supporting Materials}{13}{appendix.A}
+\contentsline {subsection}{\numberline {1.2.1}Definitions}{2}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Genomic Alterations in Cancer Pathogenesis}{3}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Clinical Deployment of Targeted Cancer Therapies}{3}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.4}Advances in DNA Sequencing Technologies}{3}{subsection.1.2.4}
+\contentsline {section}{\numberline {1.3}Massively Parallel Sequencing Technologies}{4}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Sequencing by Ligation}{5}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Sequencing by Synthesis}{5}{subsection.1.3.2}
+\contentsline {section}{\numberline {1.4}Applications of Massively Parallel Sequencing}{5}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Targeted Sequencing}{5}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}Whole Exome Sequencing}{5}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {1.4.3}Whole Genome Sequencing}{5}{subsection.1.4.3}
+\contentsline {section}{\numberline {1.5}Bioinformatics Tools for Variant Calling}{5}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}Types of Genomic Alterations}{5}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {1.5.2}Variant Calling Pipeline}{5}{subsection.1.5.2}
+\contentsline {subsection}{\numberline {1.5.3}Variant Calling Algorithms}{5}{subsection.1.5.3}
+\contentsline {subsection}{\numberline {1.5.4}Variant Curation and Interpretation}{5}{subsection.1.5.4}
+\contentsline {section}{\numberline {1.6}Challenges in Clinical Genomics}{5}{section.1.6}
+\contentsline {subsection}{\numberline {1.6.1}DNA Damage by Formalin Fixation}{5}{subsection.1.6.1}
+\contentsline {subsection}{\numberline {1.6.2}Lack of Matched Normal DNA}{6}{subsection.1.6.2}
+\contentsline {subsection}{\numberline {1.6.3}Variant of Unknown Significance}{6}{subsection.1.6.3}
+\contentsline {subsection}{\numberline {1.6.4}Incidental Findings}{6}{subsection.1.6.4}
+\contentsline {section}{\numberline {1.7}Pharmacogenomics in Clinical Oncology}{6}{section.1.7}
+\contentsline {subsection}{\numberline {1.7.1}Targeted Therapies}{6}{subsection.1.7.1}
+\contentsline {subsection}{\numberline {1.7.2}Chemotherapy-Associated Morbidities}{6}{subsection.1.7.2}
+\contentsline {section}{\numberline {1.8}Summary}{6}{section.1.8}
+\contentsline {chapter}{\numberline {2}Materials and methods}{7}{chapter.2}
+\contentsline {section}{\numberline {2.1}Patient Samples}{7}{section.2.1}
+\contentsline {section}{\numberline {2.2}DNA Extraction}{7}{section.2.2}
+\contentsline {section}{\numberline {2.3}Library Preparation and Illumina MiSeq Sequencing}{7}{section.2.3}
+\contentsline {section}{\numberline {2.4}Data Processing}{7}{section.2.4}
+\contentsline {section}{\numberline {2.5}Data Analysis and Visualization}{7}{section.2.5}
+\contentsline {chapter}{\numberline {3}Results}{8}{chapter.3}
+\contentsline {chapter}{\numberline {4}Discussion and conclusion}{9}{chapter.4}
+\contentsline {chapter}{Bibliography}{10}{chapter*.8}
+\contentsline {chapter}{\numberline {A}Supporting Materials}{11}{appendix.A}

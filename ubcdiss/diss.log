@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  30 NOV 2016 11:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  5 DEC 2016 00:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -444,7 +444,8 @@ File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Hy@SectionHShift=\skip86
 )
 (./macros.tex) (./diss.aux (./abstract.aux) (./preface.aux) (./ack.aux)
-(./intro.aux) (./mainbody.aux) (./conclusion.aux) (./appendix.aux))
+(./intro.aux) (./materialsmethods.aux) (./results.aux)
+(./discussionconclusion.aux) (./appendix.aux))
 \openout1 = `diss.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 330.
@@ -682,21 +683,55 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
 
 
 
-] [2] [3] [4] [5] [6] [7]) [8]
-\openout2 = `mainbody.aux'.
+]
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+ [2] [3] [4]
+Overfull \hbox (3.57591pt too wide) in paragraph at lines 93--95
+\OT1/ptm/m/n/10.95 Cancer biomark-ers, which are cen-tral to the genomics-drive
+n on-col-ogy ap-proach to med-i-cal decision-
+ []
 
- (./mainbody.tex
+[5]) [6]
+\openout2 = `materialsmethods.aux'.
+
+ (./materialsmethods.tex
 Chapter 2.
-[9
+) [7
 
 
 
-]) [10]
-\openout2 = `conclusion.aux'.
+]
+\openout2 = `results.aux'.
 
- (./conclusion.tex
+ (./results.tex
 Chapter 3.
-) [11
+) [8
+
+
+
+]
+\openout2 = `discussionconclusion.aux'.
+
+ (./discussionconclusion.tex
+Chapter 4.
+) [9
 
 
 
@@ -708,7 +743,7 @@ Chapter 3.
 
 Package natbib Warning: Empty `thebibliography' environment on input line 8.
 
-) [12
+) [10
 
 
 ]
@@ -718,40 +753,40 @@ Package natbib Warning: Empty `thebibliography' environment on input line 8.
 Appendix A.
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 6.
-) [13
+) [11
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 419.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 419.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 422.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 422.
  (./diss.aux (./abstract.aux) (./preface.aux) (./ack.aux) (./intro.aux)
-(./mainbody.aux) (./conclusion.aux) (./appendix.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 419.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 419.
+(./materialsmethods.aux) (./results.aux) (./discussionconclusion.aux)
+(./appendix.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 422.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 422.
 Package rerunfilecheck Info: File `diss.out' has not changed.
-(rerunfilecheck)             Checksum: 4A94286CFAB315B5B532AC73247AC0A1;2695.
+(rerunfilecheck)             Checksum: 0FA2FFD387D4425FD543E4BE6F8217C6;3344.
 Package rerunfilecheck Info: File `diss.brf' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 419.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 422.
  ) 
 Here is how much of TeX's memory you used:
- 10074 strings out of 493089
- 152151 string characters out of 6134842
- 255954 words of memory out of 5000000
- 13262 multiletter control sequences out of 15000+600000
- 39364 words of font info for 71 fonts, out of 8000000 for 9000
+ 10096 strings out of 493089
+ 152724 string characters out of 6134842
+ 256585 words of memory out of 5000000
+ 13275 multiletter control sequences out of 15000+600000
+ 37500 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,6n,38p,1818b,398s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,6n,38p,1524b,398s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
-live/2015/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/201
-5/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-di
-st/fonts/type1/urw/times/utmr8a.pfb>
-Output written on diss.pdf (22 pages, 91647 bytes).
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/20
+15/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-d
+ist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on diss.pdf (20 pages, 78900 bytes).
 PDF statistics:
- 325 PDF objects out of 1000 (max. 8388607)
- 293 compressed objects within 3 object streams
- 61 named destinations out of 1000 (max. 500000)
- 297 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 353 PDF objects out of 1000 (max. 8388607)
+ 323 compressed objects within 4 object streams
+ 66 named destinations out of 1000 (max. 500000)
+ 361 words of extra memory for PDF output out of 10000 (max. 10000000)
 
