@@ -4,6 +4,9 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Workflow for Sample Processing, Library Preparation, and NGS Sequencing.\relax }}{10}{figure.caption.9}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces 345 TOP Libraries Distributed Across 38 Pools. Number of libraries is presented on the \textit {left} whereas percentage of libraries per total libraries in a pool is presented on the \textit {right}.\relax }}{11}{figure.caption.10}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces OncoPanel Pipeline for Variant Calling. Variants in PGx genes were filtered for downstream analysis.\relax }}{12}{figure.caption.11}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
