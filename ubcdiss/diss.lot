@@ -8,5 +8,6 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {A.1}{\ignorespaces OncoPanel Target Spaces, Amplicons, and RainDance Primers.}}{17}{table.A.1}
-\contentsline {table}{\numberline {A.2}{\ignorespaces Gene Reference Models for HGVS Nomenclature. PGx genes are highlighted in blue.\relax }}{32}{table.caption.13}
+\contentsline {table}{\numberline {A.1}{\ignorespaces OncoPanel Genes and Target Spaces.}}{16}{table.A.1}
+\contentsline {table}{\numberline {A.2}{\ignorespaces OncoPanel Amplicons and RainDance Primers.}}{23}{table.A.2}
+\contentsline {table}{\numberline {A.3}{\ignorespaces Gene Reference Models for HGVS Nomenclature. PGx genes are highlighted in blue.\relax }}{42}{table.caption.13}

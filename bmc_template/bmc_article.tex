@@ -1,0 +1,416 @@
+%% BioMed_Central_Tex_Template_v1.06
+%%                                      %
+%  bmc_article.tex            ver: 1.06 %
+%                                       %
+
+%%IMPORTANT: do not delete the first line of this template
+%%It must be present to enable the BMC Submission system to
+%%recognise this template!!
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                     %%
+%%  LaTeX template for BioMed Central  %%
+%%     journal article submissions     %%
+%%                                     %%
+%%          <8 June 2012>              %%
+%%                                     %%
+%%                                     %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                                                 %%
+%% For instructions on how to fill out this Tex template           %%
+%% document please refer to Readme.html and the instructions for   %%
+%% authors page on the biomed central website                      %%
+%% http://www.biomedcentral.com/info/authors/                      %%
+%%                                                                 %%
+%% Please do not use \input{...} to include other tex files.       %%
+%% Submit your LaTeX manuscript as one .tex document.              %%
+%%                                                                 %%
+%% All additional figures and files should be attached             %%
+%% separately and not embedded in the \TeX\ document itself.       %%
+%%                                                                 %%
+%% BioMed Central currently use the MikTex distribution of         %%
+%% TeX for Windows) of TeX and LaTeX.  This is available from      %%
+%% http://www.miktex.org                                           %%
+%%                                                                 %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% additional documentclass options:
+%  [doublespacing]
+%  [linenumbers]   - put the line numbers on margins
+
+%%% loading packages, author definitions
+
+%\documentclass[twocolumn]{bmcart}% uncomment this for twocolumn layout and comment line below
+\documentclass{bmcart}
+
+%%% Load packages
+%\usepackage{amsthm,amsmath}
+%\RequirePackage{natbib}
+%\RequirePackage[authoryear]{natbib}% uncomment this for author-year bibliography
+%\RequirePackage{hyperref}
+\usepackage[utf8]{inputenc} %unicode support
+%\usepackage[applemac]{inputenc} %applemac support if unicode package fails
+%\usepackage[latin1]{inputenc} %UNIX support if unicode package fails
+\usepackage{footnote}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                             %%
+%%  If you wish to display your graphics for   %%
+%%  your own use using includegraphic or       %%
+%%  includegraphics, then comment out the      %%
+%%  following two lines of code.               %%
+%%  NB: These line *must* be included when     %%
+%%  submitting to BMC.                         %%
+%%  All figure files must be submitted as      %%
+%%  separate graphics through the BMC          %%
+%%  submission process, not included in the    %%
+%%  submitted article.                         %%
+%%                                             %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\def\includegraphic{}
+\def\includegraphics{}
+
+
+
+%%% Put your definitions there:
+\startlocaldefs
+\endlocaldefs
+
+
+%%% Begin ...
+\begin{document}
+
+%%% Start of article front matter
+\begin{frontmatter}
+
+\begin{fmbox}
+\dochead{Research}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                          %%
+%% Enter the title of your article here     %%
+%%                                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{Identification of Germline Pharmacogenomic Variants Using a Clinical Targeted Sequencing Panel for Formalin-fixed Paraffin-embedded Tumours}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                          %%
+%% Enter the authors here                   %%
+%%                                          %%
+%% Specify information, if available,       %%
+%% in the form:                             %%
+%%   <key>={<id1>,<id2>}                    %%
+%%   <key>=                                 %%
+%% Comment or delete the keys which are     %%
+%% not used. Repeat \author command as much %%
+%% as required.                             %%
+%%                                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\author[
+   addressref={aff1},                   % id's of addresses, e.g. {aff1,aff2}
+   % noteref={n1},                        % id's of article notes, if any
+   email={eyap@bcgsc.ca}   % email address
+]{\inits{SQ}\fnm{Shyong Quin} \snm{Yap}}
+\author[
+   addressref={aff1,aff2},
+	 corref={aff1},                       % id of corresponding address, if any
+   email={akarsan@bcgsc.ca}
+]{\inits{A}\fnm{Aly} \snm{Karsan}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                          %%
+%% Enter the authors' addresses here        %%
+%%                                          %%
+%% Repeat \address commands as much as      %%
+%% required.                                %%
+%%                                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\address[id=aff1]{%                           % unique id
+  \orgname{British Columbia Cancer Research Centre}, % university, etc
+  \street{675 West 10th Ave},                     %
+  %\postcode{V5Z 1L3}                                % post or zip code
+  \city{Vancouver, BC},                              % city
+  \cny{Canada}                                    % country
+}
+\address[id=aff2]{%
+  \orgname{Department of Pathology and Laboratory Medicine, University of British Columbia},
+  \street{Random Street},
+  \postcode{Random Post Code}
+  \city{Vancouver, BC},
+  \cny{Canada}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                          %%
+%% Enter short notes here                   %%
+%%                                          %%
+%% Short notes will be after addresses      %%
+%% on first page.                           %%
+%%                                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{artnotes}
+%\note{Sample of title note}     % note to the article
+%\note[id=n1]{Equal contributor} % note, connected to author
+\end{artnotes}
+
+\end{fmbox}% comment this for two column layout
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                          %%
+%% The Abstract begins here                 %%
+%%                                          %%
+%% Please refer to the Instructions for     %%
+%% authors on http://www.biomedcentral.com  %%
+%% and include the section headings         %%
+%% accordingly for your article type.       %%
+%%                                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{abstractbox}
+
+\begin{abstract} % abstract
+\parttitle{Background} %if any
+Because the tumour genome contains germline information, clinical laboratories can leverage tumour genomic testing to perform initial screening for clinically relevant germline variants such as variants in pharmacogenomic (PGx) genes. Subsequently, only patients with potential germline PGx variants would be subjected to downstream germline testing. While this procedure would be more cost-effective than sequencing and analyzing normal DNA for every patient, the concordance of germline PGx variants between tumour and blood specimens has not been evaluated; hence, the feasibility of detecting germline PGx variants in tumour DNA remains uncertain.
+
+\parttitle{Results} %if any
+Address tumours are often FFPE and formalin induces artifacts
+
+\parttitle{Conclusions} %if any
+Text for this section.
+
+\end{abstract}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                          %%
+%% The keywords begin here                  %%
+%%                                          %%
+%% Put each keyword in separate \kwd{}.     %%
+%%                                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{keyword}
+\kwd{Tumour sequencing}
+\kwd{Germline pharmacogenomics testing}
+\kwd{Formalin artifacts}
+\end{keyword}
+
+% MSC classifications codes, if any
+%\begin{keyword}[class=AMS]
+%\kwd[Primary ]{}
+%\kwd{}
+%\kwd[; secondary ]{}
+%\end{keyword}
+
+\end{abstractbox}
+%
+%\end{fmbox}% uncomment this for twcolumn layout
+
+\end{frontmatter}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                          %%
+%% The Main Body begins here                %%
+%%                                          %%
+%% Please refer to the instructions for     %%
+%% authors on:                              %%
+%% http://www.biomedcentral.com/info/authors%%
+%% and include the section headings         %%
+%% accordingly for your article type.       %%
+%%                                          %%
+%% See the Results and Discussion section   %%
+%% for details on how to create sub-sections%%
+%%                                          %%
+%% use \cite{...} to cite references        %%
+%%  \cite{koon} and                         %%
+%%  \cite{oreg,khar,zvai,xjon,schn,pond}    %%
+%%  \nocite{smith,marg,hunn,advi,koha,mouse}%%
+%%                                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%% start of article main body
+% <put your article body there>
+
+%%%%%%%%%%%%%%%%
+%% Background %%
+%%
+\section*{Background}
+
+Tumour profiling using next-generation sequencing (NGS) technologies has been increasingly integrated into oncologic care to detect targetable somatic mutations and personalize treatments for cancer patients. Although analysis of tumour-normal paired samples is required to accurately discriminate between somatic and germline variants, most clinical laboratories only sequence tumour samples to minimize cost and turnaround time. However, genomic analyses of tumours can also reveal secondary genomic findings, which are germline information that may have clinical implications for patients and their family members. In fact, several studies demonstrated that a germline cancer-predisposing variant is present in 3-10\% of patients undergoing tumour-normal sequencing. Therefore, clinical laboratories providing tumour genomic testing must be equipped to perform germline confirmatory testing on potential germline variants or be prepared to refer such cases to external services.
+
+Because the tumour genome contains germline information, clinical laboratories can leverage tumour genomic testing to perform initial screening for clinically relevant germline variants such as variants in pharmacogenomic (PGx) genes. Subsequently, a similar framework for validating secondary germline findings can be applied, in which only patients with potential germline PGx variants are subjected to downstream germline testing. This procedure for germline PGx testing is more cost-effective because sample processing, sequencing, and analysis of normal DNA are not required for every patient. The ability to implement germline PGx testing at a reduced cost can significantly benefit patient care because these variants cause functional changes in drug targets and drug disposition proteins (proteins involved drug metabolism and transport), thereby contributing to inter-patient differences in chemotherapeutic response. Hence, such genomic information can be used to guide the selection of chemotherapeutic drugs and optimization of drug dosage for cancer patients, leading to improved safety and efficacy of treatment and reduced risk of toxicity.
+
+Detection of genomic alterations in tumour DNA is also faced with technical challenges conferred by formalin-fixed paraffin-embedded (FFPE) tumour specimens. Tumour biopsies are often formalin-fixed to preserve tissue morphology for histological examination and to enable storage at room temperature; however, formalin fixation causes DNA fragmentation and base modifications, which pose difficulties in using DNA extracted from FFPE tumours for clinical genomic testing. Fragmentation damage caused by formalin fixation leads to reduced template DNA for PCR amplification, thereby affecting the efficiency of amplicon-based NGS testing. Furthermore, the degree of DNA fragmentation was shown to be higher in tissues from older FFPE blocks and tissues fixed with formalin of lower pH. Formalin fixation is also problematic because it gives rise to depurination, which generates abasic sites, and cytosine deamination resulting in C$>$T/G$>$A transitions. These forms of formalin-induced DNA damage contributes to the presence of sequence artifacts in FFPE specimens, which can be inaccurately identified as real genomic alterations.
+
+In this study, we analyzed amplicon-based NGS sequencing data from 213 patients with tumour-normal paired samples to investigate whether germline PGx testing can be performed using FFPE tumours. To evaluate the effects of DNA damage caused by formalin fixation, we compared the coverage and quality of sequencing data between tumour and matched normal (blood) specimens and assessed the prevalence of formalin-induced sequence artifacts in FFPE tumour specimens. Finally, we measured the concordance of germline PGx variants between tumour and blood specimens to determine the feasibility of using a clinical tumour sequencing panel to screen for germline PGx variants in FFPE tumours.
+
+%\cite{koon,oreg,khar,zvai,xjon,schn,pond,smith,marg,hunn,advi,koha,mouse}
+
+\section*{Methods}
+
+\subsection*{Patient Samples}
+Blood and FFPE tumour specimens were acquired from 213 patients recruited for The OncoPanel Pilot (TOP) study, a pilot study to optimize the OncoPanel, which is an amplicon-based tumour sequencing panel, and assess its application for guiding clinical decision-making. Patients in the TOP study are those with advanced cancers and the distribution of cancer types are listed in Table 1. The age of paraffin block for tumour specimens ranges from 18 to 5356 days with a median of 274 days.
+
+\subsection*{Library Construction and Sequencing}
+DNA extractions were carried out manually using a QIAGEN AllPrep kit (OCT samples) or QIAGEN FFPE DNA extraction kit (all fixative samples). Equal amounts of genomic DNA (250ng per sample, determined by fluorometric quantitation, were used for library input. Subsequent details of the sequencing process are similar to those already described [7]: Inputs were sheared to  obtain fragment size distributions centered on ~3000bp prior to direct amplicon generation and library generation using a RainDance Thunderstorm instrument. Barcoded amplicons were sequenced on an Illumina MiSeq using v2 chemistry with Paired-end 250bp reads, at 16 libraries per pool (typically 1.5-2M reads per library). Samples from this project were sequenced at random across a total of 10 pools.
+
+\subsection*{Variant Calling and Curation}
+
+
+
+
+\subsection*{Statistical Analysis}
+
+
+\subsubsection*{}
+Text for this sub-sub-heading \ldots
+
+\paragraph*{Sub-sub-sub heading for section}
+Text for this sub-sub-sub-heading \ldots
+
+\section*{Results}
+
+\subsection*{Assessment of DNA Input and Amplicon Yield}
+
+\subsection*{Comparison of Sequencing Metrics Between Blood and FFPE Tumours}
+
+\subsection*{Evaluation of Sequencing Artifacts in FFPE Specimens}
+
+\subsection*{Sensitivity and Positive Predictive Value of Detecting Germline Variants in FFPE Specimens}
+
+\subsection*{Discordant Germline Variants}
+
+
+
+
+\section*{Discussion}
+
+\section*{Conclusions}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                          %%
+%% Backmatter begins here                   %%
+%%                                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{backmatter}
+
+\section*{Competing interests}
+  The authors declare that they have no competing interests.
+
+\section*{Author's contributions}
+    Text for this section \ldots
+
+\section*{Acknowledgements}
+  Text for this section \ldots
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                  The Bibliography                       %%
+%%                                                         %%
+%%  Bmc_mathpys.bst  will be used to                       %%
+%%  create a .BBL file for submission.                     %%
+%%  After submission of the .TEX file,                     %%
+%%  you will be prompted to submit your .BBL file.         %%
+%%                                                         %%
+%%                                                         %%
+%%  Note that the displayed Bibliography will not          %%
+%%  necessarily be rendered by Latex exactly as specified  %%
+%%  in the online Instructions for Authors.                %%
+%%                                                         %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% if your bibliography is in bibtex format, use those commands:
+\bibliographystyle{bmc-mathphys} % Style BST file (bmc-mathphys, vancouver, spbasic).
+\bibliography{bmc_article}      % Bibliography file (usually '*.bib' )
+% for author-year bibliography (bmc-mathphys or spbasic)
+% a) write to bib file (bmc-mathphys only)
+% @settings{label, options="nameyear"}
+% b) uncomment next line
+%\nocite{label}
+
+% or include bibliography directly:
+% \begin{thebibliography}
+% \bibitem{b1}
+% \end{thebibliography}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               %%
+%% Figures                       %%
+%%                               %%
+%% NB: this is for captions and  %%
+%% Titles. All graphics must be  %%
+%% submitted separately and NOT  %%
+%% included in the Tex document  %%
+%%                               %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%
+%% Do not use \listoffigures as most will included as separate files
+
+\section*{Figures}
+  \begin{figure}[h!]
+  \caption{\csentence{Workflow for Library Construction and Sequencing.}
+      A short description of the figure content
+      should go here.}
+      \end{figure}
+
+\begin{figure}[h!]
+  \caption{\csentence{Sample figure title.}
+      Figure legend text.}
+      \end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               %%
+%% Tables                        %%
+%%                               %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Use of \listoftables is discouraged.
+%%
+\section*{Tables}
+
+\begin{table}[h!]
+\caption{Distribution of cancer types in the TOP cohort.}
+      \begin{tabular}{lccc}
+        \hline
+        Cancer Type & Number of Cases & Percentage (\%) \\ \hline
+        Colorectal & 97 & 46 \\
+        Lung & 59 & 28 \\
+        Melanoma & 18 & 8 \\
+				Other* & 17 & 8 \\
+				GIST & 7 & 3 \\
+				Sarcoma & 4 & 2 \\
+				Neuroendocrine & 4 & 2 \\
+				Cervical & 2 & 0.9 \\
+				Ovarian & 2 & 0.9 \\
+				Breast & 2 & 0.9 \\
+				Unknown & 1 & 0.5 \\ \hline
+      \end{tabular}
+\end{table}
+{\small *This category includes thyroid, peritoneum, sarcomatoid carcinoma of lung, Fallopian tube, gastric, endometrial, anal, salivary gland, pancreas, and small bowel cancers.}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               %%
+%% Additional Files              %%
+%%                               %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Additional Files}
+  \subsection*{Additional file 1 --- Sample additional file title}
+    Additional file descriptions text (including details of how to
+    view the file, if it is in a non-standard format or the file extension).  This might
+    refer to a multi-page table or a figure.
+
+  \subsection*{Additional file 2 --- Sample additional file title}
+    Additional file descriptions text.
+
+
+\end{backmatter}
+\end{document}

@@ -30,7 +30,7 @@ Solid tumour biopsies were collected from 171 consented patients in The Oncopane
 \section{DNA Extraction, Library Preparation, and Illumina Sequencing}
 \label{sec:DNAExtraction}
 
-Tumour and germline DNA for 171 patients were extracted using the QIAGEN FFPE DNA extraction kit and xx respectively as per manufacturer's instructions. For specimens with sufficient DNA quantity, 250 ng of genomic DNA was used for library preparation. Genomic DNA was sheared to generate fragment sizes of approximately 3 kbp, followed by PCR primer merging, amplicon generation, and adapter ligation using the RainDance Thunderstorm instrument (\autoref{fig:lib-prep-workflow}). The complete list of primers used to generate the 429 amplicons for 26 genes screened by the OncoPanel is included in \autoref{tbl:amplicon:list}. Six out of 26 genes are PGx genes namely \textit{DPYD}, \textit{GSTP1}, \textit{MTHFR}, \textit{TYMP}, \textit{TYMS}, and \textit{UGT1A1}. Libraries were pooled, ranging from 13-20 libraries per pool, and sequenced with the Illumina MiSeq system for paired end sequencing with a v2 250-bp kit. Pooling of libraries includes libraries from other studies, which is summarized in \autoref{fig:lib-pooling}.
+Tumour and germline DNA for 171 patients were extracted using the QIAGEN FFPE DNA extraction kit and xx respectively as per manufacturer's instructions. For specimens with sufficient DNA quantity, 250 ng of genomic DNA was used for library preparation. Genomic DNA was sheared to generate fragment sizes of approximately 3 kbp, followed by PCR primer merging, amplicon generation, and adapter ligation using the RainDance Thunderstorm instrument (\autoref{fig:lib-prep-workflow}). The complete list of target spaces and primers used to generate the 429 amplicons for 26 genes screened by the OncoPanel are included in \autoref{tbl:target:list} and \autoref{tbl:amplicon:list} respectively. Six out of 26 genes are PGx genes namely \textit{DPYD}, \textit{GSTP1}, \textit{MTHFR}, \textit{TYMP}, \textit{TYMS}, and \textit{UGT1A1}. Libraries were pooled, ranging from 13-20 libraries per pool, and sequenced with the Illumina MiSeq system for paired end sequencing with a v2 250-bp kit. Pooling of libraries includes libraries from other studies, which is summarized in \autoref{fig:lib-pooling}.
 
 \begin{figure}
     \centering
@@ -55,7 +55,11 @@ Read alignment and variant calling were carried out by the BCCA Centre of Clinic
 \begin{figure}
     \centering
     \includegraphics[width=5.5in, height=8in]{/Users/evayap/Documents/masters_thesis/ubcdiss/mm_figures/variant_calling.png}
-    \caption{OncoPanel Pipeline for Variant Calling. Variants in PGx genes were filtered for downstream analysis.}
+    \caption[
+      OncoPanel Pipeline for Variant Calling.
+    ]{
+      OncoPanel Pipeline for Variant Calling. Variants in PGx genes were filtered for downstream analysis.
+      }
     \label{fig:ccg-pipeline}   % label should change
 \end{figure}
 
