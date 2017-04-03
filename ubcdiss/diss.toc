@@ -41,12 +41,14 @@
 \contentsline {section}{\numberline {1.10}Summary}{7}{section.1.10}
 \contentsline {chapter}{\numberline {2}Materials and Methods}{8}{chapter.2}
 \contentsline {section}{\numberline {2.1}Patient Samples}{8}{section.2.1}
-\contentsline {section}{\numberline {2.2}DNA Extraction, Library Preparation, and Illumina Sequencing}{8}{section.2.2}
+\contentsline {section}{\numberline {2.2}DNA Extraction, Library Preparation, and Illumina Sequencing}{9}{section.2.2}
 \contentsline {section}{\numberline {2.3}Variant Calling Pipeline}{9}{section.2.3}
 \contentsline {section}{\numberline {2.4}Data Analysis and Visualization}{9}{section.2.4}
 \contentsline {chapter}{\numberline {3}Results}{13}{chapter.3}
-\contentsline {section}{\numberline {3.1}Assessment of DNA Quantity and Quality between Specimen Types}{13}{section.3.1}
+\contentsline {section}{\numberline {3.1}}{13}{section.3.1}
 \contentsline {section}{\numberline {3.2}Sequencing Depth is Comparable between FFPE and FF-PB Samples}{13}{section.3.2}
+\contentsline {section}{\numberline {3.3}Sequencing Depth is Comparable between FFPE and FF-PB Samples}{13}{section.3.3}
 \contentsline {chapter}{\numberline {4}Discussion and Conclusion}{14}{chapter.4}
+\contentsline {section}{\numberline {4.1}Conclusion}{14}{section.4.1}
 \contentsline {chapter}{Bibliography}{15}{chapter*.12}
 \contentsline {chapter}{\numberline {A}Supporting Materials}{16}{appendix.A}
