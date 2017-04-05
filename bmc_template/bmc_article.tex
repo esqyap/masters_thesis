@@ -57,6 +57,7 @@
 \usepackage{footnote}
 \usepackage{siunitx}
 \sisetup{range-phrase = \text{--}}
+\usepackage{float} % here for H placement parameter
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                             %%
@@ -277,12 +278,18 @@ Specifics on how each analysis was performed.
 \section*{Results}
 Some description of the workflow over here.
 
-\subsection*{Comparison of DNA Quality, Sequencing Results, and Coverage Statistics between Blood and FFPE Tumours}
-One of To determine whether blood and FFPE specimens yield similar DNA quality, we compared amplicon yield from 
+\subsection*{Comparison of Amplicon Generation, Sequence Alignment, and Coverage Statistics between FFPE Tumours and Blood}
+To examine the effects of formalin-induced DNA damages on molecular testing, we determined whether FFPE tumours yield similar NGS quality metrics to blood (\autoref{metrics}). We compared the amount of amplicon generated between FFPE tumours and blood and found a significant difference in the distributions of amplicon yield between specimen types (Wilcoxon signed-rank test, W=\num{23613}, \textit{P}\textless \num{2.2e-16}). Although the amount of DNA input for amplicon generation was also significantly different between FFPE tumours and blood (Wilcoxon signed-rank test, W=15004, \textit{P}=\num{3.5e-4}), Spearman correlation showed that amplicon yield was weakly correlated with DNA input for amplicon generation (blood, \textit{r}=0.29, 95\% CI=0.16--0.40, \textit{P}=\num{2.1e-5}; FFPE tumour, \textit{r}=0.25, 95\% CI=0.12--0.37, \textit{P}=\num{2.5e-4}). This result implies that specimen type affects the efficiency of amplicon generation with FFPE tumours demonstrating a lower median amplicon yield of 103.6 ng than the median amplicon yield of blood, which is 299.2 ng.
 
-\subsection*{Evaluation of Amplicon Generation and Efficiency}
+We also compared read alignment between FFPE tumours and blood to examine whether different specimen types result in comparable sequencing data. For the proportion of reads that aligned to target sequences used for variant calling, which are known as on-target aligned reads, we found no significant difference in distributions between FFPE tumours and blood (Wilcoxon signed-rank test, W=\num{10178.5}, \textit{P}=\num{9.4e-2}). Similarly, no significant difference in the proportion of off-target aligned reads (i.e. reads that mapped to the human reference genome but not target sequences) was demonstrated between FFPE tumours and blood (Wilcoxon signed-rank test, W=\num{11494.5}, \textit{P}=\num{0.7}). However, differences in the proportions of unaligned and contaminant reads were significant between specimen types (Wilcoxon signed-rank test, unaligned: W=\num{19069}, \textit{P}=\num{5.2e-15}; contaminant: W=\num{14877}, \textit{P}=\num{9.9e-4}). While NGS libraries generated from FFPE tumour and blood DNA differed in proportions of unaligned and contaminant reads, their libraries resulted in comparable proportion of on-target aligned reads; hence, providing similar amount of usable sequencing data for variant calling.
 
-\subsection*{Coverage depth and quality are highly variable in FFPE tumours}
+To determine whether the differences in amplicon yield and sequence alignment affect the ability to obtain adequate coverage depth for target bases of the OncoPanel, we
+
+determined the feasibility of detecting germline variants this will recompared several quality metrics such as efficiency of amplicon generation, read alignment, and coverage statistics we compared several Because formalin fixation causes DNA damage and fragmentation, we assessed the influence of formalin fixation on compared amplicon yield between blood and FFPE specimens.
+
+evaluated the potential effects of using FFPE tumour for detection of germline variants by
+
+\subsection*{Evaluation of Amplification Performance}
 
 \subsection*{Formalin-induced sequence artifacts are prevalent at low variant allele frequency}
 
@@ -376,7 +383,7 @@ One of To determine whether blood and FFPE specimens yield similar DNA quality, 
 %%
 \section*{Tables}
 
-\begin{table}[!h]
+\begin{table}[H]
 \caption{Distribution of cancer types in the TOP cohort.}\label{cancertypes}
       \begin{tabular}{lccc}
         \hline
@@ -397,8 +404,8 @@ One of To determine whether blood and FFPE specimens yield similar DNA quality, 
 {\small *This category includes thyroid, peritoneum, lung sarcomatoid carcinoma, Fallopian tube, gastric, endometrial, squamous cell carcinoma, anal, salivary gland, peritoneal epithelial mesothelioma, adenoid cystic carcinoma, pancreas, breast, gall bladder, parotid epithelial myoepithelial carcinoma, and small bowel cancers.}
 \end{table}
 
-\begin{table}[!h]
-\caption{Assessment of DNA Quality, Sequencing Results, and Coverage Statistics.}\label{metrics}
+\begin{table}[H]
+\caption{Assessment of Amplicon Generation, Sequence Alignment, and Coverage Statistics.}\label{metrics}
       \begin{tabular}{lllllll}
         \hline
 				\multicolumn{1}{l}{ }
@@ -412,11 +419,13 @@ One of To determine whether blood and FFPE specimens yield similar DNA quality, 
         Parameter & Median & Range && Median & Range & \textit{P} value \\ \hline
 				DNA Input (ng) & 147.8 & 55.5--266.4 && 140.9 & 11.8--271.0 & \num{3.5e-4} \\
 				Amplicon Yield (ng) & 299.2 & 84.0--1438.0 && 103.6 & 11.6--325.5 & \num{2.2e-16} \\
+				\hline
 				On-target Aligned Reads (\%) & 86.8 & 74.0--95.9 && 88.4 & 32.5--97.4 & \num{9.4e-2} \\
 				Off-target Aligned Reads (\%) & 7.3 & 0.8-24.0 && 8.4 & 0.4--60.4 & \num{0.7} \\
 				Unaligned Reads (\%) & 1.3 & 0.4--7.2 && 0.8 & 0.3--12.1 & \num{5.2e-15} \\
 				Contaminant (\%) & 3.9 & 0.1--8.1 && 1.4 & 0.03--63.6 &
 				\num{9.9e-4} \\
+				\hline
 				Zero Coverage Target Bases (\%) & 0.00 & 0.00-0.01 && 0.00 & 0.00-0.36 &
 				-- \\
 				$\geq$ 100x Target Bases (\%) & 100.00 & 99.97-100.00 && 100.00 & 54.95--100.00 &
@@ -427,7 +436,7 @@ One of To determine whether blood and FFPE specimens yield similar DNA quality, 
 \end{table}
 
 \normalsize
-\begin{table}
+\begin{table}[!htb]
     \caption{Gene Reference Models for Genes in the OncoPanel.}\label{genemodel}
     \centering
     \begin{tabular}{ l l l }
