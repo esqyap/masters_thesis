@@ -10,11 +10,18 @@ A level-1 auxiliary file: results.aux
 A level-1 auxiliary file: discussionconclusion.aux
 The style file: abbrvnat.bst
 A level-1 auxiliary file: appendix.aux
-I found no \citation commands---while reading file diss.aux
 Database file #1: biblio.bib
+Warning--I didn't find a database entry for "Raymond2016"
+Warning--I didn't find a database entry for "Meric-Bernstam2016"
+Warning--I didn't find a database entry for "Schrader2015"
+Warning--I didn't find a database entry for "Jones2015"
+Warning--I didn't find a database entry for "McLeod2013"
+Warning--I didn't find a database entry for "Do2015"
+Warning--I didn't find a database entry for "Wong2014"
+Warning--I didn't find a database entry for "Bosdet2013"
 You've used 0 entries,
             2773 wiz_defined-function locations,
-            604 strings with 4773 characters,
+            620 strings with 4941 characters,
 and the built_in function-call counts, 33 in all, are:
 = -- 0
 > -- 0
@@ -53,4 +60,4 @@ warning$ -- 0
 while$ -- 0
 width$ -- 0
 write$ -- 7
-(There was 1 error message)
+(There were 8 warnings)

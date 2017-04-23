@@ -58,6 +58,11 @@
 \usepackage{siunitx}
 \sisetup{range-phrase = \text{--}}
 \usepackage{float} % here for H placement parameter
+\usepackage{tabularx}
+\usepackage{colortbl}
+\usepackage{xcolor}
+\definecolor{evagrey}{RGB}{128,128,128}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                             %%
@@ -182,7 +187,7 @@
 
 \begin{abstract} % abstract
 \parttitle{Background} %if any
-Because the tumour genome contains germline information, clinical laboratories can leverage tumour genomic testing to perform initial screening for clinically relevant germline variants such as variants in pharmacogenomic (PGx) genes. Subsequently, only patients with potential germline PGx variants would be subjected to downstream germline testing. While this procedure is more cost-effective than sequencing and analyzing normal DNA for every patient, the concordance of germline PGx variants between tumour and matched normal specimens must be evaluated to determine the feasibility of detecting germline PGx variants in tumour DNA.
+The tumour genome contains germline information, which includes variants in pharmacogenomic (PGx) genes that can guide chemotherapeutic treatments. Consequently, clinical laboratories can leverage tumour sequencing to perform screening for PGx variants followed by downstream germline confirmatory testing. While this procedure is more cost-effective than sequencing and analyzing normal DNA for every patient, the concordance of germline PGx variants between tumour and matched normal specimens must be evaluated to determine the feasibility of detecting germline PGx variants in tumour DNA.
 
 \parttitle{Results} %if any
 
@@ -202,7 +207,7 @@ Because the tumour genome contains germline information, clinical laboratories c
 \begin{keyword}
 \kwd{Tumour sequencing}
 \kwd{Targeted next-generation sequencing panel}
-\kwd{Germline pharmacogenomics testing}
+\kwd{Germline pharmacogenomic testing}
 \kwd{Formalin-fixed paraffin-embedded tumours}
 \end{keyword}
 
@@ -247,9 +252,9 @@ Because the tumour genome contains germline information, clinical laboratories c
 %%
 \section*{Background}
 
-Tumour profiling using next-generation sequencing (NGS) technologies has been increasingly integrated into oncologic care to detect targetable somatic mutations and personalize treatments for cancer patients. Although analysis of tumour-normal paired samples is required to accurately discriminate between somatic and germline variants, most clinical laboratories only sequence tumour samples to minimize cost and turnaround time \cite{Raymond2016}. However, genomic analyses of tumours can also reveal secondary genomic findings, which are germline information that may have clinical implications for patients and their family members \cite{Raymond2016}. In fact, several studies demonstrated that a germline cancer-predisposing variant is present in 3-10\% of patients undergoing tumour-normal sequencing \cite{Raymond2016,Meric-Bernstam2016,Schrader2015,Jones2015}. Therefore, clinical laboratories providing tumour genomic testing must be equipped to perform germline confirmatory testing on potential germline variants or be prepared to refer such cases to external services.
+The application of next-generation sequencing (NGS) technologies for tumour profiling has been increasingly integrated into oncologic care to detect targetable somatic mutations and personalize treatments for cancer patients. Although analysis of tumour-normal paired samples is required to accurately discriminate between somatic and germline variants, most clinical laboratories only sequence tumour samples to minimize cost and turnaround time \cite{Raymond2016}. However, genomic analyses of tumours can also reveal secondary genomic findings, which are germline information that may have clinical implications for patients and their family members \cite{Raymond2016}. In fact, several studies demonstrated that a germline cancer-predisposing variant is present in 3-10\% of patients undergoing tumour-normal sequencing \cite{Raymond2016,Meric-Bernstam2016,Schrader2015,Jones2015}. Therefore, clinical laboratories providing tumour genomic testing must be equipped to perform germline confirmatory testing on potential germline variants or be prepared to refer such cases to external services.
 
-Because the tumour genome contains germline information, clinical laboratories can leverage tumour genomic testing to perform initial screening for clinically relevant germline variants such as variants in pharmacogenomic (PGx) genes. Subsequently, a similar framework for validating secondary germline findings can be applied, in which only patients with potential germline PGx variants are subjected to downstream germline testing. This procedure for germline PGx testing is more cost-effective because it does not require processing, sequencing, and analysis of normal DNA for every patient. The ability to implement germline PGx testing at a reduced cost can significantly benefit patient care because these variants cause functional changes in drug targets and drug disposition proteins (proteins involved drug metabolism and transport), thereby contributing to inter-patient differences in chemotherapeutic response \cite{McLeod2013}. Hence, such genomic information can be used to guide the selection of chemotherapeutic drugs and optimization of drug dosage for cancer patients, leading to improved safety and efficacy of treatment and reduced risk of toxicity \cite{McLeod2013}.
+Because the tumour genome contains germline information, clinical laboratories can leverage tumour genomic testing to perform initial screening for clinically relevant germline variants such as variants in pharmacogenomic (PGx) genes. Subsequently, a similar framework for validating secondary germline findings can be applied, in which only patients with potential germline PGx variants are subjected to downstream germline testing. This procedure for germline PGx testing is more cost-effective because it does not require processing, sequencing, and analysis of normal DNA for every patient. The ability to implement germline PGx testing at a reduced cost can significantly benefit patient care because these variants cause functional changes in drug targets and drug disposition proteins (proteins involved in drug metabolism and transport), thereby contributing to inter-patient differences in chemotherapeutic response \cite{McLeod2013}. Hence, such genomic information can be used to guide the selection of chemotherapeutic drugs and optimization of drug dosage for cancer patients, leading to improved safety and efficacy of treatment and reduced risk of toxicity \cite{McLeod2013}.
 
 Detection of genomic alterations in tumour DNA is also faced with technical challenges conferred by formalin-fixed paraffin-embedded (FFPE) tumour specimens \cite{Do2015,Wong2014}. Tumour biopsies are often formalin-fixed to preserve tissue morphology for histological examination and to enable storage at room temperature; however, formalin fixation causes DNA fragmentation and base modifications, which pose difficulties in using DNA extracted from FFPE tumours for clinical genomic testing \cite{Do2015,Wong2014}. Fragmentation damage caused by formalin fixation leads to reduced template DNA for PCR amplification, thereby affecting the efficiency of amplicon-based NGS testing \cite{Do2015,Wong2014}. Furthermore, the degree of DNA fragmentation was shown to be higher in tissues from older FFPE blocks and tissues fixed with formalin of lower pH \cite{Do2015}. Formalin fixation is also problematic because it gives rise to depurination, which generates abasic sites, and cytosine deamination resulting in C$>$T/G$>$A transitions \cite{Do2015}. These forms of formalin-induced DNA damage contribute to the presence of sequence artifacts in FFPE specimens, which can be inaccurately identified as real genomic alterations.
 
@@ -260,43 +265,125 @@ In this study, we assessed the concordance of germline PGx variants between tumo
 \section*{Methods}
 
 \subsection*{Patient Samples}
-Blood and FFPE tumour specimens were acquired from 213 patients who provided informed consent for The OncoPanel Pilot (TOP) study, a pilot study to optimize the OncoPanel, which is an amplicon-based targeted NGS panel for solid tumours, and assess its application for guiding disease management and therapeutic intervention. Patients in the TOP study are those with advanced cancers including colorectal cancer, lung cancer, melanoma, gastrointestinal stromal tumor (GIST), and other cancers (\autoref{cancertypes}). The age of paraffin block for tumour specimens ranges from 18 to 5356 days with a median of 274 days.
+Blood and FFPE tumour specimens were acquired from 213 patients who provided informed consent for The OncoPanel Pilot (TOP) study, a pilot study to optimize the OncoPanel, which is an amplicon-based targeted NGS panel for solid tumours, and assess its application for guiding disease management and therapeutic intervention. Patients in the TOP study are those with advanced cancers including colorectal cancer, lung cancer, melanoma, gastrointestinal stromal tumour (GIST), and other cancers (\autoref{cancertypes}). The age of paraffin block for tumour specimens ranges from 18 to 5356 days with a median of 274 days.
+
+\begin{table}[H]
+\caption{Distribution of cancer types in the TOP cohort.}\label{cancertypes}
+      \begin{tabular}{lccc}
+        \hline
+        Cancer Type & Number of Cases & Percentage (\%) \\ \hline
+        Colorectal & 97 & 46 \\
+        Lung & 59 & 28 \\
+        Melanoma & 18 & 8 \\
+				Other* & 17 & 8 \\
+				GIST & 7 & 3 \\
+				Sarcoma & 4 & 2 \\
+				Neuroendocrine & 4 & 2 \\
+				Cervical & 2 & 0.9 \\
+				Ovarian & 2 & 0.9 \\
+				Breast & 2 & 0.9 \\
+				Unknown & 1 & 0.5 \\ \hline
+      \end{tabular} \\
+\raggedright
+{\small *This category includes thyroid, peritoneum, lung sarcomatoid carcinoma, Fallopian tube, gastric, endometrial, squamous cell carcinoma, anal, salivary gland, peritoneal epithelial mesothelioma, adenoid cystic carcinoma, pancreas, breast, gall bladder, parotid epithelial myoepithelial carcinoma, and small bowel cancers.}
+\end{table}
 
 \subsection*{OncoPanel (Solid Tumour NGS Panel)}
-The OncoPanel is offered by the British Columbia Cancer Agency (BCCA) for clinical genomic testing of coding exons and clinically relevant hotpots of 20 cancer-related genes and six PGx genes: \textit{DPYD}, \textit{GSTP1}, \textit{MTHFR}, \textit{TYMP}, \textit{TYMS}, and \textit{UGT1A1}. Full list of genes and gene reference models for the OncoPanel is presented in \autoref{genemodel}. Primers were designed by RainDance Technologies (Lexington, MA) using the GRCh37/hg19 reference sequence to generate 416 amplicons between 100 bp and 250 bp in size, which interrogate $\sim$ 20 kb of target bases. Target regions of the six PGx genes in the OncoPanel were assayed by 49/416 amplicons. Complete lists of primers and amplicons are provided in the Supplemental Materials.
+The OncoPanel is offered by the British Columbia Cancer Agency (BCCA) for clinical genomic testing of coding exons and clinically relevant hotpots of 20 cancer-related genes and six PGx genes: \textit{DPYD}, \textit{GSTP1}, \textit{MTHFR}, \textit{TYMP}, \textit{TYMS}, and \textit{UGT1A1}. Full list of genes and gene reference models for the OncoPanel is presented in \autoref{genemodel}. Primers were designed by RainDance Technologies (Lexington, MA) using the GRCh37/hg19 reference sequence to generate 416 amplicons between 100 bp and 250 bp in size, which interrogate $\sim$ 20 kb of target bases. Target regions of the six PGx genes in the OncoPanel were assayed by 49 out of 416 amplicons. Complete lists of primers and amplicons are provided in the Supplemental Materials.
 
 \subsection*{Sample Preparation, Library Construction, and Illumina Sequencing}
 Genomic DNA was extracted from blood and FFPE tumour specimens using the Gentra Autopure LS DNA preparation platform and QIAamp DNA FFPE tissue kit (Qiagen, Hilden, Germany) respectively. The extracted DNA was sheared according to a previously described protocol \cite{Bosdet2013} to attain approximate sizes of 3 kb followed by PCR primer merging, amplification of target regions, and adapter ligation using the Thunderstorm NGS Targeted Enrichment System (RainDance Technologies, Lexington, MA) as per manufacturer's protocol. Barcoded amplicons were sequenced with the Illumina MiSeq system for paired end sequencing with a v2 250-bp kit (Illumina, San Diego, CA).
 
 \subsection*{Variant Calling Pipeline}
-Reads that passed the Illumina Chastity filter were aligned to the GRCh37/hg19 human reference genome using the BWA mem algorithm (version 0.5.9) with default parameters, and the alignments were processed and converted to the BAM format using SAMtools (version 0.1.18). Variant calling was performed with the SAMtools \texttt{mpileup} function \texttt{(samtools mpileup -BA -d 500000 -L 500000 -q 1)} to generate pileup files for all target bases followed by the VarScan2 \texttt{mpileup2cns} (version 2.3.6) function with parameter thresholds of variant allele frequency $\geq$ 10\% and Phred base quality $\geq$ 20 \texttt{(--min-var-freq 0.1 --p-value 0.01 --strand-filter 0 --output-vcf --variants --min-avg-qual 20)}. Variant calls were filtered using the VarScan2 \texttt{fpfilter} function with fraction of variant reads from each strand $\geq$ 0.1 and default thresholds for other parameters. SnpEff (version 4.2) was used for variant annotation and effect prediction whereas the SnpSift package in SnpEff was used to annotate variants with databases such as dbSNP (b138), COSMIC (version 70), 1000 Genomes Project, ClinVar, and ExAC (release 0.3) for interpretation.
+Reads that passed the Illumina Chastity filter were aligned to the GRCh37/hg19 human reference genome using the BWA mem algorithm (version 0.5.9) with default parameters, and the alignments were processed and converted to the BAM format using SAMtools (version 0.1.18). Variant calling was performed with the SAMtools \texttt{mpileup} function \texttt{(samtools mpileup -BA -d 500000 -L 500000 -q 1)} to generate pileup files for all target bases followed by the VarScan2 \texttt{mpileup2cns} (version 2.3.6) function with parameter thresholds of variant allele frequency $\geq$10\% and Phred-scaled base quality score $\geq$20 \texttt{(--min-var-freq 0.1 --p-value 0.01 --strand-filter 0 --output-vcf --variants --min-avg-qual 20)}. Variant calls were filtered using the VarScan2 \texttt{fpfilter} function with fraction of variant reads from each strand $\geq$0.1 and default thresholds for other parameters. SnpEff (version 4.2) was used for variant annotation and effect prediction whereas the SnpSift package in SnpEff was used to annotate variants with databases such as dbSNP (b138), COSMIC (version 70), 1000 Genomes Project, ClinVar, and ExAC (release 0.3) for interpretation.
 
 \subsection*{Data Analysis}
 Specifics on how each analysis was performed.
 
 
 \section*{Results}
-Some description of the workflow over here.
 
-\subsection*{Comparison of Amplicon Generation, Sequence Alignment, and Coverage Statistics between FFPE Tumours and Blood}
-To examine the effects of formalin-induced DNA damages on molecular testing, we determined whether FFPE tumours yield similar NGS quality metrics to blood (\autoref{metrics}). We compared the amount of amplicon generated between FFPE tumours and blood and found a significant difference in the distributions of amplicon yield between specimen types (Wilcoxon signed-rank test, W=\num{23613}, \textit{P}\textless \num{2.2e-16}). Although the amount of DNA input for amplicon generation was also significantly different between FFPE tumours and blood (Wilcoxon signed-rank test, W=15004, \textit{P}=\num{3.5e-4}), Spearman correlation showed that amplicon yield was weakly correlated with DNA input for amplicon generation (blood, \textit{r}=0.29, 95\% CI=0.16--0.40, \textit{P}=\num{2.1e-5}; FFPE tumour, \textit{r}=0.25, 95\% CI=0.12--0.37, \textit{P}=\num{2.5e-4}). This result implies that specimen type affects the efficiency of amplicon generation with FFPE tumours demonstrating a lower median amplicon yield of 103.6 ng than the median amplicon yield of blood, which is 299.2 ng.
+\subsection*{Frequency of germline and somatic variants detected in FFPE tumours}
+This section will present the variant filtering procedure and categorization of the results, including germline, somatic, spurious, VarScan fpfilter, and PGx variants(?).
 
-We also compared read alignment between FFPE tumours and blood to examine whether different specimen types result in comparable sequencing data. For the proportion of reads that aligned to target sequences used for variant calling, which are known as on-target aligned reads, we found no significant difference in distributions between FFPE tumours and blood (Wilcoxon signed-rank test, W=\num{10178.5}, \textit{P}=\num{9.4e-2}). Similarly, no significant difference in the proportion of off-target aligned reads (i.e. reads that mapped to the human reference genome but not target sequences) was demonstrated between FFPE tumours and blood (Wilcoxon signed-rank test, W=\num{11494.5}, \textit{P}=\num{0.7}). However, differences in the proportions of unaligned and contaminant reads were significant between specimen types (Wilcoxon signed-rank test, unaligned: W=\num{19069}, \textit{P}=\num{5.2e-15}; contaminant: W=\num{14877}, \textit{P}=\num{9.9e-4}). While NGS libraries generated from FFPE tumour and blood DNA differed in proportions of unaligned and contaminant reads, their libraries resulted in comparable proportion of on-target aligned reads; hence, providing similar amount of usable sequencing data for variant calling.
+\begin{table}[htb]
+\caption{Frequency of germline and somatic variants detected in the tumours of 213 patients in the TOP cohort.}\label{metrics}
+\centering
+\begin{tabular}{lcclcl}
+        \hline
+        Gene & Germline & Pathogenic Germline && Somatic \\
+				 & (N Patients) & (N Patients) && (N Patients) \\
+				\hline
+				\\
+				\multicolumn{1}{l}{\textit{Cancer predisposing}}
+				&
+				\multicolumn{2}{l}{ }
+				&&
+				\multicolumn{1}{l}{} \\
+				\hline
+				AKT1 & 0 & 0 && 2 (2) \\
+				\arrayrulecolor{evagrey}\hline
+				ALK & 1 (1) & 1 (1) && 2 (1) \\
+				\hline
+				BRAF & 0 & 0 && 18 (17) \\
+				\hline
+				EGFR & 170 (164) & 5 (5) && 31 (24) \\
+				\hline
+				HRAS & 0 & 0 && 1 (1) \\
+				\hline
+				MAP2K1 & 0 & 0 && 2 (2) \\
+				\hline
+				MAPK1 & 17 (17) & 3 (3) && 3 (2) \\
+				\hline
+				MTOR & 763 (213) & 6 (6) && 71 (30) \\
+				\hline
+				NRAS & 0 & 0 && 8 (8) \\
+				\hline
+				PDGFRA & 242 (185) & 0 && 8 (4) \\
+				\hline
+				PIK3CA & 0 & 0 && 15 (4) \\
+				\hline
+				PTEN & 0 & 0 && 1 (1) \\
+				\hline
+				STAT1 & 54 (51) & 1 (1) && 7 (6) \\
+				\hline
+				STAT3 & 10 (10) & 4 (4) && 16 (11) \\
+				\hline
+				TP53 & 189 (184) & 2 (2) && 131 (109) \\
+				\arrayrulecolor{black}\hline
+				\\
+				\multicolumn{1}{l}{\textit{Pharmacogenomics}}
+				&
+				\multicolumn{2}{l}{ }
+				&&
+				\multicolumn{1}{l}{} \\
+				\arrayrulecolor{black}\hline
+				DPYD & 271 (212) & 1 (1) && 1 (1) \\
+				\arrayrulecolor{evagrey}\hline
+				GSTP1 & 106 (106) & 0 && 0 \\
+				\hline
+				MTHFR & 209 (177) & 0 && 0 \\
+				\hline
+				TYMP & 81 (76) & 2 (2) && 18 (13)\\
+				\hline
+				TYMS & 131 (131) & 0 && 0 \\
+				\hline
+				UGT1A1 & 96 (96) & 0 && 1 (1) \\
+				\arrayrulecolor{black}\hline \\
+				\\
+				Total & 2396 (213*) & 25 (23*) && 431 (180) \\
+				\arrayrulecolor{black}\hline
+      \end{tabular}
+\end{table}
 
-To determine whether the differences in amplicon yield and sequence alignment affect the ability to obtain adequate coverage depth for target bases of the OncoPanel, we
+\subsection*{High sensitivity and positive predictive value for germline variant calling in FFPE tumours can be achieved through applying variant allele frequency thresholds}
+This section will show the calculation of sensitivity and PPV at different VAF thresholds.
 
-determined the feasibility of detecting germline variants this will recompared several quality metrics such as efficiency of amplicon generation, read alignment, and coverage statistics we compared several Because formalin fixation causes DNA damage and fragmentation, we assessed the influence of formalin fixation on compared amplicon yield between blood and FFPE specimens.
+\subsection*{Germline variants are highly concordant between blood and FFPE tumours}
+PGx variants are highly concordant.
 
-evaluated the potential effects of using FFPE tumour for detection of germline variants by
-
-\subsection*{Evaluation of Amplification Performance}
-
-\subsection*{Formalin-induced sequence artifacts are prevalent at low variant allele frequency}
-
-\subsection*{Germline PGx variants can be detected with high sensitivity and precision in FFPE tumours}
-
-\subsection*{Discordant germline PGx variants are caused by low coverage sites}
-
+\subsection*{What are the causes of discordant variants?}
+Low coverage sites, poor quality sites, LOH, formalin artifacts?
 
 \section*{Discussion}
 
@@ -405,7 +492,7 @@ evaluated the potential effects of using FFPE tumour for detection of germline v
 \end{table}
 
 \begin{table}[H]
-\caption{Assessment of Amplicon Generation, Sequence Alignment, and Coverage Statistics.}\label{metrics}
+\caption{Assessment of Amplicon Generation, Sequencing Results, and Coverage Statistics.}\label{metrics}
       \begin{tabular}{lllllll}
         \hline
 				\multicolumn{1}{l}{ }
@@ -419,13 +506,11 @@ evaluated the potential effects of using FFPE tumour for detection of germline v
         Parameter & Median & Range && Median & Range & \textit{P} value \\ \hline
 				DNA Input (ng) & 147.8 & 55.5--266.4 && 140.9 & 11.8--271.0 & \num{3.5e-4} \\
 				Amplicon Yield (ng) & 299.2 & 84.0--1438.0 && 103.6 & 11.6--325.5 & \num{2.2e-16} \\
-				\hline
 				On-target Aligned Reads (\%) & 86.8 & 74.0--95.9 && 88.4 & 32.5--97.4 & \num{9.4e-2} \\
 				Off-target Aligned Reads (\%) & 7.3 & 0.8-24.0 && 8.4 & 0.4--60.4 & \num{0.7} \\
 				Unaligned Reads (\%) & 1.3 & 0.4--7.2 && 0.8 & 0.3--12.1 & \num{5.2e-15} \\
 				Contaminant (\%) & 3.9 & 0.1--8.1 && 1.4 & 0.03--63.6 &
 				\num{9.9e-4} \\
-				\hline
 				Zero Coverage Target Bases (\%) & 0.00 & 0.00-0.01 && 0.00 & 0.00-0.36 &
 				-- \\
 				$\geq$ 100x Target Bases (\%) & 100.00 & 99.97-100.00 && 100.00 & 54.95--100.00 &
@@ -436,7 +521,7 @@ evaluated the potential effects of using FFPE tumour for detection of germline v
 \end{table}
 
 \normalsize
-\begin{table}[!htb]
+\begin{table}[H]
     \caption{Gene Reference Models for Genes in the OncoPanel.}\label{genemodel}
     \centering
     \begin{tabular}{ l l l }
@@ -496,7 +581,38 @@ evaluated the potential effects of using FFPE tumour for detection of germline v
 \subsection*{Study Design}
 This study involved retrospective analysis of tumour-normal sequencing data from 213 patients diagnosed with various advanced cancers. The matched normal specimens for this study were derived from peripheral blood, which served as controls for assessment of formalin-induced DNA damages in FFPE tumours and gold standard specimens for detecting germline variants.
 
-\subsubsection*{DNA Input and Amplicon Yield}
-
 \paragraph*{Sub-sub-sub heading for section}
 Text for this sub-sub-sub-heading \ldots
+
+\section*{Orphaned Text}
+
+\subsection*{Comparison of Amplicon Generation, Sequencing Results, and Coverage Statistics between Blood and FFPE Specimens}
+
+Formalin fixation causes various types of DNA damage that can compromise DNA sequencing, including molecular testing with NGS approaches. Hence, we determined whether FFPE DNA is a reliable source for germline testing by comparing several NGS quality metrics between blood and FFPE tumours (\autoref{metrics}). As DNA fragmentation in FFPE specimens can result in reduced template DNA for amplicon generation, we compared the amount of amplicon generated between blood and FFPE tumours. We found a significant difference in the distributions of amplicon yield between specimen types (Wilcoxon signed-rank test, W=\num{23613}, \textit{P}\textless \num{2.2e-16}). Although the amount of DNA input for amplicon generation was also significantly different between blood and FFPE tumours (Wilcoxon signed-rank test, W=15004, \textit{P}=\num{3.5e-4}), Spearman's correlation showed that amplicon yield was weakly correlated with DNA input for amplicon generation (blood, \textit{r}=0.29, 95\% CI=0.16--0.40, \textit{P}=\num{2.1e-5}; FFPE tumour, \textit{r}=0.25, 95\% CI=0.12--0.37, \textit{P}=\num{2.5e-4}). This result implies that the difference in amplicon yield is contributed by specimen type with FFPE tumours demonstrating a lower median amplicon yield of 103.6 ng (range: 11.6--325.5 ng) than the median amplicon yield of blood, which is 299.2 ng (range: 84.0--1438.0 ng).
+
+Furthermore, we compared read alignment between blood and FFPE libraries to examine whether the different specimen types result in comparable sequencing data. For the proportion of on-target aligned reads, which are reads that aligned to target regions used for variant calling, we found no significant difference in distributions between blood and FFPE tumours (Wilcoxon signed-rank test, W=\num{10178.5}, \textit{P}=\num{9.4e-2}). Similarly, no significant difference in the proportion of off-target aligned reads (i.e. reads that mapped to the human reference genome but not to target regions) was demonstrated between blood and FFPE tumours (Wilcoxon signed-rank test, W=\num{11494.5}, \textit{P}=\num{0.7}). However, differences in the proportions of unaligned and contaminant reads were significant between specimen types (Wilcoxon signed-rank test, unaligned: W=\num{19069}, \textit{P}=\num{5.2e-15}; contaminant: W=\num{14877}, \textit{P}=\num{9.9e-4}). While NGS libraries generated from blood and FFPE DNA differed in proportions of unaligned and contaminant reads, their libraries resulted in comparable proportions of on-target aligned reads, thereby providing equivalent amount of usable sequencing data for variant calling.
+
+To assess the uniformity of coverage depth in blood and FFPE tumours, we measured the percentage of high quality target bases (Phred-scaled base quality score $\geq$20) with zero, $\geq$100x, and $\geq$1000x coverage depth for all libraries. Out of 431 libraries, only two libraries, one blood and one FFPE tumour, contained target bases with zero coverage depth, in which 0.006\% and 0.4\% of target bases have zero coverage depth for the blood library and FFPE library respectively. While we observed no significant difference in the percentage of target bases with $\geq$100x coverage depth (Wilcoxon signed-rank test, W=\num{243}, \textit{P}=\num{0.58}), we revealed a significant difference in the percentage of target bases with $\geq$1000x coverage depth between specimen types (Wilcoxon signed-rank test, W=\num{7268}, \textit{P}=\num{1.92e-5}). This finding shows that FFPE libraries are comprised of lower proportions of target bases with high coverage depth (i.e. 1000x) than blood libraries, in which the median percentage of $\geq$1000x target bases for FFPE libraries is 99.98\% (range: 20.61--100.00\%), whereas the median percentage of $\geq$1000x target bases for blood libraries is 100.00\% (range: 99.00--100.00\%).
+
+Work on the summary later \ldots
+
+Together, our comparisons of several NGS quality metrics reveal that formalin fixation can interfere with amplicon generation and sequencing depth, whereas its effect on on-target aligned reads remains negligible.
+
+\subsection*{Evaluation of Amplicon Performance between Specimen Types}
+
+Increased DNA fragmentation in FFPE specimens can result in lower coverage depth for longer amplicons, causing amplicon performance to vary between blood and FFPE tumours. To assess this discrepancy, we normalized coverage depth for all 416 amplicons in the OncoPanel to remove library size bias and compared the normalized coverage depth for each amplicon between blood and FFPE specimens. Using the Wilcoxon signed-rank test with Benjamini-Hochberg multiple hypothesis correction, we identified 369 out of 416 amplicons, which is 88.7\% of OncoPanel amplicons, that demonstrated significant differences in normalized coverage depth between specimen types (\textit{P}\textless \num{0.05}). Out of these 369 amplicons, 241 amplicons (65.3\% of amplicons that significantly differed in normalized coverage depth) presented higher median normalized coverage depths in blood than in FFPE tumours.
+
+We next examined whether the differences in amplicon performance stem from amplicon length. For each amplicon, we calculated the percentage of libraries that met the coverage depth thresholds of $\geq$100x, $\geq$200x, $\geq$300x, $\geq$400x, and $\geq$500x, which we considered as parameters that reflected amplicon performance. Using the Spearman's correlation, we showed that amplicon performance negatively correlates with amplicon length in FFPE specimens (\textit{P}\textless \num{0.05}), whereas very weak correlations were revealed in blood specimens (Insert figure). Our observation indicates that DNA fragmentation as a result of formalin fixation, which causes discrepancy in the integrity of template DNA between blood and FFPE samples, is a probable cause of reduced amplicon performance for increased amplicon length in FFPE specimens.
+
+Aside from amplicon length, amplicons in the OncoPanel also vary in GC content. As GC-rich and AT-rich regions are known to pose sequencing difficulties, we evaluated the effect of sequence complexity on amplicon performance using the Spearman's correlation (Insert figure).
+
+Insert RepeatMasker results, Spearman's analysis does not make sense here but can be included in thesis etc., and work on the summary later \ldots
+
+\subsection*{Assessment of Sequence Artifacts Induced by Formalin Fixation}
+In addition to fragmentation damages in DNA, formalin fixation also induces sequence artifacts, particularly C$>$T/G$>$A transitions as a result of deamination of cytosine bases. To evaluate the prevalence of sequence artifacts in FFPE specimens, we measured the fraction of nucleotide changes for non-variant sites within the variant allele frequency ranges of 1--10\% and 11-25\%.
+
+\textbf{In this section, I want to show that FFPE specimens have more artifactual sequence alterations compared to blood, particularly at low allele frequency. Using the replicates, I will further show that the sequence artifacts occur at low allele frequency as well. Next, TsTv ratios can be used as an indicator for "bad" FFPE samples.}
+
+\subsection*{Correlation of Age of Paraffin Blocks and The Extent of Formalin-induced DNA Damages}
+
+Herein, I'll show that older the paraffin block, the more extensive the DNA damages.

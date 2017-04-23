@@ -1,0 +1,329 @@
+%% The following is a directive for TeXShop to indicate the main file
+%%!TEX root = diss.tex
+
+\chapter{Introduction}
+\label{ch:Introduction}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{The Evolution of Molecular Diagnostics in Cancer}
+\label{sec:The Evolution of Molecular Diagnostics in Cancer}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Applications of Next-generation Sequencing}
+\label{sec:ApplicationsofNext-generationSequencing}
+
+\subsection{Overview}
+
+\subsection{Targeted Sequencing}
+Capture-based, amplicon-based etc.
+
+\subsection{Whole Exome Sequencing}
+
+\subsection{Whole Genome Sequencing}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Bioinformatics Tools for Variant Calling}
+\label{sec:BioinformaticsToolsforVariantCalling}
+
+\subsection{Types of Genomic Alterations}
+There are different types of genomic alterations.
+
+\subsection{Variant Calling Pipeline}
+
+\subsection{Variant Calling Algorithms}
+
+\subsection{Variant Curation and Interpretation}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Germline Variant Calling in The Tumour Genome}
+\label{sec:GermlineVariantCallinginTheTumourGenome}
+
+\subsection{Types of Genomic Alterations}
+There are different types of genomic alterations.
+
+\subsection{Variant Calling Pipeline}
+
+\subsection{Variant Calling Algorithms}
+
+\subsection{Variant Curation and Interpretation}
+
+
+
+\endinput
+
+Germline pharmacogenomic (PGx) variants can influence a patient's response to chemotherapy. Using next-generation sequencing (NGS) technologies, PGx variants can be screened to identify patients who are susceptible to toxicity risk, thereby preventing chemotherapy-associated morbidities. However, clinical NGS testing in oncology is challenging due to the lack of matched normal DNA while tumour biopsies are formalin-fixed paraffin-embedded (FFPE) for histologic examinations. Formalin induces DNA fragmentation and sequence artifacts, specifically C$>$T/A$>$G base transitions. Moreover, the ability of NGS approaches to interrogate genomic content at increased depth and breadth can result in detection of variant of unknown significance (VUS) and incidental findings of medical value. At present, there are limited guidelines available for management of these variant categories. Despite these challenges, would it be possible/feasible to harness a clinical targeted NGS panel that only sequence FFPE tumour DNA for germline PGx testing?
+
+The work presented herein aims to address the aforementioned challenges as well as answer this question.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Genomics-Driven Oncology}
+\label{sec:Genomics-DrivenOncology}
+
+\subsection{Definitions}
+Genomics-driven oncology is defined as the use of genomic information to provide guidance for disease management and therapeutic intervention in oncologic care. The application of NGS to oncology, or “genomics-driven cancer medicine,” is conceptually logical and simple: First, the genome of a patient’s tumor is sequenced, and all genetic differences from the standard human reference genome are identified. Because all human beings have many normal genetic variants that differ from the reference genome, the tumor sequence is compared with the patient’s constitutional (“germline”) genome to determine which alterations in the tumor are somatic (and therefore potentially pathogenic) and which are germline (and probably not cancer-related). Next, the somatic mutation list is filtered through a database of mutations that may render tumors sensitive to established and emerging anticancer drugs. Finally, an annotated list is provided to the treating physician to be used in clinical decision making and clinical research design. However, several technical and ethical challenges must be addressed before real-time application of NGS can become a reality in cancer medicine.
+
+\subsection{Genomic Alterations in Cancer Pathogenesis}
+
+\subsection{Clinical Deployment of Targeted Cancer Therapies}
+
+\subsection{Advances in DNA Sequencing Technologies}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Next-Generation Sequencing Technologies}
+\label{sec:Next-GenerationSequencingTechnologies}
+
+The Human Genome Project, which assembled the first human reference genome, was completed in 2003 at an expense of \$2.7 billion within 13 years. This was a cost and turn-around time that would not be feasible for routine usage in research and clinical settings, thereby stimulating the advancement of DNA sequencing technologies. As a result, various MPS technologies have emerged and have been adapted to fit the needs of scientific research as well as clinical applications.
+
+\subsection{Sequencing by Ligation}
+
+\subsection{Sequencing by Synthesis}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Objectives}
+\label{sec:Objectives}
+
+Current research in cancer genomics primarily focus on somatically acquired mutations that drive malignant transformation through conferring selective growth advantages to cells. These efforts are demonstrated by formation of large-scale collaborations such as the The Cancer Genome Atlas (TCGA) and the International Cancer Genome Consortium (ICGC), which aim to characterize and catalog the genomic landscapes of diverse tumour types. Understanding oncogenic mechanisms underlying driver somatic mutations have led to the development of targeted therapies, which resulted in improved clinical outcomes for various cancer subtypes. However, germline genetic variants can also influence cancer treatment by affecting drug targets and disposition, thereby causing interpatient differences in drug response. These germline variants, known as pharmacogenomic (PGx) variants, can assist with treatment selection, optimal drug dosing, and identifying toxicity risk to reduce cancer therapeutics-associated morbidities.
+
+Advances in massively parallel sequencing (MPS) technologies have revolutionized genetic testing in clinical oncology through enabling surveillance of increased genomic depth and breadth with less DNA in a cost-effective and timely manner. Nevertheless, clinical application of MPS approaches to cancer medicine still encounter several challenges and financial barriers. One of these challenges is caused by formalin fixation of tumour biopsies. Tumour biopsies are routinely formalin-fixed paraffin-embedded (FFPE) to preserve morphology and cellular characteristics for histologic examination. Moreover, most clinical laboratories prefer storage of FFPE blocks at ambient temperature to avoid cost inflicted by maintaining fresh-frozen specimens. However, formalin fixation causes DNA fragmentation and base transition artifacts, which could result in false-negative or false-positive variant calls. These sequence artifacts are particularly concerning in a clinical setting because failure to detect or inaccurate detection of cancer biomarkers could have devastating consequences for patients and their families.
+
+Another challenge in clinical MPS-based testing in oncology practice is the lack of matched normal DNA, which is not commonly collected in the clinic due to increased cost and logistical difficulties. Without matched normal DNA, determining the somatic or germline nature of the variant calls, which is essential for translating MPS data into clinically actionable information, rely heavily on filtering and interpretation using databases such as dbSNP, ExAC, and COSMIC. The bottleneck of MPS data generation to interpretation for clinical use is yet another limiting factor of clinical genomic sequencing. Despite the ability of MPS approaches to screen increased genomic content, these methods lead to higher rates of detecting variants of uncertain significance (VUS) that lack evidence of clinical utility. Conversely, incidental findings with medical value to patient care may arise while there are ethical controversies and very few guidelines on the management of this category of variants.
+
+The main objective of this thesis is to investigate whether germline PGx variants can be accurately and sensitively detected in FFPE tumour DNA sequenced by a clinical targeted MPS panel. To achieve this objective, key challenges in clinical genomic sequencing that were briefly described above were addressed. This introductory chapter is organized into five sections to provide the necessary background knowledge: (1) Describes driving forces that led to emergence of genomics-driven oncology; (2) Introduces different applications of MPS to provide an overview of technologies behind sequence data generation; (3) Introduces bioinformatics pipeline for variant calling, which generated input data analyzed in this thesis; (4) Expands on key challenges in clinical genomic sequencing and potential solutions; (5) Emphasizes on the importance of germline PGx testing in oncology care.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Genomics-Driven Oncology}
+\label{sec:Genomics-DrivenOncology}
+
+\subsection{Definitions}
+Genomics-driven oncology is defined as the use of genomic information to provide guidance for disease management and therapeutic intervention in oncologic care. The application of NGS to oncology, or “genomics-driven cancer medicine,” is conceptually logical and simple: First, the genome of a patient’s tumor is sequenced, and all genetic differences from the standard human reference genome are identified. Because all human beings have many normal genetic variants that differ from the reference genome, the tumor sequence is compared with the patient’s constitutional (“germline”) genome to determine which alterations in the tumor are somatic (and therefore potentially pathogenic) and which are germline (and probably not cancer-related). Next, the somatic mutation list is filtered through a database of mutations that may render tumors sensitive to established and emerging anticancer drugs. Finally, an annotated list is provided to the treating physician to be used in clinical decision making and clinical research design. However, several technical and ethical challenges must be addressed before real-time application of NGS can become a reality in cancer medicine.
+
+\subsection{Genomic Alterations in Cancer Pathogenesis}
+
+\subsection{Clinical Deployment of Targeted Cancer Therapies}
+
+\subsection{Advances in DNA Sequencing Technologies}
+
+The first human reference genome was established in 2003 through completion of the Human Genome Project, which instigated major developments in DNA sequencing technologies and computational tools for large-scale genomic data analysis. As a result, MPS technologies have emerged with increased throughput, sensitivity, and cost efficiency, leading to the genomic characterization of a growing number of tumours. As the application of MPS technologies in cancer genomic studies continued to accelerate the progress of driver gene discoveries and drug development, the clinically feasible features of MPS have led to its rapid integration in oncology practice, giving rise to the genomics-driven oncology framework.
+
+Genomics-driven oncology is defined as the use of genomic information to provide guidance for disease management and therapeutic intervention in oncologic care. One of the driving forces of this emerging approach is the expanding knowledge in tumour biology. A central focus of tumour biology research is elucidating oncogenic mechanisms driven by somatic mutations that confer selective growth advantages to cells. Translation of these findings into targeted therapies have demonstrated pronounced improvement in clinical outcomes, leading to the transition from morphology-based to genetic-based management of cancer. A well-known example is the treatment of BCR-ABL-translocated chronic myeloid leukemia (CML) with the tyrosine kinase inhibitor imatinib, which targets the constitutively active ABL1 kinase as a result of the BCR-ABL fusion gene.
+
+Several successful applications of targeted therapy ensued the example of imatinib and BCR-ABL-translocated CML such as the use of anti-HER2 monoclonal antibody trastuzumab in treating HER2/neu-amplified breast cancer and BRAF inhibitor vemurafenib in treating advanced BRAF-mutated melanoma. The promising potential of targeted anti-cancer agents accelerated the progress of drug discovery and development as evident by the drastically decreasing timelines between driver mutation discovery and clinical proof-of-concept. For instance, it only took three years for the ALK inhibitor crizotinib to enter Phase II clinical trials since identification of ALK translocations in non-small cell lung carcinoma (NSCLC) whereas the Food and Drug Administration (FDA) approval of imatinib for treatment of BCR-ABL-translocated CML took 41 years since discovery of the Philadelphia chromosome. Consequently, there is an extensive compendium of targeted therapeutics with 19 listed as clinically approved by the National Cancer Institute in 2012 while approximately 150 compounds were listed as clinical candidates.
+
+The enhanced understanding of oncogenic pathways and growing spectrum of targeted therapies have created the perfect opportunity for clinical screening of driver mutations to match patients with targeted treatments. Conversely, patients without specific mutations could be spared treatment-associated toxicities. For example, screening for KRAS mutations in codon 12 or 13 could prevent treating colorectal cancer (CRC) patients with anti-EGFR monoclonal antibody or EGFR inhibitors, which are associated with toxicity risk, as these patients are known to respond poorly. Despite the initial efficacy of targeted treatments, tumours could develop resistant mechanisms causing cancer relapse. One of the crucial realization from proceeding studies is that cancer is a heterogenous disease, in that a tumour can consist of multiple subclonal populations and resistant cancer cells may already exist at an early stage. Hence, treatment resistance occurs after the dominant clone has been wiped out allowing the resistant subclone to proliferate and metastasize. Complexities derived from the vast mutational profiles of tumours and intratumoural heterogeneity revealed that surveillance of multiple cancer genes with increased coverage depth during the course of a disease is essential for positive clinical outcomes. To achieve this, single gene assays using the Sanger method, also known as the dideoxynucleotide chain termination method, are not feasible due to time, labour, and cost constraints.
+
+With the advent of MPS technologies, genome sequencing can be accomplished at a reduced cost of less than \$5000 per genome within days. To put this into perspective, the first human reference genome sequenced using the Sanger method was completed at a cost of \$2.7 billion over 13 years. Advances in MPS technologies have revolutionized cancer genomics by enabling international consortia such as TCGA and the ICGC to uncover the complex genomic architectures of various tumour types, thereby shedding insights into drug resistant mechanisms and potentiating therapeutic strategies against cancer relapse. The high-throughput nature of MPS and its ability to generate robust genomic information in a timely and cost-efficient manner are also capable of overcoming the limitations of single gene assays in the clinic. Thus, various MPS approaches, most commonly targeted gene panels, have been rapidly adopted in clinical oncology to inform medical decision-making based on a patient's genomic make-up. Although the path to genomics-driven oncology was paved by a deeper mechanistic understanding of oncogenic pathways and the accelerated progress in targeted therapeutics development, the emergence of MPS technologies played a significant role in providing detailed insights into the cancer genome as well as a feasible method to generate genomic information for clinical use.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Challenges in Clinical Genomics}
+\label{sec:ChallengesinClinicalGenomics}
+
+\subsection{DNA Damage by Formalin Fixation}
+- Fragmentation
+- Transition vs. transversion
+
+\subsection{Lack of Matched Normal DNA}
+
+\subsection{Variant of Unknown Significance}
+
+\subsection{Incidental Findings}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Pharmacogenomics in Clinical Oncology}
+\label{sec:PharmacogenomicsinClinicalOncology}
+
+Cancer biomarkers, which are central to the genomics-driven oncology approach to medical decision-making, can be classified as diagnostic, prognostic, predictive, and pharmacogenomics (PGx). PGx markers are germline genetic variants that affect genes encoding drug targets as well as drug disposition proteins involved in absorption, distribution, metabolism, and excretion (ADME).
+Pharmacogenomics (PGx) applies genomic approaches to evaluate the interaction of genetic variants with drug response. These variations affect . The goals of PGx studies are to elucidate biological mechanisms underlying interpatient variability in drug efficacy and toxicity as well as identify PGx biomarkers with clinical utility, which would guide selection of treatment type, optimal dosage, and duration.
+
+Cancer PGx takes into account tumour-associated somatic mutations and germline variants. Somatic mutations in driver genes promote malignant transformation through conferring selective growth advantage to the cells. Characterization of somatic driver mutations has provided an avenue for development of molecularly targeted drugs against specific tumour-defining somatic mutations. Hence, screening for these specific
+
+somatic mutations serving as genomic predictors of tumour response and providing new leads for drug development
+germline variants optimize cancer drug dosing and predict the susceptibility of patients to the adverse side effects of these drugs - knowledge that can be used to improve benefit:risk ratio of cancer treatment for individual patients
+
+\subsection{Targeted Therapies}
+Tamoxifen etc.
+
+\subsection{Chemotherapy-Associated Morbidities}
+DPYD, MTHFR, GSTP1, TYMP, TYMS, UGT1A1
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Summary}
+\label{sec:Summary}
+
+The advent of MPS technologies has refined analysis of the cancer genome at base-pair resolution,
+
+
+
+Key words: pharmacogenomic, germline variants, targeted amplicon-based MPS panel, formalin artifacts, tumour-only genomic profiling, patient care, treatment outcome, treatment response, risk stratification, susceptibility, toxicity, adverse drug events
+
+--
+
+Cancer initiation and progression are driven by accumulation of genomic and epigenomic alterations that confer selective growth advantages to cells. The advent of MPS technologies has revolutionized cancer genomics research by enabling collective efforts such as TCGA and the ICGC to characterize the genomic architectures of a growing number of tumours. A central recognition from these studies is that cancer is a complex and heterogenous disease, with mutational burdens that vary between tumour types, from 0.28 to 8.15 mutations per megabase in acute myeloid leukemia (AML) and lung squamous carcinoma, respectively. Most cancers typically accumulate an array of mutated genes that interact over time to initiate neoplasia and fuel its progression.
+
+more cancer genes, more than one driver gene
+
+The genetic basis of cancer
+
+Using MPS technologies, collective efforts like TCGA and the ICGC have achieved extraordinary progress in uncovering the genomic architectures of a growing number of tumours, thereby accelerating driver mutation discovery.
+
+In parallel to the rapid characterizing of tumour genomes is the development of a vast spectrum of targeted therapies that
+
+MPS platforms can be used to screen for Prior to the genomics era, For approximately 25 years since the late 20th century, dideoxynucleotide However, MPS technologies have boosted the discovery of cancer genes Central to the transition from Sanger  is the crucial recognition of cancer as a complex and heterogenous disease that typically involves mutations in a spectrum
+
+The application of genomic information to guide management of cancer holds promising potential for enhancing patient care and improving clinical benefit. While a deeper understanding of tumour biology and vast spectrum clinical feasibility of genomics-driven oncology is driven by
+
+Clinical application of genomic information to guide the can and The advent of MPS technologies has revolutionized cancer genome studies
+Cancer genome studies have uncovered the genomic architectures of a growing number of tumour types, thereby accelerating driver mutation discovery. These efforts were propelled by the high-throughput nature and declined cost of MPS technologies, which were also leveraged and adopted by clinical oncology for the management of cancer. The application of MPS to oncology care gave rise   These features of MPS technologies were also leveraged and adapted to fit the needs in oncology practice, leading to the transition from morphology-based management of cancers to genomics-driven oncology  have propelled these efforts and have been entering clinical practice duthe advantageous in characterizing the complexity of tumour genomes at a global and refined level. The high-throughput nature and ability to identify genomic alterations at base-pair resolution in a cost-effective and timely manner have been leveraged and adopted
+
+Central to the application of genomic information to management of cancer is the deeper understanding of cancer as a complex genomic disease.
+
+Cancer is among the leading causes of mortality, accounting for one in eight deaths globally.
+been propelled by the extraordinary progress in MPS technologies have propelled cancer genome studies by uncovering the complexity of cancer genomes
+global and refined, uncovering, complexity
+Understanding the complexity of the cancer genome was propelled by advances in MPS technologies leading to rapid progress in drive mutation discovery.
+
+Cancer genomics Traditional approaches that categorize cancers based on anatomic origins have shifted towards molecular classification. This transition from a morphology-based to genetic-based disease paradigm of cancer was driven by due to a deeper understanding of the complexity . Additionally, single gene testing has been supplanted by genomic technologies that enabled screening of more target genes, the entire exome, or genome. The application of genomic information to guide patient management and therapeutic intervention holds promising potential for improving patient care in clinical oncology. Central to the emergence of genomics-driven cancer medicine is the deeper understanding of cancer as a complex genomic disease, which was increasingly elucidated by efforts of the TCGA and ICGC
+
+Accelerated drug development, shorter timelines for translation from somatic mutation discovery to clinical actionability
+
+HGP in 2003, The advent of MPS technologies and steep declined in cost paved the opportunity for clinical MPS-based testing for cancer
+
+
+
+Clinical use of genomic information to guide patient management and therapeutic intervention has been rapidly adopted in oncology care. Various breakthroughs have created an unparalleled opportunity to test the hypothesis that systematic knowledge of genomic information from individual tumours can improve clinical outcomes for many patients with cancer. These driving factors of the emerging genomics-driven cancer medicine framework include extraordinary progress in tumour biology research, the expanding compendium of anti-cancer targeted drugs, and revolutionary advances in massively parallel sequencing (MPS) technologies.
+
+Somatically acquired genomic alterations play a significant role in driving malignant transformation through conferring selective growth advantages to cells. Through unveiling oncogenic mechanisms underlying driver mutations, anti-cancer drugs can be customized against tumour-defining mutations. A well-known example is the treatment of BCR-ABL-translocated chronic myeloid leukemia (CML) with the targeted agent imatinib. The aberrant chromosomal translocation involving the BCR and ABL genes in CML was first discovered through karyotyping in 1960 with ensuing efforts in elucidating downstream mechanisms of the BCR-ABL fusion protein. After 40 years of investigative research followed by drug development and clinical trials, the tyrosine kinase inhibitor imatinib was approved by the Food and Drug Administration (FDA) as a targeted therapy against the constitutively active ABL1 kinase in BCR-ABL-translocated CML. The drastic improvement in clinical outcome of BCR-ABL-translocated CML demonstrated that genetic profiling of tumours holds great potential in enhancing patient care through molecularly targeted therapies.
+
+The notable success of imatinib in BCR-ABL-translocated CML also revealed that basic research in tumour biology must go hand-in-hand with drug discovery and development. Although necessary, functional understanding of tumorigenic mechanisms governed by somatic genomic alterations is not sufficient for clinical practicality of genomics-driven oncology. The accelerated progress in the pharmaceutical development pipeline was demonstrated by the shorter duration required for translation of driver mutation discovery to clinical proof-of-concept. For instance, it only took three years for the ALK inhibitor crizotinib to enter Phase II clinical trials since the discovery of the chromosomal rearrangement of ALK in non-small cell lung carcinoma (NSCLC) compared to the 41-year-timeline of imatinib in BCR-ABL-translocated CML. In addition, the spectrum of targeted therapeutics is expanding with the National Cancer Institute listing 19 targeted therapeutics that have entered clinical practice in 2012 and nearly 150 compounds listed as clinical candidates in a public database. Aside from imatinib, examples of mechanistic findings of driver mutations that resulted in clinical deployment of targeted therapies include the monoclonal antibody trastuzumab in HER2/neu positive breast cancer, PARP inhibitors in BRCA1/2 breast cancer, and BRAF inhibitors in melanoma (Table 1). Hence, emergence of the genomics-driven oncology approach is feasible because screening for clinical biomarkers would facilitate treatment choice and enrollment to clinical trials based on predictive tumour genetic biomarkers. A successful example is treatment of CKIT-positive gastrointestinal stromal tumours (GIST) with imatinib which was previously FDA-approved for CML and also inhibit the activity of CKIT.
+
+Despite the promising results of imatinib in early 2000s, several key realizations were made in the proceeding decade including that human cancers are
+The notable success of imatinib in treating BCR-ABL-translocated CML was ensued by many promising examples wherein elucidating oncogenic driver pathways gave rise to clinical deployment of molecular targeted therapies (Table 1). This expanding compendium of targeted anti-cancer therapies has enabled the translation of cancer genomics to Paired with the deeper understanding of For instance, have ensued since the notable success of imatinib in treating BCR-ABL-translocated CML. In addition to the promising examples wherein elucidating oncogenic driver pathways gave rise to clinical deployment of molecular targeted therapies (Table 1), advances in massively parallel sequencing (MPS) technologies have enabled genome sequencing to be clinically feasible. For approximately 25 years since the late twentieth century, Sanger sequencing, also known as dideoxynucleotide chain termination sequencing, was the most widespread method for DNA sequencing. However, the many advantages of MPS compared to Sanger sequencing was the Sanger method, also known as the dideoxynucleotide chain termination method. At present, MPS technology through reduced cost, time, labour, and DNA input compared to traditional Sanger sequencing.
+
+Aside from screening for known
+
+- not one gene is responsible for tumour progression - CML is an outlier
+- drug resistance - resistance to imatinib
+- different type of biomarkers
+
+In the era of genomics, the molecular classification of cancer continues to expand and in turn
+has the potential to facilitate the development of novel biomarkers.
+
+Although the development of imatinib as a therapeutic for a genomic alteration heralded the
+era of molecularly targeted agents, several lessons would emerge over the ensuing decade. First, unlikeCML,most cancers are not homogeneously propelled by a single genomic driver alteration; instead, they comprise rare disease subsets with a variety of genomic alterations. Second, single- agent therapies against a single genomic target have not been as successful in achieving cures or long-term survival as was imatinib in CML. Thus, CMLhas been the exception and not the rule, which highlights the importance of developing rational combination therapies and elucidating mechanisms of drug resistance to single agents.
+
+BCR-ABL fusion protein as a result of chromosomal translocation in chronic myeloid leukemia (CML) patients
+of elucidation of the discovery of constitutively activated ABL kinase  the treatment with the ABL1 kinase inhibitor imatinib, which the drastic improvement in disease outcome for BCR-ABL-translocated chronic myeloid leukemia patients notable success in the promising treatment of Traditional approaches have focused on classifying cancers based on anatomic sites and histopathologic features. However, the notable success in targeted therapy treating BCR-ABL-translocated chronic myeloid leukemia (CML) with the ABL1 kinase inhibitor imatinib has led to the transition from morphology-based to molecular classification of cancers.
+
+With the completion of the Human Genome Project in 2003 and advances in massively parallel sequencing technologies, collaborative efforts such as The Cancer Genome Atlas (TCGA) and the International Cancer Genome Consortium (ICGC) are working towards characterizing the genomic landscapes of diverse cancer types.
+
+Developing a personalized therapy strategy to ensure an optimal outcome for individual cancer patients is possible given the dramatic progress in basic cancer research at the molecular and cellular levels, the rapid advancement of new technologies that enable fast and cost-effective comprehensive characterizations of tumors at the molecular level, and an expanding compendium of targeted cancer therapeutics.
+
+Convergence in biological discoveries, MPS technologies, and drug development
+
+Advances in massively parallel sequencing technologies,
+
+- Cancer classification has evolved from tissue of origin to molecular classification.
+- CML and imatinib - success led to emphasis on molecular classification
+- Genomics era - expansion of characterizing genomic landscape and cataloguing driver mutations
+- Different types of biomarkers
+- Standard of care genetic screening - breast/HER2, NSCLC/EGFR/KRAS/BRAF, Melanoma/BRAF, GIST/KRAS
+- Facilitate discovery, enrollment to clinical trials, guide precision medicine
+
+--
+
+Genetic variants in genes encoding drug metabolizing enzymes, drug transporters, and drug targets can cause interpatient differences in drug response. Pharmacogenomics (PGx) applies genomic approaches to evaluate the association of genetic variants with drug efficacy and toxicity. If a PGx variant demonstrates clinical utility, screening for this biomarker would guide treatment selection as well as optimization of treatment dosage and duration, thereby improving therapeutic effectiveness and safety. In the context of cancer, both somatic mutations in the tumour genome and germline genetic variants can influence a patient's treatment choice. While somatic mutations typically affect activity or expression of drug targets, germline variants present in normal tissues affect drug disposition which includes absorption, distribution, metabolism, and excretion of the administered drug. Although somatic mutations have been implicated in cancer PGx, this thesis will focus on germline PGx variants with significant impacts on treatment response to cytotoxic chemotherapy.
+
+Clinical use of genomic information has been rapidly adopted by oncology practice to arrive at more informed decision with regards to patient management and therapeutic intervention. This emerging framework of genomics-driven cancer medicine has been revolutionized by advances in next-generation sequencing (NGS) technologies, declined cost in genome sequencing, and development of bioinformatics analytic tools. There are various genomic approaches that interrogate different proportions of the genome. At present, targeted NGS panels that screen for genomic alterations in a subset of genes are the most practical in the clinic based on clinical actionability, cost-efficiency, and short turnaround time. Other comprehensive approaches such as whole exome sequencing (WES) which survey only coding regions in the genome and whole genome sequencing (WGS) are also translated for clinical use. However, limitations to these comprehensive approaches exist due to incomplete annotation of the human genome and challenges in interpreting genomic data for medical decision-making.
+
+Despite the many promising applications of NGS-based testing in cancer medicine, several challenges are yet to be resolved. One of the challenges is sequence artifacts caused by formalin fixation. For decades, formalin fixation has been the standard procedure to preserve morphology and cellular characteristics of tissue biopsies for histologic examination. Compared to storing fresh-frozen tissues, long-term storage of formalin-fixed paraffin-embedded (FFPE) blocks at room temperature is more cost-effective and therefore, frequently used for molecular analysis. However, formalin fixation causes DNA fragmentation and base transition artifacts (i.e. C$>$T and G$>$A), which could result in false-positive or false-negative variations in the genome. This is particularly concerning in the clinic because this genomic information is used to inform therapeutic intervention of a patient. Secondly, the lack of matched normal DNA is a challenge faced by present-day clinical NGS-based testing. Processing of matched normal DNA is not a routine practice in the clinical setting due to logistical difficulties in obtaining a blood or saliva sample, increased cost, and an underappreciation of the potential value of the matched normal. Without matched normal DNA, detection of clinically relevant germline variations (e.g. germline PGx variants) from somatic mutations in the tumour genome rely heavily on filtering with existing variant databases such as dbSNP and ExAC. Additional challenges in clinical implementation of NGS-based testing include lack of methods to interrogate low-complexity regions of the genome, a consensus standard for variant calling and annotation, and methods for functional prediction of novel genomic variants. Nevertheless, the scope of this thesis will only address the first two challenges described through analyzing data from a targeted NGS panel for solid tumours.
+
+The primary objective of my research is to determine whether a clinical targeted NGS panel that only sequence FFPE tumour DNA can be harnessed to report high quality germline PGx variants that would inform chemotherapeutic intervention. To address this objective, I evaluated the concordance of germline PGx variants between FFPE tumour DNA and the gold standard peripheral blood DNA. In addition, I assessed the extent of formalin induced DNA damage and modification by comparing quality metrics of sequencing data and formalin artifacts between FFPE tumour and peripheral blood.
+
+This introductory chapter will be organized into four sections to provide sufficient background information for the work presented in this thesis. The first section will introduce the adoption of PGx findings in oncology care by providing examples of promising applications with an emphasis on germline PGx variants that affect response to cytotoxic chemotherapy. The second chapter will focus on the evolution of NGS technologies and its contribution to the emergence of genomics-driven cancer medicine. Genomic approaches that interrogate different content of the genome will also be described and examples of their clinical use will be provided. In the third chapter, I will provide an overview on a variant calling pipeline and introduce different types of genomic alterations. I will also describe different variant calling algorithm and methods for variant annotation and interpretation. Finally, the fourth section will focus on challenges in the clinical application of NGS-based testing, expanding on formalin fixation artifacts and the lack of matched normal samples. These are problems addressed in this thesis which aims to investigate whether germline PGx variants can be detected with precision in a clinical targeted NGS panel that only sequence DNA from FFPE tumours.
+
+This emerging framework of genomics-driven cancer medicine involves screening for genomic alterations that have diagnostic, prognostic, predictive or pharmacogenomic (PGx) clinical utility. Diagnostic biomarkers facilitate tumour type or subtype classification whereas prognostic biomarkers provide information on disease outcome based on overall and disease-free survival rates. Moreover, predictive biomarkers would inform treatment selection while PGx biomarkers assist with reducing drug toxicity through optimization of treatment dosage and duration.
+
+The genetic basis of cancer made it a suitable candidate for the emerging Genomics-driven cancer medicine is an emerging framework for diagnosis, patient management, and therapeutic intervention based on individual genetic variability. This framework has been revolutionized by advanced massive parallel sequencing (MPS) technologies and analytic tools. The step-wise accumulation of genomic alterations plays a significant role in driving cancer initiation, maintenance, and progression. Somatic mutations in oncogenes and tumour-suppressor genes, which are collectively known as cancer genes, results in dysregulation in key onco
+
+These genetic changes affect oncogenes and tumour-suppressor genes, which are collectively known as cancer genes;y thereby
+
+Cancer initiation and progression can be driven by genetic alterations in oncogenes and tumour-suppressor genes, which are collectively known as cancer genes. These genetic changes Mutations in cancer genes can be somatic or germline, with the latter increasing the patient's risk of cancer development.
+
+A better understanding of these pathways is one of the most pressing needs in basic cancer research. Even now, however, our knowledge of cancer genomes is sufficient to guide the development of more effective approaches for reducing cancer morbidity and mortality.
+
+In this chapter, I will introduce the genetic basis of cancer causative roles of genetic and epigenetic alterations in cancer pathogenesis. I will also expand on the emerging field of precision oncology by presenting promising applications of genome-driven decision making in the clinic. In addition, I will elaborate on next-generation sequencing (NGS) technologies as well as bioinformatics pipelines for variant calling and interpretation which revolutionized precision oncology. Lastly, I will focus on the current challenges in precision oncology and potential solutions to improve patient care through enhanced diagnostic sensitivity and more precise therapeutic interventions.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Mutations in Cancer}
+\label{sec:MutationsinCancer}
+
+In their 2011 seminal peer-reviewed article, Douglas Hanahan and Robert A. Weinberg described eight hallmark characteristics of cancer cells including their capacities to proliferate without restraint, circumvent anti-growth signals, resist programmed cell death, acquire unlimited replicative potential, promote angiogenesis, invade normal tissue boundaries as well as metastasize to distant organs, deregulate metabolic pathways, and evade immune surveillance. Hanahan and Weinberg also highlighted two enabling features, genome instability and tumour-promoting inflammation, which accelerate the acquisition of hallmark traits and facilitate their functions in cancer cells. These biological capabilities and enabling of cancer cell
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Cancer as a genetic disease}
+\label{sec:Cancerasageneticdisease}
+
+Cancer is a group of diseases characterized by uncontrolled proliferation of cells that are capable of normal tissue invasion and metastasis to distant organs. The idea that genetic abnormalities may play a causative role in carcinogenesis was first proposed by Theodor Boveri in 1914. Prompted by David von Hansemann's 1890 speculation that aberrant cell division led to chromosomal imbalances in cancer cells, Boveri generated sea urchin embryos with defects in chromosome segregation and observed the outcome of these cells. He reported that while most cases of unequal chromosome counts resulted in cell death, there were cases in which cell survival was followed by unrestrained cell growth. This result led Boveri to postulate that genetic materials could stimulate or inhibit cell growth and the unlimited growth of cancer cells could be caused by accumulation of chromatin parts with stimulatory effects or termination of chromatin parts with inhibitory effects. These predictions were consistent with the present-day knowledge of oncogenes and tumour-suppressor genes, which in general are known as cancer genes.
+
+Oncogenes encode for proteins that stimulate cell proliferation and survival as well as inhibit cell differentiation leading to oncogenesis. The first human oncogene was identified based on homology with
+
+Mutations in oncogenes are typically dominant, which means . The first human oncogenes was discovered Conversely, tumour-suppressor genes encode for proteins that inhibit cell proliferation and survival as well as stimulate cell differentiation. Mutations in oncogenes are typically dominant whereas mutations in tumour-suppressor genes are recessive.
+
+In the normal cell, proto-oncogenes stimulate proliferation and inhibit differentiation and apoptosis while the opposite is true for tumour suppressors. Proto-oncogenes are usually dominant, meaning that only one gain-of-function mutation is required to activate the oncogene, thereby causing cancer. Conversely, tumour suppressor genes are usually recessive and two loss-of-function events are required.
+
+Boveri and von Hansemann (1890-1914) - oncogenes and tumour suppressors
+Philadelphia translocation (1960)
+Two hit hypothesis, retinoblastoma (1971) - germline and somatic mutations
+HRAS point mutation (1982)
+Eric Fearon and Bert Vogelstein find specific sequential mutations in carcinoma (1990) - multi-step process, caretakers and gatekeepers
+Types of mutations/gene changes - SNVs, indels, SVs
+Driver vs. passenger mutations - evolutionary process, selective growth advantage, CSCs
+Frequency and pathway-based: three main pathways
+
+The pathogenesis of cancer is caused by genetic abnormalities
+Although fundamentally known to arise from genetic mutations, the disease paradigm has expanded to include aberrant epigenetic mechanisms as a contributing factor to oncogenesis.
+The understanding of cancer pathogenesis has expanded been increasing over the years and a disorder that was fundamentally known to arise from genetic mutations this group of disorders which have been fundamentally known Cancer has been fundamentally known as a genetic disease defined by abnormal proliferation of cells.
+Our understanding of cancer pathogenesis has been expanding  Although the understanding of cancer pathogenesis has been expanding, Cancer has been fundamentally known as a genetic disease.
+
+Intro Outline
+- fundamentally genetics
+- germline vs. somatic
+- oncogenes and tumour suppressors
+- caretakers vs. gatekeepers
+- cell fate, cell survival, and genome maintenance
+- heterogeneity/evolution
+- hallmarks of cancer
+- epigenetic changes
+- tumour microenvironment
+
+What led to development of precision medicine?
+- Precision oncology revolutionized by NGS types and technologies and bioinformatics pipelines
+- Pros and cons of NGS types: Targeted, whole exome, RNA sequencing, and whole genome sequencing
+- NGS technologies: how it is mostly Illumina
+- Bioinformatics pipelines: alignment, variant calling algorithms, manual review
+
+What is promising about precision medicine?
+- Administration of targeted therapies and therapeutic interventions guided by cancer pharmacogenomics
+
+- Challenges in precision medicine: formalin artifacts, tumour-only profiling, cost, turn-around time, accurate reference genome
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+\label{sec:Introduction}
+
+Genomics-driven oncology is an emerging approach that aims to use genomic information for patient management and therapeutic intervention in oncologic care. Using MPS technologies, cancer biomarkers with diagnostic, prognostic, predictive, and pharmacogenomic (PGx) significance can be screened at a reduced cost and turn-around time to inform medical decision-making. PGx markers are germline genetic
+
+Application of genome information to guide patient management and therapeutic intervention holds great potential in improving oncology care. One of the driving forces that led to clinical feasibility of genomic sequencing is the advent of massively parallel sequencing (MPS) technologies, which enabled sensitive and accurate sequencing of more target genes with less DNA in a cost-effective and timely manner. At present, various MPS approaches are entering, or have entered the clinic such as targeted sequencing panels, whole exome sequencing, and whole genome sequencing, which create the opportunity to further develop novel clinical biomarkers in addition to screening for biomarkers with established clinical utility.
+
+In the context of cancer,
+Clinical biomarkers can be classified as diagnostic, prognostic, predictive, and pharmacogenomic (PGx). In the context of cancer, both somatic Germline variants that affect influence drug response are PGx biomarkers.
+
+In the context of cancer, PGx biomarkers are
+
+Clinical molecular laboratories are rapidly adopting and leveraging the advances in massively parallel sequencing (MPS) technologies for germline and tumour profiling. have driven the clinical use of genomic information to guide patient management and therapeutic intervention in oncology care. The ability of MPS to sensitively and accurately sequence more target genes with less DNA in a cost-effective and timely manner perfectly meet the clinical reality which is to do more with less.
+
+reduced cost, time and labor high throughput nature, decreased sequencing cost, and increased sensitivity, and ability to Genomics-driven cancer medicine aims is driven by the advances in massively parallel sequencing (MPS) technologies, the reduced cost of genome sequencing, and development of bioinformatics analytic tools. This emerging framework in the oncology care aims to use genomics information to inform
+
+The Oncopanel is a clinical targeted sequencing panel for solid tumours provided by the CCG at the BCCA. In addition to somatic mutations, it screens for germline variants in PGx genes such as DPYD, GSTP1, MTHFR, TYMP, TYMS, and UGT1A1 (Table 1). Detection of germline PGx variants is essential for chemotherapy selection and optimization of treatment dosage and duration. The Oncopanel is also delivered as a single sample clinical assay in which genetic variants are detected in DNA from FFPE tumours. However, formalin fixation causes DNA fragmentation and base transition artifacts (i.e. C$>$T and G$>$A). Hence, I investigated whether germline PGx variants could be detected with high sensitivity and precision in FFPE tumour DNA compared to blood DNA which is the gold standard for germline variant calling.
