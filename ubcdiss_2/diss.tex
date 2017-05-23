@@ -46,6 +46,16 @@
 \usepackage{siunitx}
 \sisetup{range-phrase = \text{--}}
 
+% allow me to use justify option
+\usepackage{ragged2e}
+
+% do not hyphenate
+%\usepackage[none]{hyphenat}
+
+% add path
+\usepackage{graphicx}
+\graphicspath{{/Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/}{/Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/}}
+
 % For your own copies (looks nicer)
 % \documentclass[balanced,twoside,11pt]{ubcdiss}
 
@@ -71,7 +81,7 @@
 
 %% Math or theory people may want to include the handy AMS macros
 %\usepackage{amssymb}
-%\usepackage{amsmath}
+\usepackage{amsmath}
 %\usepackage{amsfonts}
 
 %% The pifont package provides access to the elements in the dingbat font.
@@ -302,7 +312,7 @@
 %% Document meta-data: be sure to also change the \hypersetup information
 %%
 
-\title{\scshape\bfseries Germline Pharmacogenomic Testing in Formalin-Fixed Paraffin-Embedded Tumours}
+\title{\scshape\bfseries Germline Variant Calling in Formalin-Fixed Paraffin-Embedded Tumours}
 %\subtitle{If you want a subtitle}
 
 \author{Shyong Quin Yap}
@@ -394,13 +404,16 @@
 %    1. Introduction
 \include{intro}
 
-%    2. Characterization of Formalin-Induced DNA Damages
+%    2. Materials and Methods
+\include{materialsmethods}
+
+%    3. Characterization of Formalin-Induced DNA Damages
 \include{chapter2}
 
-%    3. Concordance of Germline Pharmacogenomic Variants Between Blood and Tumours
+%    4. Concordance of Germline Pharmacogenomic Variants Between Blood and Tumours
 \include{chapter3}
 
-%    4. Conclusion
+%    5. Conclusion
 \include{Conclusion}
 
 %    2. Main body

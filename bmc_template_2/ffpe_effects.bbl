@@ -1,0 +1,472 @@
+%% BioMed_Central_Bib_Style_v1.01
+
+\begin{thebibliography}{8}
+% BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
+\ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
+\ifx \binits  \undefined \def \binits#1{#1}\fi
+\ifx \bauthor  \undefined \def \bauthor#1{#1}\fi
+\ifx \batitle  \undefined \def \batitle#1{#1}\fi
+\ifx \bjtitle  \undefined \def \bjtitle#1{#1}\fi
+\ifx \bvolume  \undefined \def \bvolume#1{\textbf{#1}}\fi
+\ifx \byear  \undefined \def \byear#1{#1}\fi
+\ifx \bissue  \undefined \def \bissue#1{#1}\fi
+\ifx \bfpage  \undefined \def \bfpage#1{#1}\fi
+\ifx \blpage  \undefined \def \blpage #1{#1}\fi
+\ifx \burl  \undefined \def \burl#1{\textsf{#1}}\fi
+\ifx \doiurl  \undefined \def \doiurl#1{\textsf{#1}}\fi
+\ifx \betal  \undefined \def \betal{\textit{et al.}}\fi
+\ifx \binstitute  \undefined \def \binstitute#1{#1}\fi
+\ifx \binstitutionaled  \undefined \def \binstitutionaled#1{#1}\fi
+\ifx \bctitle  \undefined \def \bctitle#1{#1}\fi
+\ifx \beditor  \undefined \def \beditor#1{#1}\fi
+\ifx \bpublisher  \undefined \def \bpublisher#1{#1}\fi
+\ifx \bbtitle  \undefined \def \bbtitle#1{#1}\fi
+\ifx \bedition  \undefined \def \bedition#1{#1}\fi
+\ifx \bseriesno  \undefined \def \bseriesno#1{#1}\fi
+\ifx \blocation  \undefined \def \blocation#1{#1}\fi
+\ifx \bsertitle  \undefined \def \bsertitle#1{#1}\fi
+\ifx \bsnm \undefined \def \bsnm#1{#1}\fi
+\ifx \bsuffix \undefined \def \bsuffix#1{#1}\fi
+\ifx \bparticle \undefined \def \bparticle#1{#1}\fi
+\ifx \barticle \undefined \def \barticle#1{#1}\fi
+\ifx \bconfdate \undefined \def \bconfdate #1{#1}\fi
+\ifx \botherref \undefined \def \botherref #1{#1}\fi
+\ifx \url \undefined \def \url#1{\textsf{#1}}\fi
+\ifx \bchapter \undefined \def \bchapter#1{#1}\fi
+\ifx \bbook \undefined \def \bbook#1{#1}\fi
+\ifx \bcomment \undefined \def \bcomment#1{#1}\fi
+\ifx \oauthor \undefined \def \oauthor#1{#1}\fi
+\ifx \citeauthoryear \undefined \def \citeauthoryear#1{#1}\fi
+\ifx \endbibitem  \undefined \def \endbibitem {}\fi
+\ifx \bconflocation  \undefined \def \bconflocation#1{#1}\fi
+\ifx \arxivurl  \undefined \def \arxivurl#1{\textsf{#1}}\fi
+\csname PreBibitemsHook\endcsname
+
+%%% 1
+\bibitem{Raymond2016}
+\begin{barticle}
+\bauthor{\bsnm{Raymond}, \binits{V.M.}},
+\bauthor{\bsnm{Gray}, \binits{S.W.}},
+\bauthor{\bsnm{Roychowdhury}, \binits{S.}},
+\bauthor{\bsnm{Joffe}, \binits{S.}},
+\bauthor{\bsnm{Chinnaiyan}, \binits{A.M.}},
+\bauthor{\bsnm{Parsons}, \binits{D.W.}},
+\bauthor{\bsnm{Plon}, \binits{S.E.}}:
+\batitle{{Germline findings in tumor-only sequencing: Points to consider for
+  clinicians and laboratories}}.
+\bjtitle{Journal of the National Cancer Institute}
+\bvolume{108}(\bissue{4}),
+\bfpage{1}--\blpage{5}
+(\byear{2016}).
+doi:\doiurl{10.1093/jnci/djv351}
+\end{barticle}
+\endbibitem
+
+%%% 2
+\bibitem{Meric-Bernstam2016}
+\begin{barticle}
+\bauthor{\bsnm{Meric-Bernstam}, \binits{F.}},
+\bauthor{\bsnm{Brusco}, \binits{L.}},
+\bauthor{\bsnm{Daniels}, \binits{M.}},
+\bauthor{\bsnm{Wathoo}, \binits{C.}},
+\bauthor{\bsnm{Bailey}, \binits{A.M.}},
+\bauthor{\bsnm{Strong}, \binits{L.}},
+\bauthor{\bsnm{Shaw}, \binits{K.}},
+\bauthor{\bsnm{Lu}, \binits{K.}},
+\bauthor{\bsnm{Qi}, \binits{Y.}},
+\bauthor{\bsnm{Zhao}, \binits{H.}},
+\bauthor{\bsnm{Lara-Guerra}, \binits{H.}},
+\bauthor{\bsnm{Litton}, \binits{J.}},
+\bauthor{\bsnm{Arun}, \binits{B.}},
+\bauthor{\bsnm{Eterovic}, \binits{A.K.}},
+\bauthor{\bsnm{Aytac}, \binits{U.}},
+\bauthor{\bsnm{Routbort}, \binits{M.}},
+\bauthor{\bsnm{Subbiah}, \binits{V.}},
+\bauthor{\bsnm{Janku}, \binits{F.}},
+\bauthor{\bsnm{Davies}, \binits{M.A.}},
+\bauthor{\bsnm{Kopetz}, \binits{S.}},
+\bauthor{\bsnm{Mendelsohn}, \binits{J.}},
+\bauthor{\bsnm{Mills}, \binits{G.B.}},
+\bauthor{\bsnm{Chen}, \binits{K.}}:
+\batitle{{Incidental germline variants in 1000 advanced cancers on a
+  prospective somatic genomic profiling protocol}}.
+\bjtitle{Annals of Oncology}
+\bvolume{27}(\bissue{5}),
+\bfpage{795}--\blpage{800}
+(\byear{2016}).
+doi:\doiurl{10.1093/annonc/mdw018}
+\end{barticle}
+\endbibitem
+
+%%% 3
+\bibitem{Schrader2015}
+\begin{barticle}
+\bauthor{\bsnm{Schrader}, \binits{K.A.}},
+\bauthor{\bsnm{Cheng}, \binits{D.T.}},
+\bauthor{\bsnm{Joseph}, \binits{V.}},
+\bauthor{\bsnm{Prasad}, \binits{M.}},
+\bauthor{\bsnm{Walsh}, \binits{M.}},
+\bauthor{\bsnm{Zehir}, \binits{A.}},
+\bauthor{\bsnm{Ni}, \binits{A.}},
+\bauthor{\bsnm{Thomas}, \binits{T.}},
+\bauthor{\bsnm{Benayed}, \binits{R.}},
+\bauthor{\bsnm{Ashraf}, \binits{A.}},
+\bauthor{\bsnm{Lincoln}, \binits{A.}},
+\bauthor{\bsnm{Arcila}, \binits{M.}},
+\bauthor{\bsnm{Stadler}, \binits{Z.}},
+\bauthor{\bsnm{Solit}, \binits{D.}},
+\bauthor{\bsnm{Hyman}, \binits{D.}},
+\bauthor{\bsnm{Zhang}, \binits{L.}},
+\bauthor{\bsnm{Klimstra}, \binits{D.}},
+\bauthor{\bsnm{Ladanyi}, \binits{M.}},
+\bauthor{\bsnm{Offit}, \binits{K.}},
+\bauthor{\bsnm{Berger}, \binits{M.}},
+\bauthor{\bsnm{Robson}, \binits{M.}}:
+\batitle{{Germline Variants in Targeted Tumor Sequencing Using Matched Normal
+  DNA.}}
+\bjtitle{JAMA oncology}
+\bvolume{2}(\bissue{1}),
+\bfpage{1}--\blpage{8}
+(\byear{2015}).
+doi:\doiurl{10.1001/jamaoncol.2015.5208}
+\end{barticle}
+\endbibitem
+
+%%% 4
+\bibitem{Jones2015}
+\begin{barticle}
+\bauthor{\bsnm{Jones}, \binits{S.}},
+\bauthor{\bsnm{Anagnostou}, \binits{V.}},
+\bauthor{\bsnm{Lytle}, \binits{K.}},
+\bauthor{\bsnm{Parpart-li}, \binits{S.}},
+\bauthor{\bsnm{Nesselbush}, \binits{M.}},
+\bauthor{\bsnm{Riley}, \binits{D.R.}},
+\bauthor{\bsnm{Shukla}, \binits{M.}},
+\bauthor{\bsnm{Chesnick}, \binits{B.}},
+\bauthor{\bsnm{Kadan}, \binits{M.}},
+\bauthor{\bsnm{Papp}, \binits{E.}},
+\bauthor{\bsnm{Galens}, \binits{K.G.}},
+\bauthor{\bsnm{Murphy}, \binits{D.}},
+\bauthor{\bsnm{Zhang}, \binits{T.}},
+\bauthor{\bsnm{Kann}, \binits{L.}},
+\bauthor{\bsnm{Sausen}, \binits{M.}},
+\bauthor{\bsnm{Angiuoli}, \binits{S.V.}},
+\bauthor{\bsnm{Jr}, \binits{L.A.D.}},
+\bauthor{\bsnm{Velculescu}, \binits{V.E.}}:
+\batitle{{Personalized genomic analyses for cancer mutation discovery and
+  interpretation}}.
+\bjtitle{Science Translational Medicine}
+\bvolume{7}(\bissue{283}),
+\bfpage{283}--\blpage{53}
+(\byear{2015}).
+doi:\doiurl{10.1126/scitranslmed.aaa7161}
+\end{barticle}
+\endbibitem
+
+%%% 5
+\bibitem{McLeod2013}
+\begin{barticle}
+\bauthor{\bsnm{McLeod}, \binits{H.L.}}:
+\batitle{{Cancer Pharmacogenomics: Early Promise, But Concerted Effort
+  Needed}}.
+\bjtitle{Science}
+\bvolume{339}(\bissue{March}),
+\bfpage{1563}--\blpage{1566}
+(\byear{2013}).
+doi:\doiurl{10.1126/science.1234139}
+\end{barticle}
+\endbibitem
+
+%%% 6
+\bibitem{Do2015}
+\begin{barticle}
+\bauthor{\bsnm{Do}, \binits{H.}},
+\bauthor{\bsnm{Dobrovic}, \binits{A.}}:
+\batitle{{Sequence artifacts in DNA from formalin-fixed tissues: Causes and
+  strategies for minimization}}.
+\bjtitle{Clinical Chemistry}
+\bvolume{61}(\bissue{1}),
+\bfpage{64}--\blpage{71}
+(\byear{2015}).
+doi:\doiurl{10.1373/clinchem.2014.223040}
+\end{barticle}
+\endbibitem
+
+%%% 7
+\bibitem{Wong2014}
+\begin{barticle}
+\bauthor{\bsnm{Wong}, \binits{S.Q.}},
+\bauthor{\bsnm{Li}, \binits{J.}},
+\bauthor{\bsnm{{Y-C Tan}}, \binits{A.}},
+\bauthor{\bsnm{Vedururu}, \binits{R.}},
+\bauthor{\bsnm{Pang}, \binits{J.-M.B.}},
+\bauthor{\bsnm{Do}, \binits{H.}},
+\bauthor{\bsnm{Ellul}, \binits{J.}},
+\bauthor{\bsnm{Doig}, \binits{K.}},
+\bauthor{\bsnm{Bell}, \binits{A.}},
+\bauthor{\bsnm{MacArthur}, \binits{G.A.}},
+\bauthor{\bsnm{Fox}, \binits{S.B.}},
+\bauthor{\bsnm{Thomas}, \binits{D.M.}},
+\bauthor{\bsnm{Fellowes}, \binits{A.}},
+\bauthor{\bsnm{Parisot}, \binits{J.P.}},
+\bauthor{\bsnm{Dobrovic}, \binits{A.}}:
+\batitle{{Sequence artefacts in a prospective series of formalin-fixed tumours
+  tested for mutations in hotspot regions by massively parallel sequencing}}.
+\bjtitle{BMC Medical Genomics}
+\bvolume{7}(\bissue{1}),
+\bfpage{1}--\blpage{10}
+(\byear{2014}).
+doi:\doiurl{10.1186/1755-8794-7-23}
+\end{barticle}
+\endbibitem
+
+%%% 8
+\bibitem{Bosdet2013}
+\begin{barticle}
+\bauthor{\bsnm{Bosdet}, \binits{I.E.}},
+\bauthor{\bsnm{Docking}, \binits{T.R.}},
+\bauthor{\bsnm{Butterfield}, \binits{Y.S.}},
+\bauthor{\bsnm{Mungall}, \binits{A.J.}},
+\bauthor{\bsnm{Zeng}, \binits{T.}},
+\bauthor{\bsnm{Coope}, \binits{R.J.}},
+\bauthor{\bsnm{Yorida}, \binits{E.}},
+\bauthor{\bsnm{Chow}, \binits{K.}},
+\bauthor{\bsnm{Bala}, \binits{M.}},
+\bauthor{\bsnm{Young}, \binits{S.S.}},
+\bauthor{\bsnm{Hirst}, \binits{M.}},
+\bauthor{\bsnm{Birol}, \binits{I.}},
+\bauthor{\bsnm{Moore}, \binits{R.A.}},
+\bauthor{\bsnm{Jones}, \binits{S.J.}},
+\bauthor{\bsnm{Marra}, \binits{M.A.}},
+\bauthor{\bsnm{Holt}, \binits{R.}},
+\bauthor{\bsnm{Karsan}, \binits{A.}}:
+\batitle{{A clinically validated diagnostic second-generation sequencing assay
+  for detection of hereditary BRCA1 and BRCA2 mutations}}.
+\bjtitle{Journal of Molecular Diagnostics}
+\bvolume{15}(\bissue{6}),
+\bfpage{796}--\blpage{809}
+(\byear{2013}).
+doi:\doiurl{10.1016/j.jmoldx.2013.07.004}
+\end{barticle}
+\endbibitem
+
+\end{thebibliography}
+
+\newcommand{\BMCxmlcomment}[1]{}
+
+\BMCxmlcomment{
+
+<refgrp>
+
+<bibl id="B1">
+  <title><p>{Germline findings in tumor-only sequencing: Points to consider for
+  clinicians and laboratories}</p></title>
+  <aug>
+    <au><snm>Raymond</snm><fnm>VM</fnm></au>
+    <au><snm>Gray</snm><fnm>SW</fnm></au>
+    <au><snm>Roychowdhury</snm><fnm>S</fnm></au>
+    <au><snm>Joffe</snm><fnm>S</fnm></au>
+    <au><snm>Chinnaiyan</snm><fnm>AM</fnm></au>
+    <au><snm>Parsons</snm><fnm>DW</fnm></au>
+    <au><snm>Plon</snm><fnm>SE</fnm></au>
+  </aug>
+  <source>Journal of the National Cancer Institute</source>
+  <pubdate>2016</pubdate>
+  <volume>108</volume>
+  <issue>4</issue>
+  <fpage>1</fpage>
+  <lpage>-5</lpage>
+</bibl>
+
+<bibl id="B2">
+  <title><p>{Incidental germline variants in 1000 advanced cancers on a
+  prospective somatic genomic profiling protocol}</p></title>
+  <aug>
+    <au><snm>Meric Bernstam</snm><fnm>F.</fnm></au>
+    <au><snm>Brusco</snm><fnm>L.</fnm></au>
+    <au><snm>Daniels</snm><fnm>M.</fnm></au>
+    <au><snm>Wathoo</snm><fnm>C.</fnm></au>
+    <au><snm>Bailey</snm><fnm>A. M.</fnm></au>
+    <au><snm>Strong</snm><fnm>L.</fnm></au>
+    <au><snm>Shaw</snm><fnm>K.</fnm></au>
+    <au><snm>Lu</snm><fnm>K.</fnm></au>
+    <au><snm>Qi</snm><fnm>Y.</fnm></au>
+    <au><snm>Zhao</snm><fnm>H.</fnm></au>
+    <au><snm>Lara Guerra</snm><fnm>H.</fnm></au>
+    <au><snm>Litton</snm><fnm>J.</fnm></au>
+    <au><snm>Arun</snm><fnm>B.</fnm></au>
+    <au><snm>Eterovic</snm><fnm>A. K.</fnm></au>
+    <au><snm>Aytac</snm><fnm>U.</fnm></au>
+    <au><snm>Routbort</snm><fnm>M.</fnm></au>
+    <au><snm>Subbiah</snm><fnm>V.</fnm></au>
+    <au><snm>Janku</snm><fnm>F.</fnm></au>
+    <au><snm>Davies</snm><fnm>M. A.</fnm></au>
+    <au><snm>Kopetz</snm><fnm>S.</fnm></au>
+    <au><snm>Mendelsohn</snm><fnm>J.</fnm></au>
+    <au><snm>Mills</snm><fnm>G. B.</fnm></au>
+    <au><snm>Chen</snm><fnm>K.</fnm></au>
+  </aug>
+  <source>Annals of Oncology</source>
+  <pubdate>2016</pubdate>
+  <volume>27</volume>
+  <issue>5</issue>
+  <fpage>795</fpage>
+  <lpage>-800</lpage>
+</bibl>
+
+<bibl id="B3">
+  <title><p>{Germline Variants in Targeted Tumor Sequencing Using Matched
+  Normal DNA.}</p></title>
+  <aug>
+    <au><snm>Schrader</snm><fnm>KA</fnm></au>
+    <au><snm>Cheng</snm><fnm>DT</fnm></au>
+    <au><snm>Joseph</snm><fnm>V</fnm></au>
+    <au><snm>Prasad</snm><fnm>M</fnm></au>
+    <au><snm>Walsh</snm><fnm>M</fnm></au>
+    <au><snm>Zehir</snm><fnm>A</fnm></au>
+    <au><snm>Ni</snm><fnm>A</fnm></au>
+    <au><snm>Thomas</snm><fnm>T</fnm></au>
+    <au><snm>Benayed</snm><fnm>R</fnm></au>
+    <au><snm>Ashraf</snm><fnm>A</fnm></au>
+    <au><snm>Lincoln</snm><fnm>A</fnm></au>
+    <au><snm>Arcila</snm><fnm>M</fnm></au>
+    <au><snm>Stadler</snm><fnm>Z</fnm></au>
+    <au><snm>Solit</snm><fnm>D</fnm></au>
+    <au><snm>Hyman</snm><fnm>D</fnm></au>
+    <au><snm>Zhang</snm><fnm>L</fnm></au>
+    <au><snm>Klimstra</snm><fnm>D</fnm></au>
+    <au><snm>Ladanyi</snm><fnm>M</fnm></au>
+    <au><snm>Offit</snm><fnm>K</fnm></au>
+    <au><snm>Berger</snm><fnm>M</fnm></au>
+    <au><snm>Robson</snm><fnm>M</fnm></au>
+  </aug>
+  <source>JAMA oncology</source>
+  <pubdate>2015</pubdate>
+  <volume>2</volume>
+  <issue>1</issue>
+  <fpage>1</fpage>
+  <lpage>-8</lpage>
+  <url>http://oncology.jamanetwork.com/article.aspx?articleid=2469517</url>
+</bibl>
+
+<bibl id="B4">
+  <title><p>{Personalized genomic analyses for cancer mutation discovery and
+  interpretation}</p></title>
+  <aug>
+    <au><snm>Jones</snm><fnm>S</fnm></au>
+    <au><snm>Anagnostou</snm><fnm>V</fnm></au>
+    <au><snm>Lytle</snm><fnm>K</fnm></au>
+    <au><snm>Parpart li</snm><fnm>S</fnm></au>
+    <au><snm>Nesselbush</snm><fnm>M</fnm></au>
+    <au><snm>Riley</snm><fnm>DR</fnm></au>
+    <au><snm>Shukla</snm><fnm>M</fnm></au>
+    <au><snm>Chesnick</snm><fnm>B</fnm></au>
+    <au><snm>Kadan</snm><fnm>M</fnm></au>
+    <au><snm>Papp</snm><fnm>E</fnm></au>
+    <au><snm>Galens</snm><fnm>KG</fnm></au>
+    <au><snm>Murphy</snm><fnm>D</fnm></au>
+    <au><snm>Zhang</snm><fnm>T</fnm></au>
+    <au><snm>Kann</snm><fnm>L</fnm></au>
+    <au><snm>Sausen</snm><fnm>M</fnm></au>
+    <au><snm>Angiuoli</snm><fnm>SV</fnm></au>
+    <au><snm>Jr</snm><fnm>LAD</fnm></au>
+    <au><snm>Velculescu</snm><fnm>VE</fnm></au>
+  </aug>
+  <source>Science Translational Medicine</source>
+  <pubdate>2015</pubdate>
+  <volume>7</volume>
+  <issue>283</issue>
+  <fpage>283ra53</fpage>
+</bibl>
+
+<bibl id="B5">
+  <title><p>{Cancer Pharmacogenomics: Early Promise, But Concerted Effort
+  Needed}</p></title>
+  <aug>
+    <au><snm>McLeod</snm><fnm>HL</fnm></au>
+  </aug>
+  <source>Science</source>
+  <pubdate>2013</pubdate>
+  <volume>339</volume>
+  <issue>March</issue>
+  <fpage>1563</fpage>
+  <lpage>-1566</lpage>
+</bibl>
+
+<bibl id="B6">
+  <title><p>{Sequence artifacts in DNA from formalin-fixed tissues: Causes and
+  strategies for minimization}</p></title>
+  <aug>
+    <au><snm>Do</snm><fnm>H</fnm></au>
+    <au><snm>Dobrovic</snm><fnm>A</fnm></au>
+  </aug>
+  <source>Clinical Chemistry</source>
+  <pubdate>2015</pubdate>
+  <volume>61</volume>
+  <issue>1</issue>
+  <fpage>64</fpage>
+  <lpage>-71</lpage>
+</bibl>
+
+<bibl id="B7">
+  <title><p>{Sequence artefacts in a prospective series of formalin-fixed
+  tumours tested for mutations in hotspot regions by massively parallel
+  sequencing}</p></title>
+  <aug>
+    <au><snm>Wong</snm><fnm>SQ</fnm></au>
+    <au><snm>Li</snm><fnm>J</fnm></au>
+    <au><snm>{Y-C Tan}</snm><fnm>A</fnm></au>
+    <au><snm>Vedururu</snm><fnm>R</fnm></au>
+    <au><snm>Pang</snm><fnm>JMB</fnm></au>
+    <au><snm>Do</snm><fnm>H</fnm></au>
+    <au><snm>Ellul</snm><fnm>J</fnm></au>
+    <au><snm>Doig</snm><fnm>K</fnm></au>
+    <au><snm>Bell</snm><fnm>A</fnm></au>
+    <au><snm>MacArthur</snm><fnm>GA</fnm></au>
+    <au><snm>Fox</snm><fnm>SB</fnm></au>
+    <au><snm>Thomas</snm><fnm>DM</fnm></au>
+    <au><snm>Fellowes</snm><fnm>A</fnm></au>
+    <au><snm>Parisot</snm><fnm>JP</fnm></au>
+    <au><snm>Dobrovic</snm><fnm>A</fnm></au>
+  </aug>
+  <source>BMC Medical Genomics</source>
+  <pubdate>2014</pubdate>
+  <volume>7</volume>
+  <issue>1</issue>
+  <fpage>1</fpage>
+  <lpage>-10</lpage>
+  <url>http://www.biomedcentral.com/1755-8794/7/23</url>
+</bibl>
+
+<bibl id="B8">
+  <title><p>{A clinically validated diagnostic second-generation sequencing
+  assay for detection of hereditary BRCA1 and BRCA2 mutations}</p></title>
+  <aug>
+    <au><snm>Bosdet</snm><fnm>IE</fnm></au>
+    <au><snm>Docking</snm><fnm>TR</fnm></au>
+    <au><snm>Butterfield</snm><fnm>YS</fnm></au>
+    <au><snm>Mungall</snm><fnm>AJ</fnm></au>
+    <au><snm>Zeng</snm><fnm>T</fnm></au>
+    <au><snm>Coope</snm><fnm>RJ</fnm></au>
+    <au><snm>Yorida</snm><fnm>E</fnm></au>
+    <au><snm>Chow</snm><fnm>K</fnm></au>
+    <au><snm>Bala</snm><fnm>M</fnm></au>
+    <au><snm>Young</snm><fnm>SS</fnm></au>
+    <au><snm>Hirst</snm><fnm>M</fnm></au>
+    <au><snm>Birol</snm><fnm>I</fnm></au>
+    <au><snm>Moore</snm><fnm>RA</fnm></au>
+    <au><snm>Jones</snm><fnm>SJ</fnm></au>
+    <au><snm>Marra</snm><fnm>MA</fnm></au>
+    <au><snm>Holt</snm><fnm>R</fnm></au>
+    <au><snm>Karsan</snm><fnm>A</fnm></au>
+  </aug>
+  <source>Journal of Molecular Diagnostics</source>
+  <pubdate>2013</pubdate>
+  <volume>15</volume>
+  <issue>6</issue>
+  <fpage>796</fpage>
+  <lpage>-809</lpage>
+</bibl>
+
+</refgrp>
+} % end of \BMCxmlcomment

@@ -1,0 +1,2225 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  19 MAY 2017 11:02
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**TFL_WIP.tex
+(./TFL_WIP.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamer.cls
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasercs.sty
+Package: beamerbasercs 2015/03/08 (rcs-revision 368aa9ba9d38)
+)
+Document Class: beamer 2015/01/05 3.36 A class for typesetting presentations (r
+cs-revision 8a39122e1f63)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
+Package: beamerbasemodes 2013/09/03 (rcs-revision 768f2d98ca64)
+\beamer@tempbox=\box26
+\beamer@tempcount=\count79
+\c@beamerpauses=\count80
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasedecode.sty
+Package: beamerbasedecode 2010/05/01 (rcs-revision efa082c6111d)
+\beamer@slideinframe=\count81
+\beamer@minimum=\count82
+)
+\beamer@commentbox=\box27
+\beamer@modecount=\count83
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+\headheight=\dimen102
+\headdp=\dimen103
+\footheight=\dimen104
+\sidebarheight=\dimen105
+\beamer@tempdim=\dimen106
+\beamer@finalheight=\dimen107
+\beamer@animht=\dimen108
+\beamer@animdp=\dimen109
+\beamer@animwd=\dimen110
+\beamer@leftmargin=\dimen111
+\beamer@rightmargin=\dimen112
+\beamer@leftsidebar=\dimen113
+\beamer@rightsidebar=\dimen114
+\beamer@boxsize=\dimen115
+\beamer@vboxoffset=\dimen116
+\beamer@descdefault=\dimen117
+\beamer@descriptionwidth=\dimen118
+\beamer@lastskip=\skip41
+\beamer@areabox=\box28
+\beamer@animcurrent=\box29
+\beamer@animshowbox=\box30
+\beamer@sectionbox=\box31
+\beamer@logobox=\box32
+\beamer@linebox=\box33
+\beamer@sectioncount=\count84
+\beamer@subsubsectionmax=\count85
+\beamer@subsectionmax=\count86
+\beamer@sectionmax=\count87
+\beamer@totalheads=\count88
+\beamer@headcounter=\count89
+\beamer@partstartpage=\count90
+\beamer@sectionstartpage=\count91
+\beamer@subsectionstartpage=\count92
+\beamer@animationtempa=\count93
+\beamer@animationtempb=\count94
+\beamer@xpos=\count95
+\beamer@ypos=\count96
+\beamer@showpartnumber=\count97
+\beamer@currentsubsection=\count98
+\beamer@coveringdepth=\count99
+\beamer@sectionadjust=\count100
+\beamer@tocsectionnumber=\count101
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbaseoptions.sty
+Package: beamerbaseoptions 2013/03/10 (rcs-revision 47431932db0d)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+))
+\beamer@paperwidth=\skip42
+\beamer@paperheight=\skip43
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count102
+\Gm@cntv=\count103
+\c@Gm@tempcnt=\count104
+\Gm@bindingoffset=\dimen119
+\Gm@wd@mp=\dimen120
+\Gm@odd@mp=\dimen121
+\Gm@even@mp=\dimen122
+\Gm@layoutwidth=\dimen123
+\Gm@layoutheight=\dimen124
+\Gm@layouthoffset=\dimen125
+\Gm@layoutvoffset=\dimen126
+\Gm@dimlist=\toks15
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 96.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count105
+))
+\Gin@req@height=\dimen127
+\Gin@req@width=\dimen128
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks16
+\pgfutil@tempdima=\dimen129
+\pgfutil@tempdimb=\dimen130
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box34
+(/usr/local/texlive/2016/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks17
+\pgfkeys@temptoks=\toks18
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks19
+))
+\pgf@x=\dimen131
+\pgf@y=\dimen132
+\pgf@xa=\dimen133
+\pgf@ya=\dimen134
+\pgf@xb=\dimen135
+\pgf@yb=\dimen136
+\pgf@xc=\dimen137
+\pgf@yc=\dimen138
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count106
+\c@pgf@countb=\count107
+\c@pgf@countc=\count108
+\c@pgf@countd=\count109
+\t@pgf@toka=\toks20
+\t@pgf@tokb=\toks21
+\t@pgf@tokc=\toks22
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count110
+\pgfsyssoftpath@bigbuffer@items=\count111
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) (/usr/local/texlive/2016/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen139
+\pgfmath@count=\count112
+\pgfmath@box=\box35
+\pgfmath@toks=\toks23
+\pgfmath@stack@operand=\toks24
+\pgfmath@stack@operation=\toks25
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count113
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen140
+\pgf@picmaxx=\dimen141
+\pgf@picminy=\dimen142
+\pgf@picmaxy=\dimen143
+\pgf@pathminx=\dimen144
+\pgf@pathmaxx=\dimen145
+\pgf@pathminy=\dimen146
+\pgf@pathmaxy=\dimen147
+\pgf@xx=\dimen148
+\pgf@xy=\dimen149
+\pgf@yx=\dimen150
+\pgf@yy=\dimen151
+\pgf@zx=\dimen152
+\pgf@zy=\dimen153
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen154
+\pgf@path@lasty=\dimen155
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen156
+\pgf@shorten@start@additional=\dimen157
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box36
+\pgf@hbox=\box37
+\pgf@layerbox@main=\box38
+\pgf@picture@serial@count=\count114
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen158
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen159
+\pgf@pt@y=\dimen160
+\pgf@pt@temp=\dimen161
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen162
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen163
+\pgf@sys@shading@range@num=\count115
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box39
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/xxcolor.sty
+Package: xxcolor 2003/10/24 ver 0.1
+\XC@nummixins=\count116
+\XC@countmixins=\count117
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2016/05/16 v1.17 At begin shipout hook (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2016/05/05 v6.83n Hypertext links for LaTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package hobsub Info: Skipping package `atbegshi' (already loaded).
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen164
+\Hy@linkcounter=\count118
+\Hy@pagecounter=\count119
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2016/05/05 v6.83n Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count120
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 4322.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4322.
+Package hyperref Info: Option `implicit' set `false' on input line 4322.
+Package hyperref Info: Hyper figures OFF on input line 4446.
+Package hyperref Info: Link nesting OFF on input line 4451.
+Package hyperref Info: Hyper index ON on input line 4454.
+Package hyperref Info: Plain pages OFF on input line 4461.
+Package hyperref Info: Backreferencing OFF on input line 4466.
+Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
+Package hyperref Info: Bookmarks ON on input line 4691.
+\c@Hy@tempcnt=\count121
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5044.
+\XeTeXLinkMargin=\dimen165
+\Fld@menulength=\count122
+\Field@Width=\dimen166
+\Fld@charsize=\dimen167
+Package hyperref Info: Hyper figures OFF on input line 6298.
+Package hyperref Info: Link nesting OFF on input line 6303.
+Package hyperref Info: Hyper index ON on input line 6306.
+Package hyperref Info: backreferencing OFF on input line 6313.
+Package hyperref Info: Link coloring OFF on input line 6318.
+Package hyperref Info: Link coloring with OCG OFF on input line 6323.
+Package hyperref Info: PDF/A mode OFF on input line 6328.
+LaTeX Info: Redefining \ref on input line 6368.
+LaTeX Info: Redefining \pageref on input line 6372.
+\Hy@abspage=\count123
+
+
+Package hyperref Message: Stopped early.
+
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2016/05/05 v6.83n Hyperref driver for pdfTeX
+\Fld@listcount=\count124
+\c@bookmark@seq@number=\count125
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbaserequires.sty
+Package: beamerbaserequires 2010/05/01  (rcs-revision efa082c6111d)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasecompatibility.st
+y
+Package: beamerbasecompatibility 2012/05/01  (rcs-revision 67c48b3b652d)
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasefont.sty
+Package: beamerbasefont 2015/01/05  (rcs-revision b4b4bee242e2)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks26
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/sansmathaccent/sansmathaccent.sty
+Package: sansmathaccent 2013/03/28
+(/usr/local/texlive/2016/texmf-dist/tex/latex/filehook/filehook.sty
+Package: filehook 2011/10/12 v0.5d Hooks for input files
+)))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasetranslator.sty
+Package: beamerbasetranslator 2010/06/11  (rcs-revision 85fd1cc7fc42)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/translator/translator.sty
+Package: translator 2010/06/12 ver 1.10
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/translator/translator-lang
+uage-mappings.tex)))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasemisc.sty
+Package: beamerbasemisc 2013/09/03  (rcs-revision a55719c41d85)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasetwoscreens.sty
+Package: beamerbasetwoscreens 2010/05/01  (rcs-revision efa082c6111d)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbaseoverlay.sty
+Package: beamerbaseoverlay 2013/12/25  (rcs-revision f6bd5e3805da)
+\beamer@argscount=\count126
+\beamer@lastskipcover=\skip44
+\beamer@trivlistdepth=\count127
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasetitle.sty
+Package: beamerbasetitle 2010/09/21  (rcs-revision f0446ed0b6ae)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasesection.sty
+Package: beamerbasesection 2013/06/07  (rcs-revision 60b9fe0f342f)
+\c@lecture=\count128
+\c@part=\count129
+\c@section=\count130
+\c@subsection=\count131
+\c@subsubsection=\count132
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbaseframe.sty
+Package: beamerbaseframe 2014/02/20  (rcs-revision 4b8ceeeff434)
+\beamer@framebox=\box40
+\beamer@frametitlebox=\box41
+\beamer@zoombox=\box42
+\beamer@zoomcount=\count133
+\beamer@zoomframecount=\count134
+\beamer@frametextheight=\dimen168
+\c@subsectionslide=\count135
+\beamer@frametopskip=\skip45
+\beamer@framebottomskip=\skip46
+\beamer@frametopskipautobreak=\skip47
+\beamer@framebottomskipautobreak=\skip48
+\beamer@envbody=\toks27
+\framewidth=\dimen169
+\c@framenumber=\count136
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbaseverbatim.sty
+Package: beamerbaseverbatim 2015/01/05  (rcs-revision 431510bb5890)
+\beamer@verbatimfileout=\write4
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty
+Package: beamerbaseframesize 2011/09/12  (rcs-revision 70f9d8411e54)
+\beamer@splitbox=\box43
+\beamer@autobreakcount=\count137
+\beamer@autobreaklastheight=\dimen170
+\beamer@frametitletoks=\toks28
+\beamer@framesubtitletoks=\toks29
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbaseframecomponents.
+sty
+Package: beamerbaseframecomponents 2013/10/18  (rcs-revision 5cf6c5555a45)
+\beamer@footins=\box44
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasecolor.sty
+Package: beamerbasecolor 2015/02/21  (rcs-revision d944b04ee2d5)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasenotes.sty
+Package: beamerbasenotes 2012/12/19  (rcs-revision 1686da3db3c9)
+\beamer@frameboxcopy=\box45
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasetoc.sty
+Package: beamerbasetoc 2015/03/08  (rcs-revision 7270298bbaae)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasetemplates.sty
+Package: beamerbasetemplates 2010/05/01  (rcs-revision efa082c6111d)
+\beamer@sbttoks=\toks30
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbaseauxtemplates.sty
+Package: beamerbaseauxtemplates 2014/06/30  (rcs-revision 580088513a67)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty
+Package: beamerbaseboxes 2012/05/13  (rcs-revision 56972908a390)
+\bmb@box=\box46
+\bmb@colorbox=\box47
+\bmb@boxshadow=\box48
+\bmb@boxshadowball=\box49
+\bmb@boxshadowballlarge=\box50
+\bmb@temp=\dimen171
+\bmb@dima=\dimen172
+\bmb@dimb=\dimen173
+\bmb@prevheight=\dimen174
+)
+\beamer@blockheadheight=\dimen175
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbaselocalstructure.s
+ty
+Package: beamerbaselocalstructure 2014/09/10  (rcs-revision 393f6dcff371)
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks31
+)
+\c@figure=\count138
+\c@table=\count139
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasenavigation.sty
+Package: beamerbasenavigation 2015/02/27  (rcs-revision 923f4bf87efa)
+\beamer@section@min@dim=\dimen176
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasetheorems.sty
+Package: beamerbasetheorems 2010/06/06  (rcs-revision 7e7cc5e53e9d)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/10 v2.15b AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks32
+\ex@=\dimen177
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen178
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count140
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count141
+\leftroot@=\count142
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count143
+\DOTSCASE@=\count144
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+\big@size=\dimen179
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+\macc@depth=\count145
+\c@MaxMatrixCols=\count146
+\dotsspace@=\muskip11
+\c@parentequation=\count147
+\dspbrk@lvl=\count148
+\tag@help=\toks33
+\row@=\count149
+\column@=\count150
+\maxfields@=\count151
+\andhelp@=\toks34
+\eqnshift@=\dimen180
+\alignsep@=\dimen181
+\tagshift@=\dimen182
+\tagwidth@=\dimen183
+\totwidth@=\dimen184
+\lineht@=\dimen185
+\@envbody=\toks35
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks36
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2015/03/04 v2.20.2
+\thm@style=\toks37
+\thm@bodyfont=\toks38
+\thm@headfont=\toks39
+\thm@notefont=\toks40
+\thm@headpunct=\toks41
+\thm@preskip=\skip54
+\thm@postskip=\skip55
+\thm@headsep=\skip56
+\dth@everypar=\toks42
+)
+\c@theorem=\count152
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasethemes.sty
+Package: beamerbasethemes 2010/05/01  (rcs-revision efa082c6111d)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/themes/theme/beamerthemede
+fault.sty
+Package: beamerthemedefault 2010/06/17  (rcs-revision d02a7cf4d8ae)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/themes/font/beamerfontthem
+edefault.sty
+Package: beamerfontthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/themes/color/beamercolorth
+emedefault.sty
+Package: beamercolorthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/themes/inner/beamerinnerth
+emedefault.sty
+Package: beamerinnerthemedefault 2014/06/30  (rcs-revision 580088513a67)
+\beamer@dima=\dimen186
+\beamer@dimb=\dimen187
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/themes/outer/beamerouterth
+emedefault.sty
+Package: beamerouterthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
+))) (./beamerthemeAmsterdam.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/themes/outer/beamerouterth
+ememiniframes.sty
+Package: beamerouterthememiniframes 2010/06/17  (rcs-revision d02a7cf4d8ae)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/themes/inner/beamerinnerth
+emecircles.sty
+Package: beamerinnerthemecircles 2010/06/17  (rcs-revision d02a7cf4d8ae)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/themes/color/beamercolorth
+emewhale.sty
+Package: beamercolorthemewhale 2010/06/17  (rcs-revision d02a7cf4d8ae)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/themes/color/beamercolorth
+emeorchid.sty
+Package: beamercolorthemeorchid 2010/06/17  (rcs-revision d02a7cf4d8ae)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks43
+\XKV@tempa@toks=\toks44
+)
+\XKV@depth=\count153
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box53
+)
+\tc@llx=\dimen188
+\tc@lly=\dimen189
+\tc@urx=\dimen190
+\tc@ury=\dimen191
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen192
+\adjbox@Height=\dimen193
+\adjbox@Depth=\dimen194
+\adjbox@Totalheight=\dimen195
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count154
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box54
+\sift@deathcycles=\count155
+\@vwid@loff=\dimen196
+\@vwid@roff=\dimen197
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen198
+\captionmargin@=\dimen199
+\captionwidth=\dimen256
+\caption@tempdima=\dimen257
+\caption@indent=\dimen258
+\caption@parindent=\dimen259
+\caption@hangindent=\dimen260
+)
+\c@ContinuedFloat=\count156
+Package caption Info: beamer document class.
+Package caption Info: hyperref package is loaded.
+Package caption Info: Hyperref support is turned off
+(caption)             because hyperref has stopped early.
+)
+\c@KVtest=\count157
+\sf@farskip=\skip57
+\sf@captopadj=\dimen261
+\sf@capskip=\skip58
+\sf@nearskip=\skip59
+\c@subfigure=\count158
+\c@subfigure@save=\count159
+\c@depth=\count160
+\c@subtable=\count161
+\c@subtable@save=\count162
+\sf@top=\skip60
+\sf@bottom=\skip61
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/siunitx/siunitx.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2016/05/18 v6512 L3 programming layer (loader) 
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2016/05/18 v6512 L3 programming layer (code)
+L3 Module: l3bootstrap 2016/02/12 v6412 L3 Bootstrap code
+L3 Module: l3names 2016/03/11 v6433 L3 Namespace for primitives
+L3 Module: l3basics 2015/11/22 v6315 L3 Basic definitions
+L3 Module: l3expan 2015/09/10 v5983 L3 Argument expansion
+L3 Module: l3tl 2016/03/26 v6465 L3 Token lists
+L3 Module: l3str 2016/03/24 v6441 L3 Strings
+L3 Module: l3seq 2015/08/05 v5777 L3 Sequences and stacks
+L3 Module: l3int 2016/03/24 v6441 L3 Integers
+\c_max_int=\count163
+\l_tmpa_int=\count164
+\l_tmpb_int=\count165
+\g_tmpa_int=\count166
+\g_tmpb_int=\count167
+L3 Module: l3quark 2015/08/17 v5855 L3 Quarks
+L3 Module: l3prg 2015/11/01 v6216 L3 Control structures
+\g__prg_map_int=\count168
+L3 Module: l3clist 2015/09/02 v5901 L3 Comma separated lists
+L3 Module: l3token 2016/04/03 v6470 L3 Experimental token manipulation
+L3 Module: l3prop 2016/01/05 v6366 L3 Property lists
+L3 Module: l3msg 2016/03/26 v6464 L3 Messages
+L3 Module: l3file 2016/03/25 v6458 L3 File and I/O operations
+\l_iow_line_count_int=\count169
+\l__iow_target_count_int=\count170
+\l__iow_current_line_int=\count171
+\l__iow_current_word_int=\count172
+\l__iow_current_indentation_int=\count173
+L3 Module: l3skip 2016/01/05 v6366 L3 Dimensions and skips
+\c_zero_dim=\dimen262
+\c_max_dim=\dimen263
+\l_tmpa_dim=\dimen264
+\l_tmpb_dim=\dimen265
+\g_tmpa_dim=\dimen266
+\g_tmpb_dim=\dimen267
+\c_zero_skip=\skip62
+\c_max_skip=\skip63
+\l_tmpa_skip=\skip64
+\l_tmpb_skip=\skip65
+\g_tmpa_skip=\skip66
+\g_tmpb_skip=\skip67
+\c_zero_muskip=\muskip12
+\c_max_muskip=\muskip13
+\l_tmpa_muskip=\muskip14
+\l_tmpb_muskip=\muskip15
+\g_tmpa_muskip=\muskip16
+\g_tmpb_muskip=\muskip17
+L3 Module: l3keys 2015/11/17 v6284 L3 Key-value interfaces
+\g__keyval_level_int=\count174
+\l_keys_choice_int=\count175
+L3 Module: l3fp 2016/03/26 v6465 L3 Floating points
+\c__fp_leading_shift_int=\count176
+\c__fp_middle_shift_int=\count177
+\c__fp_trailing_shift_int=\count178
+\c__fp_big_leading_shift_int=\count179
+\c__fp_big_middle_shift_int=\count180
+\c__fp_big_trailing_shift_int=\count181
+\c__fp_Bigg_leading_shift_int=\count182
+\c__fp_Bigg_middle_shift_int=\count183
+\c__fp_Bigg_trailing_shift_int=\count184
+L3 Module: l3box 2015/08/09 v5822 L3 Experimental boxes
+\c_empty_box=\box55
+\l_tmpa_box=\box56
+\l_tmpb_box=\box57
+\g_tmpa_box=\box58
+\g_tmpb_box=\box59
+L3 Module: l3coffins 2016/05/17 v6508 L3 Coffin code layer
+\l__coffin_internal_box=\box60
+\l__coffin_internal_dim=\dimen268
+\l__coffin_offset_x_dim=\dimen269
+\l__coffin_offset_y_dim=\dimen270
+\l__coffin_x_dim=\dimen271
+\l__coffin_y_dim=\dimen272
+\l__coffin_x_prime_dim=\dimen273
+\l__coffin_y_prime_dim=\dimen274
+\c_empty_coffin=\box61
+\l__coffin_aligned_coffin=\box62
+\l__coffin_aligned_internal_coffin=\box63
+\l_tmpa_coffin=\box64
+\l_tmpb_coffin=\box65
+\l__coffin_display_coffin=\box66
+\l__coffin_display_coord_coffin=\box67
+\l__coffin_display_pole_coffin=\box68
+\l__coffin_display_offset_dim=\dimen275
+\l__coffin_display_x_dim=\dimen276
+\l__coffin_display_y_dim=\dimen277
+L3 Module: l3color 2014/08/23 v5354 L3 Experimental color support
+L3 Module: l3sys 2015/09/25 v6087 L3 Experimental system/runtime functions
+L3 Module: l3candidates 2016/05/13 v6484 L3 Experimental additions to l3kernel
+\l__box_top_dim=\dimen278
+\l__box_bottom_dim=\dimen279
+\l__box_left_dim=\dimen280
+\l__box_right_dim=\dimen281
+\l__box_top_new_dim=\dimen282
+\l__box_bottom_new_dim=\dimen283
+\l__box_left_new_dim=\dimen284
+\l__box_right_new_dim=\dimen285
+\l__box_internal_box=\box69
+\l__coffin_bounding_shift_dim=\dimen286
+\l__coffin_left_corner_dim=\dimen287
+\l__coffin_right_corner_dim=\dimen288
+\l__coffin_bottom_corner_dim=\dimen289
+\l__coffin_top_corner_dim=\dimen290
+\l__coffin_scaled_total_height_dim=\dimen291
+\l__coffin_scaled_width_dim=\dimen292
+L3 Module: l3luatex 2016/03/26 v6465 L3 Experimental LuaTeX-specific functions
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+File: l3pdfmode.def 2016/03/26 v6465 L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count185
+\l__driver_tmp_box=\box70
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2016/05/18 v6512 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count186
+\l__xparse_m_args_int=\count187
+\l__xparse_mandatory_args_int=\count188
+\l__xparse_processor_int=\count189
+\l__xparse_v_nesting_int=\count190
+)
+Package: siunitx 2016/03/01 v2.6q A comprehensive (SI) units package
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen293
+\extrarowheight=\dimen294
+\NC@list=\toks45
+\extratabsurround=\skip68
+\backup@length=\skip69
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2016/05/18 v6512 LaTeX2e option processing using LaTeX3 keys
+)
+\l__siunitx_tmp_box=\box71
+\l__siunitx_tmp_dim=\dimen295
+\l__siunitx_tmp_int=\count191
+\l__siunitx_number_mantissa_length_int=\count192
+\l__siunitx_number_uncert_length_int=\count193
+\l__siunitx_round_int=\count194
+\l__siunitx_process_decimal_int=\count195
+\l__siunitx_process_uncertainty_int=\count196
+\l__siunitx_process_fixed_int=\count197
+\l__siunitx_process_integer_min_int=\count198
+\l__siunitx_process_precision_int=\count199
+\l__siunitx_group_min_int=\count266
+\l__siunitx_angle_marker_box=\box72
+\l__siunitx_angle_unit_box=\box73
+\l__siunitx_angle_marker_dim=\dimen296
+\l__siunitx_angle_unit_dim=\dimen297
+\l__siunitx_unit_int=\count267
+\l__siunitx_unit_denominator_int=\count268
+\l__siunitx_unit_numerator_int=\count269
+\l__siunitx_unit_prefix_int=\count270
+\l__siunitx_unit_prefix_base_int=\count271
+\l__siunitx_unit_prefix_gram_int=\count272
+\l__siunitx_number_product_int=\count273
+\c__siunitx_one_fill_skip=\skip70
+\l__siunitx_table_unit_align_skip=\skip71
+\l__siunitx_table_exponent_dim=\dimen298
+\l__siunitx_table_integer_dim=\dimen299
+\l__siunitx_table_mantissa_dim=\dimen300
+\l__siunitx_table_marker_dim=\dimen301
+\l__siunitx_table_result_dim=\dimen302
+\l__siunitx_table_uncert_dim=\dimen303
+\l__siunitx_table_fill_pre_dim=\dimen304
+\l__siunitx_table_fill_post_dim=\dimen305
+\l__siunitx_table_fill_mid_dim=\dimen306
+\l__siunitx_table_pre_box=\box74
+\l__siunitx_table_post_box=\box75
+\l__siunitx_table_mantissa_box=\box76
+\l__siunitx_table_result_box=\box77
+\l__siunitx_table_number_align_skip=\skip72
+\l__siunitx_table_text_align_skip=\skip73
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareBinaryPrefix with sig. 'mmm' on line 7218.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIPostPower with sig. 'mm' on line 7221.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIPrefix with sig. 'mmm' on line 7224.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIPrePower with sig. 'mm' on line 7227.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIQualifier with sig. 'mm' on line 7230.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIUnit with sig. 'O{}mm' on line 7233.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIUnitWithOptions with sig. 'mmm' on line 7236.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ang with sig. 'o>{\SplitArgument {2}{;}}m' on line 7251.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \num with sig. 'om' on line 7260.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \numlist with sig. 'o>{\SplitList {;}}m' on line 7269.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \numrange with sig. 'omm' on line 7278.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIlist with sig. 'o>{\SplitList {;}}mm' on line 7290.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIrange with sig. 'ommm' on line 7302.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SI with sig. 'omom' on line 7314.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \sisetup with sig. 'm' on line 7317.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \tablenum with sig. 'om' on line 7332.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \si with sig. 'om' on line 7344.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__siunitx_bookmark_num:w with sig. 'om' on line 7391.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__siunitx_bookmark_numrange:w with sig. 'omm' on line
+. 7393.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__siunitx_bookmark_SI:w with sig. 'omom' on line 7395.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__siunitx_bookmark_SIlist:w with sig. 'omm' on line 7397.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__siunitx_bookmark_SIrange:w with sig. 'ommm' on line
+. 7399.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__siunitx_bookmark_si:w with sig. 'om' on line 7400.
+.................................................
+\g__file_internal_ior=\read2
+) (./TFL_WIP.aux)
+\openout1 = `TFL_WIP.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(28.45274pt, 307.28987pt, 28.45274pt)
+* v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
+* \paperwidth=364.19536pt
+* \paperheight=273.14662pt
+* \textwidth=307.28987pt
+* \textheight=244.6939pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-72.26999pt
+* \headheight=14.22636pt
+* \headsep=0.0pt
+* \topskip=11.0pt
+* \footskip=14.22636pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count274
+\scratchdimen=\dimen307
+\scratchbox=\box78
+\nofMPsegments=\count275
+\nofMParguments=\count276
+\everyMPshowfont=\toks46
+\MPscratchCnt=\count277
+\MPscratchDim=\dimen308
+\MPnumerator=\count278
+\makeMPintoPDFobject=\count279
+\everyMPtoPDFconversion=\toks47
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+ABD: EveryShipout initializing macros
+\AtBeginShipoutBox=\box79
+Package hyperref Info: Link coloring OFF on input line 21.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count280
+)
+LaTeX Info: Redefining \ref on input line 21.
+LaTeX Info: Redefining \pageref on input line 21.
+LaTeX Info: Redefining \nameref on input line 21.
+
+(./TFL_WIP.out) (./TFL_WIP.out)
+\@outlinefile=\write5
+\openout5 = `TFL_WIP.out'.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 21.
+\symnumbers=\mathgroup6
+\sympureletters=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 21.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 21.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 21.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 21.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 21.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 21.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 21.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 21.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 21.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 21.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 21.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 21.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 21.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 21.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 21.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 21.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 21.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 21.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 2
+1.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 
+21.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
+ut line 21.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-basic-dictionary/translator-basic-dictionary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-bibliography-dictionary/translator-bibliography-dictionary-English.dict
+Dictionary: translator-bibliography-dictionary, Language: English 
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-environment-dictionary/translator-environment-dictionary-English.dict
+Dictionary: translator-environment-dictionary, Language: English 
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-months-dictionary/translator-months-dictionary-English.dict
+Dictionary: translator-months-dictionary, Language: English 
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-numbers-dictionary/translator-numbers-dictionary-English.dict
+Dictionary: translator-numbers-dictionary, Language: English 
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-theorem-dictionary/translator-theorem-dictionary-English.dict
+Dictionary: translator-theorem-dictionary, Language: English 
+)
+LaTeX Info: Redefining \includegraphics on input line 21.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
+File: siunitx-abbreviations.cfg 2016/03/01 v2.6q siunitx: Abbreviated units
+) (./TFL_WIP.nav)
+\c__siunitx_mathsf_int=\count281
+LaTeX Font Info:    Try loading font information for U+msa on input line 21.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 21.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
+line 21.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
+File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
+thkerncmss.
+)
+\c__siunitx_mathtt_int=\count282
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
+(Font)              size <5> substituted on input line 23.
+
+[1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+]
+(./TFL_WIP.toc) [2
+
+] (./TFL_WIP.toc) [3
+
+]
+</Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/somatic_prec
+ision.png, id=176, 307.1475pt x 203.76125pt>
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/somatic
+_precision.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/somatic_
+precision.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/somatic_precision.png used on input line 50.
+(pdftex.def)             Requested size: 215.00177pt x 142.6319pt.
+ [4
+
+ </Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/somatic_pre
+cision.png>]
+</Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/oncopanel_ne
+ws.png, id=212, 549.7338pt x 441.8106pt>
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/oncopan
+el_news.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/oncopane
+l_news.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/oncopanel_news.png used on input line 57.
+(pdftex.def)             Requested size: 219.88962pt x 176.7211pt.
+ [5
+
+ </Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/oncopanel_n
+ews.png>]
+</Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/oncopanel_am
+plicon_sequencing.png, id=247, 956.57375pt x 179.67125pt>
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/oncopan
+el_amplicon_sequencing.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/oncopane
+l_amplicon_sequencing.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/oncopanel_amplicon_sequencing.png used on input line 68.
+(pdftex.def)             Requested size: 315.6703pt x 59.29169pt.
+
+Overfull \hbox (8.38043pt too wide) in paragraph at lines 68--68
+ [] 
+ []
+
+[6
+
+ </Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/oncopanel_a
+mplicon_sequencing.png>]
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/oncopan
+el_amplicon_sequencing.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/oncopane
+l_amplicon_sequencing.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/oncopanel_amplicon_sequencing.png used on input line 68.
+(pdftex.def)             Requested size: 315.6703pt x 59.29169pt.
+
+Overfull \hbox (8.38043pt too wide) in paragraph at lines 68--68
+ [] 
+ []
+
+[7
+
+]
+</Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/germline_pre
+cision.png, id=317, 303.1325pt x 216.81pt>
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/germlin
+e_precision.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/germline
+_precision.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/germline_precision.png used on input line 75.
+(pdftex.def)             Requested size: 212.1913pt x 151.76596pt.
+ [8
+
+ </Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/germline_pr
+ecision.png>]
+</Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/precision_on
+cology_germline2.png, id=352, 748.7975pt x 421.575pt>
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/precisi
+on_oncology_germline2.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/precisio
+n_oncology_germline2.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/precision_oncology_germline2.png used on input line 82.
+(pdftex.def)             Requested size: 299.51369pt x 168.627pt.
+ [9
+
+ </Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/precision_o
+ncology_germline2.png>]
+</Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/ugt1a1.png, 
+id=388, 602.25pt x 409.53pt>
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/ugt1a1.
+png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/ugt1a1.p
+ng>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/ugt1a1.png used on input line 90.
+(pdftex.def)             Requested size: 252.94327pt x 172.00142pt.
+ [10
+
+ </Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/ugt1a1.png>
+]
+</Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/clinlasb_rea
+lity.png, id=422, 770.88pt x 422.57875pt>
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/clinlas
+b_reality.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/clinlasb
+_reality.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/clinlasb_reality.png used on input line 97.
+(pdftex.def)             Requested size: 269.81204pt x 147.90477pt.
+ [11
+
+ </Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/clinlasb_re
+ality.png>] (./TFL_WIP.toc) [12
+
+]
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/clinlas
+b_reality.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/clinlasb
+_reality.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/clinlasb_reality.png used on input line 108.
+(pdftex.def)             Requested size: 269.81204pt x 147.90477pt.
+ [13
+
+]
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/clinlas
+b_reality.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/clinlasb
+_reality.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/clinlasb_reality.png used on input line 108.
+(pdftex.def)             Requested size: 269.81204pt x 147.90477pt.
+ [14
+
+]
+</Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/clinlasb_rea
+lity_ffpe.png, id=565, 770.88pt x 385.44pt>
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/clinlas
+b_reality_ffpe.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/clinlasb
+_reality_ffpe.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/clinlasb_reality_ffpe.png used on input line 117.
+(pdftex.def)             Requested size: 269.81204pt x 134.90602pt.
+ [15
+
+ </Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/clinlasb_re
+ality_ffpe.png>]
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/clinlas
+b_reality_ffpe.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/clinlasb
+_reality_ffpe.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/clinlasb_reality_ffpe.png used on input line 129.
+(pdftex.def)             Requested size: 269.81204pt x 134.90602pt.
+ [16
+
+]
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/clinlas
+b_reality_ffpe.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/clinlasb
+_reality_ffpe.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/clinlasb_reality_ffpe.png used on input line 129.
+(pdftex.def)             Requested size: 269.81204pt x 134.90602pt.
+ [17
+
+] [18
+
+] [19
+
+] [20
+
+] [21
+
+] [22
+
+]
+</Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/ACCE_wheel.p
+ng, id=836, 473.77pt x 469.755pt>
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/ACCE_wh
+eel.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/ACCE_whe
+el.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/ACCE_wheel.png used on input line 149.
+(pdftex.def)             Requested size: 189.50464pt x 187.89867pt.
+ [23
+
+ </Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/ACCE_wheel.
+png>]
+</Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/wheel.png, i
+d=870, 504.88625pt x 316.18124pt>
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/wheel.p
+ng Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/wheel.pn
+g>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/wheel.png used on input line 162.
+(pdftex.def)             Requested size: 100.97545pt x 63.23512pt.
+ [24
+
+ </Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/wheel.png>]
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/wheel.p
+ng Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/wheel.pn
+g>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/wheel.png used on input line 162.
+(pdftex.def)             Requested size: 100.97545pt x 63.23512pt.
+ [25
+
+]
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/wheel.p
+ng Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/wheel.pn
+g>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/wheel.png used on input line 162.
+(pdftex.def)             Requested size: 100.97545pt x 63.23512pt.
+ [26
+
+]
+</Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/study_design
+_general.png, id=973, 1024.82875pt x 200.75pt>
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/study_d
+esign_general.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/study_de
+sign_general.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/study_design_general.png used on input line 169.
+(pdftex.def)             Requested size: 327.9519pt x 64.2413pt.
+
+Overfull \hbox (20.66203pt too wide) in paragraph at lines 169--169
+ [] 
+ []
+
+[27
+
+ </Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/study_desig
+n_general.png>] [28
+
+] [29
+
+]
+Overfull \hbox (13.10857pt too wide) in paragraph at lines 245--245
+ [] 
+ []
+
+[30
+
+] (./TFL_WIP.toc) [31
+
+] [32
+
+] [33
+
+] [34
+
+] (./TFL_WIP.toc) [35
+
+]
+</Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/study_design
+.png, id=1288, 1028.84375pt x 282.05376pt>
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/study_d
+esign.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/study_de
+sign.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/study_design.png used on input line 270.
+(pdftex.def)             Requested size: 329.23672pt x 90.25903pt.
+
+Overfull \hbox (21.94685pt too wide) in paragraph at lines 270--270
+ [] 
+ []
+
+[36
+
+ </Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/study_desig
+n.png>]
+</Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/fragmentatio
+n.png, id=1324, 1038.88126pt x 349.305pt>
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/fragmen
+tation.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/fragment
+ation.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/fragmentation.png used on input line 278.
+(pdftex.def)             Requested size: 332.44879pt x 111.77988pt.
+
+Overfull \hbox (25.15892pt too wide) in paragraph at lines 278--278
+ [] 
+ []
+
+[37
+
+ </Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/fragmentati
+on.png>]
+</Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/dna_input_am
+p_yield.png, id=1360, 301.125pt x 240.9pt>
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/dna_inp
+ut_amp_yield.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/dna_inpu
+t_amp_yield.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/dna_input_amp_yield.png used on input line 296.
+(pdftex.def)             Requested size: 210.78606pt x 168.62883pt.
+
+Overfull \hbox (11.61678pt too wide) in paragraph at lines 296--296
+ [][] 
+ []
+
+[38
+
+ </Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/dna_input_a
+mp_yield.png (PNG copy)>]
+</Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/dna_input_am
+p_yield_fc.png, id=1395, 289.5618pt x 231.7458pt>
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/dna_inp
+ut_amp_yield_fc.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/dna_inpu
+t_amp_yield_fc.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/dna_input_amp_yield_fc.png used on input line 314.
+(pdftex.def)             Requested size: 202.69186pt x 162.22095pt.
+
+Overfull \hbox (3.52258pt too wide) in paragraph at lines 314--314
+ [][] 
+ []
+
+[39
+
+ </Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/dna_input_a
+mp_yield_fc.png (PNG copy)>]
+</Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/ontarget_ali
+gned.png, id=1430, 950.55125pt x 300.12125pt>
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/ontarge
+t_aligned.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/ontarget
+_aligned.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/ontarget_aligned.png used on input line 322.
+(pdftex.def)             Requested size: 332.69792pt x 105.044pt.
+
+Overfull \hbox (25.40805pt too wide) in paragraph at lines 322--322
+ [] 
+ []
+
+[40
+
+ </Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/ontarget_al
+igned.png>]
+</Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/alignment_pc
+t.png, id=1465, 347.8596pt x 347.8596pt>
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/alignme
+nt_pct.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/alignmen
+t_pct.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/alignment_pct.png used on input line 330.
+(pdftex.def)             Requested size: 191.32336pt x 191.32336pt.
+
+Overfull \vbox (6.38345pt too high) detected at line 330
+ []
+
+[41
+
+ </Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/alignment_p
+ct.png>]
+</Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/per_base.png
+, id=1500, 1048.91875pt x 266.9975pt>
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/per_bas
+e.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/per_base
+.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/per_base.png used on input line 338.
+(pdftex.def)             Requested size: 314.67805pt x 80.09985pt.
+
+Overfull \hbox (7.38818pt too wide) in paragraph at lines 338--338
+ [] 
+ []
+
+[42
+
+ </Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/per_base.pn
+g>]
+</Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/coverage_sta
+ts.png, id=1535, 421.575pt x 344.9688pt>
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/coverag
+e_stats.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/coverage
+_stats.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/coverage_stats.png used on input line 347.
+(pdftex.def)             Requested size: 202.3537pt x 165.58313pt.
+
+Overfull \vbox (15.3932pt too high) detected at line 347
+ []
+
+[43
+
+ </Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/coverage_st
+ats.png (PNG copy)>]
+</Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/amplicon_fra
+gmentation.png, id=1573, 1041.8925pt x 289.08pt>
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/amplico
+n_fragmentation.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/amplicon
+_fragmentation.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/amplicon_fragmentation.png used on input line 356.
+(pdftex.def)             Requested size: 312.57016pt x 86.72466pt.
+
+Overfull \hbox (5.28029pt too wide) in paragraph at lines 356--356
+ [] 
+ []
+
+[44
+
+ </Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/amplicon_fr
+agmentation.png>]
+</Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/amplicon_cov
+erage.png, id=1608, 1038.88126pt x 270.00874pt>
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/amplico
+n_coverage.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/amplicon
+_coverage.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/amplicon_coverage.png used on input line 365.
+(pdftex.def)             Requested size: 311.66678pt x 81.00323pt.
+
+Overfull \hbox (4.3769pt too wide) in paragraph at lines 365--365
+ [] 
+ []
+
+[45
+
+ </Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/amplicon_co
+verage.png>]
+</Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/amp_norm_dep
+th_med_wilcoxon_volcano.png, id=1643, 3312.375pt x 2409.0pt>
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/amp_nor
+m_depth_med_wilcoxon_volcano.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/amp_norm
+_depth_med_wilcoxon_volcano.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/amp_norm_depth_med_wilcoxon_volcano.png used on input line 374.
+(pdftex.def)             Requested size: 215.31194pt x 156.5905pt.
+ [46
+
+ </Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/amp_norm_de
+pth_med_wilcoxon_volcano.png (PNG copy)>]
+</Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/amp_cov_lm_l
+en_fc.png, id=1678, 266.4354pt x 266.4354pt>
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/amp_cov
+_lm_len_fc.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/amp_cov_
+lm_len_fc.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/amp_cov_lm_len_fc.png used on input line 382.
+(pdftex.def)             Requested size: 186.5035pt x 186.5035pt.
+
+Overfull \vbox (1.56358pt too high) detected at line 382
+ []
+
+[47
+
+ </Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/amp_cov_lm_
+len_fc.png (PNG copy)>]
+</Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/amp_cov_lm_g
+c.png, id=1712, 266.4354pt x 266.4354pt>
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/amp_cov
+_lm_gc.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/amp_cov_
+lm_gc.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/amp_cov_lm_gc.png used on input line 390.
+(pdftex.def)             Requested size: 186.5035pt x 186.5035pt.
+
+Overfull \vbox (1.56358pt too high) detected at line 390
+ []
+
+[48
+
+ </Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/amp_cov_lm_
+gc.png (PNG copy)>]
+Overfull \hbox (6.57996pt too wide) in paragraph at lines 418--418
+ [] 
+ []
+
+[49
+
+]
+</Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/deamination_
+explanation.jpg, id=1784, 776.9025pt x 337.26pt>
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/deamina
+tion_explanation.jpg Graphic file (type jpg)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/deaminat
+ion_explanation.jpg>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/deamination_explanation.jpg used on input line 427.
+(pdftex.def)             Requested size: 310.7555pt x 134.9016pt.
+
+Overfull \hbox (3.46562pt too wide) in paragraph at lines 427--427
+ [] 
+ []
+
+[50
+
+ </Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/deamination
+_explanation.jpg>]
+</Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/deamination_
+effect.png, id=1818, 527.0892pt x 226.446pt>
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/deamina
+tion_effect.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/deaminat
+ion_effect.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/deamination_effect.png used on input line 435.
+(pdftex.def)             Requested size: 305.71194pt x 131.33876pt.
+ [51
+
+ </Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/deamination
+_effect.png>]
+</Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/deamination_
+effect_blood_fc.png, id=1854, 523.7166pt x 299.1978pt>
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/deamina
+tion_effect_blood_fc.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/deaminat
+ion_effect_blood_fc.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/deamination_effect_blood_fc.png used on input line 443.
+(pdftex.def)             Requested size: 303.75583pt x 173.53484pt.
+
+Overfull \vbox (6.59492pt too high) detected at line 443
+ []
+
+[52
+
+ </Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/deamination
+_effect_blood_fc.png>]
+</Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/deamination_
+effect_af_range.png, id=1890, 607.068pt x 433.62pt>
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/deamina
+tion_effect_af_range.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/deaminat
+ion_effect_af_range.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/deamination_effect_af_range.png used on input line 451.
+(pdftex.def)             Requested size: 242.82289pt x 173.44492pt.
+
+Overfull \vbox (6.505pt too high) detected at line 451
+ []
+
+[53
+
+ </Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/deamination
+_effect_af_range.png (PNG copy)>]
+</Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/deamination_
+effect_af_range_big.png, id=1924, 578.6418pt x 209.1012pt>
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/deamina
+tion_effect_af_range_big.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/deaminat
+ion_effect_af_range_big.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/deamination_effect_af_range_big.png used on input line 459.
+(pdftex.def)             Requested size: 300.89546pt x 108.73323pt.
+ [54
+
+ </Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/deamination
+_effect_af_range_big.png>]
+</Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/deamination_
+effect_age_amp.png, id=1959, 360.8682pt x 288.5982pt>
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/deamina
+tion_effect_age_amp.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/deaminat
+ion_effect_age_amp.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/deamination_effect_age_amp.png used on input line 467.
+(pdftex.def)             Requested size: 198.47812pt x 158.72949pt.
+ [55
+
+ </Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/deamination
+_effect_age_amp.png>]
+</Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/deamination_
+effect_age_artifact.png, id=1996, 600.8046pt x 397.485pt>
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/deamina
+tion_effect_age_artifact.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/deaminat
+ion_effect_age_artifact.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/deamination_effect_age_artifact.png used on input line 475.
+(pdftex.def)             Requested size: 270.35956pt x 178.8666pt.
+ [56
+
+ </Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/deamination
+_effect_age_artifact.png>]
+Overfull \hbox (24.95961pt too wide) in paragraph at lines 511--511
+ [] 
+ []
+
+[57
+
+] [58
+
+] [59
+
+] [60
+
+] [61
+
+] [62
+
+] (./TFL_WIP.toc) [63
+
+]
+</Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/study_design
+_sens.png, id=2274, 865.2325pt x 300.12125pt>
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/study_d
+esign_sens.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/study_de
+sign_sens.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/study_design_sens.png used on input line 534.
+(pdftex.def)             Requested size: 259.57175pt x 90.03706pt.
+ [64
+
+ </Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/study_desig
+n_sens.png>]
+</Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/variant_pipe
+line.png, id=2310, 1049.9225pt x 496.85625pt>
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/variant
+_pipeline.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/variant_
+pipeline.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/variant_pipeline.png used on input line 541.
+(pdftex.def)             Requested size: 314.97917pt x 149.05801pt.
+
+Overfull \hbox (7.6893pt too wide) in paragraph at lines 541--541
+ [] 
+ []
+
+[65
+
+ </Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/variant_pip
+eline.png>]
+</Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/variant_conc
+_venn.png, id=2344, 587.3142pt x 481.8pt>
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/variant
+_conc_venn.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/variant_
+conc_venn.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/variant_conc_venn.png used on input line 550.
+(pdftex.def)             Requested size: 187.94438pt x 154.17914pt.
+ [66
+
+ </Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/variant_con
+c_venn.png>] (./TFL_WIP.toc) [67
+
+]
+</Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/study_design
+_ppv.png, id=2421, 1044.90375pt x 314.17375pt>
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/study_d
+esign_ppv.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/study_de
+sign_ppv.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/study_design_ppv.png used on input line 560.
+(pdftex.def)             Requested size: 313.47354pt x 94.25284pt.
+
+Overfull \hbox (6.18367pt too wide) in paragraph at lines 560--560
+ [] 
+ []
+
+[68
+
+ </Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/study_desig
+n_ppv.png>]
+</Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/germline_som
+atic_ppv.png, id=2456, 340.1508pt x 271.7352pt>
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/germlin
+e_somatic_ppv.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/germline
+_somatic_ppv.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/germline_somatic_ppv.png used on input line 567.
+(pdftex.def)             Requested size: 204.09204pt x 163.04236pt.
+ [69
+
+ </Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/germline_so
+matic_ppv.png>]
+</Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/germline_vaf
+_sens.png, id=2491, 331.9602pt x 265.4718pt>
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/germlin
+e_vaf_sens.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/germline
+_vaf_sens.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/germline_vaf_sens.png used on input line 574.
+(pdftex.def)             Requested size: 199.17764pt x 159.2843pt.
+ [70
+
+ </Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/germline_va
+f_sens.png (PNG copy)>] [71
+
+]
+</Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/germline_vaf
+_sens_cdf.png, id=2559, 339.669pt x 271.7352pt>
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/germlin
+e_vaf_sens_cdf.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/germline
+_vaf_sens_cdf.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/germline_vaf_sens_cdf.png used on input line 620.
+(pdftex.def)             Requested size: 203.80296pt x 163.04236pt.
+ [72
+
+ </Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/germline_va
+f_sens_cdf.png>] [73
+
+]
+</Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/germline_som
+atic_ppv_cdf.png, id=2628, 340.1508pt x 271.7352pt>
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/germlin
+e_somatic_ppv_cdf.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/germline
+_somatic_ppv_cdf.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/germline_somatic_ppv_cdf.png used on input line 660.
+(pdftex.def)             Requested size: 204.09204pt x 163.04236pt.
+ [74
+
+ </Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/germline_so
+matic_ppv_cdf.png>] (./TFL_WIP.toc) [75
+
+] [76
+
+] [77
+
+]
+[78
+
+]
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 692
+.
+LaTeX Font Info:    No file OMScmss.fd. on input line 692.
+
+
+LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbullet' on input line 692.
+
+[79
+
+] [80
+
+]
+</Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/Karsan-Lab_4
+470_web.jpg, id=2871, 867.24pt x 360.34625pt>
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/Karsan-
+Lab_4470_web.jpg Graphic file (type jpg)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/Karsan-L
+ab_4470_web.jpg>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/Karsan-Lab_4470_web.jpg used on input line 708.
+(pdftex.def)             Requested size: 260.17401pt x 108.1047pt.
+ [81
+
+ </Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/Karsan-Lab_
+4470_web.jpg>] [82
+
+]
+</Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/amp_gc_lengt
+h.png, id=2939, 2409.0pt x 2409.0pt>
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/amp_gc_
+length.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/amp_gc_l
+ength.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/amp_gc_length.png used on input line 762.
+(pdftex.def)             Requested size: 192.72394pt x 192.72394pt.
+ [83
+
+ </Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/amp_gc_leng
+th.png (PNG copy)>]
+</Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/clin_reality
+_shark.png, id=2972, 760.8425pt x 507.8975pt>
+File: /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/clin_re
+ality_shark.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/clin_rea
+lity_shark.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/presentation/TF
+L_WIP/plots/clin_reality_shark.png used on input line 770.
+(pdftex.def)             Requested size: 228.2545pt x 152.37042pt.
+ [84
+
+ </Users/evayap/Documents/masters_thesis/presentation/TFL_WIP/plots/clin_realit
+y_shark.png>]
+\tf@nav=\write6
+\openout6 = `TFL_WIP.nav'.
+
+\tf@toc=\write7
+\openout7 = `TFL_WIP.toc'.
+
+\tf@snm=\write8
+\openout8 = `TFL_WIP.snm'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 772.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 772.
+ (./TFL_WIP.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 772.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 772.
+Package rerunfilecheck Info: File `TFL_WIP.out' has not changed.
+(rerunfilecheck)             Checksum: 132854978C19FEB40337CA95C9355C80;310.
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.0pt have occurred.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 772.
+ ) 
+Here is how much of TeX's memory you used:
+ 28485 strings out of 493014
+ 589189 string characters out of 6133351
+ 594874 words of memory out of 5000000
+ 31301 multiletter control sequences out of 15000+600000
+ 19889 words of font info for 75 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 67i,15n,102p,10392b,716s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
+r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/loca
+l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/loca
+l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local
+/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on TFL_WIP.pdf (84 pages, 6702506 bytes).
+PDF statistics:
+ 3094 PDF objects out of 3580 (max. 8388607)
+ 2880 compressed objects within 29 object streams
+ 177 named destinations out of 1000 (max. 500000)
+ 309 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -22,22 +22,25 @@
 \BOOKMARK [2][-]{subsection.1.5.2}{1.5.2 Pharmacogenomic Variants}{section.1.5}% 22
 \BOOKMARK [2][-]{subsection.1.5.3}{1.5.3 Challenges}{section.1.5}% 23
 \BOOKMARK [1][-]{section.1.6}{1.6 Objectives}{chapter.1}% 24
-\BOOKMARK [0][-]{chapter.2}{2 Characterization of Formalin-Induced DNA Damages}{}% 25
-\BOOKMARK [1][-]{section.2.1}{2.1 Materials and Methods}{chapter.2}% 26
-\BOOKMARK [2][-]{subsection.2.1.1}{2.1.1 Patient Samples}{section.2.1}% 27
-\BOOKMARK [2][-]{subsection.2.1.2}{2.1.2 OncoPanel \(Solid Tumour NGS Panel\)}{section.2.1}% 28
-\BOOKMARK [2][-]{subsection.2.1.3}{2.1.3 Sample Preparation, Library Construction, and Illumina Sequencing}{section.2.1}% 29
-\BOOKMARK [2][-]{subsection.2.1.4}{2.1.4 Variant Calling Pipeline}{section.2.1}% 30
-\BOOKMARK [2][-]{subsection.2.1.5}{2.1.5 Data Analysis}{section.2.1}% 31
-\BOOKMARK [1][-]{section.2.2}{2.2 Results}{chapter.2}% 32
-\BOOKMARK [2][-]{subsection.2.2.1}{2.2.1 Formalin fixation affects amplicon yield and sequencing results}{section.2.2}% 33
-\BOOKMARK [1][-]{section.2.3}{2.3 Discussion}{chapter.2}% 34
-\BOOKMARK [0][-]{chapter.3}{3 Concordance of Germline PGx Variants Between Blood and Tumours}{}% 35
-\BOOKMARK [1][-]{section.3.1}{3.1 Materials and Methods}{chapter.3}% 36
-\BOOKMARK [1][-]{section.3.2}{3.2 Results}{chapter.3}% 37
-\BOOKMARK [2][-]{subsection.3.2.1}{3.2.1 Frequency of germline and somatic variants}{section.3.2}% 38
-\BOOKMARK [2][-]{subsection.3.2.2}{3.2.2 Variant Allele Frequency Thresholds Can Maximize Sensitivity and Positive Predictive Value of Germline Variant Calling in Tumours}{section.3.2}% 39
-\BOOKMARK [1][-]{section.3.3}{3.3 Discussion}{chapter.3}% 40
-\BOOKMARK [0][-]{chapter.4}{4 Conclusion}{}% 41
-\BOOKMARK [0][-]{chapter*.11}{Bibliography}{}% 42
-\BOOKMARK [0][-]{appendix.A}{A Supporting Materials}{}% 43
+\BOOKMARK [0][-]{chapter.2}{2 Materials and Methods}{}% 25
+\BOOKMARK [1][-]{section.2.1}{2.1 Patient Samples}{chapter.2}% 26
+\BOOKMARK [1][-]{section.2.2}{2.2 Sample Preparation, Library Construction, and Illumina Sequencing}{chapter.2}% 27
+\BOOKMARK [1][-]{section.2.3}{2.3 OncoPanel \(Targeted NGS Panel for Solid Tumours\)}{chapter.2}% 28
+\BOOKMARK [1][-]{section.2.4}{2.4 Variant Calling Pipeline}{chapter.2}% 29
+\BOOKMARK [1][-]{section.2.5}{2.5 Data Analysis}{chapter.2}% 30
+\BOOKMARK [0][-]{chapter.3}{3 Assessment of Formalin-Induced DNA Damages in FFPE Specimens}{}% 31
+\BOOKMARK [1][-]{section.3.1}{3.1 Comparison of efficiency in amplicon enrichment and sequencing results between blood and FFPE specimens}{chapter.3}% 32
+\BOOKMARK [1][-]{section.3.2}{3.2 Reduced coverage depth in FFPE specimens is more pronounced for longer amplicons}{chapter.3}% 33
+\BOOKMARK [1][-]{section.3.3}{3.3 Deamination effects lead to increased C>T/G>A transitions in FFPE specimens}{chapter.3}% 34
+\BOOKMARK [1][-]{section.3.4}{3.4 Increased age of paraffin block results in reduced amplicon yield and elevated events of C>T/G>A sequence artifacts}{chapter.3}% 35
+\BOOKMARK [1][-]{section.3.5}{3.5 Non-reproducible variant calls are detected in sequencing replicates of FFPE specimens}{chapter.3}% 36
+\BOOKMARK [1][-]{section.3.6}{3.6 Discussion}{chapter.3}% 37
+\BOOKMARK [0][-]{chapter.4}{4 True Positive Rates of Germline Variant Calling in FFPE Tumours}{}% 38
+\BOOKMARK [1][-]{section.4.1}{4.1 Frequency of germline and somatic variants}{chapter.4}% 39
+\BOOKMARK [1][-]{section.4.2}{4.2 Germline variants are highly concordant between blood and FFPE specimens}{chapter.4}% 40
+\BOOKMARK [1][-]{section.4.3}{4.3 Reduced sensitivity is observed for detection of germline variants in FFPE specimens compared to blood}{chapter.4}% 41
+\BOOKMARK [1][-]{section.4.4}{4.4 Factors underlying reduced sensitivity of germline variant calling in FFPE specimens}{chapter.4}% 42
+\BOOKMARK [1][-]{section.4.5}{4.5 Discussion}{chapter.4}% 43
+\BOOKMARK [0][-]{chapter.5}{5 Conclusion}{}% 44
+\BOOKMARK [0][-]{chapter*.32}{Bibliography}{}% 45
+\BOOKMARK [0][-]{appendix.A}{A Supporting Materials}{}% 46
