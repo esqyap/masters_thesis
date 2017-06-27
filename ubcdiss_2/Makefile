@@ -7,15 +7,16 @@
 
 #         NAME2 =
 #      PRODUCT2 = $(NAME2).pdf
-#    TEXSOURCE2 = $(NAME2).tex 
+#    TEXSOURCE2 = $(NAME2).tex
 #          BBL2 = $(NAME2).bbl
 
-      BIBINPUTS = biblio.bib
+      BIBINPUTS = /Users/evayap/Documents/masters_thesis/mendeley_bib/biblio_test.bib
+			# biblio_test.bib
 
      PDFFIGURES = $(BUILTPDFFIGURES) ${PNGFIGURES}
-     PNGFIGURES = 
-     GIFFIGURES = 
-     SVGFIGURES = 
+     PNGFIGURES =
+     GIFFIGURES =
+     SVGFIGURES =
 # Following is for Berkeley Make syntax:
 #BUILTPDFFIGURES = \
 #		    ${PNGFIGURES:C/\.png/.pdf/g} \
@@ -38,12 +39,16 @@ clean:
 	    $(NAME1).toc $(NAME1).lof $(NAME1).lot $(NAME1).brf \
             *.aux
 
+watch:
+	@echo Watching for changes...
+	@fswatch -0 -e ".*" -i "\\.tex$$" . | xargs -0 -n 1 -I {} sh -c 'rm diss.pdf; make; ./buildFinished.sh'
+
 # configuration issues
 .SUFFIXES: .tex .pdf .bbl
 
 PDFLATEX=	pdflatex
 BIBTEX=		bibtex
-XELATEX=	xelatex 
+XELATEX=	xelatex
 LATEX=		latex
 BIBLATEX=	$(PDFLATEX)
 BIBTEX=		bibtex -min-crossref=1000
@@ -58,7 +63,7 @@ CP=		cp -p
 	      $(PDFLATEX) $(LATEXFLAGS) $< || exit $$?; \
 	done
 
-.tex.bbl: 
+.tex.bbl:
 	$(BIBLATEX) $(LATEXFLAGS) $<
 	$(BIBTEX) $*
 	$(RM) $*.aux $*.dvi $*.pdf

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 MAY 2017 14:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 JUN 2017 10:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -537,6 +537,32 @@ Package graphics Info: Driver file: pdftex.def on input line 96.
 \Gin@req@height=\dimen164
 \Gin@req@width=\dimen165
 )
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip109
+\LTright=\skip110
+\LTpre=\skip111
+\LTpost=\skip112
+\LTchunksize=\count144
+\LTcapwidth=\dimen166
+\LT@head=\box51
+\LT@firsthead=\box52
+\LT@foot=\box53
+\LT@lastfoot=\box54
+\LT@cols=\count145
+\LT@rows=\count146
+\c@LT@tables=\count147
+\c@LT@chunks=\count148
+\LT@p@ftn=\toks22
+)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/times.sty
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
@@ -584,51 +610,51 @@ Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2016/03/10 v2.15b AMS math features
-\@mathmargin=\skip109
+\@mathmargin=\skip113
 
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen166
+\pmbraise@=\dimen167
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count144
+\inf@bad=\count149
 LaTeX Info: Redefining \frac on input line 199.
-\uproot@=\count145
-\leftroot@=\count146
+\uproot@=\count150
+\leftroot@=\count151
 LaTeX Info: Redefining \overline on input line 297.
-\classnum@=\count147
-\DOTSCASE@=\count148
+\classnum@=\count152
+\DOTSCASE@=\count153
 LaTeX Info: Redefining \ldots on input line 394.
 LaTeX Info: Redefining \dots on input line 397.
 LaTeX Info: Redefining \cdots on input line 518.
-\Mathstrutbox@=\box51
-\strutbox@=\box52
-\big@size=\dimen167
+\Mathstrutbox@=\box55
+\strutbox@=\box56
+\big@size=\dimen168
 LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
-\macc@depth=\count149
-\c@MaxMatrixCols=\count150
+\macc@depth=\count154
+\c@MaxMatrixCols=\count155
 \dotsspace@=\muskip16
-\c@parentequation=\count151
-\dspbrk@lvl=\count152
-\tag@help=\toks22
-\row@=\count153
-\column@=\count154
-\maxfields@=\count155
-\andhelp@=\toks23
-\eqnshift@=\dimen168
-\alignsep@=\dimen169
-\tagshift@=\dimen170
-\tagwidth@=\dimen171
-\totwidth@=\dimen172
-\lineht@=\dimen173
-\@envbody=\toks24
-\multlinegap=\skip110
-\multlinetaggap=\skip111
-\mathdisplay@stack=\toks25
+\c@parentequation=\count156
+\dspbrk@lvl=\count157
+\tag@help=\toks23
+\row@=\count158
+\column@=\count159
+\maxfields@=\count160
+\andhelp@=\toks24
+\eqnshift@=\dimen169
+\alignsep@=\dimen170
+\tagshift@=\dimen171
+\tagwidth@=\dimen172
+\totwidth@=\dimen173
+\lineht@=\dimen174
+\@envbody=\toks25
+\multlinegap=\skip114
+\multlinetaggap=\skip115
+\mathdisplay@stack=\toks26
 LaTeX Info: Redefining \[ on input line 2739.
 LaTeX Info: Redefining \] on input line 2740.
 )
@@ -649,43 +675,43 @@ Package: checkend 2002/04/20 v1.0 Environment checking
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
-\heavyrulewidth=\dimen174
-\lightrulewidth=\dimen175
-\cmidrulewidth=\dimen176
-\belowrulesep=\dimen177
-\belowbottomsep=\dimen178
-\aboverulesep=\dimen179
-\abovetopsep=\dimen180
-\cmidrulesep=\dimen181
-\cmidrulekern=\dimen182
-\defaultaddspace=\dimen183
-\@cmidla=\count156
-\@cmidlb=\count157
-\@aboverulesep=\dimen184
-\@belowrulesep=\dimen185
-\@thisruleclass=\count158
-\@lastruleclass=\count159
-\@thisrulewidth=\dimen186
+\heavyrulewidth=\dimen175
+\lightrulewidth=\dimen176
+\cmidrulewidth=\dimen177
+\belowrulesep=\dimen178
+\belowbottomsep=\dimen179
+\aboverulesep=\dimen180
+\abovetopsep=\dimen181
+\cmidrulesep=\dimen182
+\cmidrulekern=\dimen183
+\defaultaddspace=\dimen184
+\@cmidla=\count161
+\@cmidlb=\count162
+\@aboverulesep=\dimen185
+\@belowrulesep=\dimen186
+\@thisruleclass=\count163
+\@lastruleclass=\count164
+\@thisrulewidth=\dimen187
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count160
-\lst@gtempboxa=\box53
-\lst@token=\toks26
-\lst@length=\count161
-\lst@currlwidth=\dimen187
-\lst@column=\count162
-\lst@pos=\count163
-\lst@lostspace=\dimen188
-\lst@width=\dimen189
-\lst@newlines=\count164
-\lst@lineno=\count165
-\lst@maxwidth=\dimen190
+\lst@mode=\count165
+\lst@gtempboxa=\box57
+\lst@token=\toks27
+\lst@length=\count166
+\lst@currlwidth=\dimen188
+\lst@column=\count167
+\lst@pos=\count168
+\lst@lostspace=\dimen189
+\lst@width=\dimen190
+\lst@newlines=\count169
+\lst@lineno=\count170
+\lst@maxwidth=\dimen191
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count166
-\lst@skipnumbers=\count167
-\lst@framebox=\box54
+\c@lstnumber=\count171
+\lst@skipnumbers=\count172
+\lst@framebox=\box58
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
@@ -701,12 +727,12 @@ Package: suffix 2006/07/15 1.5a Variant command support
 (/usr/local/texlive/2016/texmf-dist/tex/generic/xstring/xstring.sty
 (/usr/local/texlive/2016/texmf-dist/tex/generic/xstring/xstring.tex
 \@xs@message=\write3
-\integerpart=\count168
-\decimalpart=\count169
+\integerpart=\count173
+\decimalpart=\count174
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-\AC@clearlist=\toks27
+\AC@clearlist=\toks28
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write4
@@ -714,22 +740,22 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 Excluding comment 'comment')
 (/usr/local/texlive/2016/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip112
-\bibsep=\skip113
+\bibhang=\skip116
+\bibsep=\skip117
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count170
+\c@NAT@ctr=\count175
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
-\ttl@box=\box55
-\beforetitleunit=\skip114
-\aftertitleunit=\skip115
-\ttl@plus=\dimen191
-\ttl@minus=\dimen192
-\ttl@toksa=\toks28
-\titlewidth=\dimen193
-\titlewidthlast=\dimen194
-\titlewidthfirst=\dimen195
+\ttl@box=\box59
+\beforetitleunit=\skip118
+\aftertitleunit=\skip119
+\ttl@plus=\dimen192
+\ttl@minus=\dimen193
+\ttl@toksa=\toks29
+\titlewidth=\dimen194
+\titlewidthlast=\dimen195
+\titlewidthfirst=\dimen196
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
@@ -737,47 +763,25 @@ Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen196
-\captionmargin@=\dimen197
-\captionwidth=\dimen198
-\caption@tempdima=\dimen199
-\caption@indent=\dimen256
-\caption@parindent=\dimen257
-\caption@hangindent=\dimen258
+\captionmargin=\dimen197
+\captionmargin@=\dimen198
+\captionwidth=\dimen199
+\caption@tempdima=\dimen256
+\caption@indent=\dimen257
+\caption@parindent=\dimen258
+\caption@hangindent=\dimen259
 )
-\c@ContinuedFloat=\count171
+\c@ContinuedFloat=\count176
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
-)
+Package caption Info: longtable package is loaded.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
+))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/longtable.sty
-Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip116
-\LTright=\skip117
-\LTpre=\skip118
-\LTpost=\skip119
-\LTchunksize=\count172
-\LTcapwidth=\dimen259
-\LT@head=\box56
-\LT@firsthead=\box57
-\LT@foot=\box58
-\LT@lastfoot=\box59
-\LT@cols=\count173
-\LT@rows=\count174
-\c@LT@tables=\count175
-\c@LT@chunks=\count176
-\LT@p@ftn=\toks29
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/pdflscape.sty
-Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/lscape.sty
-Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
-)
-Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2016/05/05 v6.83n Hypertext links for LaTeX
@@ -892,28 +896,25 @@ File: hpdftex.def 2016/05/05 v6.83n Hyperref driver for pdfTeX
 \Hy@SectionHShift=\skip120
 )
 (./macros.tex) (./diss.aux (./abstract.aux) (./preface.aux) (./ack.aux)
-(./intro.aux) (./materialsmethods.aux) (./chapter2.aux) (./chapter3.aux
-
-LaTeX Warning: Label `sec:Discussion' multiply defined.
-
-) (./Conclusion.aux) (./appendix.aux))
+(./intro.aux) (./materialsmethods.aux) (./chapter2.aux) (./chapter3.aux)
+(./Conclusion.aux) (./appendix.aux))
 \openout1 = `diss.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 354.
-LaTeX Font Info:    ... okay on input line 354.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 354.
-LaTeX Font Info:    ... okay on input line 354.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 354.
-LaTeX Font Info:    ... okay on input line 354.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 354.
-LaTeX Font Info:    ... okay on input line 354.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 354.
-LaTeX Font Info:    ... okay on input line 354.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 354.
-LaTeX Font Info:    ... okay on input line 354.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 354.
-LaTeX Font Info:    ... okay on input line 354.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 354.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 360.
+LaTeX Font Info:    ... okay on input line 360.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 360.
+LaTeX Font Info:    ... okay on input line 360.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 360.
+LaTeX Font Info:    ... okay on input line 360.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 360.
+LaTeX Font Info:    ... okay on input line 360.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 360.
+LaTeX Font Info:    ... okay on input line 360.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 360.
+LaTeX Font Info:    ... okay on input line 360.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 360.
+LaTeX Font Info:    ... okay on input line 360.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 360.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ptm.fd
@@ -974,7 +975,7 @@ Dictionary: translator-basic-dictionary, Language: English
 (/usr/local/texlive/2016/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2016/03/01 v2.6q siunitx: Abbreviated units
 ) ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 354.
+LaTeX Info: Redefining \selectfont on input line 360.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -994,15 +995,10 @@ e
 \c@lstlisting=\count193
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
-Package caption Info: longtable package is loaded.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/ltcaption.sty
-Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
-)
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box61
-Package backref Info: ** backref set up for natbib ** on input line 354.
-Package hyperref Info: Link coloring OFF on input line 354.
+Package backref Info: ** backref set up for natbib ** on input line 360.
+Package hyperref Info: Link coloring OFF on input line 360.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1012,62 +1008,62 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count194
 )
-LaTeX Info: Redefining \ref on input line 354.
-LaTeX Info: Redefining \pageref on input line 354.
-LaTeX Info: Redefining \nameref on input line 354.
+LaTeX Info: Redefining \ref on input line 360.
+LaTeX Info: Redefining \pageref on input line 360.
+LaTeX Info: Redefining \nameref on input line 360.
 
 (./diss.out) (./diss.out)
 \@outlinefile=\write5
 \openout5 = `diss.out'.
 
 \c__siunitx_mathsf_int=\count195
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 35
-4.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 36
+0.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 35
-4.
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 36
+0.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 35
-4.
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 36
+0.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 35
-4.
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 36
+0.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 354.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 360.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 354.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 360.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 354.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 360.
 \c__siunitx_mathtt_int=\count196
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 363.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 369.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 363.
+(Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 369.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 363.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 369.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 363.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 363.
+(Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 369.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 369.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 363.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 369.
  [1
 
 
@@ -1125,28 +1121,48 @@ package acronym warning: acronym `ubc' is not defined on input line 6.
 \tf@toc=\write6
 \openout6 = `diss.toc'.
 
- [5] (./diss.lot)
+ [5] (./diss.lot
+Overfull \hbox (57.80797pt too wide) in paragraph at lines 13--13
+ \OT1/ptm/m/n/10.95 age depth in blood and FFPE spec-i-mens ([]) 
+ []
+
+[6
+
+
+])
 \tf@lot=\write7
 \openout7 = `diss.lot'.
 
- [6
+ [7] (./diss.lof [8
 
 
-] (./diss.lof [7
+]
+Overfull \hbox (7.95921pt too wide) in paragraph at lines 16--16
+ \OT1/ptm/m/n/10.95 blood and FFPE spec-i-mens ([]) 
+ []
 
 
-] [8])
+Overfull \hbox (3.7251pt too wide) in paragraph at lines 17--17
+ \OT1/ptm/m/n/10.95 Com-par-i-son of frac-tion of base changes in blood and FFP
+E spec-i-mens (Wilcoxon 
+ []
+
+
+Overfull \hbox (8.75818pt too wide) in paragraph at lines 18--18
+ \OT1/ptm/m/n/10.95 spec-i-mens []. 
+ []
+
+[9])
 \tf@lof=\write8
 \openout8 = `diss.lof'.
 
- [9]
-(./glossary.tex) [10
+ [10] (./glossary.tex) [11
 
 
 ]
 \openout2 = `ack.aux'.
 
- (./ack.tex) [11
+ (./ack.tex) [12
 
 
 ]
@@ -1156,114 +1172,205 @@ package acronym warning: acronym `ubc' is not defined on input line 6.
 Chapter 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ˜ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ™ in font ptmr7t!
 [1
 
 
 
 
 ]
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ˜ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+ [2] [3]
 
-Package natbib Warning: Citation `Raymond2016' on page 2 undefined on input lin
-e 50.
-
-
-Package natbib Warning: Citation `Raymond2016' on page 2 undefined on input lin
-e 50.
-
-
-Package natbib Warning: Citation `Raymond2016' on page 2 undefined on input lin
-e 50.
-
-
-Package natbib Warning: Citation `Meric-Bernstam2016' on page 2 undefined on in
-put line 50.
+Package natbib Warning: Citation `Raymond2016' on page 4 undefined on input lin
+e 84.
 
 
-Package natbib Warning: Citation `Schrader2015' on page 2 undefined on input li
-ne 50.
+Package natbib Warning: Citation `Raymond2016' on page 4 undefined on input lin
+e 84.
 
 
-Package natbib Warning: Citation `Jones2015' on page 2 undefined on input line 
-50.
+Package natbib Warning: Citation `Raymond2016' on page 4 undefined on input lin
+e 84.
 
 
-Package natbib Warning: Citation `McLeod2013' on page 2 undefined on input line
- 54.
+Package natbib Warning: Citation `Meric-Bernstam2016' on page 4 undefined on in
+put line 84.
 
 
-Package natbib Warning: Citation `McLeod2013' on page 2 undefined on input line
- 54.
-
-[2]
-
-Package natbib Warning: Citation `Do2015' on page 3 undefined on input line 57.
+Package natbib Warning: Citation `Schrader2015' on page 4 undefined on input li
+ne 84.
 
 
+Package natbib Warning: Citation `Jones2015' on page 4 undefined on input line 
+84.
 
-Package natbib Warning: Citation `Wong2014' on page 3 undefined on input line 5
-7.
+[4]
 
-
-Package natbib Warning: Citation `Do2015' on page 3 undefined on input line 57.
-
-
-
-Package natbib Warning: Citation `Wong2014' on page 3 undefined on input line 5
-7.
+Package natbib Warning: Citation `McLeod2013' on page 5 undefined on input line
+ 88.
 
 
-Package natbib Warning: Citation `Do2015' on page 3 undefined on input line 57.
+Package natbib Warning: Citation `McLeod2013' on page 5 undefined on input line
+ 88.
+
+
+Package natbib Warning: Citation `Do2015' on page 5 undefined on input line 91.
 
 
 
-Package natbib Warning: Citation `Wong2014' on page 3 undefined on input line 5
-7.
+Package natbib Warning: Citation `Wong2014' on page 5 undefined on input line 9
+1.
 
 
-Package natbib Warning: Citation `Do2015' on page 3 undefined on input line 57.
+Package natbib Warning: Citation `Do2015' on page 5 undefined on input line 91.
 
 
 
-Package natbib Warning: Citation `Do2015' on page 3 undefined on input line 57.
+Package natbib Warning: Citation `Wong2014' on page 5 undefined on input line 9
+1.
 
 
-) [3]
+Package natbib Warning: Citation `Do2015' on page 5 undefined on input line 91.
+
+
+
+Package natbib Warning: Citation `Wong2014' on page 5 undefined on input line 9
+1.
+
+
+Package natbib Warning: Citation `Do2015' on page 5 undefined on input line 91.
+
+
+
+Package natbib Warning: Citation `Do2015' on page 5 undefined on input line 91.
+
+
+
+</Users/evayap/Documents/masters_thesis/ubcdiss_2/intro_figure/acce_wheel.png, 
+id=394, 473.77pt x 469.755pt>
+File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/intro_figure/acce_wheel.
+png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/ubcdiss_2/intro_figure/acce_wheel.p
+ng>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/intro
+_figure/acce_wheel.png used on input line 104.
+(pdftex.def)             Requested size: 284.26419pt x 281.85518pt.
+ [5]) [6 </Users/evayap/Documents/masters_thesis/ubcdiss_2/intro_figure/acce_wh
+eel.png>]
 \openout2 = `materialsmethods.aux'.
 
  (./materialsmethods.tex
 Chapter 2.
-[4
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
+LaTeX Font Info:    Calculating math sizes for size <7.4> on input line 40.
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <5.47603> not available
+(Font)              size <5> substituted on input line 40.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4.44003> not available
+(Font)              size <5> substituted on input line 40.
+
+
+LaTeX Font Warning: Font shape `OT1/cmtt/m/n' in size <5.47603> not available
+(Font)              size <5> substituted on input line 40.
+
+
+LaTeX Font Warning: Font shape `OT1/cmtt/m/n' in size <4.44003> not available
+(Font)              size <5> substituted on input line 40.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5.47603> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <4.44003> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
+[7
 
 
 
-]
-
-Package natbib Warning: Citation `Bosdet2013' on page 5 undefined on input line
- 41.
-
-
-Overfull \hbox (33.75069pt too wide) in paragraph at lines 53--85
+] [8]
+Overfull \hbox (33.75069pt too wide) in paragraph at lines 61--93
  [][] 
  []
 
-[5] [6]) [7]
+
+Overfull \hbox (2.96622pt too wide) in paragraph at lines 102--103
+\OT1/pcr/m/n/10.95 mpileup \OT1/ptm/m/n/10.95 func-tion \OT1/pcr/m/n/10.95 (sam
+tools mpileup -BA -d 500000 -L 500000 -q 1) \OT1/ptm/m/n/10.95 was used
+ []
+
+
+Overfull \hbox (17.6138pt too wide) in paragraph at lines 102--103
+\OT1/ptm/m/n/10.95 to gen-er-ate pileup files for all tar-get bases fol-lowed b
+y vari-ant call-ing with the VarScan2 \OT1/pcr/m/n/10.95 mpileup2cns
+ []
+
+
+Overfull \hbox (27.16493pt too wide) in paragraph at lines 102--103
+\OT1/ptm/m/n/10.95 scaled base qual-ity score $\OMS/ztmcm/m/n/10.95 ^^U$ \OT1/p
+tm/m/n/10.95 20 \OT1/pcr/m/n/10.95 (--min-var-freq 0.1 --p-value 0.01 --strand-
+filter
+ []
+
+[9]
+Overfull \hbox (7.8825pt too wide) in paragraph at lines 133--133
+[]|\OT1/pcr/m/n/10.95 --max-somatic-p-depth| 
+ []
+
+
+Overfull \hbox (19.6953pt too wide) in paragraph at lines 120--171
+ [][] 
+ []
+
+[10]
+Overfull \hbox (57.34679pt too wide) in paragraph at lines 180--205
+ [][] 
+ []
+
+[11]
+</Users/evayap/Documents/masters_thesis/ubcdiss_2/mm_figure/variant_pipeline2.p
+ng, id=432, 515.9275pt x 704.6325pt>
+File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/mm_figure/variant_pipeli
+ne2.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/ubcdiss_2/mm_figure/variant_pipelin
+e2.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/mm_fi
+gure/variant_pipeline2.png used on input line 212.
+(pdftex.def)             Requested size: 283.761pt x 387.54909pt.
+ [12]
+</Users/evayap/Documents/masters_thesis/ubcdiss_2/mm_figure/tpfptnfn.png, id=43
+8, 462.72874pt x 414.54875pt>
+File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/mm_figure/tpfptnfn.png G
+raphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/ubcdiss_2/mm_figure/tpfptnfn.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/mm_fi
+gure/tpfptnfn.png used on input line 232.
+(pdftex.def)             Requested size: 254.50159pt x 228.0025pt.
+
+[13 </Users/evayap/Documents/masters_thesis/ubcdiss_2/mm_figure/variant_pipelin
+e2.png>]) [14 </Users/evayap/Documents/masters_thesis/ubcdiss_2/mm_figure/tpfpt
+nfn.png>]
 \openout2 = `chapter2.aux'.
 
  (./chapter2.tex
 Chapter 3.
-[8
+[15
 
 
 
-] [9]
+] [16]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/dna_input_amp
-_yield.png, id=397, 601.7682pt x 502.5174pt>
+_yield.png, id=468, 601.7682pt x 502.5174pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/dna_inpu
 t_amp_yield.png Graphic file (type png)
 
@@ -1277,286 +1384,2298 @@ Overfull \hbox (47.7952pt too wide) in paragraph at lines 26--27
  [][] 
  []
 
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 37--58
-
- []
-
-[11 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/dna_input
-_amp_yield.png>]
+[17]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/alignment_pct
-.png, id=408, 347.8596pt x 347.8596pt>
+.png, id=473, 347.8596pt x 347.8596pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/alignmen
 t_pct.png Graphic file (type png)
 
 <use /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/alignment
 _pct.png>
 Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
-er2_figure/alignment_pct.png used on input line 65.
+er2_figure/alignment_pct.png used on input line 36.
 (pdftex.def)             Requested size: 347.85875pt x 347.85875pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--100
-
- []
-
-[12 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/alignment
-_pct.png>]
+ [18 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/dna_inpu
+t_amp_yield.png>]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/coverage_stat
-s.png, id=414, 421.575pt x 344.9688pt>
+s.png, id=479, 421.575pt x 344.9688pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/coverage
 _stats.png Graphic file (type png)
 
 <use /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/coverage_
 stats.png>
 Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
-er2_figure/coverage_stats.png used on input line 107.
+er2_figure/coverage_stats.png used on input line 46.
 (pdftex.def)             Requested size: 379.41399pt x 310.46904pt.
-
-Overfull \hbox (75.09901pt too wide) in paragraph at lines 119--155
- [][] 
- []
-
-[13 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/coverage_
-stats.png (PNG copy)>] [14] [15]
+ [19 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/alignmen
+t_pct.png>] [20 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figu
+re/coverage_stats.png (PNG copy)>] [21] [22]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_norm_dept
-h_med_wilcoxon_volcano.png, id=436, 3312.375pt x 2409.0pt>
+h_med_wilcoxon_volcano.png, id=505, 3312.375pt x 2409.0pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_norm
 _depth_med_wilcoxon_volcano.png Graphic file (type png)
 
 <use /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_norm_
 depth_med_wilcoxon_volcano.png>
 Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
-er2_figure/amp_norm_depth_med_wilcoxon_volcano.png used on input line 175.
+er2_figure/amp_norm_depth_med_wilcoxon_volcano.png used on input line 114.
 (pdftex.def)             Requested size: 463.72934pt x 337.2577pt.
 
-Overfull \hbox (30.10933pt too wide) in paragraph at lines 175--176
+Overfull \hbox (30.10933pt too wide) in paragraph at lines 114--115
  [][] 
  []
 
-[16]
+
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_gc_length
-.png, id=441, 2409.0pt x 2409.0pt>
+.png, id=506, 2409.0pt x 2409.0pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_gc_l
 ength.png Graphic file (type png)
 
 <use /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_gc_le
 ngth.png>
 Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
-er2_figure/amp_gc_length.png used on input line 185.
+er2_figure/amp_gc_length.png used on input line 124.
 (pdftex.def)             Requested size: 337.2577pt x 337.2577pt.
- [17 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_norm
+ [23 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_norm
 _depth_med_wilcoxon_volcano.png (PNG copy)>]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_cov_lm_le
-n.png, id=446, 538.6524pt x 287.1528pt>
+n_gc.png, id=511, 538.6524pt x 287.1528pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_cov_
-lm_len.png Graphic file (type png)
+lm_len_gc.png Graphic file (type png)
 
 <use /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_cov_l
-m_len.png>
+m_len_gc.png>
 Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
-er2_figure/amp_cov_lm_len.png used on input line 195.
+er2_figure/amp_cov_lm_len_gc.png used on input line 134.
 (pdftex.def)             Requested size: 457.8567pt x 244.08102pt.
 
-Overfull \hbox (24.2367pt too wide) in paragraph at lines 195--196
+Overfull \hbox (24.2367pt too wide) in paragraph at lines 134--135
  [][] 
  []
 
-[18 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_gc_le
+[24 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_gc_le
 ngth.png (PNG copy)>]
-</Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_cov_lm_gc
-.png, id=451, 538.6524pt x 287.1528pt>
-File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_cov_
-lm_gc.png Graphic file (type png)
-
-<use /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_cov_l
-m_gc.png>
-Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
-er2_figure/amp_cov_lm_gc.png used on input line 205.
-(pdftex.def)             Requested size: 457.8567pt x 244.08102pt.
-
-Overfull \hbox (24.2367pt too wide) in paragraph at lines 205--206
- [][] 
- []
-
-[19 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_cov_l
-m_len.png>]
-Overfull \hbox (48.1391pt too wide) in paragraph at lines 217--232
+Overfull \hbox (48.1391pt too wide) in paragraph at lines 146--161
  [][] 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 236.
+(hyperref)                removing `math shift' on input line 165.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 236.
+(hyperref)                removing `math shift' on input line 165.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 236.
+(hyperref)                removing `math shift' on input line 165.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 236.
+(hyperref)                removing `math shift' on input line 165.
 
-[20 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_cov_l
-m_gc.png>]
+[25 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_cov_l
+m_len_gc.png>]
+
+Package caption Warning: \label without proper reference on input line 281.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:deamination_effect_af_range' on page 26 undefined
+ on input line 172.
+
+[26]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deamination_e
-ffect_blood_ffpe.png, id=463, 556.479pt x 541.5432pt>
+ffect_blood_ffpe.png, id=532, 556.479pt x 492.3996pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminat
 ion_effect_blood_ffpe.png Graphic file (type png)
 
 <use /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminati
 on_effect_blood_ffpe.png>
 Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
-er2_figure/deamination_effect_blood_ffpe.png used on input line 248.
-(pdftex.def)             Requested size: 445.1838pt x 433.23514pt.
+er2_figure/deamination_effect_blood_ffpe.png used on input line 179.
+(pdftex.def)             Requested size: 445.1838pt x 393.92021pt.
 
-Overfull \hbox (11.5638pt too wide) in paragraph at lines 248--249
+Overfull \hbox (11.5638pt too wide) in paragraph at lines 179--180
  [][] 
  []
 
-[21]
-Overfull \hbox (49.08034pt too wide) in paragraph at lines 260--289
+[27]
+Overfull \hbox (61.64143pt too wide) in paragraph at lines 191--218
  [][] 
  []
 
-[22 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminati
+[28 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminati
 on_effect_blood_ffpe.png>]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deamination_e
-ffect_af_range.png, id=473, 607.068pt x 657.1752pt>
+ffect_blood_ffpe_fc.png, id=542, 523.7166pt x 299.1978pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminat
-ion_effect_af_range.png Graphic file (type png)
+ion_effect_blood_ffpe_fc.png Graphic file (type png)
 
 <use /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminati
-on_effect_af_range.png>
+on_effect_blood_ffpe_fc.png>
 Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
-er2_figure/deamination_effect_af_range.png used on input line 297.
-(pdftex.def)             Requested size: 485.65506pt x 525.74088pt.
+er2_figure/deamination_effect_blood_ffpe_fc.png used on input line 227.
+(pdftex.def)             Requested size: 418.97385pt x 239.35855pt.
 
-Overfull \hbox (52.03505pt too wide) in paragraph at lines 297--298
+Overfull \hbox (49.08034pt too wide) in paragraph at lines 239--268
  [][] 
  []
 
-[23]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 307.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 307.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 307.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 307.
-
-[24 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminati
-on_effect_af_range.png>]
+[29 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminati
+on_effect_blood_ffpe_fc.png>]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deamination_e
-ffect_age.png, id=483, 600.8046pt x 689.4558pt>
+ffect_af_range_2.png, id=548, 607.068pt x 886.0302pt>
+File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminat
+ion_effect_af_range_2.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminati
+on_effect_af_range_2.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
+er2_figure/deamination_effect_af_range_2.png used on input line 276.
+(pdftex.def)             Requested size: 424.9447pt x 620.2169pt.
+ [30]
+Overfull \vbox (5.9219pt too high) has occurred while \output is active []
+
+
+[31 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminati
+on_effect_af_range_2.png>] [32]
+Overfull \hbox (19.9179pt too wide) in paragraph at lines 293--320
+ [][] 
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 326.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 326.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 326.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 326.
+
+[33] [34]
+</Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deamination_e
+ffect_age_amp_yield.png, id=577, 740.5266pt x 310.761pt>
+File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminat
+ion_effect_age_amp_yield.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminati
+on_effect_age_amp_yield.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
+er2_figure/deamination_effect_age_amp_yield.png used on input line 340.
+(pdftex.def)             Requested size: 488.74905pt x 205.10289pt.
+
+Overfull \hbox (55.12904pt too wide) in paragraph at lines 340--341
+ [][] 
+ []
+
+
+</Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deamination_e
+ffect_age.png, id=578, 600.8046pt x 400.8576pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminat
 ion_effect_age.png Graphic file (type png)
 
 <use /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminati
 on_effect_age.png>
 Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
-er2_figure/deamination_effect_age.png used on input line 314.
-(pdftex.def)             Requested size: 480.64432pt x 551.56538pt.
+er2_figure/deamination_effect_age.png used on input line 350.
+(pdftex.def)             Requested size: 480.64432pt x 320.68651pt.
 
-Overfull \hbox (47.0243pt too wide) in paragraph at lines 314--315
+Overfull \hbox (47.0243pt too wide) in paragraph at lines 350--351
  [][] 
  []
 
-[25]
-Overfull \hbox (80.11345pt too wide) in paragraph at lines 323--349
+[35 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminati
+on_effect_age_amp_yield.png>]
+Overfull \hbox (80.11345pt too wide) in paragraph at lines 363--389
  [][] 
  []
 
-[26 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminati
-on_effect_age.png>]) [27]
+[36 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminati
+on_effect_age.png>]) [37]
 \openout2 = `chapter3.aux'.
 
  (./chapter3.tex
 Chapter 4.
-
-</Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/variant_outpu
-t.png, id=498, 149.55875pt x 702.625pt>
-File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/variant_
-output.png Graphic file (type png)
-
-<use /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/variant_o
-utput.png>
-Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
-er3_figure/variant_output.png used on input line 16.
-(pdftex.def)             Requested size: 89.73593pt x 421.57825pt.
- [28
+[38
 
 
+
+] [39]
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+[]|\OT1/ptm/m/n/10.95 Variant
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+[]|\OT1/ptm/m/n/10.95 Clinical
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+[]|\OT1/ptm/m/n/10.95 p.Val1185Val
+ []
+
+
+Overfull \hbox (4.87082pt too wide) in paragraph at lines 41--41
+[]|\OT1/ptm/m/n/10.95 0.00082| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
+[]|\OT1/ptm/m/n/10.95 p.Pro741Pro
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
+[]|\OT1/ptm/m/n/10.95 p.Lys757Arg
+ []
+
+
+Overfull \hbox (4.87082pt too wide) in paragraph at lines 48--48
+[]|\OT1/ptm/m/n/10.95 0.00082| 
+ []
+
+
+Overfull \hbox (0.8245pt too wide) in paragraph at lines 48--48
+[]|\OT1/ptm/m/n/10.95 Missense| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
+[]|\OT1/ptm/m/n/10.95 Uncertain
+ []
+
+
+Underfull \hbox (badness 5374) in paragraph at lines 48--48
+\OT1/ptm/m/n/10.95 ti-fied in a pa-tient with in-tra-
+ []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 48--48
+\OT1/ptm/m/n/10.95 ing to ac-ti-va-tion of down-stream
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
+[]|\OT1/ptm/m/n/10.95 rs1050171;
+ []
+
+
+Overfull \hbox (6.28409pt too wide) in paragraph at lines 51--51
+\OT1/ptm/m/n/10.95 COSM1451600$[]$| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
+[]|\OT1/ptm/m/n/10.95 p.Gln787Gln
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
+[]|\OT1/ptm/m/n/10.95 Benign/Likely
+ []
+
+
+Underfull \hbox (badness 1783) in paragraph at lines 51--51
+\OT1/ptm/m/n/10.95 anti-EGFR ther-apy in col-orec-tal
+ []
+
+
+Underfull \hbox (badness 1033) in paragraph at lines 51--51
+\OT1/ptm/m/n/10.95 can-cer pa-tients com-pared to pa-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--53
+[]|\OT1/ptm/m/n/10.95 [[],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--54
+[]|\OT1/ptm/m/n/10.95 rs56183713;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--54
+[]|\OT1/ptm/m/n/10.95 p.Val819Val
+ []
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 54--54
+[]|\OT1/ptm/m/n/10.95 In com-bi-na-tion with rs1050171,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+[]|\OT1/ptm/m/n/10.95 rs2229066;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+\OT1/ptm/m/n/10.95 COSM85893;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+[]|\OT1/ptm/m/n/10.95 p.Arg836Arg
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+[]|\OT1/ptm/m/n/10.95 Benign/Likely
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
+[]|\OT1/ptm/m/n/10.95 rs151016327;
+ []
+
+
+Overfull \hbox (1.78409pt too wide) in paragraph at lines 61--61
+\OT1/ptm/m/n/10.95 COSM3760661| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
+[]|\OT1/ptm/m/n/10.95 p.Thr461Thr
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
+[]|\OT1/ptm/m/n/10.95 rs55789615;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
+[]|\OT1/ptm/m/n/10.95 p.Ile798Ile
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
+[]|\OT1/ptm/m/n/10.95 Benign/Likely
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+[]|\OT1/ptm/m/n/10.95 rs3733542;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+[]|\OT1/ptm/m/n/10.95 p.Leu862Leu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+[]|\OT1/ptm/m/n/10.95 Benign/Likely
+ []
+
+
+Overfull \hbox (43.91093pt too wide) in alignment at lines 33--70
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 71--71
+[]|\OT1/ptm/m/n/10.95 22:22162126| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--71
+[]|\OT1/ptm/m/n/10.95 rs386488966;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--71
+[]|\OT1/ptm/m/n/10.95 p.Tyr43Tyr
+ []
+
+
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 74--74
+[]|\OT1/ptm/m/n/10.95 22:22221623| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
+[]|\OT1/ptm/m/n/10.95 p.Tyr36Tyr
+ []
+
+
+Overfull \hbox (3.95975pt too wide) in paragraph at lines 78--78
+[]|\OT1/ptm/m/n/10.95 p.Asp2485Asp
+ []
+
+
+Overfull \hbox (0.92671pt too wide) in paragraph at lines 81--81
+[]|\OT1/ptm/m/n/10.95 p.Glu2456Lys
+ []
+
+
+Overfull \hbox (4.87082pt too wide) in paragraph at lines 81--81
+[]|\OT1/ptm/m/n/10.95 0.00082| 
+ []
+
+
+Overfull \hbox (0.8245pt too wide) in paragraph at lines 81--81
+[]|\OT1/ptm/m/n/10.95 Missense| 
+ []
+
+
+Overfull \hbox (1.93414pt too wide) in paragraph at lines 84--84
+[]|\OT1/ptm/m/n/10.95 p.Arg2408Gln
+ []
+
+
+Overfull \hbox (0.8245pt too wide) in paragraph at lines 84--84
+[]|\OT1/ptm/m/n/10.95 Missense| 
+ []
+
+
+Overfull \hbox (2.73349pt too wide) in paragraph at lines 87--87
+[]|\OT1/ptm/m/n/10.95 p.Leu2303Leu
+ []
+
+
+Underfull \hbox (badness 1881) in paragraph at lines 87--87
+[]|\OT1/ptm/m/n/10.95 Likely has an ef-fect on ex-onic
+ []
+
+
+Overfull \hbox (2.73349pt too wide) in paragraph at lines 90--90
+[]|\OT1/ptm/m/n/10.95 p.Leu2208Leu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
+[]|\OT1/ptm/m/n/10.95 p.Tyr1974Tyr
+ []
+
+
+Overfull \hbox (4.87082pt too wide) in paragraph at lines 93--93
+[]|\OT1/ptm/m/n/10.95 0.00082| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
+[]|\OT1/ptm/m/n/10.95 p.Ser1851Ser
+ []
+
+
+Overfull \hbox (43.91093pt too wide) in alignment at lines 70--102
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+[40
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 102--102
+[]|\OT1/ptm/m/n/10.95 Splice
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--105
+[]|\OT1/ptm/m/n/10.95 rs386514433;
+ []
+
+
+Underfull \hbox (badness 1584) in paragraph at lines 105--105
+\OT1/ptm/m/n/10.95 sur-vival in ad-vanced esophageal
+ []
+
+
+Underfull \hbox (badness 1895) in paragraph at lines 105--105
+\OT1/ptm/m/n/10.95 to the AA geno-type who were
+ []
+
+
+Underfull \hbox (badness 1694) in paragraph at lines 105--105
+\OT1/ptm/m/n/10.95 treated with pa-cli-taxel plus cis-
+ []
+
+
+Overfull \hbox (2.13118pt too wide) in paragraph at lines 108--108
+[]|\OT1/ptm/m/n/10.95 p.Leu1222Phe
+ []
+
+
+Overfull \hbox (4.87082pt too wide) in paragraph at lines 108--108
+[]|\OT1/ptm/m/n/10.95 0.00082| 
+ []
+
+
+Overfull \hbox (0.8245pt too wide) in paragraph at lines 108--108
+[]|\OT1/ptm/m/n/10.95 Missense| 
+ []
+
+
+Overfull \hbox (2.33942pt too wide) in paragraph at lines 111--111
+[]|\OT1/ptm/m/n/10.95 p.Arg1154Arg
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
+[]|\OT1/ptm/m/n/10.95 p.Asn999Asn
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
+[]|\OT1/ptm/m/n/10.95 p.Ala690Ala
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+[]|\OT1/ptm/m/n/10.95 p.Ala607Ala
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+[]|\OT1/ptm/m/n/10.95 Conflicting
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+\OT1/ptm/m/n/10.95 of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+[]|\OT1/ptm/m/n/10.95 p.Asp479Asp
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+[]|\OT1/ptm/m/n/10.95 p.Ala329Thr
+ []
+
+
+Overfull \hbox (0.8245pt too wide) in paragraph at lines 126--126
+[]|\OT1/ptm/m/n/10.95 Missense| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
+[]|\OT1/ptm/m/n/10.95 p.Leu170Leu
+ []
+
+
+Overfull \hbox (43.91093pt too wide) in alignment at lines 102--132
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+[41]
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+[]|\OT1/ptm/m/n/10.95 rs1873778;
+ []
+
+
+Overfull \hbox (6.28409pt too wide) in paragraph at lines 133--133
+\OT1/ptm/m/n/10.95 COSM1430082$[]$| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+[]|\OT1/ptm/m/n/10.95 p.Pro567Pro
+ []
+
+
+Underfull \hbox (badness 7451) in paragraph at lines 133--133
+[]|\OT1/ptm/m/n/10.95 No as-so-ci-a-tion with PDGFR$\OML/ztmcm/m/it/10.95 $
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
+[]|\OT1/ptm/m/n/10.95 rs2228230;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
+[]|\OT1/ptm/m/n/10.95 p.Val824Val
+ []
+
+
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 140--140
+[]|\OT1/ptm/m/n/10.95 2:191851646| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+[]|\OT1/ptm/m/n/10.95 p.Thr385Thr
+ []
+
+
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 143--143
+[]|\OT1/ptm/m/n/10.95 2:191856001| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
+[]|\OT1/ptm/m/n/10.95 p.Gln330Gln
+ []
+
+
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 146--146
+[]|\OT1/ptm/m/n/10.95 2:191859906| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--146
+[]|\OT1/ptm/m/n/10.95 p.Gln275Gln
+ []
+
+
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 149--149
+[]|\OT1/ptm/m/n/10.95 2:191859935| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--149
+[]|\OT1/ptm/m/n/10.95 p.Val266Ile
+ []
+
+
+Overfull \hbox (0.8245pt too wide) in paragraph at lines 149--149
+[]|\OT1/ptm/m/n/10.95 Missense| 
+ []
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 149--149
+[]|\OT1/ptm/m/n/10.95 Functional test-ing in-di-cated that
+ []
+
+
+Underfull \hbox (badness 2941) in paragraph at lines 149--149
+\OT1/ptm/m/n/10.95 the vari-ant was not a gain-of-
+ []
+
+
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 152--152
+[]|\OT1/ptm/m/n/10.95 2:191872307| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+[]|\OT1/ptm/m/n/10.95 p.Asn118Asn
+ []
+
+
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 155--155
+[]|\OT1/ptm/m/n/10.95 2:191874667| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
+[]|\OT1/ptm/m/n/10.95 rs386556119;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
+[]|\OT1/ptm/m/n/10.95 p.Leu21Leu
+ []
+
+
+Underfull \hbox (badness 3407) in paragraph at lines 155--155
+[]|\OT1/ptm/m/n/10.95 High fre-quency among pa-tients
+ []
+
+
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 159--159
+[]|\OT1/ptm/m/n/10.95 17:40469241| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
+[]|\OT1/ptm/m/n/10.95 Splice
+ []
+
+
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 162--162
+[]|\OT1/ptm/m/n/10.95 17:40475056| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
+[]|\OT1/ptm/m/n/10.95 p.Gly618Gly
+ []
+
+
+Overfull \hbox (43.91093pt too wide) in alignment at lines 132--165
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+[42] [43]
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 165--165
+[]|\OT1/ptm/m/n/10.95 17:40486040| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+[]|\OT1/ptm/m/n/10.95 p.Leu275Leu
+ []
+
+
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 168--168
+[]|\OT1/ptm/m/n/10.95 17:40486043| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--168
+[]|\OT1/ptm/m/n/10.95 p.Gln274Gln
+ []
+
+
+Overfull \hbox (4.87082pt too wide) in paragraph at lines 168--168
+[]|\OT1/ptm/m/n/10.95 0.00082| 
+ []
+
+
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 171--171
+[]|\OT1/ptm/m/n/10.95 17:40498635| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--171
+[]|\OT1/ptm/m/n/10.95 rs146184566;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--171
+[]|\OT1/ptm/m/n/10.95 p.Ser75Ser
+ []
+
+
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 174--174
+[]|\OT1/ptm/m/n/10.95 17:40498713| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--174
+[]|\OT1/ptm/m/n/10.95 p.Lys49Lys
+ []
+
+
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 177--177
+[]|\OT1/ptm/m/n/10.95 17:40498722| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--177
+[]|\OT1/ptm/m/n/10.95 p.Ala46Ala
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--181
+[]|\OT1/ptm/m/n/10.95 rs55819519;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--181
+[]|\OT1/ptm/m/n/10.95 p.Arg290His
+ []
+
+
+Overfull \hbox (0.8245pt too wide) in paragraph at lines 181--181
+[]|\OT1/ptm/m/n/10.95 Missense| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--181
+[]|\OT1/ptm/m/n/10.95 Conflicting
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--181
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--181
+\OT1/ptm/m/n/10.95 of
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 181--181
+\OT1/ptm/m/n/10.95 Li-Fraumeni syn-drome and can-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--183
+[]|\OT1/ptm/m/n/10.95 [[], [],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--184
+[]|\OT1/ptm/m/n/10.95 p.Met243fs
+ []
+
+
+Overfull \hbox (7.5149pt too wide) in paragraph at lines 184--184
+[]|\OT1/ptm/m/n/10.95 Frameshift| 
+ []
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 184--184
+\OT1/ptm/m/n/10.95 cell car-ci-noma of pa-tients from
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--187
+[]|\OT1/ptm/m/n/10.95 rs1800372;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--187
+[]|\OT1/ptm/m/n/10.95 p.Arg213Arg
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--187
+[]|\OT1/ptm/m/n/10.95 Benign/Likely
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--187
+[]|\OT1/ptm/m/n/10.95 One study demon-strated that
+ []
+
+
+Overfull \hbox (1.78409pt too wide) in paragraph at lines 190--190
+[]|\OT1/ptm/m/n/10.95 COSM1386804| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--190
+[]|\OT1/ptm/m/n/10.95 p.Thr170Thr
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 190--190
+\OT1/ptm/m/n/10.95 the worst prog-no-sis for pa-tients
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--193
+[]|\OT1/ptm/m/n/10.95 rs1042522;
+ []
+
+
+Overfull \hbox (0.8091pt too wide) in paragraph at lines 193--193
+\OT1/ptm/m/n/10.95 COSM250061$[]$| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--193
+[]|\OT1/ptm/m/n/10.95 p.Pro72Arg
+ []
+
+
+Overfull \hbox (0.8245pt too wide) in paragraph at lines 193--193
+[]|\OT1/ptm/m/n/10.95 Missense| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--193
+[]|\OT1/ptm/m/n/10.95 p53 pro-tein with Arg72 was
+ []
+
+
+Underfull \hbox (badness 2600) in paragraph at lines 193--193
+\OT1/ptm/m/n/10.95 as-so-ci-ated with in-creased apop-
+ []
+
+
+Underfull \hbox (badness 6842) in paragraph at lines 193--193
+\OT1/ptm/m/n/10.95 to-sis, while p53 pro-tein with
+ []
+
+
+Underfull \hbox (badness 6876) in paragraph at lines 193--193
+\OT1/ptm/m/n/10.95 cell-cycle ar-rest and ac-ti-va-tion
+ []
+
+
+Underfull \hbox (badness 6842) in paragraph at lines 193--193
+\OT1/ptm/m/n/10.95 of p53-dependent DNA re-pair.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--193
+\OT1/ptm/m/n/10.95 Pro/Pro geno-type re-sulted in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--193
+\OT1/ptm/m/n/10.95 se-vere neu-trope-nia in ovar-ian
+ []
+
+
+Underfull \hbox (badness 5741) in paragraph at lines 193--193
+\OT1/ptm/m/n/10.95 based chemother-apy, and poor
+ []
+
+
+Underfull \hbox (badness 1881) in paragraph at lines 193--193
+\OT1/ptm/m/n/10.95 gas-tric can-cer pa-tients re-ceiv-ing
+ []
+
+
+Underfull \hbox (badness 3547) in paragraph at lines 193--193
+\OT1/ptm/m/n/10.95 bi-na-tion chemother-apy, as well
+ []
+
+
+Underfull \hbox (badness 5832) in paragraph at lines 193--193
+\OT1/ptm/m/n/10.95 as 5-fluorouracil-based ad-ju-vant
+ []
+
+
+Underfull \hbox (badness 1874) in paragraph at lines 193--193
+\OT1/ptm/m/n/10.95 chemother-apy. Con-flict-ing ev-i-
+ []
+
+
+Overfull \hbox (43.91093pt too wide) in alignment at lines 165--196
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+[44]
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+[]|\OT1/ptm/m/n/10.95 p.Pro36Pro
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+[]|\OT1/ptm/m/n/10.95 Benign/Likely
+ []
+
+
+Overfull \hbox (43.91093pt too wide) in alignment at lines 196--200
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+[45] [46] [47] [48] [49]
+Overfull \hbox (7.75061pt too wide) in paragraph at lines 225--225
+[]|\OT1/ptm/m/n/10.95 Chr| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 228--228
+[]|\OT1/ptm/m/n/10.95 p.Val1185Val
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--231
+[]|\OT1/ptm/m/n/10.95 p.Pro741Pro
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--233
+[]|\OT1/ptm/m/n/10.95 p.Lys757Arg
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
+[]|\OT1/ptm/m/n/10.95 rs1050171;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
+[]|\OT1/ptm/m/n/10.95 p.Gln787Gln
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--237
+[]|\OT1/ptm/m/n/10.95 rs56183713;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--237
+[]|\OT1/ptm/m/n/10.95 p.Val819Val
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 239--239
+[]|\OT1/ptm/m/n/10.95 rs2229066;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 239--239
+\OT1/ptm/m/n/10.95 COSM85893;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 239--239
+[]|\OT1/ptm/m/n/10.95 p.Arg836Arg
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--242
+[]|\OT1/ptm/m/n/10.95 rs151016327;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--242
+[]|\OT1/ptm/m/n/10.95 p.Thr461Thr
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--244
+[]|\OT1/ptm/m/n/10.95 rs55789615;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--244
+[]|\OT1/ptm/m/n/10.95 p.Ile798Ile
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
+[]|\OT1/ptm/m/n/10.95 rs3733542;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
+[]|\OT1/ptm/m/n/10.95 p.Leu862Leu
+ []
+
+
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 249--249
+[]|\OT1/ptm/m/n/10.95 22| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 249--249
+[]|\OT1/ptm/m/n/10.95 rs386488966;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 249--249
+[]|\OT1/ptm/m/n/10.95 p.Tyr43Tyr
+ []
+
+
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 251--251
+[]|\OT1/ptm/m/n/10.95 22| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--251
+[]|\OT1/ptm/m/n/10.95 p.Tyr36Tyr
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--256
+[]|\OT1/ptm/m/n/10.95 p.Glu2456Lys
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--258
+[]|\OT1/ptm/m/n/10.95 p.Arg2408Gln
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 260--260
+[]|\OT1/ptm/m/n/10.95 p.Leu2303Leu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 262--262
+[]|\OT1/ptm/m/n/10.95 p.Leu2208Leu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 264--264
+[]|\OT1/ptm/m/n/10.95 p.Tyr1974Tyr
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--266
+[]|\OT1/ptm/m/n/10.95 p.Ser1851Ser
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 268--268
+[]|\OT1/ptm/m/n/10.95 p.Ala1823Ala
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--273
+[]|\OT1/ptm/m/n/10.95 rs386514433;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--273
+[]|\OT1/ptm/m/n/10.95 p.Ala1577Ala
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--275
+[]|\OT1/ptm/m/n/10.95 p.Leu1222Phe
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--277
+[]|\OT1/ptm/m/n/10.95 p.Arg1154Arg
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 279--279
+[]|\OT1/ptm/m/n/10.95 p.Asn999Asn
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 281--281
+[]|\OT1/ptm/m/n/10.95 p.Ala690Ala
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--283
+[]|\OT1/ptm/m/n/10.95 p.Ala607Ala
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 285--285
+[]|\OT1/ptm/m/n/10.95 p.Asp479Asp
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+[]|\OT1/ptm/m/n/10.95 p.Ala329Thr
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 289--289
+[]|\OT1/ptm/m/n/10.95 p.Leu170Leu
+ []
+
+
+Overfull \hbox (1.04816pt too wide) in paragraph at lines 292--292
+[]|\OT1/ptm/m/n/10.95 PDGRRA| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--292
+[]|\OT1/ptm/m/n/10.95 rs1873778;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--292
+[]|\OT1/ptm/m/n/10.95 p.Pro567Pro
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--294
+[]|\OT1/ptm/m/n/10.95 rs2228230;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--294
+[]|\OT1/ptm/m/n/10.95 p.Val824Val
+ []
+
+
+Overfull \hbox (5.91028pt too wide) in paragraph at lines 297--297
+[]|\OT1/ptm/m/n/10.95 191851646| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--297
+[]|\OT1/ptm/m/n/10.95 p.Thr385Thr
+ []
+
+
+Overfull \hbox (5.91028pt too wide) in paragraph at lines 299--299
+[]|\OT1/ptm/m/n/10.95 191856001| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--299
+[]|\OT1/ptm/m/n/10.95 p.Gln330Gln
+ []
+
+
+Overfull \hbox (5.91028pt too wide) in paragraph at lines 301--301
+[]|\OT1/ptm/m/n/10.95 191859906| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 301--301
+[]|\OT1/ptm/m/n/10.95 p.Gln275Gln
+ []
+
+
+Overfull \hbox (5.91028pt too wide) in paragraph at lines 303--303
+[]|\OT1/ptm/m/n/10.95 191859935| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--303
+[]|\OT1/ptm/m/n/10.95 p.Val266Ile
+ []
+
+
+Overfull \hbox (5.91028pt too wide) in paragraph at lines 305--305
+[]|\OT1/ptm/m/n/10.95 191872307| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--305
+[]|\OT1/ptm/m/n/10.95 p.Asn118Asn
+ []
+
+
+Overfull \hbox (5.91028pt too wide) in paragraph at lines 307--307
+[]|\OT1/ptm/m/n/10.95 191874667| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 307--307
+[]|\OT1/ptm/m/n/10.95 rs386556119;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 307--307
+[]|\OT1/ptm/m/n/10.95 p.Leu21Leu
+ []
+
+[50
+
+]
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 310--310
+[]|\OT1/ptm/m/n/10.95 17| 
+ []
+
+
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 312--312
+[]|\OT1/ptm/m/n/10.95 17| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--312
+[]|\OT1/ptm/m/n/10.95 p.Gly618Gly
+ []
+
+
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 314--314
+[]|\OT1/ptm/m/n/10.95 17| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--314
+[]|\OT1/ptm/m/n/10.95 p.Leu275Leu
+ []
+
+
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 316--316
+[]|\OT1/ptm/m/n/10.95 17| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--316
+[]|\OT1/ptm/m/n/10.95 p.Gln274Gln
+ []
+
+
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 318--318
+[]|\OT1/ptm/m/n/10.95 17| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 318--318
+[]|\OT1/ptm/m/n/10.95 rs146184566;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 318--318
+[]|\OT1/ptm/m/n/10.95 p.Ser75Ser
+ []
+
+
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 320--320
+[]|\OT1/ptm/m/n/10.95 17| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 320--320
+[]|\OT1/ptm/m/n/10.95 p.Lys49Lys
+ []
+
+
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 322--322
+[]|\OT1/ptm/m/n/10.95 17| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+[]|\OT1/ptm/m/n/10.95 p.Ala46Ala
+ []
+
+
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 325--325
+[]|\OT1/ptm/m/n/10.95 17| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 325--325
+[]|\OT1/ptm/m/n/10.95 rs55819519;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 325--325
+[]|\OT1/ptm/m/n/10.95 p.Arg290His
+ []
+
+
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 327--327
+[]|\OT1/ptm/m/n/10.95 17| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 327--327
+[]|\OT1/ptm/m/n/10.95 p.Met243fs
+ []
+
+
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 329--329
+[]|\OT1/ptm/m/n/10.95 17| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 329--329
+[]|\OT1/ptm/m/n/10.95 rs1800372;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 329--329
+[]|\OT1/ptm/m/n/10.95 p.Arg213Arg
+ []
+
+
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 331--331
+[]|\OT1/ptm/m/n/10.95 17| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--331
+[]|\OT1/ptm/m/n/10.95 p.Thr170Thr
+ []
+
+
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 333--333
+[]|\OT1/ptm/m/n/10.95 17| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--333
+[]|\OT1/ptm/m/n/10.95 rs1042522;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--333
+[]|\OT1/ptm/m/n/10.95 p.Pro72Arg
+ []
+
+
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 335--335
+[]|\OT1/ptm/m/n/10.95 17| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 335--335
+[]|\OT1/ptm/m/n/10.95 p.Pro36Pro
+ []
+
+[51] [52]
+Underfull \hbox (badness 10000) in paragraph at lines 354--354
+[]|\OT1/ptm/m/n/10.95 Variant
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--354
+[]|\OT1/ptm/m/n/10.95 Clinical
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 357--357
+[]|\OT1/ptm/m/n/10.95 p.Asp949Val
+ []
+
+
+Overfull \hbox (0.8245pt too wide) in paragraph at lines 357--357
+[]|\OT1/ptm/m/n/10.95 Missense| 
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 359--360
+\OT1/ptm/m/n/10.95 port or co-fac-tor bind-ing. Re-
+ []
+
+
+Underfull \hbox (badness 1226) in paragraph at lines 359--360
+\OT1/ptm/m/n/10.95 duced DPD ac-tiv-ity with strong
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--363
+[]|\OT1/ptm/m/n/10.95 [[], [],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--363
+[]\OT1/ptm/m/n/10.95 --
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
+[]|\OT1/ptm/m/n/10.95 p.Val732Ile
+ []
+
+
+Overfull \hbox (0.8245pt too wide) in paragraph at lines 364--364
+[]|\OT1/ptm/m/n/10.95 Missense| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
+[]|\OT1/ptm/m/n/10.95 Benign/Likely
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
+\OT1/ptm/m/n/10.95 be-nign,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 367--367
+[]|\OT1/ptm/m/n/10.95 Splice
+ []
+
+
+Underfull \hbox (badness 1270) in paragraph at lines 367--367
+\OT1/ptm/m/n/10.95 in-ac-tive en-zyme with no uracil-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 367--369
+[]\OT1/ptm/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 367--369
+[]\OT1/ptm/m/n/10.95 --
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 370--370
+[]|\OT1/ptm/m/n/10.95 Splice
+ []
+
+
+Underfull \hbox (badness 2828) in paragraph at lines 370--370
+[]|\OT1/ptm/m/n/10.95 Benign vari-ant as pre-dicted by
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 373--373
+[]|\OT1/ptm/m/n/10.95 p.Ser534Asn
+ []
+
+
+Overfull \hbox (0.8245pt too wide) in paragraph at lines 373--373
+[]|\OT1/ptm/m/n/10.95 Missense| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 373--373
+[]|\OT1/ptm/m/n/10.95 Conflicting
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 373--373
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 373--373
+\OT1/ptm/m/n/10.95 of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 373--373
+[]\OT1/ptm/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 373--375
+[]|\OT1/ptm/m/n/10.95 [[],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--376
+[]|\OT1/ptm/m/n/10.95 p.Glu412Glu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--376
+[]|\OT1/ptm/m/n/10.95 Synonymous vari-ant in high
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--376
+\OT1/ptm/m/n/10.95 link-age dis-e-qui-lib-rium with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--376
+[] \OT1/ptm/m/n/10.95 (rs75017182)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--376
+\OT1/ptm/m/n/10.95 in hap-lo-type B3 (HapB3).
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--376
+\OT1/ptm/m/n/10.95 rs75017182 causes non-sense
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--376
+\OT1/ptm/m/n/10.95 with fluoropyrimidine-related
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 379--379
+[]|\OT1/ptm/m/n/10.95 p.Met166Val
+ []
+
+
+Overfull \hbox (0.8245pt too wide) in paragraph at lines 379--379
+[]|\OT1/ptm/m/n/10.95 Missense| 
+ []
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 379--379
+[]|\OT1/ptm/m/n/10.95 Conflicting ev-i-dence on changes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 379--381
+[]|\OT1/ptm/m/n/10.95 [[],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--382
+[]|\OT1/ptm/m/n/10.95 p.Arg29Cys
+ []
+
+
+Overfull \hbox (0.8245pt too wide) in paragraph at lines 382--382
+[]|\OT1/ptm/m/n/10.95 Missense| 
+ []
+
+
+Underfull \hbox (badness 6526) in paragraph at lines 382--382
+[]|\OT1/ptm/m/n/10.95 C al-lele causes re-duced DPD
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--382
+\OT1/ptm/m/n/10.95 ac-tiv-ity. Con-flict-ing clin-i-cal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--382
+\OT1/ptm/m/n/10.95 ev-i-dence on as-so-ci-a-tion with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--384
+[]|\OT1/ptm/m/n/10.95 [[],
+ []
+
+
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 386--386
+[]|\OT1/ptm/m/n/10.95 11:67352689| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 386--386
+[]|\OT1/ptm/m/n/10.95 p.Ile105Val
+ []
+
+
+Overfull \hbox (0.8245pt too wide) in paragraph at lines 386--386
+[]|\OT1/ptm/m/n/10.95 Missense| 
+ []
+
+
+Overfull \hbox (53.12498pt too wide) in alignment at lines 349--389
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 390--390
+[]|\OT1/ptm/m/n/10.95 p.Glu429Ala
+ []
+
+
+Overfull \hbox (0.8245pt too wide) in paragraph at lines 390--390
+[]|\OT1/ptm/m/n/10.95 Missense| 
+ []
+
+
+Underfull \hbox (badness 4303) in paragraph at lines 390--390
+[]|\OT1/ptm/m/n/10.95 Reduced MTHFR ac-tiv-ity with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 390--392
+[]|\OT1/ptm/m/n/10.95 [[],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 393--393
+[]|\OT1/ptm/m/n/10.95 p.Ala222Val
+ []
+
+
+Overfull \hbox (0.8245pt too wide) in paragraph at lines 393--393
+[]|\OT1/ptm/m/n/10.95 Missense| 
+ []
+
+
+Underfull \hbox (badness 3428) in paragraph at lines 393--393
+\OT1/ptm/m/n/10.95 syn-the-sis. In-creased ef-fec-tive-
+ []
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 393--393
+\OT1/ptm/m/n/10.95 al-though con-flict-ing clin-i-cal ev-i-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 393--395
+[]|\OT1/ptm/m/n/10.95 [[],
+ []
+
+
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 397--397
+[]|\OT1/ptm/m/n/10.95 22:50964236| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 397--397
+[]|\OT1/ptm/m/n/10.95 p.Ser471Leu
+ []
+
+
+Overfull \hbox (0.8245pt too wide) in paragraph at lines 397--397
+[]|\OT1/ptm/m/n/10.95 Missense| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 397--397
+[]|\OT1/ptm/m/n/10.95 Benign/Likely
+ []
+
+
+Underfull \hbox (badness 4739) in paragraph at lines 397--397
+\OT1/ptm/m/n/10.95 vival in the pres-ence of high
+ []
+
+
+Underfull \hbox (badness 2293) in paragraph at lines 397--397
+\OT1/ptm/m/n/10.95 platelet counts. Lim-ited clin-i-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 397--399
+[]|\OT1/ptm/m/n/10.95 [[],
+ []
+
+
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 400--400
+[]|\OT1/ptm/m/n/10.95 22:50964255| 
+ []
+
+
+Overfull \hbox (4.96146pt too wide) in paragraph at lines 400--400
+[]|\OT1/ptm/m/n/10.95 rs112723255| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--400
+[]|\OT1/ptm/m/n/10.95 p.Ala465Thr
+ []
+
+
+Overfull \hbox (0.8245pt too wide) in paragraph at lines 400--400
+[]|\OT1/ptm/m/n/10.95 Missense| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--400
+[]|\OT1/ptm/m/n/10.95 Benign/Likely
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--400
+[]|\OT1/ptm/m/n/10.95 No as-so-ci-a-tion with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--400
+\OT1/ptm/m/n/10.95 fluoropyrimidine-related tox-i-c-ity.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--400
+\OT1/ptm/m/n/10.95 tox-i-c-ity from HLA-matched
+ []
+
+
+Underfull \hbox (badness 5203) in paragraph at lines 400--400
+\OT1/ptm/m/n/10.95 plan-ta-tion. In-creased risk of
+ []
+
+
+Underfull \hbox (badness 2495) in paragraph at lines 400--400
+\OT1/ptm/m/n/10.95 chronic graft-versus-host dis-ease
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 400--400
+\OT1/ptm/m/n/10.95 when donor is a car-rier of the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--400
+\OT1/ptm/m/n/10.95 mi-nor al-lele and re-cip-i-ent is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--402
+[]|\OT1/ptm/m/n/10.95 [[],
+ []
+
+
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 403--403
+[]|\OT1/ptm/m/n/10.95 22:50964493| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
+[]|\OT1/ptm/m/n/10.95 p.Glu413Lys
+ []
+
+
+Overfull \hbox (0.8245pt too wide) in paragraph at lines 403--403
+[]|\OT1/ptm/m/n/10.95 Missense| 
+ []
+
+
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 406--406
+[]|\OT1/ptm/m/n/10.95 22:50964907| 
+ []
+
+
+Overfull \hbox (4.96146pt too wide) in paragraph at lines 406--406
+[]|\OT1/ptm/m/n/10.95 rs201685922| 
+ []
+
+
+Overfull \hbox (1.58746pt too wide) in paragraph at lines 406--406
+[]|\OT1/ptm/m/n/10.95 c.929[]932delCCGC| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--406
+[]|\OT1/ptm/m/n/10.95 Splice
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--406
+[]|\OT1/ptm/m/n/10.95 Conflicting
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--406
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--406
+\OT1/ptm/m/n/10.95 of
+ []
+
+
+Underfull \hbox (badness 5203) in paragraph at lines 406--406
+\OT1/ptm/m/n/10.95 gas-troin-testi-nal en-cephalomy-opa-
+ []
+
+
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 409--409
+[]|\OT1/ptm/m/n/10.95 22:50965102| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 409--409
+[]|\OT1/ptm/m/n/10.95 p.Leu277Leu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 409--409
+[]|\OT1/ptm/m/n/10.95 Benign/Likely
+ []
+
+
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 412--412
+[]|\OT1/ptm/m/n/10.95 22:50965597| 
+ []
+
+
+Overfull \hbox (4.96146pt too wide) in paragraph at lines 412--412
+[]|\OT1/ptm/m/n/10.95 rs373478014| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--412
+[]|\OT1/ptm/m/n/10.95 p.Thr254Thr
+ []
+
+
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 415--415
+[]|\OT1/ptm/m/n/10.95 22:50965624| 
+ []
+
+
+Overfull \hbox (4.96146pt too wide) in paragraph at lines 415--415
+[]|\OT1/ptm/m/n/10.95 rs139223629| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]|\OT1/ptm/m/n/10.95 p.Gln245Gln
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]|\OT1/ptm/m/n/10.95 Conflicting
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\OT1/ptm/m/n/10.95 of
+ []
+
+
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 418--418
+[]|\OT1/ptm/m/n/10.95 22:50965683| 
+ []
+
+
+Overfull \hbox (4.96146pt too wide) in paragraph at lines 418--418
+[]|\OT1/ptm/m/n/10.95 rs200497106| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 418--418
+[]|\OT1/ptm/m/n/10.95 p.Gly226Arg
+ []
+
+
+Overfull \hbox (0.8245pt too wide) in paragraph at lines 418--418
+[]|\OT1/ptm/m/n/10.95 Missense| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 418--418
+[]|\OT1/ptm/m/n/10.95 Uncertain
+ []
+
+
+Overfull \hbox (53.12498pt too wide) in alignment at lines 389--421
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+[53
+
+] [54]
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 421--421
+[]|\OT1/ptm/m/n/10.95 22:50966082| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 421--421
+[]|\OT1/ptm/m/n/10.95 p.Ala194Val
+ []
+
+
+Overfull \hbox (0.8245pt too wide) in paragraph at lines 421--421
+[]|\OT1/ptm/m/n/10.95 Missense| 
+ []
+
+
+Overfull \hbox (4.96146pt too wide) in paragraph at lines 425--425
+[]|\OT1/ptm/m/n/10.95 rs151264360| 
+ []
+
+
+Overfull \hbox (6.27585pt too wide) in paragraph at lines 425--425
+[]|\OT1/ptm/m/n/9 c.*447[]*452delTTAAAG| 
+ []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 425--425
+[]|\OT1/ptm/m/n/10.95 Decreased sta-bil-ity of sec-ondary
+ []
+
+
+Underfull \hbox (badness 2735) in paragraph at lines 425--425
+\OT1/ptm/m/n/10.95 mRNA struc-ture and lower TS
+ []
+
+
+Underfull \hbox (badness 2368) in paragraph at lines 425--425
+\OT1/ptm/m/n/10.95 rim-i-dine treat-ment, and risk of
+ []
+
+
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 429--429
+[]|\OT1/ptm/m/n/10.95 2:234668870| 
+ []
+
+
+Overfull \hbox (2.64233pt too wide) in paragraph at lines 429--429
+[]|\OT1/ptm/m/n/10.95 Upstream
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 429--431
+[]|\OT1/ptm/m/n/10.95 [[],
+ []
+
+
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 432--432
+[]|\OT1/ptm/m/n/10.95 2:234668879| 
+ []
+
+
+Overfull \hbox (2.64233pt too wide) in paragraph at lines 432--432
+[]|\OT1/ptm/m/n/10.95 Upstream
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 432--432
+[]|\OT1/ptm/m/n/10.95 Conflicting
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 432--432
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 432--432
+\OT1/ptm/m/n/10.95 of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 432--432
+[]\OT1/ptm/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 432--432
+\OT1/ptm/m/n/10.95 af-fects,
+ []
+
+
+Underfull \hbox (badness 1924) in paragraph at lines 432--432
+[]|\OT1/ptm/m/n/10.95 Lower UGT1A1 ex-pres-sion and
+ []
+
+
+Overfull \hbox (53.12498pt too wide) in alignment at lines 421--436
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+[55] [56] [57]
+Underfull \hbox (badness 10000) in paragraph at lines 439--451
+
+ []
+
+[58]
+Overfull \hbox (7.75061pt too wide) in paragraph at lines 462--462
+[]|\OT1/ptm/m/n/10.95 Chr| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 465--465
+[]|\OT1/ptm/m/n/10.95 p.Asp949Val
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 467--467
+[]|\OT1/ptm/m/n/10.95 p.Val732Ile
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 473--473
+[]|\OT1/ptm/m/n/10.95 p.Ser534Asn
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 475--475
+[]|\OT1/ptm/m/n/10.95 p.Glu412Glu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 477--477
+[]|\OT1/ptm/m/n/10.95 p.Met166Val
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 479--479
+[]|\OT1/ptm/m/n/10.95 p.Arg29Cys
+ []
+
+
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 482--482
+[]|\OT1/ptm/m/n/10.95 11| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 482--482
+[]|\OT1/ptm/m/n/10.95 p.Ile105Val
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 485--485
+[]|\OT1/ptm/m/n/10.95 p.Glu429Ala
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 487--487
+[]|\OT1/ptm/m/n/10.95 p.Ala222Val
+ []
+
+
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 490--490
+[]|\OT1/ptm/m/n/10.95 22| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 490--490
+[]|\OT1/ptm/m/n/10.95 p.Ser471Leu
+ []
+
+
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 492--492
+[]|\OT1/ptm/m/n/10.95 22| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 492--492
+[]|\OT1/ptm/m/n/10.95 p.Ala465Thr
+ []
+
+
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 494--494
+[]|\OT1/ptm/m/n/10.95 22| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 494--494
+[]|\OT1/ptm/m/n/10.95 p.Glu413Lys
+ []
+
+
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 496--496
+[]|\OT1/ptm/m/n/10.95 22| 
+ []
+
+
+Overfull \hbox (0.8657pt too wide) in paragraph at lines 496--496
+[]|\OT1/ptm/m/n/10.95 c.929[]932delCCGC| 
+ []
+
+
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 498--498
+[]|\OT1/ptm/m/n/10.95 22| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 498--498
+[]|\OT1/ptm/m/n/10.95 p.Leu277Leu
+ []
+
+
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 500--500
+[]|\OT1/ptm/m/n/10.95 22| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 500--500
+[]|\OT1/ptm/m/n/10.95 p.Thr254Thr
+ []
+
+
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 502--502
+[]|\OT1/ptm/m/n/10.95 22| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+[]|\OT1/ptm/m/n/10.95 p.Gln245Gln
+ []
+
+
+Overfull \hbox (5.34341pt too wide) in alignment at lines 457--504
+ [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 504--504
+[]|\OT1/ptm/m/n/10.95 22| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 504--504
+[]|\OT1/ptm/m/n/10.95 p.Gly226Arg
+ []
+
+
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 506--506
+[]|\OT1/ptm/m/n/10.95 22| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 506--506
+[]|\OT1/ptm/m/n/10.95 p.Ala194Val
+ []
+
+
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 509--509
+[]|\OT1/ptm/m/n/10.95 22| 
+ []
+
+
+Overfull \hbox (5.5541pt too wide) in paragraph at lines 509--509
+[]|\OT1/ptm/m/n/9 c.*447[]*452delTTAAAG| 
+ []
+
+
+Overfull \hbox (2.33377pt too wide) in paragraph at lines 512--512
+[]|\OT1/ptm/m/n/10.95 UGT1A1| 
+ []
+
+
+Overfull \hbox (5.91028pt too wide) in paragraph at lines 512--512
+[]|\OT1/ptm/m/n/10.95 234668870| 
+ []
+
+
+Overfull \hbox (5.91028pt too wide) in paragraph at lines 514--514
+[]|\OT1/ptm/m/n/10.95 234668879| 
+ []
+
+
+Overfull \hbox (5.34341pt too wide) in alignment at lines 504--517
+ [] [] [] [] [] [] [] [] 
+ []
+
+[59
+
+]
+</Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/variant_conc_
+venn.png, id=904, 481.8pt x 481.8pt>
+File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/variant_
+conc_venn.png Graphic file (type png)
+
+<use /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/variant_c
+onc_venn.png>
+Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
+er3_figure/variant_conc_venn.png used on input line 531.
+(pdftex.def)             Requested size: 289.08221pt x 289.08221pt.
+
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/true_positive
-_rate_variants.png, id=503, 611.4042pt x 522.2712pt>
+_rate_variants.png, id=905, 611.4042pt x 522.2712pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/true_pos
 itive_rate_variants.png Graphic file (type png)
 
 <use /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/true_posi
 tive_rate_variants.png>
 Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
-er3_figure/true_positive_rate_variants.png used on input line 27.
+er3_figure/true_positive_rate_variants.png used on input line 538.
 (pdftex.def)             Requested size: 483.00401pt x 412.58972pt.
 
-Overfull \hbox (49.384pt too wide) in paragraph at lines 27--28
+Overfull \hbox (49.384pt too wide) in paragraph at lines 538--539
  [][] 
  []
 
-[29 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/variant_o
-utput.png>]
+[60 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/variant_c
+onc_venn.png>]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/germline_vaf_
-sens.png, id=509, 675.4836pt x 301.125pt>
+sens.png, id=911, 675.4836pt x 301.125pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/germline
 _vaf_sens.png Graphic file (type png)
 
 <use /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/germline_
 vaf_sens.png>
 Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
-er3_figure/germline_vaf_sens.png used on input line 37.
+er3_figure/germline_vaf_sens.png used on input line 554.
 (pdftex.def)             Requested size: 472.8353pt x 210.78606pt.
 
-Overfull \hbox (39.21529pt too wide) in paragraph at lines 37--38
+Overfull \hbox (39.21529pt too wide) in paragraph at lines 554--555
 [][] 
  []
 
-[30 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/true_posi
+[61 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/true_posi
 tive_rate_variants.png>]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/germline_soma
-tic_ppv.png, id=515, 684.6378pt x 297.7524pt>
+tic_ppv.png, id=918, 684.6378pt x 297.7524pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/germline
 _somatic_ppv.png Graphic file (type png)
 
 <use /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/germline_
 somatic_ppv.png>
 Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
-er3_figure/germline_somatic_ppv.png used on input line 79.
+er3_figure/germline_somatic_ppv.png used on input line 596.
 (pdftex.def)             Requested size: 479.2432pt x 208.42525pt.
 
-Overfull \hbox (45.62318pt too wide) in paragraph at lines 79--80
+Overfull \hbox (45.62318pt too wide) in paragraph at lines 596--597
 [][] 
  []
 
-[31 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/germline_
-vaf_sens.png>]) [32 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_
+[62 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/germline_
+vaf_sens.png>]) [63 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_
 figure/germline_somatic_ppv.png>]
 \openout2 = `Conclusion.aux'.
 
  (./Conclusion.tex
 Chapter 5.
-) [33
+) [64
 
 
 
@@ -1564,66 +3683,98 @@ Chapter 5.
 \tf@brf=\write9
 \openout9 = `diss.brf'.
 
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 21.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 21.
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+ [65
 
 
-Package natbib Warning: Empty `thebibliography' environment on input line 8.
+] [66]
+[67]
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+ [68] [69] [70]
+LaTeX Font Info:    Try loading font information for OML+ptm on input line 631.
 
-) [34
 
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omlptm.fd
+File: omlptm.fd 
+)
+LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <10.95> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 631.
+ [71] [72]
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ” in font ptmr7t!
 
-]
+[73] [74]) [75]
 \openout2 = `appendix.aux'.
 
  (./appendix.tex
 Appendix A.
 
-Overfull \hbox (33.75069pt too wide) in paragraph at lines 8--40
- [][] 
+Overfull \hbox (50.71762pt too wide) in alignment at lines 6--59
+ [] [] [] [] [] [] 
  []
 
-) [35
+) [76
 
 
-] [36]
+]
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 449.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 449.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 455.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 455.
 (./diss.aux (./abstract.aux) (./preface.aux) (./ack.aux) (./intro.aux)
 (./materialsmethods.aux) (./chapter2.aux) (./chapter3.aux) (./Conclusion.aux)
 (./appendix.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 449.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 449.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 455.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 455.
 Package rerunfilecheck Info: File `diss.out' has not changed.
-(rerunfilecheck)             Checksum: EC25D05CADF6A124DD6311B4BA29A394;3934.
+(rerunfilecheck)             Checksum: AEA857F84467B7AA715F80218CC9A927;4289.
 Package rerunfilecheck Info: File `diss.brf' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: F4616ECFFB27E81E81A2D42C9102E593;6106.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.55997pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 449.
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 455.
  ) 
 Here is how much of TeX's memory you used:
- 21079 strings out of 493014
- 391990 string characters out of 6133351
- 459281 words of memory out of 5000000
- 24122 multiletter control sequences out of 15000+600000
- 53434 words of font info for 105 fonts, out of 8000000 for 9000
+ 21910 strings out of 493014
+ 407162 string characters out of 6133351
+ 496749 words of memory out of 5000000
+ 24793 multiletter control sequences out of 15000+600000
+ 71625 words of font info for 144 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,14n,42p,10389b,791s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,15n,51p,10389b,1065s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
-xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
-live/2016/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/201
-6/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-di
-st/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
-ype1/urw/times/utmri8a.pfb>
-Output written on diss.pdf (47 pages, 3376147 bytes).
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-d
+ist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
+ype1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/t
+imes/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri
+8a.pfb>
+Output written on diss.pdf (88 pages, 3489686 bytes).
 PDF statistics:
- 596 PDF objects out of 1000 (max. 8388607)
- 510 compressed objects within 6 object streams
- 120 named destinations out of 1000 (max. 500000)
- 439 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1300 PDF objects out of 1440 (max. 8388607)
+ 1157 compressed objects within 12 object streams
+ 259 named destinations out of 1000 (max. 500000)
+ 483 words of extra memory for PDF output out of 10000 (max. 10000000)
 

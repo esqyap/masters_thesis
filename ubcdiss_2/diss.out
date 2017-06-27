@@ -6,41 +6,44 @@
 \BOOKMARK [0][-]{chapter*.6}{List of Abbreviations}{}% 6
 \BOOKMARK [0][-]{chapter*.7}{Acknowledgments}{}% 7
 \BOOKMARK [0][-]{chapter.1}{1 Introduction}{}% 8
-\BOOKMARK [1][-]{section.1.1}{1.1 The Evolution of Molecular Diagnostics in Cancer}{chapter.1}% 9
-\BOOKMARK [1][-]{section.1.2}{1.2 Next-generation Sequencing Technologies}{chapter.1}% 10
-\BOOKMARK [1][-]{section.1.3}{1.3 Applications of Next-generation Sequencing}{chapter.1}% 11
-\BOOKMARK [2][-]{subsection.1.3.1}{1.3.1 Targeted Sequencing}{section.1.3}% 12
-\BOOKMARK [2][-]{subsection.1.3.2}{1.3.2 Whole Exome Sequencing}{section.1.3}% 13
-\BOOKMARK [2][-]{subsection.1.3.3}{1.3.3 Whole Genome Sequencing}{section.1.3}% 14
-\BOOKMARK [1][-]{section.1.4}{1.4 Bioinformatics Tools for Variant Calling}{chapter.1}% 15
-\BOOKMARK [2][-]{subsection.1.4.1}{1.4.1 Types of Genomic Alterations}{section.1.4}% 16
-\BOOKMARK [2][-]{subsection.1.4.2}{1.4.2 Variant Calling Pipeline}{section.1.4}% 17
-\BOOKMARK [2][-]{subsection.1.4.3}{1.4.3 Variant Calling Algorithms}{section.1.4}% 18
-\BOOKMARK [2][-]{subsection.1.4.4}{1.4.4 Variant Curation and Interpretation}{section.1.4}% 19
-\BOOKMARK [1][-]{section.1.5}{1.5 Germline Variant Calling in The Tumour Genome}{chapter.1}% 20
-\BOOKMARK [2][-]{subsection.1.5.1}{1.5.1 Incidental Findings}{section.1.5}% 21
-\BOOKMARK [2][-]{subsection.1.5.2}{1.5.2 Pharmacogenomic Variants}{section.1.5}% 22
-\BOOKMARK [2][-]{subsection.1.5.3}{1.5.3 Challenges}{section.1.5}% 23
-\BOOKMARK [1][-]{section.1.6}{1.6 Objectives}{chapter.1}% 24
-\BOOKMARK [0][-]{chapter.2}{2 Materials and Methods}{}% 25
-\BOOKMARK [1][-]{section.2.1}{2.1 Patient Samples}{chapter.2}% 26
-\BOOKMARK [1][-]{section.2.2}{2.2 Sample Preparation, Library Construction, and Illumina Sequencing}{chapter.2}% 27
-\BOOKMARK [1][-]{section.2.3}{2.3 OncoPanel \(Targeted NGS Panel for Solid Tumours\)}{chapter.2}% 28
-\BOOKMARK [1][-]{section.2.4}{2.4 Variant Calling Pipeline}{chapter.2}% 29
-\BOOKMARK [1][-]{section.2.5}{2.5 Data Analysis}{chapter.2}% 30
-\BOOKMARK [0][-]{chapter.3}{3 Assessment of Formalin-Induced DNA Damages in FFPE Specimens}{}% 31
-\BOOKMARK [1][-]{section.3.1}{3.1 Comparison of efficiency in amplicon enrichment and sequencing results between blood and FFPE specimens}{chapter.3}% 32
-\BOOKMARK [1][-]{section.3.2}{3.2 Reduced coverage depth in FFPE specimens is more pronounced for longer amplicons}{chapter.3}% 33
-\BOOKMARK [1][-]{section.3.3}{3.3 Deamination effects lead to increased C>T/G>A transitions in FFPE specimens}{chapter.3}% 34
-\BOOKMARK [1][-]{section.3.4}{3.4 Increased age of paraffin block results in reduced amplicon yield and elevated events of C>T/G>A sequence artifacts}{chapter.3}% 35
-\BOOKMARK [1][-]{section.3.5}{3.5 Non-reproducible variant calls are detected in sequencing replicates of FFPE specimens}{chapter.3}% 36
-\BOOKMARK [1][-]{section.3.6}{3.6 Discussion}{chapter.3}% 37
-\BOOKMARK [0][-]{chapter.4}{4 True Positive Rates of Germline Variant Calling in FFPE Tumours}{}% 38
-\BOOKMARK [1][-]{section.4.1}{4.1 Frequency of germline and somatic variants}{chapter.4}% 39
-\BOOKMARK [1][-]{section.4.2}{4.2 Germline variants are highly concordant between blood and FFPE specimens}{chapter.4}% 40
-\BOOKMARK [1][-]{section.4.3}{4.3 Reduced sensitivity is observed for detection of germline variants in FFPE specimens compared to blood}{chapter.4}% 41
-\BOOKMARK [1][-]{section.4.4}{4.4 Factors underlying reduced sensitivity of germline variant calling in FFPE specimens}{chapter.4}% 42
-\BOOKMARK [1][-]{section.4.5}{4.5 Discussion}{chapter.4}% 43
-\BOOKMARK [0][-]{chapter.5}{5 Conclusion}{}% 44
-\BOOKMARK [0][-]{chapter*.32}{Bibliography}{}% 45
-\BOOKMARK [0][-]{appendix.A}{A Supporting Materials}{}% 46
+\BOOKMARK [1][-]{section.1.1}{1.1 Cancer as a Genetic Disease}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.2}{1.2 The Evolution of Molecular Diagnostics in Cancer}{chapter.1}% 10
+\BOOKMARK [1][-]{section.1.3}{1.3 The Era of Precision Oncology}{chapter.1}% 11
+\BOOKMARK [1][-]{section.1.4}{1.4 Next-generation Sequencing Technologies}{chapter.1}% 12
+\BOOKMARK [1][-]{section.1.5}{1.5 Applications of Next-generation Sequencing}{chapter.1}% 13
+\BOOKMARK [2][-]{subsection.1.5.1}{1.5.1 Targeted Sequencing}{section.1.5}% 14
+\BOOKMARK [2][-]{subsection.1.5.2}{1.5.2 Whole Exome Sequencing}{section.1.5}% 15
+\BOOKMARK [2][-]{subsection.1.5.3}{1.5.3 Whole Genome Sequencing}{section.1.5}% 16
+\BOOKMARK [1][-]{section.1.6}{1.6 Variant Calling Pipeline}{chapter.1}% 17
+\BOOKMARK [1][-]{section.1.7}{1.7 Germline Variants in The Tumour Genome}{chapter.1}% 18
+\BOOKMARK [2][-]{subsection.1.7.1}{1.7.1 Incidental Findings}{section.1.7}% 19
+\BOOKMARK [2][-]{subsection.1.7.2}{1.7.2 Pharmacogenomic Variants}{section.1.7}% 20
+\BOOKMARK [2][-]{subsection.1.7.3}{1.7.3 Challenges}{section.1.7}% 21
+\BOOKMARK [1][-]{section.1.8}{1.8 ACCE Model Process for Evaluating Genetic Tests}{chapter.1}% 22
+\BOOKMARK [1][-]{section.1.9}{1.9 Objectives}{chapter.1}% 23
+\BOOKMARK [0][-]{chapter.2}{2 Materials and Methods}{}% 24
+\BOOKMARK [1][-]{section.2.1}{2.1 Overview of study design}{chapter.2}% 25
+\BOOKMARK [1][-]{section.2.2}{2.2 Patient samples}{chapter.2}% 26
+\BOOKMARK [1][-]{section.2.3}{2.3 Sample preparation, library construction, and Illumina sequencing}{chapter.2}% 27
+\BOOKMARK [1][-]{section.2.4}{2.4 OncoPanel \(Amplicon-based targeted sequencing panel for solid tumours\)}{chapter.2}% 28
+\BOOKMARK [1][-]{section.2.5}{2.5 Variant calling pipeline}{chapter.2}% 29
+\BOOKMARK [2][-]{subsection.2.5.1}{2.5.1 Read alignment and variant calling}{section.2.5}% 30
+\BOOKMARK [2][-]{subsection.2.5.2}{2.5.2 Variant filtering}{section.2.5}% 31
+\BOOKMARK [2][-]{subsection.2.5.3}{2.5.3 Variant annotation and interpretation}{section.2.5}% 32
+\BOOKMARK [1][-]{section.2.6}{2.6 Sequence analysis}{chapter.2}% 33
+\BOOKMARK [1][-]{section.2.7}{2.7 Bioinformatics approaches for identification of germline variants in FFPE tumours}{chapter.2}% 34
+\BOOKMARK [0][-]{chapter.3}{3 Assessment of Formalin-Induced DNA Damages in FFPE Specimens}{}% 35
+\BOOKMARK [1][-]{section.3.1}{3.1 Comparison of efficiency in amplicon enrichment and sequencing results between blood and FFPE specimens}{chapter.3}% 36
+\BOOKMARK [1][-]{section.3.2}{3.2 Reduced coverage depth in FFPE specimens is more pronounced for longer amplicons}{chapter.3}% 37
+\BOOKMARK [1][-]{section.3.3}{3.3 Deamination effects lead to increased C>T/G>A transitions in FFPE specimens}{chapter.3}% 38
+\BOOKMARK [1][-]{section.3.4}{3.4 Increased age of paraffin block results in reduced amplicon yield and elevated level of C>T/G>A sequence artifacts}{chapter.3}% 39
+\BOOKMARK [0][-]{chapter.4}{4 Identification of Germline Variants in FFPE Tumours}{}% 40
+\BOOKMARK [1][-]{section.4.1}{4.1 Frequency and characteristics of germline variants in patients from TOP cohort}{chapter.4}% 41
+\BOOKMARK [1][-]{section.4.2}{4.2 Germline variants are highly concordant between blood and FFPE specimens}{chapter.4}% 42
+\BOOKMARK [1][-]{section.4.3}{4.3 Bioinformatics approaches for discriminating between germline and somatic variants in FFPE tumours}{chapter.4}% 43
+\BOOKMARK [1][-]{section.4.4}{4.4 Reduced sensitivity is observed for detection of germline variants in FFPE specimens compared to blood}{chapter.4}% 44
+\BOOKMARK [1][-]{section.4.5}{4.5 Factors underlying reduced sensitivity of germline variant calling in FFPE specimens}{chapter.4}% 45
+\BOOKMARK [1][-]{section.4.6}{4.6 Discussion}{chapter.4}% 46
+\BOOKMARK [0][-]{chapter.5}{5 Conclusion}{}% 47
+\BOOKMARK [0][-]{chapter*.39}{Bibliography}{}% 48
+\BOOKMARK [0][-]{appendix.A}{A Supporting Materials}{}% 49

@@ -54,10 +54,16 @@
 
 % add path
 \usepackage{graphicx}
-\graphicspath{{/Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/}{/Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/}}
+\graphicspath{{/Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/}{/Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/}{/Users/evayap/Documents/masters_thesis/ubcdiss_2/mm_figure/}{/Users/evayap/Documents/masters_thesis/ubcdiss_2/intro_figure/}}
 
 % For your own copies (looks nicer)
 % \documentclass[balanced,twoside,11pt]{ubcdiss}
+
+% rotate page
+\usepackage{pdflscape}
+
+% create long tables that span multiple pages
+\usepackage{longtable}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -431,7 +437,7 @@
 \begin{singlespace}
 \raggedright
 \bibliographystyle{abbrvnat}
-\bibliography{biblio}
+\bibliography{/Users/evayap/Documents/masters_thesis/mendeley_bib/biblio_test.bib}
 \end{singlespace}
 
 \appendix
