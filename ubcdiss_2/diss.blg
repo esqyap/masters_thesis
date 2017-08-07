@@ -8,7 +8,8 @@ A level-1 auxiliary file: intro.aux
 A level-1 auxiliary file: materialsmethods.aux
 A level-1 auxiliary file: chapter2.aux
 A level-1 auxiliary file: chapter3.aux
-A level-1 auxiliary file: Conclusion.aux
+A level-1 auxiliary file: discussion.aux
+A level-1 auxiliary file: conclusion.aux
 The style file: abbrvnat.bst
 A level-1 auxiliary file: appendix.aux
 Database file #1: /Users/evayap/Documents/masters_thesis/mendeley_bib/biblio_test.bib.bib
@@ -24,7 +25,7 @@ Warning--empty journal in Slager2013
 Warning--there's a number but no volume in Stoehlmacher2004
 You've used 85 entries,
             2773 wiz_defined-function locations,
-            1386 strings with 43020 characters,
+            1387 strings with 43034 characters,
 and the built_in function-call counts, 77174 in all, are:
 = -- 6356
 > -- 8245

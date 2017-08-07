@@ -20,9 +20,11 @@
 \contentsline {figure}{\numberline {3.10}{\ignorespaces Scatter plots showing (A) amplicon yield and (B) efficiency in amplicon enrichment, which is represented by the log2 fold change between the amount of DNA input for producing amplicons and amplicon yield, in relation to age of paraffin blocks (Spearman's rank correlation). Solid lines represent locally weighted smoothing (LOESS) curves, with shaded bands indicating 95\% confidence interval of the LOESS curves.\relax }}{35}{figure.caption.30}
 \contentsline {figure}{\numberline {3.11}{\ignorespaces The relationship between fraction of base changes and age of paraffin block for different types of base changes (Spearman's rank correlation).\relax }}{36}{figure.caption.31}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Add caption.\relax }}{60}{figure.caption.33}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Add caption.\relax }}{61}{figure.caption.34}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Add caption.\relax }}{62}{figure.caption.35}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Add caption.\relax }}{63}{figure.caption.37}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Distribution of germline alterations in cancer-related genes in patients from TOP study. Percentage of patients is calculated for each variant and annotated above individual bars. Color of bars represent options for clinical significance in the ClinVar database. The TP53 variant, p.Arg72Pro$/$c.215G$>$C, that is associated with drug response is present in 97 out of 213 (45.5 \%) patients in TOP cohort.\relax }}{64}{figure.caption.33}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Distribution of germline alterations in PGx genes in patients from TOP study. Percentage of patients is calculated for each variant and annotated above individual bars. Color of bars represent options for clinical significance in the ClinVar database. 208 out of 213 patients in TOP cohort have at least one germline PGx variant that is associated with drug response.\relax }}{65}{figure.caption.34}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Venn diagram demonstrating concordance of variants identified in 217 tumour-blood paired samples.\relax }}{67}{figure.caption.35}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Add caption.\relax }}{72}{figure.caption.36}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Add caption.\relax }}{73}{figure.caption.38}
+\addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

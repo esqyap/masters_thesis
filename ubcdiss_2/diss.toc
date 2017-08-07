@@ -37,13 +37,12 @@
 \contentsline {section}{\numberline {3.2}Reduced coverage depth in FFPE specimens is more pronounced for longer amplicons}{21}{section.3.2}
 \contentsline {section}{\numberline {3.3}Deamination effects lead to increased C$>$T/G$>$A transitions in FFPE specimens}{25}{section.3.3}
 \contentsline {section}{\numberline {3.4}Increased age of paraffin block results in reduced amplicon yield and elevated level of C$>$T/G$>$A sequence artifacts}{33}{section.3.4}
-\contentsline {chapter}{\numberline {4}Identification of Germline Variants in FFPE Tumours}{38}{chapter.4}
-\contentsline {section}{\numberline {4.1}Frequency and characteristics of germline variants in patients from TOP cohort}{39}{section.4.1}
-\contentsline {section}{\numberline {4.2}Germline variants are highly concordant between blood and FFPE specimens}{60}{section.4.2}
-\contentsline {section}{\numberline {4.3}Bioinformatics approaches for discriminating between germline and somatic variants in FFPE tumours}{62}{section.4.3}
-\contentsline {section}{\numberline {4.4}Reduced sensitivity is observed for detection of germline variants in FFPE specimens compared to blood}{62}{section.4.4}
-\contentsline {section}{\numberline {4.5}Factors underlying reduced sensitivity of germline variant calling in FFPE specimens}{63}{section.4.5}
-\contentsline {section}{\numberline {4.6}Discussion}{63}{section.4.6}
-\contentsline {chapter}{\numberline {5}Conclusion}{64}{chapter.5}
-\contentsline {chapter}{Bibliography}{65}{chapter*.39}
-\contentsline {chapter}{\numberline {A}Supporting Materials}{76}{appendix.A}
+\contentsline {section}{\numberline {3.5}Non-reproducible variant calls are detected in sequencing replicates of FFPE specimens}{37}{section.3.5}
+\contentsline {chapter}{\numberline {4}Identification of Germline Alterations in FFPE Tumours}{38}{chapter.4}
+\contentsline {section}{\numberline {4.1}Frequency and variant assessment of germline alterations in patients from TOP cohort}{39}{section.4.1}
+\contentsline {section}{\numberline {4.2}Germline alterations are highly concordant between blood and FFPE specimens}{66}{section.4.2}
+\contentsline {section}{\numberline {4.3}Application of tumour content to separate germline alterations from somatic mutations in tumour-only analyses}{72}{section.4.3}
+\contentsline {chapter}{\numberline {5}Discussion}{75}{chapter.5}
+\contentsline {chapter}{\numberline {6}Conclusion}{76}{chapter.6}
+\contentsline {chapter}{Bibliography}{77}{chapter*.40}
+\contentsline {chapter}{\numberline {A}Supporting Materials}{88}{appendix.A}
