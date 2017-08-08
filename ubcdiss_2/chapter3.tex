@@ -759,16 +759,18 @@ Hom$/$Het = Homozygous in the blood, but heterozygous in the tumour
 \section{Application of tumour content to separate germline alterations from somatic mutations in tumour-only analyses}
 \label{sec:Applicationoftumourcontenttoseparategermlinealterationsfromsomaticmutationsintumour-onlyanalyses}
 
-Through variant analysis of DNA from blood specimens, we identified germline alterations that are associated with drug response, which could predict risk of developing chemotherapy-related toxicity. Furthermore, we assessed the concordance of germline variants between blood and tumour samples, which demonstrated a high concordance rate of 93.8\%. Together, these analyses confirmed that germline alterations that are clinically relevant are present in our dataset and a large proportion of germline alterations can be identified in tumour DNA with the correct designation of allelic statuses. Next, we sought to evaluate the use of variant allele frequency thresholds to separate germline alterations from somatic mutations in tumour-only analyses. Because of the lack of availability of matched normal samples in clinical genomic sequencing, this assessment would determine whether the use of variant allele frequency thresholds is an efficient approach to identify potential germline alterations in tumour-only analyses for referral to follow-up testing.
+Through variant analysis of DNA from blood specimens, we identified germline alterations that are associated with drug response, which could predict risk of developing chemotherapy-induced toxicity. Furthermore, we assessed the concordance of germline variants between blood and tumour samples, which demonstrated a high concordance rate of 93.8\%. Together, these analyses confirmed that germline alterations that are clinically relevant are present in our dataset and a large proportion of germline alterations can be identified in tumour DNA with the correct designation of allelic statuses. Next, we sought to evaluate the use of VAF thresholds to separate germline alterations from somatic mutations in tumour-only analyses. Because of the lack of availability of matched normal samples in clinical genomic sequencing, this assessment would determine whether application of variant allele frequency thresholds is an accurate method to identify potential germline alterations in tumour-only analyses for referral to follow-up testing.
 
-We compared the distributions of VAF of germline variants detected in blood and tumour specimens and found a significant difference between the VAF distributions of germline alterations in blood and tumour samples (Kolmogorov-Smirnov test, D = 0.17, \textit{p} = 0). As expected, we showed that heterozygous alterations in blood tend to have VAFs close to 50\%, while homozygous alterations in the blood tend to have VAFs close to 100\%. However, comparison of VAF distributions 
+We compared the VAF distributions of germline variants detected in blood and tumour specimens, and we found a significant difference (Kolmogorov-Smirnov test, D = 0.17, \textit{p} = 0; \autoref{fig:germline_sens_minor}). As expected, we showed that heterozygous alterations in blood tend to have VAFs close to 50\%, whereas homozygous alterations in the blood tend to have VAFs close to 100\%. However, the VAF distribution of germline variants in the tumours tend to deviate from 50\% and 100\% for heterozygous and homozygous statuses, respectively. This variation in VAF distributions between blood and tumour samples, which could be caused by tumour content, tumour heterogeneity, or DNA damage as a result of formalin fixation, indicates that the sensitivity of using a VAF cut-off to distinguish between germline and somatic alterations in tumour-only analyses could be compromised. Thus, we explored the sensitivity of identifying germline alterations in tumour-only analyses at various VAF thresholds to select a VAF cut-off that maximizes true positive rate. At each VAF cut-off, we determined the number of true positives by identifying variants in the tumours that overlap with germline variants in matched blood samples. True positive rate (sensitivity) is then calculated as the fraction of variants that are correctly identified as germline using the VAF threshold over the total number of germline variants in the tumours. At a VAF cut-off of 30\%, we achieved a sensitivity of 0.94 (95\% CI = 0.93--0.95; \autoref{fig:germline_sens_minor}; \autoref{tbl:sensitivity}), resulting in 1864 out of 1981 true positives and 117 false negatives.
+
+Because clinical genomics require accurate identification of genetic changes that are clinically important, potential germline alterations identified through tumour-only analyses must be referred to follow-up testing, which includes genetic counseling and collection and analysis of germline DNA. Hence, our approach for discriminating between germline and somatic alterations must not only be highly sensitive, but also highly specific to minimize submitting somatic mutations (false positives) for downstream germline testing. To select a VAF cut-off that would achieve high specificity, we measured 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{figure}[H]
 	\includegraphics[scale=0.7]{germline_sens_minor.png}
-	\caption{Add caption.}
+	\caption{Assessment of using a VAF cut-off approach to identify germline alterations in tumour-only analyses. (A) Comparison of VAF distributions of germline alterations between blood and tumour (Kolmogorov-Smirnov test). (B) Empirical cumulative distribution of VAFs of germline alterations in tumour samples. Black line indicates VAF cut-off at 30\%, in which sensitivity of identifying germline variants is 0.94.}
 	\label{fig:germline_sens_minor}
 \end{figure}
 
@@ -776,8 +778,8 @@ We compared the distributions of VAF of germline variants detected in blood and 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{table}[H]
-\caption{Sensitivity of detecting germline variants using tumour-only analysis at various variant allele frequency thresholds.}
-\label{sensitivity}
+\caption{Sensitivity of identifying germline variants in tumour-only analyses at various variant allele frequency thresholds.}
+\label{tbl:sensitivity}
 \centering
       \begin{tabular}{ccccl}
         \hline
@@ -809,7 +811,7 @@ We compared the distributions of VAF of germline variants detected in blood and 
 
 \begin{figure}[H]
 	\includegraphics[scale=0.7]{germline_ppv_minor.png}
-	\caption{Add caption.}
+	\caption{Assessment of using a VAF cut-off approach to refer potential germline alterations in tumour-only analyses to follow-up testing. (A) Comparison of VAF distributions between germline and somatic alterations in tumour specimens (Kolmogorov-Smirnov test). (B) Empirical cumulative distribution of VAFs of germline and somatic alterations in tumour samples. Black line indicates VAF cut-off at 30\%, in which positive predictive value of referring potential germline variants to follow-up testing is 0.90.}
 	\label{fig:germline_ppv_minor}
 \end{figure}
 
@@ -817,7 +819,7 @@ We compared the distributions of VAF of germline variants detected in blood and 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{table}[H]
-\caption{Positive predictive value for referral of potential germline variants for downstream confirmatory testing.}
+\caption{Positive predictive value for referral of potential germline variants to downstream confirmatory testing at various variant allele frequency thresholds.}
 \label{ppv}
 \centering
       \begin{tabular}{cccccll}
