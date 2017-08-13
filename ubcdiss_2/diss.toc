@@ -25,24 +25,24 @@
 \contentsline {section}{\numberline {2.1}Overview of study design}{7}{section.2.1}
 \contentsline {section}{\numberline {2.2}Patient samples}{7}{section.2.2}
 \contentsline {section}{\numberline {2.3}Sample preparation, library construction, and Illumina sequencing}{8}{section.2.3}
-\contentsline {section}{\numberline {2.4}OncoPanel (Amplicon-based targeted sequencing panel for solid tumours)}{8}{section.2.4}
-\contentsline {section}{\numberline {2.5}Variant calling pipeline}{9}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Read alignment and variant calling}{9}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Variant filtering}{10}{subsection.2.5.2}
-\contentsline {subsection}{\numberline {2.5.3}Variant annotation and interpretation}{10}{subsection.2.5.3}
-\contentsline {section}{\numberline {2.6}Sequence analysis}{13}{section.2.6}
-\contentsline {section}{\numberline {2.7}Bioinformatics approaches for identification of germline variants in FFPE tumours}{14}{section.2.7}
-\contentsline {chapter}{\numberline {3}Assessment of Formalin-Induced DNA Damage in FFPE Specimens}{15}{chapter.3}
-\contentsline {section}{\numberline {3.1}Comparison of efficiency in amplicon enrichment and sequencing results between blood and FFPE specimens}{15}{section.3.1}
-\contentsline {section}{\numberline {3.2}Reduced coverage depth in FFPE specimens is more pronounced for longer amplicons}{21}{section.3.2}
-\contentsline {section}{\numberline {3.3}Deamination effects lead to increased C$>$T/G$>$A transitions in FFPE specimens}{25}{section.3.3}
-\contentsline {section}{\numberline {3.4}Increased age of paraffin block results in reduced amplicon yield and elevated level of C$>$T/G$>$A sequence artifacts}{33}{section.3.4}
-\contentsline {section}{\numberline {3.5}Non-reproducible variant calls are detected in sequencing replicates of FFPE specimens}{37}{section.3.5}
-\contentsline {chapter}{\numberline {4}Identification of Germline Alterations in FFPE Tumours}{38}{chapter.4}
-\contentsline {section}{\numberline {4.1}Frequency and variant assessment of germline alterations in patients from TOP cohort}{39}{section.4.1}
-\contentsline {section}{\numberline {4.2}Germline alterations are highly concordant between blood and FFPE specimens}{66}{section.4.2}
-\contentsline {section}{\numberline {4.3}Application of tumour content to separate germline alterations from somatic mutations in tumour-only analyses}{72}{section.4.3}
-\contentsline {chapter}{\numberline {5}Discussion}{75}{chapter.5}
-\contentsline {chapter}{\numberline {6}Conclusion}{76}{chapter.6}
-\contentsline {chapter}{Bibliography}{77}{chapter*.40}
-\contentsline {chapter}{\numberline {A}Supporting Materials}{88}{appendix.A}
+\contentsline {section}{\numberline {2.4}OncoPanel (Amplicon-based targeted sequencing panel for solid tumours)}{9}{section.2.4}
+\contentsline {section}{\numberline {2.5}Variant calling pipeline}{10}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Read alignment and variant calling}{10}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Variant filtering}{11}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.3}Variant annotation and interpretation}{11}{subsection.2.5.3}
+\contentsline {section}{\numberline {2.6}Sequence analysis}{15}{section.2.6}
+\contentsline {section}{\numberline {2.7}Application of VAF thresholds to separate germline alterations from somatic mutations}{15}{section.2.7}
+\contentsline {chapter}{\numberline {3}Assessment of Formalin-Induced DNA Damage in FFPE Specimens}{17}{chapter.3}
+\contentsline {section}{\numberline {3.1}Comparison of efficiency in amplicon enrichment and sequencing results between blood and FFPE specimens}{17}{section.3.1}
+\contentsline {section}{\numberline {3.2}Reduced coverage depth in FFPE specimens is more pronounced for longer amplicons}{23}{section.3.2}
+\contentsline {section}{\numberline {3.3}Deamination effects lead to increased C$>$T/G$>$A transitions in FFPE specimens}{27}{section.3.3}
+\contentsline {section}{\numberline {3.4}Increased age of paraffin block results in reduced amplicon yield and elevated level of C$>$T/G$>$A sequence artifacts}{35}{section.3.4}
+\contentsline {section}{\numberline {3.5}Non-reproducible variant calls are detected in sequencing replicates of FFPE specimens}{39}{section.3.5}
+\contentsline {chapter}{\numberline {4}Identification of Germline Alterations in FFPE Tumours}{40}{chapter.4}
+\contentsline {section}{\numberline {4.1}Frequency and variant assessment of germline alterations in patients from TOP cohort}{41}{section.4.1}
+\contentsline {section}{\numberline {4.2}Germline alterations are highly concordant between blood and FFPE specimens}{68}{section.4.2}
+\contentsline {section}{\numberline {4.3}Application of tumour content to separate germline alterations from somatic mutations in tumour-only analyses}{74}{section.4.3}
+\contentsline {chapter}{\numberline {5}Discussion}{78}{chapter.5}
+\contentsline {chapter}{\numberline {6}Conclusion}{79}{chapter.6}
+\contentsline {chapter}{Bibliography}{80}{chapter*.39}
+\contentsline {chapter}{\numberline {A}Supporting Materials}{91}{appendix.A}

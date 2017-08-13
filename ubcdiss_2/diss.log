@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  8 AUG 2017 11:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  12 AUG 2017 17:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1122,14 +1122,20 @@ package acronym warning: acronym `ubc' is not defined on input line 6.
 \openout6 = `diss.toc'.
 
  [5] (./diss.lot
-Overfull \hbox (57.80797pt too wide) in paragraph at lines 13--13
+Overfull \hbox (57.80797pt too wide) in paragraph at lines 14--14
  \OT1/ptm/m/n/10.95 age depth in blood and FFPE spec-i-mens ([]) 
  []
 
 [6
 
 
-])
+]
+Overfull \hbox (11.46037pt too wide) in paragraph at lines 26--26
+ \OT1/ptm/m/n/10.95 con-fi-dence in-ter-val is the bi-no-mial con-fi-dence in-t
+er-val cal-cu-lated us-ing the Clopper- 
+ []
+
+)
 \tf@lot=\write7
 \openout7 = `diss.lot'.
 
@@ -1252,7 +1258,7 @@ Package natbib Warning: Citation `Do2015' on page 5 undefined on input line 91.
 
 
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/intro_figure/acce_wheel.png, 
-id=397, 473.77pt x 469.755pt>
+id=399, 473.77pt x 469.755pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/intro_figure/acce_wheel.
 png Graphic file (type png)
 
@@ -1267,6 +1273,8 @@ eel.png>]
 
  (./materialsmethods.tex
 Chapter 2.
+Missing character: There is no Â in font ptmr7t!
+Missing character: There is no ­ in font ptmr7t!
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
@@ -1313,64 +1321,142 @@ Overfull \hbox (17.6138pt too wide) in paragraph at lines 102--103
 y vari-ant call-ing with the VarScan2 \OT1/pcr/m/n/10.95 mpileup2cns
  []
 
-
-Overfull \hbox (27.16493pt too wide) in paragraph at lines 102--103
-\OT1/ptm/m/n/10.95 scaled base qual-ity score $\OMS/ztmcm/m/n/10.95 ^^U$ \OT1/p
-tm/m/n/10.95 20 \OT1/pcr/m/n/10.95 (--min-var-freq 0.1 --p-value 0.01 --strand-
-filter
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 117--119
+[]|\OT1/ptm/m/n/10.95 p.Cys29Arg
  []
 
-[9]
-Overfull \hbox (7.8825pt too wide) in paragraph at lines 133--133
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+[]|\OT1/ptm/m/n/10.95 rs386514433;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--121
+[]|\OT1/ptm/m/n/10.95 p.Ala1577Ala
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--123
+[]|\OT1/ptm/m/n/10.95 p.Asn999Asn
+ []
+
+
+Overfull \hbox (3.25069pt too wide) in paragraph at lines 123--123
+[]|\OT1/ptm/m/n/10.95 chr17| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--125
+[]|\OT1/ptm/m/n/10.95 p.Arg72Pro
+ []
+
+[10]
+Overfull \hbox (7.8825pt too wide) in paragraph at lines 160--160
 []|\OT1/pcr/m/n/10.95 --max-somatic-p-depth| 
  []
 
 
-Overfull \hbox (19.6953pt too wide) in paragraph at lines 120--171
+Overfull \hbox (19.6953pt too wide) in paragraph at lines 147--198
  [][] 
  []
 
-[10]
-Overfull \hbox (57.34679pt too wide) in paragraph at lines 180--205
- [][] 
+[11] [12]
+Overfull \hbox (2.41887pt too wide) in paragraph at lines 214--214
+[]|\OT1/ptm/m/n/10.95 MAPK1| 
  []
 
-[11]
-</Users/evayap/Documents/masters_thesis/ubcdiss_2/mm_figure/variant_pipeline2.p
-ng, id=435, 515.9275pt x 704.6325pt>
+
+Overfull \hbox (3.25069pt too wide) in paragraph at lines 214--214
+[]|\OT1/ptm/m/n/10.95 chr22| 
+ []
+
+
+Overfull \hbox (3.25069pt too wide) in paragraph at lines 220--220
+[]|\OT1/ptm/m/n/10.95 chr22| 
+ []
+
+
+Overfull \hbox (3.25069pt too wide) in paragraph at lines 222--222
+[]|\OT1/ptm/m/n/10.95 chr22| 
+ []
+
+
+Overfull \hbox (3.25069pt too wide) in paragraph at lines 224--224
+[]|\OT1/ptm/m/n/10.95 chr18| 
+ []
+
+
+Overfull \hbox (6.66759pt too wide) in paragraph at lines 226--226
+[]|\OT1/ptm/m/n/10.95 UGT1A1| 
+ []
+
+
+Overfull \hbox (5.91028pt too wide) in paragraph at lines 226--226
+[]|\OT1/ptm/m/n/10.95 234668879| 
+ []
+
+
+Overfull \hbox (3.3425pt too wide) in paragraph at lines 226--226
+[]|\OT1/ptm/m/n/10.95 CAT| 
+ []
+
+
+Overfull \hbox (6.66759pt too wide) in paragraph at lines 228--228
+[]|\OT1/ptm/m/n/10.95 UGT1A1| 
+ []
+
+
+Overfull \hbox (5.91028pt too wide) in paragraph at lines 228--228
+[]|\OT1/ptm/m/n/10.95 234668881| 
+ []
+
+
+Overfull \hbox (3.10178pt too wide) in paragraph at lines 228--228
+[]|\OT1/ptm/m/n/10.95 TAC| 
+ []
+
+
+Overfull \hbox (32.97575pt too wide) in alignment at lines 204--231
+ [] [] [] [] [] [] 
+ []
+
+
+</Users/evayap/Documents/masters_thesis/ubcdiss_2/mm_figure/variant_pipeline3.p
+ng, id=444, 519.9425pt x 714.67pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/mm_figure/variant_pipeli
-ne2.png Graphic file (type png)
+ne3.png Graphic file (type png)
 
 <use /Users/evayap/Documents/masters_thesis/ubcdiss_2/mm_figure/variant_pipelin
-e2.png>
+e3.png>
 Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/mm_fi
-gure/variant_pipeline2.png used on input line 212.
-(pdftex.def)             Requested size: 283.761pt x 387.54909pt.
- [12]
-</Users/evayap/Documents/masters_thesis/ubcdiss_2/mm_figure/tpfptnfn.png, id=44
-3, 462.72874pt x 414.54875pt>
+gure/variant_pipeline3.png used on input line 238.
+(pdftex.def)             Requested size: 285.96925pt x 393.0697pt.
+ [13] [14 </Users/evayap/Documents/masters_thesis/ubcdiss_2/mm_figure/variant_p
+ipeline3.png>]
+</Users/evayap/Documents/masters_thesis/ubcdiss_2/mm_figure/tpfptnfn.png, id=45
+6, 462.72874pt x 414.54875pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/mm_figure/tpfptnfn.png G
 raphic file (type png)
 
 <use /Users/evayap/Documents/masters_thesis/ubcdiss_2/mm_figure/tpfptnfn.png>
 Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/mm_fi
-gure/tpfptnfn.png used on input line 232.
+gure/tpfptnfn.png used on input line 263.
 (pdftex.def)             Requested size: 254.50159pt x 228.0025pt.
 
-[13 </Users/evayap/Documents/masters_thesis/ubcdiss_2/mm_figure/variant_pipelin
-e2.png>]) [14 </Users/evayap/Documents/masters_thesis/ubcdiss_2/mm_figure/tpfpt
-nfn.png>]
+[15]) [16 </Users/evayap/Documents/masters_thesis/ubcdiss_2/mm_figure/tpfptnfn.
+png>]
 \openout2 = `chapter2.aux'.
 
  (./chapter2.tex
 Chapter 3.
-[15
+[17
 
 
 
-] [16]
+] [18]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/dna_input_amp
-_yield.png, id=471, 601.7682pt x 502.5174pt>
+_yield.png, id=484, 601.7682pt x 502.5174pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/dna_inpu
 t_amp_yield.png Graphic file (type png)
 
@@ -1384,9 +1470,9 @@ Overfull \hbox (47.7952pt too wide) in paragraph at lines 26--27
  [][] 
  []
 
-[17]
+[19]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/alignment_pct
-.png, id=476, 347.8596pt x 347.8596pt>
+.png, id=489, 347.8596pt x 347.8596pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/alignmen
 t_pct.png Graphic file (type png)
 
@@ -1395,10 +1481,10 @@ _pct.png>
 Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
 er2_figure/alignment_pct.png used on input line 36.
 (pdftex.def)             Requested size: 347.85875pt x 347.85875pt.
- [18 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/dna_inpu
+ [20 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/dna_inpu
 t_amp_yield.png>]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/coverage_stat
-s.png, id=483, 421.575pt x 344.9688pt>
+s.png, id=495, 421.575pt x 344.9688pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/coverage
 _stats.png Graphic file (type png)
 
@@ -1407,11 +1493,11 @@ stats.png>
 Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
 er2_figure/coverage_stats.png used on input line 46.
 (pdftex.def)             Requested size: 379.41399pt x 310.46904pt.
- [19 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/alignmen
-t_pct.png>] [20 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figu
-re/coverage_stats.png (PNG copy)>] [21] [22]
+ [21 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/alignmen
+t_pct.png>] [22 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figu
+re/coverage_stats.png (PNG copy)>] [23] [24]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_norm_dept
-h_med_wilcoxon_volcano.png, id=508, 3312.375pt x 2409.0pt>
+h_med_wilcoxon_volcano.png, id=521, 3312.375pt x 2409.0pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_norm
 _depth_med_wilcoxon_volcano.png Graphic file (type png)
 
@@ -1427,7 +1513,7 @@ Overfull \hbox (30.10933pt too wide) in paragraph at lines 114--115
 
 
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_gc_length
-.png, id=509, 2409.0pt x 2409.0pt>
+.png, id=522, 2409.0pt x 2409.0pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_gc_l
 ength.png Graphic file (type png)
 
@@ -1436,10 +1522,10 @@ ngth.png>
 Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
 er2_figure/amp_gc_length.png used on input line 124.
 (pdftex.def)             Requested size: 337.2577pt x 337.2577pt.
- [23 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_norm
+ [25 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_norm
 _depth_med_wilcoxon_volcano.png (PNG copy)>]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_cov_lm_le
-n_gc.png, id=514, 538.6524pt x 287.1528pt>
+n_gc.png, id=527, 538.6524pt x 287.1528pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_cov_
 lm_len_gc.png Graphic file (type png)
 
@@ -1453,7 +1539,7 @@ Overfull \hbox (24.2367pt too wide) in paragraph at lines 134--135
  [][] 
  []
 
-[24 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_gc_le
+[26 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_gc_le
 ngth.png (PNG copy)>]
 Overfull \hbox (48.1391pt too wide) in paragraph at lines 146--161
  [][] 
@@ -1475,19 +1561,19 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 165.
 
-[25 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_cov_l
+[27 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_cov_l
 m_len_gc.png>]
 
 Package caption Warning: \label without proper reference on input line 281.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:deamination_effect_af_range' on page 26 undefined
+LaTeX Warning: Reference `fig:deamination_effect_af_range' on page 28 undefined
  on input line 172.
 
-[26]
+[28]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deamination_e
-ffect_blood_ffpe.png, id=535, 556.479pt x 492.3996pt>
+ffect_blood_ffpe.png, id=547, 556.479pt x 492.3996pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminat
 ion_effect_blood_ffpe.png Graphic file (type png)
 
@@ -1501,15 +1587,15 @@ Overfull \hbox (11.5638pt too wide) in paragraph at lines 179--180
  [][] 
  []
 
-[27]
+[29]
 Overfull \hbox (61.64143pt too wide) in paragraph at lines 191--218
  [][] 
  []
 
-[28 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminati
+[30 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminati
 on_effect_blood_ffpe.png>]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deamination_e
-ffect_blood_ffpe_fc.png, id=545, 523.7166pt x 299.1978pt>
+ffect_blood_ffpe_fc.png, id=558, 523.7166pt x 299.1978pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminat
 ion_effect_blood_ffpe_fc.png Graphic file (type png)
 
@@ -1523,10 +1609,10 @@ Overfull \hbox (49.08034pt too wide) in paragraph at lines 239--268
  [][] 
  []
 
-[29 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminati
+[31 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminati
 on_effect_blood_ffpe_fc.png>]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deamination_e
-ffect_af_range_2.png, id=551, 607.068pt x 886.0302pt>
+ffect_af_range_2.png, id=565, 607.068pt x 886.0302pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminat
 ion_effect_af_range_2.png Graphic file (type png)
 
@@ -1535,12 +1621,12 @@ on_effect_af_range_2.png>
 Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
 er2_figure/deamination_effect_af_range_2.png used on input line 276.
 (pdftex.def)             Requested size: 424.9447pt x 620.2169pt.
- [30]
+ [32]
 Overfull \vbox (5.9219pt too high) has occurred while \output is active []
 
 
-[31 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminati
-on_effect_af_range_2.png>] [32]
+[33 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminati
+on_effect_af_range_2.png>] [34]
 Overfull \hbox (19.9179pt too wide) in paragraph at lines 293--320
  [][] 
  []
@@ -1561,9 +1647,9 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 326.
 
-[33] [34]
+[35] [36]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deamination_e
-ffect_age_amp_yield.png, id=580, 740.5266pt x 310.761pt>
+ffect_age_amp_yield.png, id=593, 740.5266pt x 310.761pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminat
 ion_effect_age_amp_yield.png Graphic file (type png)
 
@@ -1579,7 +1665,7 @@ Overfull \hbox (55.12904pt too wide) in paragraph at lines 340--341
 
 
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deamination_e
-ffect_age.png, id=581, 600.8046pt x 400.8576pt>
+ffect_age.png, id=594, 600.8046pt x 400.8576pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminat
 ion_effect_age.png Graphic file (type png)
 
@@ -1593,39 +1679,39 @@ Overfull \hbox (47.0243pt too wide) in paragraph at lines 350--351
  [][] 
  []
 
-[35 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminati
+[37 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminati
 on_effect_age_amp_yield.png>]
 Overfull \hbox (80.11345pt too wide) in paragraph at lines 363--389
  [][] 
  []
 
-[36 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminati
-on_effect_age.png>]) [37]
+[38 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminati
+on_effect_age.png>]) [39]
 \openout2 = `chapter3.aux'.
 
  (./chapter3.tex
 Chapter 4.
 
-Package natbib Warning: Citation `Raymond2016' on page 38 undefined on input li
+Package natbib Warning: Citation `Raymond2016' on page 40 undefined on input li
 ne 11.
 
 
-Package natbib Warning: Citation `Meric-Bernstam2016' on page 38 undefined on i
+Package natbib Warning: Citation `Meric-Bernstam2016' on page 40 undefined on i
 nput line 11.
 
 
-Package natbib Warning: Citation `Schrader2015' on page 38 undefined on input l
+Package natbib Warning: Citation `Schrader2015' on page 40 undefined on input l
 ine 11.
 
 
-Package natbib Warning: Citation `Jones2015' on page 38 undefined on input line
+Package natbib Warning: Citation `Jones2015' on page 40 undefined on input line
  11.
 
-[38
+[40
 
 
 
-] [39]
+] [41]
 Overfull \hbox (30.76448pt too wide) in paragraph at lines 28--29
 \OT1/ptm/m/n/10.95 p.Asp949Val$\OML/ztmcm/m/it/10.95 =$\OT1/ptm/m/n/10.95 c.284
 6A$\OML/ztmcm/m/it/10.95 >$\OT1/ptm/m/n/10.95 T (rs67376798), c.1906G$\OML/ztmc
@@ -1643,7 +1729,7 @@ T1/ptm/m/n/10.95 C (rs1801131), p.Ala222Val$\OML/ztmcm/m/it/10.95 =$\OT1/ptm/m/
 n/10.95 c.665C$\OML/ztmcm/m/it/10.95 >$\OT1/ptm/m/n/10.95 T
  []
 
-[40] [41]
+[42] [43]
 Overfull \hbox (7.75061pt too wide) in paragraph at lines 42--42
 []|\OT1/ptm/m/n/10.95 Chr| 
  []
@@ -2093,7 +2179,7 @@ Overfull \hbox (26.59697pt too wide) in alignment at lines 131--173
  [] [] [] [] [] [] [] [] 
  []
 
-[42] [43] [44] [45]
+[44] [45] [46] [47]
 Underfull \hbox (badness 10000) in paragraph at lines 196--196
 []|\OT1/ptm/m/n/10.95 Variant
  []
@@ -2353,7 +2439,7 @@ Overfull \hbox (43.91093pt too wide) in alignment at lines 228--260
  [] [] [] [] [] [] [] [] [] 
  []
 
-[46
+[48
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 260--260
@@ -2455,7 +2541,7 @@ Overfull \hbox (43.91093pt too wide) in alignment at lines 260--290
  [] [] [] [] [] [] [] [] [] 
  []
 
-[47]
+[49]
 Underfull \hbox (badness 10000) in paragraph at lines 291--291
 []|\OT1/ptm/m/n/10.95 rs1873778;
  []
@@ -2595,7 +2681,7 @@ Overfull \hbox (43.91093pt too wide) in alignment at lines 290--323
  [] [] [] [] [] [] [] [] [] 
  []
 
-[48] [49]
+[50] [51]
 Overfull \hbox (2.50961pt too wide) in paragraph at lines 323--323
 []|\OT1/ptm/m/n/10.95 17:40486040| 
  []
@@ -2830,7 +2916,7 @@ Overfull \hbox (43.91093pt too wide) in alignment at lines 323--354
  [] [] [] [] [] [] [] [] [] 
  []
 
-[50]
+[52]
 Underfull \hbox (badness 10000) in paragraph at lines 354--354
 []|\OT1/ptm/m/n/10.95 p.Pro36Pro
  []
@@ -2845,7 +2931,7 @@ Overfull \hbox (43.91093pt too wide) in alignment at lines 354--358
  [] [] [] [] [] [] [] [] [] 
  []
 
-[51] [52] [53] [54] [55]
+[53] [54] [55] [56] [57]
 Overfull \hbox (7.75061pt too wide) in paragraph at lines 384--384
 []|\OT1/ptm/m/n/10.95 Chr| 
  []
@@ -3035,9 +3121,9 @@ Overfull \hbox (35.2646pt too wide) in alignment at lines 431--457
  [] [] [] [] [] [] [] [] 
  []
 
-[56
+[58
 
-] [57]
+] [59]
 Underfull \hbox (badness 10000) in paragraph at lines 476--476
 []|\OT1/ptm/m/n/10.95 Variant
  []
@@ -3557,9 +3643,9 @@ Overfull \hbox (53.12498pt too wide) in alignment at lines 511--543
  [] [] [] [] [] [] [] [] [] 
  []
 
-[58
+[60
 
-] [59]
+] [61]
 Overfull \hbox (2.50961pt too wide) in paragraph at lines 543--543
 []|\OT1/ptm/m/n/10.95 22:50966082| 
  []
@@ -3659,14 +3745,14 @@ Overfull \hbox (53.12498pt too wide) in alignment at lines 543--558
  [] [] [] [] [] [] [] [] [] 
  []
 
-[60] [61] [62]
+[62] [63] [64]
 Underfull \hbox (badness 10000) in paragraph at lines 561--573
 
  []
 
-[63]
+[65]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/bar_cancer_ge
-nes_pct.png, id=931, 11442.75pt x 4818.0pt>
+nes_pct.png, id=943, 11442.75pt x 4818.0pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/bar_canc
 er_genes_pct.png Graphic file (type png)
 
@@ -3680,13 +3766,13 @@ Overfull \hbox (72.24039pt too wide) in paragraph at lines 583--584
  [][] 
  []
 
-[64
+[66
 
 
  </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/bar_cancer_g
 enes_pct.png>]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/bar_pgx_genes
-_pct.png, id=937, 9636.0pt x 6022.5pt>
+_pct.png, id=950, 9636.0pt x 6022.5pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/bar_pgx_
 genes_pct.png Graphic file (type png)
 
@@ -3695,30 +3781,30 @@ enes_pct.png>
 Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
 er3_figure/bar_pgx_genes_pct.png used on input line 597.
 (pdftex.def)             Requested size: 578.13507pt x 361.33441pt.
- [65
+ [67
 
 
  </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/bar_pgx_gene
 s_pct.png>]
 
-Package natbib Warning: Citation `Raymond2016' on page 66 undefined on input li
+Package natbib Warning: Citation `Raymond2016' on page 68 undefined on input li
 ne 608.
 
 
-Package natbib Warning: Citation `Meric-Bernstam2016' on page 66 undefined on i
+Package natbib Warning: Citation `Meric-Bernstam2016' on page 68 undefined on i
 nput line 608.
 
 
-Package natbib Warning: Citation `Schrader2015' on page 66 undefined on input l
+Package natbib Warning: Citation `Schrader2015' on page 68 undefined on input l
 ine 608.
 
 
-Package natbib Warning: Citation `Jones2015' on page 66 undefined on input line
+Package natbib Warning: Citation `Jones2015' on page 68 undefined on input line
  608.
 
 
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/ffpe_blood_co
-nc_venn_gt.png, id=945, 3011.25pt x 3011.25pt>
+nc_venn_gt.png, id=958, 3011.25pt x 3011.25pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/ffpe_blo
 od_conc_venn_gt.png Graphic file (type png)
 
@@ -3727,9 +3813,9 @@ d_conc_venn_gt.png>
 Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
 er3_figure/ffpe_blood_conc_venn_gt.png used on input line 619.
 (pdftex.def)             Requested size: 301.14264pt x 301.14264pt.
- [66
+ [68
 
-] [67 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/ffpe_bl
+] [69 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/ffpe_bl
 ood_conc_venn_gt.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 638--638
 []|\OT1/ptm/m/n/10.95 p.Asp949Val
@@ -3953,7 +4039,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 713--713
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 713--713
-[]|\OT1/ptm/m/n/10.95 p.Pro72Arg
+[]|\OT1/ptm/m/n/10.95 p.Arg72Pro
  []
 
 
@@ -3963,7 +4049,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 715--715
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 715--715
-[]|\OT1/ptm/m/n/10.95 p.Pro72Arg
+[]|\OT1/ptm/m/n/10.95 p.Arg72Pro
  []
 
 
@@ -3986,7 +4072,7 @@ Overfull \hbox (10.67815pt too wide) in alignment at lines 679--725
  [] [] [] [] [] [] [] 
  []
 
-[68
+[70
 
 ]
 Overfull \hbox (6.27585pt too wide) in paragraph at lines 725--725
@@ -4008,48 +4094,48 @@ Overfull \hbox (10.67815pt too wide) in alignment at lines 725--741
  [] [] [] [] [] [] [] 
  []
 
-[69] [70] [71]
+[71] [72] [73] [74
+
+]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/germline_sens
-_minor.png, id=975, 635.976pt x 277.5168pt>
+_minor.png, id=996, 635.976pt x 277.5168pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/germline
 _sens_minor.png Graphic file (type png)
 
 <use /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/germline_
 sens_minor.png>
 Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
-er3_figure/germline_sens_minor.png used on input line 772.
+er3_figure/germline_sens_minor.png used on input line 774.
 (pdftex.def)             Requested size: 445.18016pt x 194.26042pt.
 
-Overfull \hbox (11.56015pt too wide) in paragraph at lines 772--773
+Overfull \hbox (11.56015pt too wide) in paragraph at lines 774--775
 [][] 
  []
 
-[72
-
-]
+[75]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/germline_ppv_
-minor.png, id=981, 632.6034pt x 271.7352pt>
+minor.png, id=1001, 632.6034pt x 271.7352pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/germline
 _ppv_minor.png Graphic file (type png)
 
 <use /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/germline_
 ppv_minor.png>
 Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
-er3_figure/germline_ppv_minor.png used on input line 813.
+er3_figure/germline_ppv_minor.png used on input line 815.
 (pdftex.def)             Requested size: 442.81935pt x 190.21332pt.
 
-Overfull \hbox (9.19934pt too wide) in paragraph at lines 813--814
+Overfull \hbox (9.19934pt too wide) in paragraph at lines 815--816
 [][] 
  []
 
-[73 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/germline_
-sens_minor.png>]) [74 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter
+[76 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/germline_
+sens_minor.png>]) [77 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter
 3_figure/germline_ppv_minor.png>]
 \openout2 = `discussion.aux'.
 
  (./discussion.tex
 Chapter 5.
-) [75
+) [78
 
 
 
@@ -4058,7 +4144,7 @@ Chapter 5.
 
  (./conclusion.tex
 Chapter 6.
-) [76
+) [79
 
 
 
@@ -4076,15 +4162,15 @@ LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
- [77
+ [80
 
 
-] [78]
-[79]
+] [81]
+[82]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
- [80] [81] [82]
+ [83] [84] [85]
 LaTeX Font Info:    Try loading font information for OML+ptm on input line 631.
 
 
@@ -4093,12 +4179,12 @@ File: omlptm.fd
 )
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <10.95> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 631.
- [83] [84]
+ [86] [87]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ” in font ptmr7t!
 
-[85] [86]) [87]
+[88] [89]) [90]
 \openout2 = `appendix.aux'.
 
  (./appendix.tex
@@ -4108,7 +4194,7 @@ Overfull \hbox (50.71762pt too wide) in alignment at lines 6--59
  [] [] [] [] [] [] 
  []
 
-) [88
+) [91
 
 
 ]
@@ -4123,9 +4209,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 459.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 459.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 459.
 Package rerunfilecheck Info: File `diss.out' has not changed.
-(rerunfilecheck)             Checksum: 98EF464C21AFF063A4A3C37CE2C238C6;4147.
+(rerunfilecheck)             Checksum: F39F1A8E4DA3F162E2A2239347A6A4B8;4151.
 Package rerunfilecheck Info: File `diss.brf' has not changed.
-(rerunfilecheck)             Checksum: 5343D5A0477A4C61A8B67F0019A1C28A;6106.
+(rerunfilecheck)             Checksum: 1B247B731A8651C5162A89EEA7C7F3FA;6106.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -4137,10 +4223,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 459.
  ) 
 Here is how much of TeX's memory you used:
- 21939 strings out of 493014
- 407664 string characters out of 6133351
- 513193 words of memory out of 5000000
- 24800 multiletter control sequences out of 15000+600000
+ 21947 strings out of 493014
+ 407770 string characters out of 6133351
+ 513795 words of memory out of 5000000
+ 24804 multiletter control sequences out of 15000+600000
  71625 words of font info for 144 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,15n,51p,10389b,1065s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -4154,10 +4240,10 @@ ist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
 ype1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/t
 imes/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri
 8a.pfb>
-Output written on diss.pdf (101 pages, 7060598 bytes).
+Output written on diss.pdf (104 pages, 7070427 bytes).
 PDF statistics:
- 1370 PDF objects out of 1440 (max. 8388607)
- 1211 compressed objects within 13 object streams
- 273 named destinations out of 1000 (max. 500000)
+ 1391 PDF objects out of 1440 (max. 8388607)
+ 1229 compressed objects within 13 object streams
+ 277 named destinations out of 1000 (max. 500000)
  480 words of extra memory for PDF output out of 10000 (max. 10000000)
 
