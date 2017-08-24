@@ -1,4 +1,4 @@
-\begin{thebibliography}{85}
+\begin{thebibliography}{120}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -71,6 +71,27 @@ S.~L. Arcand, C.~M. Maugard, P.~Ghadirian, A.~Robidoux, C.~Perret, P.~Zhang,
 \newblock ISSN 01676806.
 \newblock \doi{10.1007/s10549-007-9608-6}.
 
+\bibitem[Bass et~al.(2014)Bass, Engel, Greytak, and Moore]{Bass2014}
+B.~P. Bass, K.~B. Engel, S.~R. Greytak, and H.~M. Moore.
+\newblock {A review of preanalytical factors affecting molecular, protein, and
+  morphological analysis of Formalin-Fixed, Paraffin-Embedded (FFPE) tissue:
+  How well do you know your FFPE specimen?}
+\newblock \emph{Archives of Pathology and Laboratory Medicine}, 138\penalty0
+  (11):\penalty0 1520--1530, 2014.
+\newblock ISSN 15432165.
+\newblock \doi{10.5858/arpa.2013-0691-RA}.
+
+\bibitem[Betge et~al.(2015)Betge, Kerr, Miersch, Leible, Erdmann, Galata, Zhan,
+  Gaiser, Post, Ebert, Horisberger, and Boutros]{Betge2015}
+J.~Betge, G.~Kerr, T.~Miersch, S.~Leible, G.~Erdmann, C.~L. Galata, T.~Zhan,
+  T.~Gaiser, S.~Post, M.~P. Ebert, K.~Horisberger, and M.~Boutros.
+\newblock {Amplicon Sequencing of Colorectal Cancer: Variant Calling in Frozen
+  and Formalin-Fixed Samples}.
+\newblock \emph{Plos One}, 10\penalty0 (5):\penalty0 e0127146, 2015.
+\newblock ISSN 1932-6203.
+\newblock \doi{10.1371/journal.pone.0127146}.
+\newblock URL \url{http://dx.plos.org/10.1371/journal.pone.0127146}.
+
 \bibitem[Biramijamal et~al.(2001)Biramijamal, Allameh, Mirbod, Groene, Koomagi,
   and Hollstein]{Biramijamal2001}
 F.~Biramijamal, A.~Allameh, P.~Mirbod, H.~J. Groene, R.~Koomagi, and
@@ -100,6 +121,15 @@ S.~E. Bojesen and B.~G. Nordestgaard.
 \newblock \emph{Cell Cycle}, 7\penalty0 (2):\penalty0 158--163, 2008.
 \newblock ISSN 15514005.
 \newblock \doi{10.4161/cc.7.2.5249}.
+
+\bibitem[Bombard et~al.(2014)Bombard, Cancer, Cancer, Haven, Robson, Cancer,
+  Medical, Offit, Cancer, Biology, Program, Cancer, and Cornell]{Bombard2014}
+Y.~Bombard, S.-k. Cancer, S.-k. Cancer, N.~Haven, M.~Robson, S.-k. Cancer,
+  C.~Medical, K.~Offit, S.-k. Cancer, C.~Biology, G.~Program, S.-k. Cancer, and
+  W.~Cornell.
+\newblock {Revealing the Incidentalome When Targeting the Tumor Genome}.
+\newblock pages 7--8, 2014.
+\newblock \doi{10.1038/gim.2013.37.Barriers}.
 
 \bibitem[Bonaf{\'{e}} et~al.(2004)Bonaf{\'{e}}, Salvioli, Barbi, Trapassi,
   Tocco, Storci, Invidia, Vannini, Rossi, Marzi, Mishto, Capri, Olivieri,
@@ -168,6 +198,19 @@ D.~Caronia, M.~Martin, J.~Sastre, J.~{De La Torre}, J.~A.
 \newblock ISSN 10780432.
 \newblock \doi{10.1158/1078-0432.CCR-10-1741}.
 
+\bibitem[Carrick et~al.(2015)Carrick, Mehaffey, Sachs, Altekruse, Camalier,
+  Chuaqui, Cozen, Das, Hernandez, Lih, Lynch, Makhlouf, McGregor, McShane,
+  Rohan, Walsh, Williams, Gillanders, Mechanic, and Schully]{Carrick2015}
+D.~M. Carrick, M.~G. Mehaffey, M.~C. Sachs, S.~Altekruse, C.~Camalier,
+  R.~Chuaqui, W.~Cozen, B.~Das, B.~Y. Hernandez, C.~J. Lih, C.~F. Lynch,
+  H.~Makhlouf, P.~McGregor, L.~M. McShane, J.~P. Rohan, W.~D. Walsh, P.~M.
+  Williams, E.~M. Gillanders, L.~E. Mechanic, and S.~D. Schully.
+\newblock {Robustness of next generation sequencing on older formalin-fixed
+  paraffin-embedded tissue}.
+\newblock \emph{PLoS ONE}, 10\penalty0 (7):\penalty0 3--10, 2015.
+\newblock ISSN 19326203.
+\newblock \doi{10.1371/journal.pone.0127353}.
+
 \bibitem[Caudle et~al.(2013)Caudle, Thorn, Klein, Swen, McLeod, Diasio, and
   Schwab]{Caudle2013}
 K.~E. Caudle, C.~F. Thorn, T.~E. Klein, J.~J. Swen, H.~L. McLeod, R.~B. Diasio,
@@ -188,6 +231,13 @@ S.~Cheli, F.~Pietrantonio, E.~Clementi, and F.~S. Falvella.
   2015.
 \newblock ISSN 16639812.
 \newblock \doi{10.3389/fphar.2015.00114}.
+
+\bibitem[Chen et~al.(2014)Chen, Mosier, Gocke, Lin, and Eshleman]{Chen2014}
+G.~Chen, S.~Mosier, C.~D. Gocke, M.-T. Lin, and J.~R. Eshleman.
+\newblock {Cytosine Deamination is a Major Cause of Baseline Noise in Next
+  Generation Sequencing}.
+\newblock \emph{Mol Diagn Ther.}, 18\penalty0 (5):\penalty0 587--593, 2014.
+\newblock \doi{10.1007/s40291-014-0115-2.Cytosine}.
 
 \bibitem[Chen et~al.(2010)Chen, Tzeng, Chen, Lin, Lin, Chen, Jiang, Wang, and
   Wang]{Chen2010}
@@ -228,6 +278,15 @@ V.~Cohen, V.~Panet-raymond, N.~Sabbaghian, I.~Morin, and G.~Batist.
   Methylenetetrahydrofolate Reductase Polymorphism in Advanced Colorecta}.
 \newblock \emph{Clinical Cancer Research}, 9\penalty0 (May):\penalty0
   1611--1615, 2003.
+
+\bibitem[Dai et~al.(2008)Dai, Papp, Wang, Hampel, and Sadee]{Dai2008}
+Z.~Dai, A.~C. Papp, D.~Wang, H.~Hampel, and W.~Sadee.
+\newblock {Genotyping panel for assessing response to cancer chemotherapy}.
+\newblock \emph{BMC Medical Genomics}, 1\penalty0 (1):\penalty0 24, 2008.
+\newblock ISSN 1755-8794.
+\newblock \doi{10.1186/1755-8794-1-24}.
+\newblock URL
+  \url{http://bmcmedgenomics.biomedcentral.com/articles/10.1186/1755-8794-1-24}.
 
 \bibitem[de~Jong(2006)]{DeJong2006}
 F.~A. de~Jong.
@@ -273,6 +332,46 @@ M.~Depner, S.~Fuchs, J.~Raabe, N.~Frede, C.~Glocker, R.~Doffinger,
   73--84, 2016.
 \newblock ISSN 15732592.
 \newblock \doi{10.1007/s10875-015-0214-9}.
+
+\bibitem[Didelot et~al.(2013)Didelot, Kotsopoulos, Lupo, Pekin, Li, Atochin,
+  Srinivasan, Zhong, Olson, Link, Laurent-Puig, Blons, Hutchison, and
+  Taly]{Didelot2013}
+A.~Didelot, S.~K. Kotsopoulos, A.~Lupo, D.~Pekin, X.~Li, I.~Atochin,
+  P.~Srinivasan, Q.~Zhong, J.~Olson, D.~R. Link, P.~Laurent-Puig, H.~Blons,
+  J.~B. Hutchison, and V.~Taly.
+\newblock {Multiplex picoliter-droplet digital PCR for quantitative assessment
+  of DNA integrity in clinical samples}.
+\newblock \emph{Clinical Chemistry}, 59\penalty0 (5):\penalty0 815--823, 2013.
+\newblock ISSN 00099147.
+\newblock \doi{10.1373/clinchem.2012.193409}.
+
+\bibitem[Do and Dobrovic(2012)]{Do2012}
+H.~Do and A.~Dobrovic.
+\newblock {Dramatic reduction of sequence artefacts from DNA isolated from
+  formalin-fixed cancer biopsies by treatment with uracil- DNA glycosylase.}
+\newblock \emph{Oncotarget}, 3\penalty0 (5):\penalty0 546--58, 2012.
+\newblock ISSN 1949-2553.
+\newblock \doi{10.18632/oncotarget.503}.
+\newblock URL
+  \url{http://www.ncbi.nlm.nih.gov/pubmed/22643842{\%}5Cnhttp://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC3388184}.
+
+\bibitem[Do and Dobrovic(2015)]{Do2015a}
+H.~Do and A.~Dobrovic.
+\newblock {Sequence artifacts in DNA from formalin-fixed tissues: Causes and
+  strategies for minimization}.
+\newblock \emph{Clinical Chemistry}, 61\penalty0 (1):\penalty0 64--71, 2015.
+\newblock ISSN 15308561.
+\newblock \doi{10.1373/clinchem.2014.223040}.
+
+\bibitem[Do et~al.(2013)Do, Wong, Li, and Dobrovic]{Do2013}
+H.~Do, S.~Q. Wong, J.~Li, and A.~Dobrovic.
+\newblock {Reducing sequence artifacts in amplicon-based massively parallel
+  sequencing of formalin-fixed paraffin-embedded DNA by enzymatic depletion of
+  uracil-containing templates}.
+\newblock \emph{Clinical Chemistry}, 59\penalty0 (9):\penalty0 1376--1383,
+  2013.
+\newblock ISSN 00099147.
+\newblock \doi{10.1373/clinchem.2012.202390}.
 
 \bibitem[Dobritzsch et~al.(2001)Dobritzsch, Schneider, Schnackerz, and
   Lindqvist]{Dobritzsch2001}
@@ -347,6 +446,38 @@ G.~Fortunato, G.~Calcagno, V.~Bresciamorra, E.~Salvatore, A.~Filla, S.~Capone,
   141--152, 2008.
 \newblock \doi{doi: 10.1089/jir.2007.0049.}
 
+\bibitem[Frampton et~al.(2013)Frampton, Fichtenholtz, Otto, Wang, Downing, He,
+  Schnall-Levin, White, Sanford, An, Sun, Juhn, Brennan, Iwanik, Maillet,
+  Buell, White, Zhao, Balasubramanian, Terzic, Richards, Banning, Garcia,
+  Mahoney, Zwirko, Donahue, Beltran, Mosquera, Rubin, Dogan, Hedvat, Berger,
+  Pusztai, Lechner, Boshoff, Jarosz, Vietz, Parker, Miller, Ross, Curran,
+  Cronin, Stephens, Lipson, and Yelensky]{Frampton2013}
+G.~M.~G. Frampton, A.~Fichtenholtz, G.~a.~G. Otto, K.~Wang, S.~R. Downing,
+  J.~He, M.~Schnall-Levin, J.~White, E.~M. Sanford, P.~An, J.~Sun, F.~Juhn,
+  K.~Brennan, K.~Iwanik, A.~Maillet, J.~Buell, E.~White, M.~Zhao,
+  S.~Balasubramanian, S.~Terzic, T.~Richards, V.~Banning, L.~Garcia,
+  K.~Mahoney, Z.~Zwirko, A.~Donahue, H.~Beltran, J.~M. Mosquera, M.~a. Rubin,
+  S.~Dogan, C.~V. Hedvat, M.~F. Berger, L.~Pusztai, M.~Lechner, C.~Boshoff,
+  M.~Jarosz, C.~Vietz, A.~Parker, V.~a. Miller, J.~S. Ross, J.~Curran, M.~T.
+  Cronin, P.~J. Stephens, D.~Lipson, and R.~Yelensky.
+\newblock {Development and validation of a clinical cancer genomic profiling
+  test based on massively parallel DNA sequencing.}
+\newblock \emph{Nature}, 31\penalty0 (October):\penalty0 1--11, 2013.
+\newblock ISSN 1087-0156.
+\newblock \doi{10.1038/nbt.2696}.
+\newblock URL
+  \url{http://dx.doi.org/10.1038/nbt.2696{\%}5Cnhttp://www.nature.com/nbt/journal/v31/n11/abs/nbt.2696.html{\%}5Cnhttp://www.ncbi.nlm.nih.gov/pubmed/24142049}.
+
+\bibitem[Fumagalli et~al.(2010)Fumagalli, Gavin, Taniyama, Kim, Choi, Paik, and
+  Pogue-Geile]{Fumagalli2010}
+D.~Fumagalli, P.~G. Gavin, Y.~Taniyama, S.-I. Kim, H.-J. Choi, S.~Paik, and
+  K.~L. Pogue-Geile.
+\newblock {A rapid, sensitive, reproducible and cost-effective method for
+  mutation profiling of colon cancer and metastatic lymph nodes.}
+\newblock \emph{BMC cancer}, 10:\penalty0 101, 2010.
+\newblock ISSN 1471-2407.
+\newblock \doi{10.1186/1471-2407-10-101}.
+
 \bibitem[Gentile et~al.(2016)Gentile, Botticelli, Lionetto, Mazzuca, Simmaco,
   Marchetti, and Borro]{Gentile2016}
 G.~Gentile, A.~Botticelli, L.~Lionetto, F.~Mazzuca, M.~Simmaco, P.~Marchetti,
@@ -386,6 +517,22 @@ F.~Graziano, A.~Ruzzo, F.~Loupakis, D.~Santini, V.~Catalano, E.~Canestrari,
 \newblock URL
   \url{http://www.scopus.com/inward/record.url?eid=2-s2.0-50249189069{\&}partnerID=tZOtx3y1}.
 
+\bibitem[Green et~al.(2013)Green, Berg, Grody, Kalia, Korf, Martin, McGuire,
+  Nussbaum, O'Daniel, Ormond, Rehm, Watson, Williams, Biesecker, and {American
+  College of Medical Genetics and Genomics}]{Green2013}
+R.~C. Green, J.~S. Berg, W.~W. Grody, S.~S. Kalia, B.~R. Korf, C.~L. Martin,
+  A.~L. McGuire, R.~L. Nussbaum, J.~M. O'Daniel, K.~E. Ormond, H.~L. Rehm,
+  M.~S. Watson, M.~S. Williams, L.~G. Biesecker, and {American College of
+  Medical Genetics and Genomics}.
+\newblock {ACMG recommendations for reporting of incidental findings in
+  clinical exome and genome sequencing.}
+\newblock \emph{Genetics in medicine : official journal of the American College
+  of Medical Genetics}, 15\penalty0 (7):\penalty0 565--74, 2013.
+\newblock ISSN 1530-0366.
+\newblock \doi{10.1038/gim.2013.73}.
+\newblock URL
+  \url{http://www.ncbi.nlm.nih.gov/pubmed/23788249{\%}5Cnhttp://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC3727274}.
+
 \bibitem[Guillem et~al.(2013)Guillem, Hernandez-Boluda, Gallardo, Buno, Bosch,
   Martinez-Laperche, de~la Camara, Brunet, Martin, Nieto, Martinez, Perez,
   Montoro, Garcia-Noblejas, and Solano]{Guillem2013}
@@ -410,6 +557,34 @@ M.~Gusella, G.~Crepaldi, C.~Barile, A.~Bononi, D.~Menon, S.~Toso, D.~Scapoli,
 \newblock ISSN 09237534.
 \newblock \doi{10.1093/annonc/mdl284}.
 \newblock URL \url{http://dx.doi.org/10.1038/sj.bjc.6605052}.
+
+\bibitem[Heyn et~al.(2010)Heyn, Stenzel, Briggs, Kircher, Hofreiter, and
+  Meyer]{Heyn2010}
+P.~Heyn, U.~Stenzel, A.~W. Briggs, M.~Kircher, M.~Hofreiter, and M.~Meyer.
+\newblock {Road blocks on paleogenomes--polymerase extension profiling reveals
+  the frequency of blocking lesions in ancient DNA}.
+\newblock \emph{Nucleic acids research}, 38\penalty0 (16):\penalty0 e161, 2010.
+\newblock ISSN 13624962.
+\newblock \doi{10.1093/nar/gkq572}.
+
+\bibitem[Hiltemann et~al.(2015)Hiltemann, Jenster, Trapman, {Van Der Spek}, and
+  Stubbs]{Hiltemann2015}
+S.~Hiltemann, G.~Jenster, J.~Trapman, P.~{Van Der Spek}, and A.~Stubbs.
+\newblock {Discriminating somatic and germline mutations in tumor DNA samples
+  without matching normals}.
+\newblock \emph{Genome Research}, 25\penalty0 (9):\penalty0 1382--1390, 2015.
+\newblock ISSN 15495469.
+\newblock \doi{10.1101/gr.183053.114}.
+
+\bibitem[Hofreiter et~al.(2001)Hofreiter, Jaenicke, Serre, von Haeseler, and
+  P{\"{a}}{\"{a}}bo]{Hofreiter2001}
+M.~Hofreiter, V.~Jaenicke, D.~Serre, A.~von Haeseler, and S.~P{\"{a}}{\"{a}}bo.
+\newblock {DNA sequences from multiple amplifications reveal artifacts induced
+  by cytosine deamination in ancient DNA}.
+\newblock \emph{Nucleic Acids Research}, 29\penalty0 (23):\penalty0 4793--4799,
+  2001.
+\newblock ISSN 0305-1048, 1362-4962.
+\newblock \doi{10.1093/nar/29.23.4793}.
 
 \bibitem[Hong et~al.(2011)Hong, Han, Ham, Kim, Choi, Kim, Oh, Im, Kang, Bang,
   and Kim]{Hong2011}
@@ -476,6 +651,19 @@ B.~A. Jennings, Y.~K. Loke, J.~Skinner, M.~Keane, G.~S. Chu, R.~Turner,
 \newblock ISSN 19326203.
 \newblock \doi{10.1371/journal.pone.0078053}.
 
+\bibitem[Jones et~al.(2015)Jones, Anagnostou, Lytle, Parpart-li, Nesselbush,
+  Riley, Shukla, Chesnick, Kadan, Papp, Galens, Murphy, Zhang, Kann, Sausen,
+  Angiuoli, Jr, and Velculescu]{Jones2015a}
+S.~Jones, V.~Anagnostou, K.~Lytle, S.~Parpart-li, M.~Nesselbush, D.~R. Riley,
+  M.~Shukla, B.~Chesnick, M.~Kadan, E.~Papp, K.~G. Galens, D.~Murphy, T.~Zhang,
+  L.~Kann, M.~Sausen, S.~V. Angiuoli, L.~A.~D. Jr, and V.~E. Velculescu.
+\newblock {Personalized genomic analyses for cancer mutation discovery and
+  interpretation}.
+\newblock \emph{Science Translational Medicine}, 7\penalty0 (283):\penalty0
+  283ra53, 2015.
+\newblock ISSN 1946-6234.
+\newblock \doi{10.1126/scitranslmed.aaa7161}.
+
 \bibitem[Khrunin et~al.(2010)Khrunin, Moisseev, Gorbunova, and
   Limborska]{Khrunin2010}
 A.~V. Khrunin, A.~Moisseev, V.~Gorbunova, and S.~Limborska.
@@ -498,6 +686,18 @@ J.~G. Kim, S.~K. Sohn, Y.~S. Chae, H.~S. Song, K.~Y. Kwon, Y.~R. Do, M.~K. Kim,
   (2):\penalty0 355--360, 2009.
 \newblock ISSN 03445704.
 \newblock \doi{10.1007/s00280-008-0879-3}.
+
+\bibitem[Kim et~al.(2017)Kim, Park, Ji, Kim, Bae, van Vrancken, Kim, and
+  Kim]{Kim2017}
+S.~Kim, C.~Park, Y.~Ji, D.~G. Kim, H.~Bae, M.~van Vrancken, D.~H. Kim, and
+  K.~M. Kim.
+\newblock {Deamination Effects in Formalin-Fixed, Paraffin-Embedded Tissue
+  Samples in the Era of Precision Medicine}.
+\newblock \emph{Journal of Molecular Diagnostics}, 19\penalty0 (1):\penalty0
+  137--146, 2017.
+\newblock ISSN 19437811.
+\newblock \doi{10.1016/j.jmoldx.2016.09.006}.
+\newblock URL \url{http://dx.doi.org/10.1016/j.jmoldx.2016.09.006}.
 
 \bibitem[Kweekel et~al.(2008)Kweekel, Gelderblom, {Van der Straaten}, Antonini,
   Punt, and Guchelaar]{Kweekel2008}
@@ -545,6 +745,20 @@ F.~Leone, G.~Cavalloni, Y.~Pignochino, I.~Sarotto, R.~Ferraris, W.~Piacibello,
 \newblock ISSN 10780432.
 \newblock \doi{10.1158/1078-0432.CCR-05-1692}.
 
+\bibitem[Lin et~al.(2014)Lin, Mosier, Thiess, Beierl, Debeljak, Tseng, Chen,
+  Yegnasubramanian, Ho, Cope, Wheelan, Gocke, and Eshleman]{Lin2014}
+M.-T. Lin, S.~L. Mosier, M.~Thiess, K.~F. Beierl, M.~Debeljak, L.-H. Tseng,
+  G.~Chen, S.~Yegnasubramanian, H.~Ho, L.~Cope, S.~J. Wheelan, C.~D. Gocke, and
+  J.~R. Eshleman.
+\newblock {Clinical validation of KRAS, BRAF, and EGFR mutation detection using
+  next-generation sequencing.}
+\newblock \emph{American journal of clinical pathology}, 141\penalty0
+  (6):\penalty0 856--66, 2014.
+\newblock ISSN 1943-7722.
+\newblock \doi{10.1309/AJCPMWGWGO34EGOD}.
+\newblock URL
+  \url{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=4332779{\&}tool=pmcentrez{\&}rendertype=abstract}.
+
 \bibitem[Liu et~al.(2016)Liu, Xu, Chen, Wu, Qiao, Li, and Yuan]{Liu2016}
 Y.~Liu, S.~N. Xu, Y.~S. Chen, X.~Y. Wu, L.~Qiao, K.~Li, and L.~Yuan.
 \newblock {Study of single nucleotide polymorphisms of FBW7 and its substrate
@@ -555,6 +769,28 @@ Y.~Liu, S.~N. Xu, Y.~S. Chen, X.~Y. Wu, L.~Qiao, K.~Li, and L.~Yuan.
 \newblock \doi{10.18632/oncotarget.9736}.
 \newblock URL
   \url{http://www.ncbi.nlm.nih.gov/pubmed/27259248{\%}0Ahttp://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC5190100}.
+
+\bibitem[Lou et~al.(2014)Lou, Mirsadraei, Sanchez, Wilson, Shabihkhani, Lucey,
+  Wei, Singer, Mareninov, and Yong]{Lou2014}
+J.~J. Lou, L.~Mirsadraei, D.~E. Sanchez, R.~W. Wilson, M.~Shabihkhani, G.~M.
+  Lucey, B.~Wei, E.~J. Singer, S.~Mareninov, and W.~H. Yong.
+\newblock {A review of room temperature storage of biospecimen tissue and
+  nucleic acids for anatomic pathology laboratories and biorepositories}.
+\newblock \emph{Clinical Biochemistry}, 47\penalty0 (4-5):\penalty0 267--273,
+  2014.
+\newblock ISSN 18732933.
+\newblock \doi{10.1016/j.clinbiochem.2013.12.011}.
+\newblock URL \url{http://dx.doi.org/10.1016/j.clinbiochem.2013.12.011}.
+
+\bibitem[Ludyga et~al.(2012)Ludyga, Gr??nwald, Azimzadeh, Englert, H??fler,
+  Tapio, and Aubele]{Ludyga2012}
+N.~Ludyga, B.~Gr??nwald, O.~Azimzadeh, S.~Englert, H.~H??fler, S.~Tapio, and
+  M.~Aubele.
+\newblock {Nucleic acids from long-term preserved FFPE tissues are suitable for
+  downstream analyses}.
+\newblock \emph{Virchows Archiv}, 460\penalty0 (2):\penalty0 131--140, 2012.
+\newblock ISSN 09456317.
+\newblock \doi{10.1007/s00428-011-1184-9}.
 
 \bibitem[Mandola et~al.(2004)Mandola, Stoehlmacher, Zhang, Groshen, Yu, Iqbal,
   Lenz, and Ladner]{Mandola2004}
@@ -597,6 +833,13 @@ L.~K. Mattison, M.~R. Johnson, and R.~B. Diasio.
 \newblock \doi{10.1097/00008571-200203000-00007}.
 \newblock URL \url{http://www.ncbi.nlm.nih.gov/pubmed/11875367}.
 
+\bibitem[McLeod(2013)]{McLeod2013}
+H.~L. McLeod.
+\newblock {Cancer Pharmacogenomics: Early Promise, But Concerted Effort
+  Needed}.
+\newblock \emph{Science}, 339\penalty0 (March):\penalty0 1563--1566, 2013.
+\newblock \doi{10.1126/science.1234139}.
+
 \bibitem[McLeod et~al.(2010)McLeod, Sargent, Marsh, Green, King, Fuchs,
   Ramanathan, Williamson, Findlay, Thibodeau, Grothey, Morton, and
   Goldberg]{McLeod2010}
@@ -610,6 +853,20 @@ H.~L. McLeod, D.~J. Sargent, S.~Marsh, E.~M. Green, C.~R. King, C.~S. Fuchs,
   3227--3233, 2010.
 \newblock ISSN 0732183X.
 \newblock \doi{10.1200/JCO.2009.21.7943}.
+
+\bibitem[Meric-Bernstam et~al.(2016)Meric-Bernstam, Brusco, Daniels, Wathoo,
+  Bailey, Strong, Shaw, Lu, Qi, Zhao, Lara-Guerra, Litton, Arun, Eterovic,
+  Aytac, Routbort, Subbiah, Janku, Davies, Kopetz, Mendelsohn, Mills, and
+  Chen]{Meric-Bernstam2016}
+F.~Meric-Bernstam, L.~Brusco, M.~Daniels, C.~Wathoo, A.~M. Bailey, L.~Strong,
+  K.~Shaw, K.~Lu, Y.~Qi, H.~Zhao, H.~Lara-Guerra, J.~Litton, B.~Arun, A.~K.
+  Eterovic, U.~Aytac, M.~Routbort, V.~Subbiah, F.~Janku, M.~A. Davies,
+  S.~Kopetz, J.~Mendelsohn, G.~B. Mills, and K.~Chen.
+\newblock {Incidental germline variants in 1000 advanced cancers on a
+  prospective somatic genomic profiling protocol}.
+\newblock \emph{Annals of Oncology}, 27\penalty0 (5):\penalty0 795--800, 2016.
+\newblock ISSN 15698041.
+\newblock \doi{10.1093/annonc/mdw018}.
 
 \bibitem[Meulendijks et~al.(2015)Meulendijks, Henricks, Sonke, Deenen,
   Froehlich, Amstutz, Largiad{\`{e}}r, Jennings, Marinaki, Sanderson, Kleibl,
@@ -628,6 +885,16 @@ D.~Meulendijks, L.~M. Henricks, G.~S. Sonke, M.~J. Deenen, T.~K. Froehlich,
   2015.
 \newblock ISSN 14745488.
 \newblock \doi{10.1016/S1470-2045(15)00286-7}.
+
+\bibitem[Mohelnikova-Duchonova et~al.(2014)Mohelnikova-Duchonova, Melichar, and
+  Soucek]{Mohelnikova-Duchonova2014}
+B.~Mohelnikova-Duchonova, B.~Melichar, and P.~Soucek.
+\newblock {FOLFOX/FOLFIRI pharmacogenetics: The call for a personalized
+  approach in colorectal cancer therapy}.
+\newblock \emph{World Journal of Gastroenterology}, 20\penalty0 (30):\penalty0
+  10316--10330, 2014.
+\newblock ISSN 22192840.
+\newblock \doi{10.3748/wjg.v20.i30.10316}.
 
 \bibitem[Morel et~al.(2006)Morel, Boisdron-Celle, Fey, Soulie, Craipeau,
   Traore, and Gamelin]{Morel2006}
@@ -680,6 +947,28 @@ S.~M. Offer, C.~C. Fossum, N.~J. Wegner, A.~J. Stuflesser, G.~L. Butterfield,
 \newblock ISSN 15387445.
 \newblock \doi{10.1158/0008-5472.CAN-13-2482}.
 
+\bibitem[Ofner et~al.(2017)Ofner, Ritter, Ugurel, Cerroni, Stiller,
+  Bogenrieder, Solca, and Schrama]{Ofner2017}
+R.~Ofner, C.~Ritter, S.~Ugurel, L.~Cerroni, M.~Stiller, T.~Bogenrieder,
+  F.~Solca, and D.~Schrama.
+\newblock {Non-reproducible sequence artifacts in FFPE tissue : an experience
+  report}.
+\newblock \emph{Journal of Cancer Research and Clinical Oncology}, 143\penalty0
+  (7):\penalty0 1199--1207, 2017.
+\newblock ISSN 1432-1335.
+\newblock \doi{10.1007/s00432-017-2399-1}.
+
+\bibitem[Oh et~al.(2015)Oh, Choi, Kwon, Kim, Kim, Song, Jung, and Shin]{Oh2015}
+E.~Oh, Y.-L. Choi, M.~J. Kwon, R.~N. Kim, Y.~J. Kim, J.-Y. Song, K.~S. Jung,
+  and Y.~K. Shin.
+\newblock {Comparison of Accuracy of Whole-Exome Sequencing with Formalin-Fixed
+  Paraffin-Embedded and Fresh Frozen Tissue Samples.}
+\newblock \emph{PloS one}, 10\penalty0 (12):\penalty0 e0144162, 2015.
+\newblock ISSN 1932-6203.
+\newblock \doi{10.1371/journal.pone.0144162}.
+\newblock URL
+  \url{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=4671711{\&}tool=pmcentrez{\&}rendertype=abstract}.
+
 \bibitem[Pennington et~al.(2013)Pennington, Walsh, Lee, Pennil, Novetsky,
   Agnew, Thornton, Garcia, Mutch, King, Goodfellow, and
   Swisher]{Pennington2013}
@@ -711,6 +1000,17 @@ S.~Quesnel, S.~Verselis, C.~Portwine, J.~Garber, M.~White, J.~Feunteun,
 \newblock \emph{Oncogene}, 18\penalty0 (27):\penalty0 3970--3978, 1999.
 \newblock ISSN 0950-9232.
 \newblock \doi{10.1038/sj.onc.1202783}.
+
+\bibitem[Raymond et~al.(2016)Raymond, Gray, Roychowdhury, Joffe, Chinnaiyan,
+  Parsons, and Plon]{Raymond2016}
+V.~M. Raymond, S.~W. Gray, S.~Roychowdhury, S.~Joffe, A.~M. Chinnaiyan, D.~W.
+  Parsons, and S.~E. Plon.
+\newblock {Germline findings in tumor-only sequencing: Points to consider for
+  clinicians and laboratories}.
+\newblock \emph{Journal of the National Cancer Institute}, 108\penalty0
+  (4):\penalty0 1--5, 2016.
+\newblock ISSN 14602105.
+\newblock \doi{10.1093/jnci/djv351}.
 
 \bibitem[Rouits et~al.(2008)Rouits, Charasson, P{\'{e}}tain, Boisdron-Celle,
   Delord, Fonck, Laurand, a~L~Poirier, Morel, Chatelut, Robert, and
@@ -756,6 +1056,21 @@ A.~Ruzzo, F.~Graziano, F.~Loupakis, D.~Santini, V.~Catalano, R.~Bisonni,
 \newblock \doi{10.1038/sj.tpj.6500463}.
 \newblock URL \url{http://www.nature.com/doifinder/10.1038/sj.tpj.6500463}.
 
+\bibitem[Schrader et~al.(2015)Schrader, Cheng, Joseph, Prasad, Walsh, Zehir,
+  Ni, Thomas, Benayed, Ashraf, Lincoln, Arcila, Stadler, Solit, Hyman, Zhang,
+  Klimstra, Ladanyi, Offit, Berger, and Robson]{Schrader2015}
+K.~A. Schrader, D.~T. Cheng, V.~Joseph, M.~Prasad, M.~Walsh, A.~Zehir, A.~Ni,
+  T.~Thomas, R.~Benayed, A.~Ashraf, A.~Lincoln, M.~Arcila, Z.~Stadler,
+  D.~Solit, D.~Hyman, L.~Zhang, D.~Klimstra, M.~Ladanyi, K.~Offit, M.~Berger,
+  and M.~Robson.
+\newblock {Germline Variants in Targeted Tumor Sequencing Using Matched Normal
+  DNA.}
+\newblock \emph{JAMA oncology}, 2\penalty0 (1):\penalty0 1--8, 2015.
+\newblock ISSN 2374-2445.
+\newblock \doi{10.1001/jamaoncol.2015.5208}.
+\newblock URL
+  \url{http://oncology.jamanetwork.com/article.aspx?articleid=2469517}.
+
 \bibitem[Schwab et~al.(2008)Schwab, Zanger, Marx, Schaeffeler, Klein, Dippon,
   Kerb, Blievernicht, Fischer, Hofmann, Bokemeyer, and Eichelbaum]{Schwab2008}
 M.~Schwab, U.~M. Zanger, C.~Marx, E.~Schaeffeler, K.~Klein, J.~Dippon, R.~Kerb,
@@ -767,6 +1082,40 @@ M.~Schwab, U.~M. Zanger, C.~Marx, E.~Schaeffeler, K.~Klein, J.~Dippon, R.~Kerb,
   2131--2138, 2008.
 \newblock ISSN 0732183X.
 \newblock \doi{10.1200/JCO.2006.10.4182}.
+
+\bibitem[Seiler et~al.(2016)Seiler, Sharpe, Barrett, Harrington, Jones, and
+  Marshall]{Seiler2016}
+C.~Seiler, A.~Sharpe, J.~C. Barrett, E.~A. Harrington, E.~V. Jones, and G.~B.
+  Marshall.
+\newblock {Nucleic acid extraction from formalin-fixed paraffin-embedded cancer
+  cell line samples: a trade off between quantity and quality?}
+\newblock \emph{BMC Clinical Pathology}, 16\penalty0 (1):\penalty0 17, 2016.
+\newblock ISSN 1472-6890.
+\newblock \doi{10.1186/s12907-016-0039-3}.
+\newblock URL \url{http://dx.doi.org/10.1186/s12907-016-0039-3}.
+
+\bibitem[Shi et~al.(2002)Shi, Cote, Wu, Liu, Datar, Shi, Liu, Lim, and
+  Taylor]{Shi2002}
+S.-R. Shi, R.~J. Cote, L.~Wu, C.~Liu, R.~Datar, Y.~Shi, D.~Liu, H.~Lim, and
+  C.~R. Taylor.
+\newblock {DNA extraction from archival formalin-fixed, paraffin-embedded
+  tissue sections based on the antigen retrieval principle: heating under the
+  influence of pH.}
+\newblock \emph{The journal of histochemistry and cytochemistry : official
+  journal of the Histochemistry Society}, 50\penalty0 (8):\penalty0 1005--1011,
+  2002.
+\newblock ISSN 0022-1554.
+\newblock \doi{10.1177/002215540205000802}.
+
+\bibitem[Sikorsky et~al.(2007)Sikorsky, Primerano, Fenger, and
+  Denvir]{Sikorsky2007}
+J.~A. Sikorsky, D.~A. Primerano, T.~W. Fenger, and J.~Denvir.
+\newblock {DNA damage reduces Taq DNA polymerase fidelity and PCR amplification
+  efficiency}.
+\newblock \emph{Biochemical and Biophysical Research Communications},
+  355\penalty0 (2):\penalty0 431--437, 2007.
+\newblock ISSN 0006291X.
+\newblock \doi{10.1016/j.bbrc.2007.01.169}.
 
 \bibitem[Slager et~al.(2013)Slager, Honders, Meijden, Luxemburg-heijs,
   Kloosterboer, Kester, Jedema, Marijt, Schaafsma, Falkenburg, Slager, Honders,
@@ -781,6 +1130,18 @@ E.~H. Slager, M.~W. Honders, E.~D. V.~D. Meijden, S.~A. P.~V. Luxemburg-heijs,
   phosphorylase as a potential target}.
 \newblock 107\penalty0 (12):\penalty0 4954--4960, 2013.
 \newblock \doi{10.1182/blood-2005-09-3883}.
+
+\bibitem[Spencer et~al.(2013)Spencer, Sehn, Abel, Watson, Pfeifer, and
+  Duncavage]{Spencer2013}
+D.~H. Spencer, J.~K. Sehn, H.~J. Abel, M.~A. Watson, J.~D. Pfeifer, and E.~J.
+  Duncavage.
+\newblock {Comparison of clinical targeted next-generation sequence data from
+  formalin-fixed and fresh-frozen tissue specimens}.
+\newblock \emph{Journal of Molecular Diagnostics}, 15\penalty0 (5):\penalty0
+  623--633, 2013.
+\newblock ISSN 15251578.
+\newblock \doi{10.1016/j.jmoldx.2013.05.004}.
+\newblock URL \url{http://dx.doi.org/10.1016/j.jmoldx.2013.05.004}.
 
 \bibitem[Stoehlmacher et~al.(2004)Stoehlmacher, Park, Zhang, Yang, Groshen,
   Zahedy, and Lenz]{Stoehlmacher2004}
@@ -917,6 +1278,45 @@ Y.~Wang, W.~Bao, H.~Shi, C.~Jiang, and Y.~Zhang.
 \newblock \doi{10.1593/tlo.13391}.
 \newblock URL
   \url{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3730025{\&}tool=pmcentrez{\&}rendertype=abstract}.
+
+\bibitem[Wong et~al.(2014{\natexlab{a}})Wong, Gonzalez, Salto-Tellez, Butler,
+  Diaz-Cano, Ilyas, Newman, Shaw, Taniere, and Walsh]{Wong2014a}
+N.~A. Wong, D.~Gonzalez, M.~Salto-Tellez, R.~Butler, S.~J. Diaz-Cano, M.~Ilyas,
+  W.~Newman, E.~Shaw, P.~Taniere, and S.~V. Walsh.
+\newblock {RAS testing of colorectal carcinoma-a guidance document from the
+  Association of Clinical Pathologists Molecular Pathology and Diagnostics
+  Group.}
+\newblock \emph{Journal of clinical pathology}, 67\penalty0 (9):\penalty0
+  751--757, 2014{\natexlab{a}}.
+\newblock ISSN 1472-4146.
+\newblock \doi{10.1136/jclinpath-2014-202467}.
+\newblock URL \url{http://www.ncbi.nlm.nih.gov/pubmed/24996433}.
+
+\bibitem[Wong et~al.(2013)Wong, Li, Salemi, Sheppard, Do, Tothill, McArthur,
+  and Dobrovic]{Wong2013}
+S.~Q. Wong, J.~Li, R.~Salemi, K.~E. Sheppard, H.~Do, R.~W. Tothill, G.~a.
+  McArthur, and A.~Dobrovic.
+\newblock {Targeted-capture massively-parallel sequencing enables robust
+  detection of clinically informative mutations from formalin-fixed tumours.}
+\newblock \emph{Scientific reports}, 3\penalty0 (3):\penalty0 3494, 2013.
+\newblock ISSN 2045-2322.
+\newblock \doi{10.1038/srep03494}.
+\newblock URL
+  \url{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3861801{\&}tool=pmcentrez{\&}rendertype=abstract}.
+
+\bibitem[Wong et~al.(2014{\natexlab{b}})Wong, Li, {Y-C Tan}, Vedururu, Pang,
+  Do, Ellul, Doig, Bell, MacArthur, Fox, Thomas, Fellowes, Parisot, and
+  Dobrovic]{Wong2014}
+S.~Q. Wong, J.~Li, A.~{Y-C Tan}, R.~Vedururu, J.-M.~B. Pang, H.~Do, J.~Ellul,
+  K.~Doig, A.~Bell, G.~A. MacArthur, S.~B. Fox, D.~M. Thomas, A.~Fellowes,
+  J.~P. Parisot, and A.~Dobrovic.
+\newblock {Sequence artefacts in a prospective series of formalin-fixed tumours
+  tested for mutations in hotspot regions by massively parallel sequencing}.
+\newblock \emph{BMC Medical Genomics}, 7\penalty0 (1):\penalty0 1--10,
+  2014{\natexlab{b}}.
+\newblock ISSN 1755-8794.
+\newblock \doi{10.1186/1755-8794-7-23}.
+\newblock URL \url{http://www.biomedcentral.com/1755-8794/7/23}.
 
 \bibitem[Yang et~al.(2007)Yang, Guo, Zhang, Miao, Tan, Sun, Zhao, Yu, Liu, and
   Lin]{Yang2007}

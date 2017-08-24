@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  12 AUG 2017 17:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  24 AUG 2017 16:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1122,7 +1122,7 @@ package acronym warning: acronym `ubc' is not defined on input line 6.
 \openout6 = `diss.toc'.
 
  [5] (./diss.lot
-Overfull \hbox (57.80797pt too wide) in paragraph at lines 14--14
+Overfull \hbox (56.83298pt too wide) in paragraph at lines 14--14
  \OT1/ptm/m/n/10.95 age depth in blood and FFPE spec-i-mens ([]) 
  []
 
@@ -1143,7 +1143,7 @@ er-val cal-cu-lated us-ing the Clopper-
 
 
 ]
-Overfull \hbox (7.95921pt too wide) in paragraph at lines 16--16
+Overfull \hbox (6.98422pt too wide) in paragraph at lines 16--16
  \OT1/ptm/m/n/10.95 blood and FFPE spec-i-mens ([]) 
  []
 
@@ -1154,15 +1154,15 @@ E spec-i-mens (Wilcoxon
  []
 
 
-Overfull \hbox (8.75818pt too wide) in paragraph at lines 18--18
+Overfull \hbox (7.78319pt too wide) in paragraph at lines 18--18
  \OT1/ptm/m/n/10.95 spec-i-mens []. 
  []
 
-[9])
+[9] [10])
 \tf@lof=\write8
 \openout8 = `diss.lof'.
 
- [10] [11] (./glossary.tex) [12
+ [11] (./glossary.tex) [12
 
 
 ]
@@ -1192,61 +1192,21 @@ Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
  [2] [3]
 
-Package natbib Warning: Citation `Raymond2016' on page 4 undefined on input lin
-e 84.
-
-
-Package natbib Warning: Citation `Raymond2016' on page 4 undefined on input lin
-e 84.
-
-
-Package natbib Warning: Citation `Raymond2016' on page 4 undefined on input lin
-e 84.
-
-
-Package natbib Warning: Citation `Meric-Bernstam2016' on page 4 undefined on in
-put line 84.
-
-
-Package natbib Warning: Citation `Schrader2015' on page 4 undefined on input li
-ne 84.
-
-
 Package natbib Warning: Citation `Jones2015' on page 4 undefined on input line 
 84.
 
 [4]
 
-Package natbib Warning: Citation `McLeod2013' on page 5 undefined on input line
- 88.
+Package natbib Warning: Citation `Do2015' on page 5 undefined on input line 91.
 
-
-Package natbib Warning: Citation `McLeod2013' on page 5 undefined on input line
- 88.
 
 
 Package natbib Warning: Citation `Do2015' on page 5 undefined on input line 91.
 
 
 
-Package natbib Warning: Citation `Wong2014' on page 5 undefined on input line 9
-1.
-
-
 Package natbib Warning: Citation `Do2015' on page 5 undefined on input line 91.
 
-
-
-Package natbib Warning: Citation `Wong2014' on page 5 undefined on input line 9
-1.
-
-
-Package natbib Warning: Citation `Do2015' on page 5 undefined on input line 91.
-
-
-
-Package natbib Warning: Citation `Wong2014' on page 5 undefined on input line 9
-1.
 
 
 Package natbib Warning: Citation `Do2015' on page 5 undefined on input line 91.
@@ -1258,7 +1218,7 @@ Package natbib Warning: Citation `Do2015' on page 5 undefined on input line 91.
 
 
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/intro_figure/acce_wheel.png, 
-id=399, 473.77pt x 469.755pt>
+id=405, 473.77pt x 469.755pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/intro_figure/acce_wheel.
 png Graphic file (type png)
 
@@ -1276,103 +1236,98 @@ Chapter 2.
 Missing character: There is no Â in font ptmr7t!
 Missing character: There is no ­ in font ptmr7t!
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
-LaTeX Font Info:    Calculating math sizes for size <7.4> on input line 40.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
+LaTeX Font Info:    Calculating math sizes for size <7.4> on input line 42.
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <5.47603> not available
-(Font)              size <5> substituted on input line 40.
+(Font)              size <5> substituted on input line 42.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4.44003> not available
-(Font)              size <5> substituted on input line 40.
+(Font)              size <5> substituted on input line 42.
 
 
 LaTeX Font Warning: Font shape `OT1/cmtt/m/n' in size <5.47603> not available
-(Font)              size <5> substituted on input line 40.
+(Font)              size <5> substituted on input line 42.
 
 
 LaTeX Font Warning: Font shape `OT1/cmtt/m/n' in size <4.44003> not available
-(Font)              size <5> substituted on input line 40.
+(Font)              size <5> substituted on input line 42.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5.47603> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <4.44003> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
 [7
 
 
 
 ] [8]
-Overfull \hbox (33.75069pt too wide) in paragraph at lines 61--93
+Overfull \hbox (33.75069pt too wide) in paragraph at lines 63--95
  [][] 
  []
 
 
-Overfull \hbox (2.96622pt too wide) in paragraph at lines 102--103
+Overfull \hbox (2.96622pt too wide) in paragraph at lines 104--105
 \OT1/pcr/m/n/10.95 mpileup \OT1/ptm/m/n/10.95 func-tion \OT1/pcr/m/n/10.95 (sam
 tools mpileup -BA -d 500000 -L 500000 -q 1) \OT1/ptm/m/n/10.95 was used
  []
 
 
-Overfull \hbox (17.6138pt too wide) in paragraph at lines 102--103
+Overfull \hbox (17.6138pt too wide) in paragraph at lines 104--105
 \OT1/ptm/m/n/10.95 to gen-er-ate pileup files for all tar-get bases fol-lowed b
 y vari-ant call-ing with the VarScan2 \OT1/pcr/m/n/10.95 mpileup2cns
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 117--119
+Underfull \hbox (badness 10000) in paragraph at lines 119--121
 []|\OT1/ptm/m/n/10.95 p.Cys29Arg
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--119
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
 []|\OT1/ptm/m/n/10.95 rs386514433;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--121
+Underfull \hbox (badness 10000) in paragraph at lines 121--123
 []|\OT1/ptm/m/n/10.95 p.Ala1577Ala
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--123
+Underfull \hbox (badness 10000) in paragraph at lines 123--125
 []|\OT1/ptm/m/n/10.95 p.Asn999Asn
  []
 
 
-Overfull \hbox (3.25069pt too wide) in paragraph at lines 123--123
+Overfull \hbox (3.25069pt too wide) in paragraph at lines 125--125
 []|\OT1/ptm/m/n/10.95 chr17| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--125
+Underfull \hbox (badness 10000) in paragraph at lines 125--127
 []|\OT1/ptm/m/n/10.95 p.Arg72Pro
  []
 
 [10]
-Overfull \hbox (7.8825pt too wide) in paragraph at lines 160--160
+Overfull \hbox (7.8825pt too wide) in paragraph at lines 162--162
 []|\OT1/pcr/m/n/10.95 --max-somatic-p-depth| 
  []
 
 
-Overfull \hbox (19.6953pt too wide) in paragraph at lines 147--198
+Overfull \hbox (19.6953pt too wide) in paragraph at lines 149--200
  [][] 
  []
 
 [11] [12]
-Overfull \hbox (2.41887pt too wide) in paragraph at lines 214--214
+Overfull \hbox (2.41887pt too wide) in paragraph at lines 216--216
 []|\OT1/ptm/m/n/10.95 MAPK1| 
  []
 
 
-Overfull \hbox (3.25069pt too wide) in paragraph at lines 214--214
-[]|\OT1/ptm/m/n/10.95 chr22| 
- []
-
-
-Overfull \hbox (3.25069pt too wide) in paragraph at lines 220--220
+Overfull \hbox (3.25069pt too wide) in paragraph at lines 216--216
 []|\OT1/ptm/m/n/10.95 chr22| 
  []
 
@@ -1383,22 +1338,12 @@ Overfull \hbox (3.25069pt too wide) in paragraph at lines 222--222
 
 
 Overfull \hbox (3.25069pt too wide) in paragraph at lines 224--224
+[]|\OT1/ptm/m/n/10.95 chr22| 
+ []
+
+
+Overfull \hbox (3.25069pt too wide) in paragraph at lines 226--226
 []|\OT1/ptm/m/n/10.95 chr18| 
- []
-
-
-Overfull \hbox (6.66759pt too wide) in paragraph at lines 226--226
-[]|\OT1/ptm/m/n/10.95 UGT1A1| 
- []
-
-
-Overfull \hbox (5.91028pt too wide) in paragraph at lines 226--226
-[]|\OT1/ptm/m/n/10.95 234668879| 
- []
-
-
-Overfull \hbox (3.3425pt too wide) in paragraph at lines 226--226
-[]|\OT1/ptm/m/n/10.95 CAT| 
  []
 
 
@@ -1408,40 +1353,55 @@ Overfull \hbox (6.66759pt too wide) in paragraph at lines 228--228
 
 
 Overfull \hbox (5.91028pt too wide) in paragraph at lines 228--228
+[]|\OT1/ptm/m/n/10.95 234668879| 
+ []
+
+
+Overfull \hbox (3.3425pt too wide) in paragraph at lines 228--228
+[]|\OT1/ptm/m/n/10.95 CAT| 
+ []
+
+
+Overfull \hbox (6.66759pt too wide) in paragraph at lines 230--230
+[]|\OT1/ptm/m/n/10.95 UGT1A1| 
+ []
+
+
+Overfull \hbox (5.91028pt too wide) in paragraph at lines 230--230
 []|\OT1/ptm/m/n/10.95 234668881| 
  []
 
 
-Overfull \hbox (3.10178pt too wide) in paragraph at lines 228--228
+Overfull \hbox (3.10178pt too wide) in paragraph at lines 230--230
 []|\OT1/ptm/m/n/10.95 TAC| 
  []
 
 
-Overfull \hbox (32.97575pt too wide) in alignment at lines 204--231
+Overfull \hbox (32.97575pt too wide) in alignment at lines 206--233
  [] [] [] [] [] [] 
  []
 
 
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/mm_figure/variant_pipeline3.p
-ng, id=444, 519.9425pt x 714.67pt>
+ng, id=454, 519.9425pt x 714.67pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/mm_figure/variant_pipeli
 ne3.png Graphic file (type png)
 
 <use /Users/evayap/Documents/masters_thesis/ubcdiss_2/mm_figure/variant_pipelin
 e3.png>
 Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/mm_fi
-gure/variant_pipeline3.png used on input line 238.
+gure/variant_pipeline3.png used on input line 240.
 (pdftex.def)             Requested size: 285.96925pt x 393.0697pt.
  [13] [14 </Users/evayap/Documents/masters_thesis/ubcdiss_2/mm_figure/variant_p
 ipeline3.png>]
-</Users/evayap/Documents/masters_thesis/ubcdiss_2/mm_figure/tpfptnfn.png, id=45
+</Users/evayap/Documents/masters_thesis/ubcdiss_2/mm_figure/tpfptnfn.png, id=46
 6, 462.72874pt x 414.54875pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/mm_figure/tpfptnfn.png G
 raphic file (type png)
 
 <use /Users/evayap/Documents/masters_thesis/ubcdiss_2/mm_figure/tpfptnfn.png>
 Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/mm_fi
-gure/tpfptnfn.png used on input line 263.
+gure/tpfptnfn.png used on input line 265.
 (pdftex.def)             Requested size: 254.50159pt x 228.0025pt.
 
 [15]) [16 </Users/evayap/Documents/masters_thesis/ubcdiss_2/mm_figure/tpfptnfn.
@@ -1456,7 +1416,7 @@ Chapter 3.
 
 ] [18]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/dna_input_amp
-_yield.png, id=484, 601.7682pt x 502.5174pt>
+_yield.png, id=515, 601.7682pt x 502.5174pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/dna_inpu
 t_amp_yield.png Graphic file (type png)
 
@@ -1472,7 +1432,7 @@ Overfull \hbox (47.7952pt too wide) in paragraph at lines 26--27
 
 [19]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/alignment_pct
-.png, id=489, 347.8596pt x 347.8596pt>
+.png, id=520, 347.8596pt x 347.8596pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/alignmen
 t_pct.png Graphic file (type png)
 
@@ -1484,7 +1444,7 @@ er2_figure/alignment_pct.png used on input line 36.
  [20 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/dna_inpu
 t_amp_yield.png>]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/coverage_stat
-s.png, id=495, 421.575pt x 344.9688pt>
+s.png, id=526, 421.575pt x 344.9688pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/coverage
 _stats.png Graphic file (type png)
 
@@ -1497,2654 +1457,2691 @@ er2_figure/coverage_stats.png used on input line 46.
 t_pct.png>] [22 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figu
 re/coverage_stats.png (PNG copy)>] [23] [24]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_norm_dept
-h_med_wilcoxon_volcano.png, id=521, 3312.375pt x 2409.0pt>
+h_med_wilcoxon_volcano.png, id=551, 3312.375pt x 2409.0pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_norm
 _depth_med_wilcoxon_volcano.png Graphic file (type png)
 
 <use /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_norm_
 depth_med_wilcoxon_volcano.png>
 Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
-er2_figure/amp_norm_depth_med_wilcoxon_volcano.png used on input line 114.
+er2_figure/amp_norm_depth_med_wilcoxon_volcano.png used on input line 115.
 (pdftex.def)             Requested size: 463.72934pt x 337.2577pt.
 
-Overfull \hbox (30.10933pt too wide) in paragraph at lines 114--115
+Overfull \hbox (30.10933pt too wide) in paragraph at lines 115--116
  [][] 
  []
 
-
+[25]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_gc_length
-.png, id=522, 2409.0pt x 2409.0pt>
+.png, id=557, 2409.0pt x 2409.0pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_gc_l
 ength.png Graphic file (type png)
 
 <use /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_gc_le
 ngth.png>
 Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
-er2_figure/amp_gc_length.png used on input line 124.
+er2_figure/amp_gc_length.png used on input line 125.
 (pdftex.def)             Requested size: 337.2577pt x 337.2577pt.
- [25 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_norm
+ [26 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_norm
 _depth_med_wilcoxon_volcano.png (PNG copy)>]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_cov_lm_le
-n_gc.png, id=527, 538.6524pt x 287.1528pt>
+n_gc.png, id=562, 538.6524pt x 287.1528pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_cov_
 lm_len_gc.png Graphic file (type png)
 
 <use /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_cov_l
 m_len_gc.png>
 Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
-er2_figure/amp_cov_lm_len_gc.png used on input line 134.
+er2_figure/amp_cov_lm_len_gc.png used on input line 135.
 (pdftex.def)             Requested size: 457.8567pt x 244.08102pt.
 
-Overfull \hbox (24.2367pt too wide) in paragraph at lines 134--135
+Overfull \hbox (24.2367pt too wide) in paragraph at lines 135--136
  [][] 
  []
 
-[26 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_gc_le
+[27 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_gc_le
 ngth.png (PNG copy)>]
-Overfull \hbox (48.1391pt too wide) in paragraph at lines 146--161
+Overfull \hbox (48.1391pt too wide) in paragraph at lines 147--162
  [][] 
  []
 
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 165.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 165.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 165.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 165.
-
-[27 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_cov_l
+[28 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_cov_l
 m_len_gc.png>]
 
-Package caption Warning: \label without proper reference on input line 281.
-See the caption package documentation for explanation.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 167.
 
 
-LaTeX Warning: Reference `fig:deamination_effect_af_range' on page 28 undefined
- on input line 172.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 167.
 
-[28]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 167.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 167.
+
+[29]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deamination_e
-ffect_blood_ffpe.png, id=547, 556.479pt x 492.3996pt>
+ffect_blood_ffpe.png, id=602, 556.479pt x 492.3996pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminat
 ion_effect_blood_ffpe.png Graphic file (type png)
 
 <use /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminati
 on_effect_blood_ffpe.png>
 Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
-er2_figure/deamination_effect_blood_ffpe.png used on input line 179.
+er2_figure/deamination_effect_blood_ffpe.png used on input line 181.
 (pdftex.def)             Requested size: 445.1838pt x 393.92021pt.
 
-Overfull \hbox (11.5638pt too wide) in paragraph at lines 179--180
+Overfull \hbox (11.5638pt too wide) in paragraph at lines 181--182
  [][] 
  []
 
-[29]
-Overfull \hbox (61.64143pt too wide) in paragraph at lines 191--218
+[30]
+Overfull \hbox (61.64143pt too wide) in paragraph at lines 193--220
  [][] 
  []
 
-[30 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminati
+[31 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminati
 on_effect_blood_ffpe.png>]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deamination_e
-ffect_blood_ffpe_fc.png, id=558, 523.7166pt x 299.1978pt>
+ffect_blood_ffpe_fc.png, id=614, 523.7166pt x 299.1978pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminat
 ion_effect_blood_ffpe_fc.png Graphic file (type png)
 
 <use /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminati
 on_effect_blood_ffpe_fc.png>
 Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
-er2_figure/deamination_effect_blood_ffpe_fc.png used on input line 227.
+er2_figure/deamination_effect_blood_ffpe_fc.png used on input line 229.
 (pdftex.def)             Requested size: 418.97385pt x 239.35855pt.
 
-Overfull \hbox (49.08034pt too wide) in paragraph at lines 239--268
+Overfull \hbox (49.08034pt too wide) in paragraph at lines 241--270
  [][] 
  []
 
-[31 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminati
+[32 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminati
 on_effect_blood_ffpe_fc.png>]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deamination_e
-ffect_af_range_2.png, id=565, 607.068pt x 886.0302pt>
+ffect_af_range_2.png, id=620, 607.068pt x 886.0302pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminat
 ion_effect_af_range_2.png Graphic file (type png)
 
 <use /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminati
 on_effect_af_range_2.png>
 Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
-er2_figure/deamination_effect_af_range_2.png used on input line 276.
+er2_figure/deamination_effect_af_range_2.png used on input line 278.
 (pdftex.def)             Requested size: 424.9447pt x 620.2169pt.
- [32]
+ [33]
 Overfull \vbox (5.9219pt too high) has occurred while \output is active []
 
 
-[33 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminati
-on_effect_af_range_2.png>] [34]
-Overfull \hbox (19.9179pt too wide) in paragraph at lines 293--320
+[34 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminati
+on_effect_af_range_2.png>] [35]
+Overfull \hbox (19.9179pt too wide) in paragraph at lines 295--322
  [][] 
  []
 
+[36]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 326.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 326.
+(hyperref)                removing `math shift' on input line 330.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 326.
+(hyperref)                removing `math shift' on input line 330.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 326.
+(hyperref)                removing `math shift' on input line 330.
 
-[35] [36]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 330.
+
+[37]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deamination_e
-ffect_age_amp_yield.png, id=593, 740.5266pt x 310.761pt>
+ffect_age_amp_yield.png, id=660, 740.5266pt x 310.761pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminat
 ion_effect_age_amp_yield.png Graphic file (type png)
 
 <use /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminati
 on_effect_age_amp_yield.png>
 Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
-er2_figure/deamination_effect_age_amp_yield.png used on input line 340.
+er2_figure/deamination_effect_age_amp_yield.png used on input line 344.
 (pdftex.def)             Requested size: 488.74905pt x 205.10289pt.
 
-Overfull \hbox (55.12904pt too wide) in paragraph at lines 340--341
+Overfull \hbox (55.12904pt too wide) in paragraph at lines 344--345
  [][] 
  []
 
-
+[38]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deamination_e
-ffect_age.png, id=594, 600.8046pt x 400.8576pt>
+ffect_age.png, id=665, 600.8046pt x 400.8576pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminat
 ion_effect_age.png Graphic file (type png)
 
 <use /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminati
 on_effect_age.png>
 Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
-er2_figure/deamination_effect_age.png used on input line 350.
+er2_figure/deamination_effect_age.png used on input line 354.
 (pdftex.def)             Requested size: 480.64432pt x 320.68651pt.
 
-Overfull \hbox (47.0243pt too wide) in paragraph at lines 350--351
+Overfull \hbox (47.0243pt too wide) in paragraph at lines 354--355
  [][] 
  []
 
-[37 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminati
+[39 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminati
 on_effect_age_amp_yield.png>]
-Overfull \hbox (80.11345pt too wide) in paragraph at lines 363--389
+Overfull \hbox (80.11345pt too wide) in paragraph at lines 367--393
  [][] 
  []
 
-[38 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminati
-on_effect_age.png>]) [39]
+[40 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminati
+on_effect_age.png>]) [41]
 \openout2 = `chapter3.aux'.
 
  (./chapter3.tex
 Chapter 4.
-
-Package natbib Warning: Citation `Raymond2016' on page 40 undefined on input li
-ne 11.
-
-
-Package natbib Warning: Citation `Meric-Bernstam2016' on page 40 undefined on i
-nput line 11.
-
-
-Package natbib Warning: Citation `Schrader2015' on page 40 undefined on input l
-ine 11.
-
-
-Package natbib Warning: Citation `Jones2015' on page 40 undefined on input line
- 11.
-
-[40
+[42
 
 
 
-] [41]
-Overfull \hbox (30.76448pt too wide) in paragraph at lines 28--29
-\OT1/ptm/m/n/10.95 p.Asp949Val$\OML/ztmcm/m/it/10.95 =$\OT1/ptm/m/n/10.95 c.284
-6A$\OML/ztmcm/m/it/10.95 >$\OT1/ptm/m/n/10.95 T (rs67376798), c.1906G$\OML/ztmc
-m/m/it/10.95 >$\OT1/ptm/m/n/10.95 A (rs3918290), p.Met166Val$\OML/ztmcm/m/it/10
-.95 =$\OT1/ptm/m/n/10.95 c.496A$\OML/ztmcm/m/it/10.95 >$\OT1/ptm/m/n/10.95 G (r
-s2297595),
- []
-
-
-Overfull \hbox (72.4066pt too wide) in paragraph at lines 28--29
-\OT1/ptm/m/n/10.95 GSTP1 p.Ile105Val$\OML/ztmcm/m/it/10.95 =$\OT1/ptm/m/n/10.95
- c.313A$\OML/ztmcm/m/it/10.95 >$\OT1/ptm/m/n/10.95 G (rs1695), MTHFR p.Glu429Al
-a$\OML/ztmcm/m/it/10.95 =$\OT1/ptm/m/n/10.95 c.1286A$\OML/ztmcm/m/it/10.95 >$\O
-T1/ptm/m/n/10.95 C (rs1801131), p.Ala222Val$\OML/ztmcm/m/it/10.95 =$\OT1/ptm/m/
-n/10.95 c.665C$\OML/ztmcm/m/it/10.95 >$\OT1/ptm/m/n/10.95 T
- []
-
-[42] [43]
-Overfull \hbox (7.75061pt too wide) in paragraph at lines 42--42
+] [43] [44] [45]
+Overfull \hbox (7.75061pt too wide) in paragraph at lines 43--43
 []|\OT1/ptm/m/n/10.95 Chr| 
  []
 
 
-Overfull \hbox (4.89731pt too wide) in paragraph at lines 42--42
+Overfull \hbox (4.89731pt too wide) in paragraph at lines 43--43
 []|\OT1/ptm/m/n/10.95 Total| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
 []|\OT1/ptm/m/n/10.95 p.Val1185Val
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--55
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
 []|\OT1/ptm/m/n/10.95 p.Pro741Pro
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--57
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
 []|\OT1/ptm/m/n/10.95 p.Lys757Arg
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--59
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
 []|\OT1/ptm/m/n/10.95 rs1050171;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--59
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
 []|\OT1/ptm/m/n/10.95 p.Gln787Gln
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--61
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
 []|\OT1/ptm/m/n/10.95 rs56183713;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--61
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
 []|\OT1/ptm/m/n/10.95 p.Val819Val
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
 []|\OT1/ptm/m/n/10.95 rs2229066;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
 \OT1/ptm/m/n/10.95 COSM85893;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
 []|\OT1/ptm/m/n/10.95 p.Arg836Arg
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
 []|\OT1/ptm/m/n/10.95 rs151016327;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
 []|\OT1/ptm/m/n/10.95 p.Thr461Thr
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--68
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 []|\OT1/ptm/m/n/10.95 rs55789615;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--68
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 []|\OT1/ptm/m/n/10.95 p.Ile798Ile
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 71--71
 []|\OT1/ptm/m/n/10.95 rs3733542;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 71--71
 []|\OT1/ptm/m/n/10.95 p.Leu862Leu
  []
 
 
-Overfull \hbox (2.27574pt too wide) in paragraph at lines 73--73
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 74--74
 []|\OT1/ptm/m/n/10.95 22| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
 []|\OT1/ptm/m/n/10.95 rs386488966;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
 []|\OT1/ptm/m/n/10.95 p.Tyr43Tyr
  []
 
 
-Overfull \hbox (2.27574pt too wide) in paragraph at lines 75--75
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 76--76
 []|\OT1/ptm/m/n/10.95 22| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
 []|\OT1/ptm/m/n/10.95 p.Tyr36Tyr
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
 []|\OT1/ptm/m/n/10.95 p.Glu2456Lys
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--82
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
 []|\OT1/ptm/m/n/10.95 p.Arg2408Gln
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--84
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
 []|\OT1/ptm/m/n/10.95 p.Leu2303Leu
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--86
+Underfull \hbox (badness 10000) in paragraph at lines 87--87
 []|\OT1/ptm/m/n/10.95 p.Leu2208Leu
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
+Underfull \hbox (badness 10000) in paragraph at lines 89--89
 []|\OT1/ptm/m/n/10.95 p.Tyr1974Tyr
  []
 
 
-Overfull \hbox (26.59697pt too wide) in alignment at lines 37--90
+Overfull \hbox (26.59697pt too wide) in alignment at lines 38--91
  [] [] [] [] [] [] [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--90
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
 []|\OT1/ptm/m/n/10.95 p.Ser1851Ser
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--92
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 []|\OT1/ptm/m/n/10.95 p.Ala1823Ala
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--97
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
 []|\OT1/ptm/m/n/10.95 rs386514433;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--97
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
 []|\OT1/ptm/m/n/10.95 p.Ala1577Ala
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--99
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
 []|\OT1/ptm/m/n/10.95 p.Leu1222Phe
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
+Underfull \hbox (badness 10000) in paragraph at lines 102--102
 []|\OT1/ptm/m/n/10.95 p.Arg1154Arg
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
 []|\OT1/ptm/m/n/10.95 p.Asn999Asn
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--105
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
 []|\OT1/ptm/m/n/10.95 p.Ala690Ala
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--107
+Underfull \hbox (badness 10000) in paragraph at lines 108--108
 []|\OT1/ptm/m/n/10.95 p.Ala607Ala
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
 []|\OT1/ptm/m/n/10.95 p.Asp479Asp
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
 []|\OT1/ptm/m/n/10.95 p.Ala329Thr
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--113
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
 []|\OT1/ptm/m/n/10.95 p.Leu170Leu
  []
 
 
-Overfull \hbox (1.04816pt too wide) in paragraph at lines 116--116
+Overfull \hbox (1.04816pt too wide) in paragraph at lines 117--117
 []|\OT1/ptm/m/n/10.95 PDGRRA| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
 []|\OT1/ptm/m/n/10.95 rs1873778;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
 []|\OT1/ptm/m/n/10.95 p.Pro567Pro
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
 []|\OT1/ptm/m/n/10.95 rs2228230;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
 []|\OT1/ptm/m/n/10.95 p.Val824Val
  []
 
 
-Overfull \hbox (5.91028pt too wide) in paragraph at lines 121--121
+Overfull \hbox (5.91028pt too wide) in paragraph at lines 122--122
 []|\OT1/ptm/m/n/10.95 191851646| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
 []|\OT1/ptm/m/n/10.95 p.Thr385Thr
  []
 
 
-Overfull \hbox (5.91028pt too wide) in paragraph at lines 123--123
+Overfull \hbox (5.91028pt too wide) in paragraph at lines 124--124
 []|\OT1/ptm/m/n/10.95 191856001| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--123
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
 []|\OT1/ptm/m/n/10.95 p.Gln330Gln
  []
 
 
-Overfull \hbox (5.91028pt too wide) in paragraph at lines 125--125
+Overfull \hbox (5.91028pt too wide) in paragraph at lines 126--126
 []|\OT1/ptm/m/n/10.95 191859906| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--125
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
 []|\OT1/ptm/m/n/10.95 p.Gln275Gln
  []
 
 
-Overfull \hbox (5.91028pt too wide) in paragraph at lines 127--127
+Overfull \hbox (5.91028pt too wide) in paragraph at lines 128--128
 []|\OT1/ptm/m/n/10.95 191859935| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--127
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
 []|\OT1/ptm/m/n/10.95 p.Val266Ile
  []
 
 
-Overfull \hbox (5.91028pt too wide) in paragraph at lines 129--129
+Overfull \hbox (5.91028pt too wide) in paragraph at lines 130--130
 []|\OT1/ptm/m/n/10.95 191872307| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--129
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
 []|\OT1/ptm/m/n/10.95 p.Asn118Asn
  []
 
 
-Overfull \hbox (26.59697pt too wide) in alignment at lines 90--131
+Overfull \hbox (26.59697pt too wide) in alignment at lines 91--132
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (5.91028pt too wide) in paragraph at lines 131--131
+Overfull \hbox (5.91028pt too wide) in paragraph at lines 132--132
 []|\OT1/ptm/m/n/10.95 191874667| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--131
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
 []|\OT1/ptm/m/n/10.95 rs386556119;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--131
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
 []|\OT1/ptm/m/n/10.95 p.Leu21Leu
  []
 
 
-Overfull \hbox (2.27574pt too wide) in paragraph at lines 134--134
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 135--135
 []|\OT1/ptm/m/n/10.95 17| 
  []
 
 
-Overfull \hbox (2.27574pt too wide) in paragraph at lines 136--136
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 137--137
 []|\OT1/ptm/m/n/10.95 17| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--136
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
 []|\OT1/ptm/m/n/10.95 p.Gly618Gly
  []
 
 
-Overfull \hbox (2.27574pt too wide) in paragraph at lines 138--138
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 139--139
 []|\OT1/ptm/m/n/10.95 17| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--138
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
 []|\OT1/ptm/m/n/10.95 p.Leu275Leu
  []
 
 
-Overfull \hbox (2.27574pt too wide) in paragraph at lines 140--140
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 141--141
 []|\OT1/ptm/m/n/10.95 17| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
 []|\OT1/ptm/m/n/10.95 p.Gln274Gln
  []
 
 
-Overfull \hbox (2.27574pt too wide) in paragraph at lines 142--142
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 143--143
 []|\OT1/ptm/m/n/10.95 17| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--142
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
 []|\OT1/ptm/m/n/10.95 rs146184566;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--142
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
 []|\OT1/ptm/m/n/10.95 p.Ser75Ser
  []
 
 
-Overfull \hbox (2.27574pt too wide) in paragraph at lines 144--144
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 145--145
 []|\OT1/ptm/m/n/10.95 17| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--144
+Underfull \hbox (badness 10000) in paragraph at lines 145--145
 []|\OT1/ptm/m/n/10.95 p.Lys49Lys
  []
 
 
-Overfull \hbox (2.27574pt too wide) in paragraph at lines 146--146
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 147--147
 []|\OT1/ptm/m/n/10.95 17| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--146
+Underfull \hbox (badness 10000) in paragraph at lines 147--147
 []|\OT1/ptm/m/n/10.95 p.Ala46Ala
  []
 
 
-Overfull \hbox (2.27574pt too wide) in paragraph at lines 149--149
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 150--150
 []|\OT1/ptm/m/n/10.95 17| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
+Underfull \hbox (badness 10000) in paragraph at lines 150--150
 []|\OT1/ptm/m/n/10.95 rs55819519;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
+Underfull \hbox (badness 10000) in paragraph at lines 150--150
 []|\OT1/ptm/m/n/10.95 p.Arg290His
  []
 
 
-Overfull \hbox (2.27574pt too wide) in paragraph at lines 151--151
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 152--152
 []|\OT1/ptm/m/n/10.95 17| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
 []|\OT1/ptm/m/n/10.95 p.Met243fs
  []
 
 
-Overfull \hbox (2.27574pt too wide) in paragraph at lines 153--153
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 154--154
 []|\OT1/ptm/m/n/10.95 17| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 []|\OT1/ptm/m/n/10.95 rs1800372;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 []|\OT1/ptm/m/n/10.95 p.Arg213Arg
  []
 
 
-Overfull \hbox (2.27574pt too wide) in paragraph at lines 155--155
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 156--156
 []|\OT1/ptm/m/n/10.95 17| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
 []|\OT1/ptm/m/n/10.95 p.Thr170Thr
  []
 
 
-Overfull \hbox (2.27574pt too wide) in paragraph at lines 157--157
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 158--158
 []|\OT1/ptm/m/n/10.95 17| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--157
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
 []|\OT1/ptm/m/n/10.95 rs1042522;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--157
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
 []|\OT1/ptm/m/n/10.95 p.Arg72Pro
  []
 
 
-Overfull \hbox (2.27574pt too wide) in paragraph at lines 159--159
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 160--160
 []|\OT1/ptm/m/n/10.95 17| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--159
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
 []|\OT1/ptm/m/n/10.95 p.Pro36Pro
  []
 
 
-Overfull \hbox (26.59697pt too wide) in alignment at lines 131--173
+Overfull \hbox (26.59697pt too wide) in alignment at lines 132--174
  [] [] [] [] [] [] [] [] 
  []
 
-[44] [45] [46] [47]
-Underfull \hbox (badness 10000) in paragraph at lines 196--196
+[46] [47] [48] [49]
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
 []|\OT1/ptm/m/n/10.95 Variant
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--196
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
 []|\OT1/ptm/m/n/10.95 Clinical
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--199
+Underfull \hbox (badness 10000) in paragraph at lines 200--200
 []|\OT1/ptm/m/n/10.95 p.Val1185Val
  []
 
 
-Overfull \hbox (4.87082pt too wide) in paragraph at lines 199--199
+Overfull \hbox (4.87082pt too wide) in paragraph at lines 200--200
 []|\OT1/ptm/m/n/10.95 0.00082| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--203
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
 []|\OT1/ptm/m/n/10.95 p.Pro741Pro
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--206
+Underfull \hbox (badness 10000) in paragraph at lines 207--207
 []|\OT1/ptm/m/n/10.95 p.Lys757Arg
  []
 
 
-Overfull \hbox (4.87082pt too wide) in paragraph at lines 206--206
+Overfull \hbox (4.87082pt too wide) in paragraph at lines 207--207
 []|\OT1/ptm/m/n/10.95 0.00082| 
  []
 
 
-Overfull \hbox (0.8245pt too wide) in paragraph at lines 206--206
+Overfull \hbox (0.8245pt too wide) in paragraph at lines 207--207
 []|\OT1/ptm/m/n/10.95 Missense| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--206
+Underfull \hbox (badness 10000) in paragraph at lines 207--207
 []|\OT1/ptm/m/n/10.95 Uncertain
  []
 
 
-Underfull \hbox (badness 5374) in paragraph at lines 206--206
+Underfull \hbox (badness 5374) in paragraph at lines 207--207
 \OT1/ptm/m/n/10.95 ti-fied in a pa-tient with in-tra-
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 206--206
+Underfull \hbox (badness 1210) in paragraph at lines 207--207
 \OT1/ptm/m/n/10.95 ing to ac-ti-va-tion of down-stream
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--209
+Underfull \hbox (badness 10000) in paragraph at lines 210--210
 []|\OT1/ptm/m/n/10.95 rs1050171;
  []
 
 
-Overfull \hbox (6.28409pt too wide) in paragraph at lines 209--209
+Overfull \hbox (6.28409pt too wide) in paragraph at lines 210--210
 \OT1/ptm/m/n/10.95 COSM1451600$[]$| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--209
+Underfull \hbox (badness 10000) in paragraph at lines 210--210
 []|\OT1/ptm/m/n/10.95 p.Gln787Gln
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--209
+Underfull \hbox (badness 10000) in paragraph at lines 210--210
 []|\OT1/ptm/m/n/10.95 Benign/Likely
  []
 
 
-Underfull \hbox (badness 1783) in paragraph at lines 209--209
+Underfull \hbox (badness 1783) in paragraph at lines 210--210
 \OT1/ptm/m/n/10.95 anti-EGFR ther-apy in col-orec-tal
  []
 
 
-Underfull \hbox (badness 1033) in paragraph at lines 209--209
+Underfull \hbox (badness 1033) in paragraph at lines 210--210
 \OT1/ptm/m/n/10.95 can-cer pa-tients com-pared to pa-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--211
+Underfull \hbox (badness 10000) in paragraph at lines 210--212
 []|\OT1/ptm/m/n/10.95 [[],
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--212
+Underfull \hbox (badness 10000) in paragraph at lines 210--212
+[]\OT1/ptm/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--212
+[]\OT1/ptm/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--213
 []|\OT1/ptm/m/n/10.95 rs56183713;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--212
+Underfull \hbox (badness 10000) in paragraph at lines 213--213
 []|\OT1/ptm/m/n/10.95 p.Val819Val
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--215
+Underfull \hbox (badness 10000) in paragraph at lines 216--216
 []|\OT1/ptm/m/n/10.95 rs2229066;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--215
+Underfull \hbox (badness 10000) in paragraph at lines 216--216
 \OT1/ptm/m/n/10.95 COSM85893;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--215
+Underfull \hbox (badness 10000) in paragraph at lines 216--216
 []|\OT1/ptm/m/n/10.95 p.Arg836Arg
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--215
+Underfull \hbox (badness 10000) in paragraph at lines 216--216
 []|\OT1/ptm/m/n/10.95 Benign/Likely
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 219--219
+Underfull \hbox (badness 10000) in paragraph at lines 220--220
 []|\OT1/ptm/m/n/10.95 rs151016327;
  []
 
 
-Overfull \hbox (1.78409pt too wide) in paragraph at lines 219--219
+Overfull \hbox (1.78409pt too wide) in paragraph at lines 220--220
 \OT1/ptm/m/n/10.95 COSM3760661| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 219--219
+Underfull \hbox (badness 10000) in paragraph at lines 220--220
 []|\OT1/ptm/m/n/10.95 p.Thr461Thr
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--222
+Underfull \hbox (badness 10000) in paragraph at lines 223--223
 []|\OT1/ptm/m/n/10.95 rs55789615;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--222
+Underfull \hbox (badness 10000) in paragraph at lines 223--223
 []|\OT1/ptm/m/n/10.95 p.Ile798Ile
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--222
+Underfull \hbox (badness 10000) in paragraph at lines 223--223
 []|\OT1/ptm/m/n/10.95 Benign/Likely
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--225
+Underfull \hbox (badness 10000) in paragraph at lines 226--226
 []|\OT1/ptm/m/n/10.95 rs3733542;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--225
+Underfull \hbox (badness 10000) in paragraph at lines 226--226
 []|\OT1/ptm/m/n/10.95 p.Leu862Leu
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--225
+Underfull \hbox (badness 10000) in paragraph at lines 226--226
 []|\OT1/ptm/m/n/10.95 Benign/Likely
  []
 
 
-Overfull \hbox (43.91093pt too wide) in alignment at lines 191--228
+Overfull \hbox (43.91093pt too wide) in alignment at lines 192--229
  [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (2.50961pt too wide) in paragraph at lines 229--229
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 230--230
 []|\OT1/ptm/m/n/10.95 22:22162126| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--229
+Underfull \hbox (badness 10000) in paragraph at lines 230--230
 []|\OT1/ptm/m/n/10.95 rs386488966;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--229
+Underfull \hbox (badness 10000) in paragraph at lines 230--230
 []|\OT1/ptm/m/n/10.95 p.Tyr43Tyr
  []
 
 
-Overfull \hbox (2.50961pt too wide) in paragraph at lines 232--232
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 233--233
 []|\OT1/ptm/m/n/10.95 22:22221623| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--232
+Underfull \hbox (badness 10000) in paragraph at lines 233--233
 []|\OT1/ptm/m/n/10.95 p.Tyr36Tyr
  []
 
 
-Overfull \hbox (3.95975pt too wide) in paragraph at lines 236--236
+Overfull \hbox (3.95975pt too wide) in paragraph at lines 237--237
 []|\OT1/ptm/m/n/10.95 p.Asp2485Asp
  []
 
 
-Overfull \hbox (0.92671pt too wide) in paragraph at lines 239--239
+Overfull \hbox (0.92671pt too wide) in paragraph at lines 240--240
 []|\OT1/ptm/m/n/10.95 p.Glu2456Lys
  []
 
 
-Overfull \hbox (4.87082pt too wide) in paragraph at lines 239--239
+Overfull \hbox (4.87082pt too wide) in paragraph at lines 240--240
 []|\OT1/ptm/m/n/10.95 0.00082| 
  []
 
 
-Overfull \hbox (0.8245pt too wide) in paragraph at lines 239--239
+Overfull \hbox (0.8245pt too wide) in paragraph at lines 240--240
 []|\OT1/ptm/m/n/10.95 Missense| 
  []
 
 
-Overfull \hbox (1.93414pt too wide) in paragraph at lines 242--242
+Overfull \hbox (1.93414pt too wide) in paragraph at lines 243--243
 []|\OT1/ptm/m/n/10.95 p.Arg2408Gln
  []
 
 
-Overfull \hbox (0.8245pt too wide) in paragraph at lines 242--242
+Overfull \hbox (0.8245pt too wide) in paragraph at lines 243--243
 []|\OT1/ptm/m/n/10.95 Missense| 
  []
 
 
-Overfull \hbox (2.73349pt too wide) in paragraph at lines 245--245
+Overfull \hbox (2.73349pt too wide) in paragraph at lines 246--246
 []|\OT1/ptm/m/n/10.95 p.Leu2303Leu
  []
 
 
-Underfull \hbox (badness 1881) in paragraph at lines 245--245
+Underfull \hbox (badness 1881) in paragraph at lines 246--246
 []|\OT1/ptm/m/n/10.95 Likely has an ef-fect on ex-onic
  []
 
 
-Overfull \hbox (2.73349pt too wide) in paragraph at lines 248--248
+Overfull \hbox (2.73349pt too wide) in paragraph at lines 249--249
 []|\OT1/ptm/m/n/10.95 p.Leu2208Leu
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--251
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
 []|\OT1/ptm/m/n/10.95 p.Tyr1974Tyr
  []
 
 
-Overfull \hbox (4.87082pt too wide) in paragraph at lines 251--251
+Overfull \hbox (4.87082pt too wide) in paragraph at lines 252--252
 []|\OT1/ptm/m/n/10.95 0.00082| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--254
+Underfull \hbox (badness 10000) in paragraph at lines 255--255
 []|\OT1/ptm/m/n/10.95 p.Ser1851Ser
  []
 
 
-Overfull \hbox (43.91093pt too wide) in alignment at lines 228--260
+Overfull \hbox (43.91093pt too wide) in alignment at lines 229--261
  [] [] [] [] [] [] [] [] [] 
  []
 
-[48
+[50
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 261--261
 []|\OT1/ptm/m/n/10.95 Splice
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--263
+Underfull \hbox (badness 10000) in paragraph at lines 264--264
 []|\OT1/ptm/m/n/10.95 rs386514433;
  []
 
 
-Underfull \hbox (badness 1584) in paragraph at lines 263--263
+Underfull \hbox (badness 1584) in paragraph at lines 264--264
 \OT1/ptm/m/n/10.95 sur-vival in ad-vanced esophageal
  []
 
 
-Underfull \hbox (badness 1895) in paragraph at lines 263--263
+Underfull \hbox (badness 1895) in paragraph at lines 264--264
 \OT1/ptm/m/n/10.95 to the AA geno-type who were
  []
 
 
-Underfull \hbox (badness 1694) in paragraph at lines 263--263
+Underfull \hbox (badness 1694) in paragraph at lines 264--264
 \OT1/ptm/m/n/10.95 treated with pa-cli-taxel plus cis-
  []
 
 
-Overfull \hbox (2.13118pt too wide) in paragraph at lines 266--266
+Overfull \hbox (2.13118pt too wide) in paragraph at lines 267--267
 []|\OT1/ptm/m/n/10.95 p.Leu1222Phe
  []
 
 
-Overfull \hbox (4.87082pt too wide) in paragraph at lines 266--266
+Overfull \hbox (4.87082pt too wide) in paragraph at lines 267--267
 []|\OT1/ptm/m/n/10.95 0.00082| 
  []
 
 
-Overfull \hbox (0.8245pt too wide) in paragraph at lines 266--266
+Overfull \hbox (0.8245pt too wide) in paragraph at lines 267--267
 []|\OT1/ptm/m/n/10.95 Missense| 
  []
 
 
-Overfull \hbox (2.33942pt too wide) in paragraph at lines 269--269
+Overfull \hbox (2.33942pt too wide) in paragraph at lines 270--270
 []|\OT1/ptm/m/n/10.95 p.Arg1154Arg
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 272--272
+Underfull \hbox (badness 10000) in paragraph at lines 273--273
 []|\OT1/ptm/m/n/10.95 p.Asn999Asn
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 275--275
+Underfull \hbox (badness 10000) in paragraph at lines 276--276
 []|\OT1/ptm/m/n/10.95 p.Ala690Ala
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 278--278
+Underfull \hbox (badness 10000) in paragraph at lines 279--279
 []|\OT1/ptm/m/n/10.95 p.Ala607Ala
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 278--278
+Underfull \hbox (badness 10000) in paragraph at lines 279--279
 []|\OT1/ptm/m/n/10.95 Conflicting
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 278--278
+Underfull \hbox (badness 10000) in paragraph at lines 279--279
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 278--278
+Underfull \hbox (badness 10000) in paragraph at lines 279--279
 \OT1/ptm/m/n/10.95 of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--281
+Underfull \hbox (badness 10000) in paragraph at lines 282--282
 []|\OT1/ptm/m/n/10.95 p.Asp479Asp
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 284--284
+Underfull \hbox (badness 10000) in paragraph at lines 285--285
 []|\OT1/ptm/m/n/10.95 p.Ala329Thr
  []
 
 
-Overfull \hbox (0.8245pt too wide) in paragraph at lines 284--284
+Overfull \hbox (0.8245pt too wide) in paragraph at lines 285--285
 []|\OT1/ptm/m/n/10.95 Missense| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 287--287
+Underfull \hbox (badness 10000) in paragraph at lines 288--288
 []|\OT1/ptm/m/n/10.95 p.Leu170Leu
  []
 
 
-Overfull \hbox (43.91093pt too wide) in alignment at lines 260--290
+Overfull \hbox (43.91093pt too wide) in alignment at lines 261--291
  [] [] [] [] [] [] [] [] [] 
  []
 
-[49]
-Underfull \hbox (badness 10000) in paragraph at lines 291--291
+[51]
+Underfull \hbox (badness 10000) in paragraph at lines 292--292
 []|\OT1/ptm/m/n/10.95 rs1873778;
  []
 
 
-Overfull \hbox (6.28409pt too wide) in paragraph at lines 291--291
+Overfull \hbox (6.28409pt too wide) in paragraph at lines 292--292
 \OT1/ptm/m/n/10.95 COSM1430082$[]$| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--291
+Underfull \hbox (badness 10000) in paragraph at lines 292--292
 []|\OT1/ptm/m/n/10.95 p.Pro567Pro
  []
 
 
-Underfull \hbox (badness 7451) in paragraph at lines 291--291
+Underfull \hbox (badness 7451) in paragraph at lines 292--292
 []|\OT1/ptm/m/n/10.95 No as-so-ci-a-tion with PDGFR$\OML/ztmcm/m/it/10.95 $
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 294--294
+Underfull \hbox (badness 10000) in paragraph at lines 295--295
 []|\OT1/ptm/m/n/10.95 rs2228230;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 294--294
+Underfull \hbox (badness 10000) in paragraph at lines 295--295
 []|\OT1/ptm/m/n/10.95 p.Val824Val
  []
 
 
-Overfull \hbox (2.50961pt too wide) in paragraph at lines 298--298
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 299--299
 []|\OT1/ptm/m/n/10.95 2:191851646| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--298
+Underfull \hbox (badness 10000) in paragraph at lines 299--299
 []|\OT1/ptm/m/n/10.95 p.Thr385Thr
  []
 
 
-Overfull \hbox (2.50961pt too wide) in paragraph at lines 301--301
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 302--302
 []|\OT1/ptm/m/n/10.95 2:191856001| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 301--301
+Underfull \hbox (badness 10000) in paragraph at lines 302--302
 []|\OT1/ptm/m/n/10.95 p.Gln330Gln
  []
 
 
-Overfull \hbox (2.50961pt too wide) in paragraph at lines 304--304
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 305--305
 []|\OT1/ptm/m/n/10.95 2:191859906| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 304--304
+Underfull \hbox (badness 10000) in paragraph at lines 305--305
 []|\OT1/ptm/m/n/10.95 p.Gln275Gln
  []
 
 
-Overfull \hbox (2.50961pt too wide) in paragraph at lines 307--307
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 308--308
 []|\OT1/ptm/m/n/10.95 2:191859935| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--307
+Underfull \hbox (badness 10000) in paragraph at lines 308--308
 []|\OT1/ptm/m/n/10.95 p.Val266Ile
  []
 
 
-Overfull \hbox (0.8245pt too wide) in paragraph at lines 307--307
+Overfull \hbox (0.8245pt too wide) in paragraph at lines 308--308
 []|\OT1/ptm/m/n/10.95 Missense| 
  []
 
 
-Underfull \hbox (badness 1728) in paragraph at lines 307--307
+Underfull \hbox (badness 1728) in paragraph at lines 308--308
 []|\OT1/ptm/m/n/10.95 Functional test-ing in-di-cated that
  []
 
 
-Underfull \hbox (badness 2941) in paragraph at lines 307--307
+Underfull \hbox (badness 2941) in paragraph at lines 308--308
 \OT1/ptm/m/n/10.95 the vari-ant was not a gain-of-
  []
 
 
-Overfull \hbox (2.50961pt too wide) in paragraph at lines 310--310
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 311--311
 []|\OT1/ptm/m/n/10.95 2:191872307| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--310
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
 []|\OT1/ptm/m/n/10.95 p.Asn118Asn
  []
 
 
-Overfull \hbox (2.50961pt too wide) in paragraph at lines 313--313
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 314--314
 []|\OT1/ptm/m/n/10.95 2:191874667| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 313--313
+Underfull \hbox (badness 10000) in paragraph at lines 314--314
 []|\OT1/ptm/m/n/10.95 rs386556119;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 313--313
+Underfull \hbox (badness 10000) in paragraph at lines 314--314
 []|\OT1/ptm/m/n/10.95 p.Leu21Leu
  []
 
 
-Underfull \hbox (badness 3407) in paragraph at lines 313--313
+Underfull \hbox (badness 3407) in paragraph at lines 314--314
 []|\OT1/ptm/m/n/10.95 High fre-quency among pa-tients
  []
 
 
-Overfull \hbox (2.50961pt too wide) in paragraph at lines 317--317
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 318--318
 []|\OT1/ptm/m/n/10.95 17:40469241| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--317
+Underfull \hbox (badness 10000) in paragraph at lines 318--318
 []|\OT1/ptm/m/n/10.95 Splice
  []
 
 
-Overfull \hbox (2.50961pt too wide) in paragraph at lines 320--320
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 321--321
 []|\OT1/ptm/m/n/10.95 17:40475056| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--320
+Underfull \hbox (badness 10000) in paragraph at lines 321--321
 []|\OT1/ptm/m/n/10.95 p.Gly618Gly
  []
 
 
-Overfull \hbox (43.91093pt too wide) in alignment at lines 290--323
+Overfull \hbox (43.91093pt too wide) in alignment at lines 291--324
  [] [] [] [] [] [] [] [] [] 
  []
 
-[50] [51]
-Overfull \hbox (2.50961pt too wide) in paragraph at lines 323--323
+[52] [53]
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 324--324
 []|\OT1/ptm/m/n/10.95 17:40486040| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--323
+Underfull \hbox (badness 10000) in paragraph at lines 324--324
 []|\OT1/ptm/m/n/10.95 p.Leu275Leu
  []
 
 
-Overfull \hbox (2.50961pt too wide) in paragraph at lines 326--326
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 327--327
 []|\OT1/ptm/m/n/10.95 17:40486043| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 326--326
+Underfull \hbox (badness 10000) in paragraph at lines 327--327
 []|\OT1/ptm/m/n/10.95 p.Gln274Gln
  []
 
 
-Overfull \hbox (4.87082pt too wide) in paragraph at lines 326--326
+Overfull \hbox (4.87082pt too wide) in paragraph at lines 327--327
 []|\OT1/ptm/m/n/10.95 0.00082| 
  []
 
 
-Overfull \hbox (2.50961pt too wide) in paragraph at lines 329--329
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 330--330
 []|\OT1/ptm/m/n/10.95 17:40498635| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 329--329
+Underfull \hbox (badness 10000) in paragraph at lines 330--330
 []|\OT1/ptm/m/n/10.95 rs146184566;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 329--329
+Underfull \hbox (badness 10000) in paragraph at lines 330--330
 []|\OT1/ptm/m/n/10.95 p.Ser75Ser
  []
 
 
-Overfull \hbox (2.50961pt too wide) in paragraph at lines 332--332
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 333--333
 []|\OT1/ptm/m/n/10.95 17:40498713| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--332
+Underfull \hbox (badness 10000) in paragraph at lines 333--333
 []|\OT1/ptm/m/n/10.95 p.Lys49Lys
  []
 
 
-Overfull \hbox (2.50961pt too wide) in paragraph at lines 335--335
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 336--336
 []|\OT1/ptm/m/n/10.95 17:40498722| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 335--335
+Underfull \hbox (badness 10000) in paragraph at lines 336--336
 []|\OT1/ptm/m/n/10.95 p.Ala46Ala
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 339--339
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
 []|\OT1/ptm/m/n/10.95 rs55819519;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 339--339
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
 []|\OT1/ptm/m/n/10.95 p.Arg290His
  []
 
 
-Overfull \hbox (0.8245pt too wide) in paragraph at lines 339--339
+Overfull \hbox (0.8245pt too wide) in paragraph at lines 340--340
 []|\OT1/ptm/m/n/10.95 Missense| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 339--339
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
 []|\OT1/ptm/m/n/10.95 Conflicting
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 339--339
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 339--339
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
 \OT1/ptm/m/n/10.95 of
  []
 
 
-Underfull \hbox (badness 1502) in paragraph at lines 339--339
+Underfull \hbox (badness 1502) in paragraph at lines 340--340
 \OT1/ptm/m/n/10.95 Li-Fraumeni syn-drome and can-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 339--341
+Underfull \hbox (badness 10000) in paragraph at lines 340--342
 []|\OT1/ptm/m/n/10.95 [[], [],
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 342--342
+Underfull \hbox (badness 10000) in paragraph at lines 340--342
+[]\OT1/ptm/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 343--343
 []|\OT1/ptm/m/n/10.95 p.Met243fs
  []
 
 
-Overfull \hbox (7.5149pt too wide) in paragraph at lines 342--342
+Overfull \hbox (7.5149pt too wide) in paragraph at lines 343--343
 []|\OT1/ptm/m/n/10.95 Frameshift| 
  []
 
 
-Underfull \hbox (badness 1648) in paragraph at lines 342--342
+Underfull \hbox (badness 1648) in paragraph at lines 343--343
 \OT1/ptm/m/n/10.95 cell car-ci-noma of pa-tients from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--345
+Underfull \hbox (badness 10000) in paragraph at lines 346--346
 []|\OT1/ptm/m/n/10.95 rs1800372;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--345
+Underfull \hbox (badness 10000) in paragraph at lines 346--346
 []|\OT1/ptm/m/n/10.95 p.Arg213Arg
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--345
+Underfull \hbox (badness 10000) in paragraph at lines 346--346
 []|\OT1/ptm/m/n/10.95 Benign/Likely
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--345
+Underfull \hbox (badness 10000) in paragraph at lines 346--346
 []|\OT1/ptm/m/n/10.95 One study demon-strated that
  []
 
 
-Overfull \hbox (1.78409pt too wide) in paragraph at lines 348--348
+Overfull \hbox (1.78409pt too wide) in paragraph at lines 349--349
 []|\OT1/ptm/m/n/10.95 COSM1386804| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 348--348
+Underfull \hbox (badness 10000) in paragraph at lines 349--349
 []|\OT1/ptm/m/n/10.95 p.Thr170Thr
  []
 
 
-Underfull \hbox (badness 1337) in paragraph at lines 348--348
+Underfull \hbox (badness 1337) in paragraph at lines 349--349
 \OT1/ptm/m/n/10.95 the worst prog-no-sis for pa-tients
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 351--351
+Underfull \hbox (badness 10000) in paragraph at lines 352--352
 []|\OT1/ptm/m/n/10.95 rs1042522;
  []
 
 
-Overfull \hbox (0.8091pt too wide) in paragraph at lines 351--351
+Overfull \hbox (0.8091pt too wide) in paragraph at lines 352--352
 \OT1/ptm/m/n/10.95 COSM250061$[]$| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 351--351
+Underfull \hbox (badness 10000) in paragraph at lines 352--352
 []|\OT1/ptm/m/n/10.95 p.Arg72Pro
  []
 
 
-Overfull \hbox (0.8245pt too wide) in paragraph at lines 351--351
+Overfull \hbox (0.8245pt too wide) in paragraph at lines 352--352
 []|\OT1/ptm/m/n/10.95 Missense| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 351--351
+Underfull \hbox (badness 10000) in paragraph at lines 352--352
 []|\OT1/ptm/m/n/10.95 p53 pro-tein with Arg72 was
  []
 
 
-Underfull \hbox (badness 2600) in paragraph at lines 351--351
+Underfull \hbox (badness 2600) in paragraph at lines 352--352
 \OT1/ptm/m/n/10.95 as-so-ci-ated with in-creased apop-
  []
 
 
-Underfull \hbox (badness 6842) in paragraph at lines 351--351
+Underfull \hbox (badness 6842) in paragraph at lines 352--352
 \OT1/ptm/m/n/10.95 to-sis, while p53 pro-tein with
  []
 
 
-Underfull \hbox (badness 6876) in paragraph at lines 351--351
+Underfull \hbox (badness 6876) in paragraph at lines 352--352
 \OT1/ptm/m/n/10.95 cell-cycle ar-rest and ac-ti-va-tion
  []
 
 
-Underfull \hbox (badness 6842) in paragraph at lines 351--351
+Underfull \hbox (badness 6842) in paragraph at lines 352--352
 \OT1/ptm/m/n/10.95 of p53-dependent DNA re-pair.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 351--351
+Underfull \hbox (badness 10000) in paragraph at lines 352--352
 \OT1/ptm/m/n/10.95 Pro/Pro geno-type re-sulted in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 351--351
+Underfull \hbox (badness 10000) in paragraph at lines 352--352
 \OT1/ptm/m/n/10.95 se-vere neu-trope-nia in ovar-ian
  []
 
 
-Underfull \hbox (badness 5741) in paragraph at lines 351--351
+Underfull \hbox (badness 5741) in paragraph at lines 352--352
 \OT1/ptm/m/n/10.95 based chemother-apy, and poor
  []
 
 
-Underfull \hbox (badness 1881) in paragraph at lines 351--351
+Underfull \hbox (badness 1881) in paragraph at lines 352--352
 \OT1/ptm/m/n/10.95 gas-tric can-cer pa-tients re-ceiv-ing
  []
 
 
-Underfull \hbox (badness 3547) in paragraph at lines 351--351
+Underfull \hbox (badness 3547) in paragraph at lines 352--352
 \OT1/ptm/m/n/10.95 bi-na-tion chemother-apy, as well
  []
 
 
-Underfull \hbox (badness 5832) in paragraph at lines 351--351
+Underfull \hbox (badness 5832) in paragraph at lines 352--352
 \OT1/ptm/m/n/10.95 as 5-fluorouracil-based ad-ju-vant
  []
 
 
-Underfull \hbox (badness 1874) in paragraph at lines 351--351
+Underfull \hbox (badness 1874) in paragraph at lines 352--352
 \OT1/ptm/m/n/10.95 chemother-apy. Con-flict-ing ev-i-
  []
 
 
-Overfull \hbox (43.91093pt too wide) in alignment at lines 323--354
+Underfull \hbox (badness 10000) in paragraph at lines 352--354
+[]|\OT1/ptm/m/n/10.95 [[],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 352--354
+[]\OT1/ptm/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 352--354
+[]\OT1/ptm/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 352--354
+[]\OT1/ptm/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 352--354
+[]\OT1/ptm/m/n/10.95 ,
+ []
+
+
+Overfull \hbox (43.91093pt too wide) in alignment at lines 324--355
  [] [] [] [] [] [] [] [] [] 
  []
 
-[52]
-Underfull \hbox (badness 10000) in paragraph at lines 354--354
+[54]
+Underfull \hbox (badness 10000) in paragraph at lines 355--355
 []|\OT1/ptm/m/n/10.95 p.Pro36Pro
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 354--354
+Underfull \hbox (badness 10000) in paragraph at lines 355--355
 []|\OT1/ptm/m/n/10.95 Benign/Likely
  []
 
 
-Overfull \hbox (43.91093pt too wide) in alignment at lines 354--358
+Overfull \hbox (43.91093pt too wide) in alignment at lines 355--359
  [] [] [] [] [] [] [] [] [] 
  []
 
-[53] [54] [55] [56] [57]
-Overfull \hbox (7.75061pt too wide) in paragraph at lines 384--384
+[55] [56] [57] [58] [59]
+Overfull \hbox (7.75061pt too wide) in paragraph at lines 385--385
 []|\OT1/ptm/m/n/10.95 Chr| 
  []
 
 
-Overfull \hbox (4.24742pt too wide) in paragraph at lines 384--384
+Overfull \hbox (4.24742pt too wide) in paragraph at lines 385--385
 []|\OT1/ptm/m/n/10.95 Zygosity| 
  []
 
 
-Overfull \hbox (4.89731pt too wide) in paragraph at lines 384--384
+Overfull \hbox (4.89731pt too wide) in paragraph at lines 385--385
 []|\OT1/ptm/m/n/10.95 Total| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 394--394
+Underfull \hbox (badness 10000) in paragraph at lines 395--395
 []|\OT1/ptm/m/n/10.95 p.Asp949Val
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 396--396
+Underfull \hbox (badness 10000) in paragraph at lines 397--397
 []|\OT1/ptm/m/n/10.95 p.Val732Ile
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 402--402
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
 []|\OT1/ptm/m/n/10.95 p.Ser534Asn
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
+Underfull \hbox (badness 10000) in paragraph at lines 405--405
 []|\OT1/ptm/m/n/10.95 p.Glu412Glu
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--406
+Underfull \hbox (badness 10000) in paragraph at lines 407--407
 []|\OT1/ptm/m/n/10.95 p.Met166Val
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
+Underfull \hbox (badness 10000) in paragraph at lines 409--409
 []|\OT1/ptm/m/n/10.95 p.Cys29Arg
  []
 
 
-Overfull \hbox (2.27574pt too wide) in paragraph at lines 411--411
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 412--412
 []|\OT1/ptm/m/n/10.95 11| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 411--411
+Underfull \hbox (badness 10000) in paragraph at lines 412--412
 []|\OT1/ptm/m/n/10.95 p.Ile105Val
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 414--414
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
 []|\OT1/ptm/m/n/10.95 p.Glu429Ala
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 416--416
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
 []|\OT1/ptm/m/n/10.95 p.Ala222Val
  []
 
 
-Overfull \hbox (2.27574pt too wide) in paragraph at lines 419--419
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 420--420
 []|\OT1/ptm/m/n/10.95 22| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 419--419
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
 []|\OT1/ptm/m/n/10.95 p.Ser471Leu
  []
 
 
-Overfull \hbox (2.27574pt too wide) in paragraph at lines 421--421
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 422--422
 []|\OT1/ptm/m/n/10.95 22| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 421--421
+Underfull \hbox (badness 10000) in paragraph at lines 422--422
 []|\OT1/ptm/m/n/10.95 p.Ala465Thr
  []
 
 
-Overfull \hbox (2.27574pt too wide) in paragraph at lines 423--423
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 424--424
 []|\OT1/ptm/m/n/10.95 22| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 423--423
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 []|\OT1/ptm/m/n/10.95 p.Glu413Lys
  []
 
 
-Overfull \hbox (2.27574pt too wide) in paragraph at lines 425--425
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 426--426
 []|\OT1/ptm/m/n/10.95 22| 
  []
 
 
-Overfull \hbox (0.8657pt too wide) in paragraph at lines 425--425
+Overfull \hbox (0.8657pt too wide) in paragraph at lines 426--426
 []|\OT1/ptm/m/n/10.95 c.929[]932delCCGC| 
  []
 
 
-Overfull \hbox (2.27574pt too wide) in paragraph at lines 427--427
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 428--428
 []|\OT1/ptm/m/n/10.95 22| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 427--427
+Underfull \hbox (badness 10000) in paragraph at lines 428--428
 []|\OT1/ptm/m/n/10.95 p.Leu277Leu
  []
 
 
-Overfull \hbox (2.27574pt too wide) in paragraph at lines 429--429
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 430--430
 []|\OT1/ptm/m/n/10.95 22| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 429--429
+Underfull \hbox (badness 10000) in paragraph at lines 430--430
 []|\OT1/ptm/m/n/10.95 p.Thr254Thr
  []
 
 
-Overfull \hbox (35.2646pt too wide) in alignment at lines 379--431
+Overfull \hbox (35.2646pt too wide) in alignment at lines 380--432
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (2.27574pt too wide) in paragraph at lines 431--431
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 432--432
 []|\OT1/ptm/m/n/10.95 22| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 431--431
+Underfull \hbox (badness 10000) in paragraph at lines 432--432
 []|\OT1/ptm/m/n/10.95 p.Gln245Gln
  []
 
 
-Overfull \hbox (2.27574pt too wide) in paragraph at lines 433--433
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 434--434
 []|\OT1/ptm/m/n/10.95 22| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 433--433
+Underfull \hbox (badness 10000) in paragraph at lines 434--434
 []|\OT1/ptm/m/n/10.95 p.Gly226Arg
  []
 
 
-Overfull \hbox (2.27574pt too wide) in paragraph at lines 435--435
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 436--436
 []|\OT1/ptm/m/n/10.95 22| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--435
+Underfull \hbox (badness 10000) in paragraph at lines 436--436
 []|\OT1/ptm/m/n/10.95 p.Ala194Val
  []
 
 
-Overfull \hbox (2.27574pt too wide) in paragraph at lines 438--438
+Overfull \hbox (2.27574pt too wide) in paragraph at lines 439--439
 []|\OT1/ptm/m/n/10.95 22| 
  []
 
 
-Overfull \hbox (5.5541pt too wide) in paragraph at lines 438--438
+Overfull \hbox (5.5541pt too wide) in paragraph at lines 439--439
 []|\OT1/ptm/m/n/9 c.*447[]*452delTTAAAG| 
  []
 
 
-Overfull \hbox (2.33377pt too wide) in paragraph at lines 441--441
+Overfull \hbox (2.33377pt too wide) in paragraph at lines 442--442
 []|\OT1/ptm/m/n/10.95 UGT1A1| 
  []
 
 
-Overfull \hbox (5.91028pt too wide) in paragraph at lines 441--441
+Overfull \hbox (5.91028pt too wide) in paragraph at lines 442--442
 []|\OT1/ptm/m/n/10.95 234668870| 
  []
 
 
-Overfull \hbox (5.91028pt too wide) in paragraph at lines 443--443
+Overfull \hbox (5.91028pt too wide) in paragraph at lines 444--444
 []|\OT1/ptm/m/n/10.95 234668879| 
  []
 
 
-Overfull \hbox (35.2646pt too wide) in alignment at lines 431--457
+Overfull \hbox (35.2646pt too wide) in alignment at lines 432--458
  [] [] [] [] [] [] [] [] 
- []
-
-[58
-
-] [59]
-Underfull \hbox (badness 10000) in paragraph at lines 476--476
-[]|\OT1/ptm/m/n/10.95 Variant
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 476--476
-[]|\OT1/ptm/m/n/10.95 Clinical
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 479--479
-[]|\OT1/ptm/m/n/10.95 p.Asp949Val
- []
-
-
-Overfull \hbox (0.8245pt too wide) in paragraph at lines 479--479
-[]|\OT1/ptm/m/n/10.95 Missense| 
- []
-
-
-Underfull \hbox (badness 2150) in paragraph at lines 481--482
-\OT1/ptm/m/n/10.95 port or co-fac-tor bind-ing. Re-
- []
-
-
-Underfull \hbox (badness 1226) in paragraph at lines 481--482
-\OT1/ptm/m/n/10.95 duced DPD ac-tiv-ity with strong
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 483--485
-[]|\OT1/ptm/m/n/10.95 [[], [],
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 483--485
-[]\OT1/ptm/m/n/10.95 --
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
-[]|\OT1/ptm/m/n/10.95 p.Val732Ile
- []
-
-
-Overfull \hbox (0.8245pt too wide) in paragraph at lines 486--486
-[]|\OT1/ptm/m/n/10.95 Missense| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
-[]|\OT1/ptm/m/n/10.95 Benign/Likely
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
-\OT1/ptm/m/n/10.95 be-nign,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 489--489
-[]|\OT1/ptm/m/n/10.95 Splice
- []
-
-
-Underfull \hbox (badness 1270) in paragraph at lines 489--489
-\OT1/ptm/m/n/10.95 in-ac-tive en-zyme with no uracil-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 489--491
-[]\OT1/ptm/m/n/10.95 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 489--491
-[]\OT1/ptm/m/n/10.95 --
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
-[]|\OT1/ptm/m/n/10.95 Splice
- []
-
-
-Underfull \hbox (badness 2828) in paragraph at lines 492--492
-[]|\OT1/ptm/m/n/10.95 Benign vari-ant as pre-dicted by
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 495--495
-[]|\OT1/ptm/m/n/10.95 p.Ser534Asn
- []
-
-
-Overfull \hbox (0.8245pt too wide) in paragraph at lines 495--495
-[]|\OT1/ptm/m/n/10.95 Missense| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 495--495
-[]|\OT1/ptm/m/n/10.95 Conflicting
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 495--495
-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 495--495
-\OT1/ptm/m/n/10.95 of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 495--495
-[]\OT1/ptm/m/n/10.95 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 495--497
-[]|\OT1/ptm/m/n/10.95 [[],
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 498--498
-[]|\OT1/ptm/m/n/10.95 p.Glu412Glu
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 498--498
-[]|\OT1/ptm/m/n/10.95 Synonymous vari-ant in high
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 498--498
-\OT1/ptm/m/n/10.95 link-age dis-e-qui-lib-rium with
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 498--498
-[] \OT1/ptm/m/n/10.95 (rs75017182)
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 498--498
-\OT1/ptm/m/n/10.95 in hap-lo-type B3 (HapB3).
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 498--498
-\OT1/ptm/m/n/10.95 rs75017182 causes non-sense
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 498--498
-\OT1/ptm/m/n/10.95 with fluoropyrimidine-related
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 501--501
-[]|\OT1/ptm/m/n/10.95 p.Met166Val
- []
-
-
-Overfull \hbox (0.8245pt too wide) in paragraph at lines 501--501
-[]|\OT1/ptm/m/n/10.95 Missense| 
- []
-
-
-Underfull \hbox (badness 1173) in paragraph at lines 501--501
-[]|\OT1/ptm/m/n/10.95 Conflicting ev-i-dence on changes
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 501--503
-[]|\OT1/ptm/m/n/10.95 [[],
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 504--504
-[]|\OT1/ptm/m/n/10.95 p.Cys29Arg
- []
-
-
-Overfull \hbox (0.8245pt too wide) in paragraph at lines 504--504
-[]|\OT1/ptm/m/n/10.95 Missense| 
- []
-
-
-Underfull \hbox (badness 6526) in paragraph at lines 504--504
-[]|\OT1/ptm/m/n/10.95 C al-lele causes re-duced DPD
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 504--504
-\OT1/ptm/m/n/10.95 ac-tiv-ity. Con-flict-ing clin-i-cal
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 504--504
-\OT1/ptm/m/n/10.95 ev-i-dence on as-so-ci-a-tion with
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 504--506
-[]|\OT1/ptm/m/n/10.95 [[],
- []
-
-
-Overfull \hbox (2.50961pt too wide) in paragraph at lines 508--508
-[]|\OT1/ptm/m/n/10.95 11:67352689| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 508--508
-[]|\OT1/ptm/m/n/10.95 p.Ile105Val
- []
-
-
-Overfull \hbox (0.8245pt too wide) in paragraph at lines 508--508
-[]|\OT1/ptm/m/n/10.95 Missense| 
- []
-
-
-Overfull \hbox (53.12498pt too wide) in alignment at lines 471--511
- [] [] [] [] [] [] [] [] [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 512--512
-[]|\OT1/ptm/m/n/10.95 p.Glu429Ala
- []
-
-
-Overfull \hbox (0.8245pt too wide) in paragraph at lines 512--512
-[]|\OT1/ptm/m/n/10.95 Missense| 
- []
-
-
-Underfull \hbox (badness 4303) in paragraph at lines 512--512
-[]|\OT1/ptm/m/n/10.95 Reduced MTHFR ac-tiv-ity with
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 512--514
-[]|\OT1/ptm/m/n/10.95 [[],
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 515--515
-[]|\OT1/ptm/m/n/10.95 p.Ala222Val
- []
-
-
-Overfull \hbox (0.8245pt too wide) in paragraph at lines 515--515
-[]|\OT1/ptm/m/n/10.95 Missense| 
- []
-
-
-Underfull \hbox (badness 3428) in paragraph at lines 515--515
-\OT1/ptm/m/n/10.95 syn-the-sis. In-creased ef-fec-tive-
- []
-
-
-Underfull \hbox (badness 1173) in paragraph at lines 515--515
-\OT1/ptm/m/n/10.95 al-though con-flict-ing clin-i-cal ev-i-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 515--517
-[]|\OT1/ptm/m/n/10.95 [[],
- []
-
-
-Overfull \hbox (2.50961pt too wide) in paragraph at lines 519--519
-[]|\OT1/ptm/m/n/10.95 22:50964236| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 519--519
-[]|\OT1/ptm/m/n/10.95 p.Ser471Leu
- []
-
-
-Overfull \hbox (0.8245pt too wide) in paragraph at lines 519--519
-[]|\OT1/ptm/m/n/10.95 Missense| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 519--519
-[]|\OT1/ptm/m/n/10.95 Benign/Likely
- []
-
-
-Underfull \hbox (badness 4739) in paragraph at lines 519--519
-\OT1/ptm/m/n/10.95 vival in the pres-ence of high
- []
-
-
-Underfull \hbox (badness 2293) in paragraph at lines 519--519
-\OT1/ptm/m/n/10.95 platelet counts. Lim-ited clin-i-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 519--521
-[]|\OT1/ptm/m/n/10.95 [[],
- []
-
-
-Overfull \hbox (2.50961pt too wide) in paragraph at lines 522--522
-[]|\OT1/ptm/m/n/10.95 22:50964255| 
- []
-
-
-Overfull \hbox (4.96146pt too wide) in paragraph at lines 522--522
-[]|\OT1/ptm/m/n/10.95 rs112723255| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 522--522
-[]|\OT1/ptm/m/n/10.95 p.Ala465Thr
- []
-
-
-Overfull \hbox (0.8245pt too wide) in paragraph at lines 522--522
-[]|\OT1/ptm/m/n/10.95 Missense| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 522--522
-[]|\OT1/ptm/m/n/10.95 Benign/Likely
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 522--522
-[]|\OT1/ptm/m/n/10.95 No as-so-ci-a-tion with
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 522--522
-\OT1/ptm/m/n/10.95 fluoropyrimidine-related tox-i-c-ity.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 522--522
-\OT1/ptm/m/n/10.95 tox-i-c-ity from HLA-matched
- []
-
-
-Underfull \hbox (badness 5203) in paragraph at lines 522--522
-\OT1/ptm/m/n/10.95 plan-ta-tion. In-creased risk of
- []
-
-
-Underfull \hbox (badness 2495) in paragraph at lines 522--522
-\OT1/ptm/m/n/10.95 chronic graft-versus-host dis-ease
- []
-
-
-Underfull \hbox (badness 1558) in paragraph at lines 522--522
-\OT1/ptm/m/n/10.95 when donor is a car-rier of the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 522--522
-\OT1/ptm/m/n/10.95 mi-nor al-lele and re-cip-i-ent is
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 522--524
-[]|\OT1/ptm/m/n/10.95 [[],
- []
-
-
-Overfull \hbox (2.50961pt too wide) in paragraph at lines 525--525
-[]|\OT1/ptm/m/n/10.95 22:50964493| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 525--525
-[]|\OT1/ptm/m/n/10.95 p.Glu413Lys
- []
-
-
-Overfull \hbox (0.8245pt too wide) in paragraph at lines 525--525
-[]|\OT1/ptm/m/n/10.95 Missense| 
- []
-
-
-Overfull \hbox (2.50961pt too wide) in paragraph at lines 528--528
-[]|\OT1/ptm/m/n/10.95 22:50964907| 
- []
-
-
-Overfull \hbox (4.96146pt too wide) in paragraph at lines 528--528
-[]|\OT1/ptm/m/n/10.95 rs201685922| 
- []
-
-
-Overfull \hbox (1.58746pt too wide) in paragraph at lines 528--528
-[]|\OT1/ptm/m/n/10.95 c.929[]932delCCGC| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 528--528
-[]|\OT1/ptm/m/n/10.95 Splice
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 528--528
-[]|\OT1/ptm/m/n/10.95 Conflicting
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 528--528
-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 528--528
-\OT1/ptm/m/n/10.95 of
- []
-
-
-Underfull \hbox (badness 5203) in paragraph at lines 528--528
-\OT1/ptm/m/n/10.95 gas-troin-testi-nal en-cephalomy-opa-
- []
-
-
-Overfull \hbox (2.50961pt too wide) in paragraph at lines 531--531
-[]|\OT1/ptm/m/n/10.95 22:50965102| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 531--531
-[]|\OT1/ptm/m/n/10.95 p.Leu277Leu
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 531--531
-[]|\OT1/ptm/m/n/10.95 Benign/Likely
- []
-
-
-Overfull \hbox (2.50961pt too wide) in paragraph at lines 534--534
-[]|\OT1/ptm/m/n/10.95 22:50965597| 
- []
-
-
-Overfull \hbox (4.96146pt too wide) in paragraph at lines 534--534
-[]|\OT1/ptm/m/n/10.95 rs373478014| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 534--534
-[]|\OT1/ptm/m/n/10.95 p.Thr254Thr
- []
-
-
-Overfull \hbox (2.50961pt too wide) in paragraph at lines 537--537
-[]|\OT1/ptm/m/n/10.95 22:50965624| 
- []
-
-
-Overfull \hbox (4.96146pt too wide) in paragraph at lines 537--537
-[]|\OT1/ptm/m/n/10.95 rs139223629| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 537--537
-[]|\OT1/ptm/m/n/10.95 p.Gln245Gln
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 537--537
-[]|\OT1/ptm/m/n/10.95 Conflicting
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 537--537
-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 537--537
-\OT1/ptm/m/n/10.95 of
- []
-
-
-Overfull \hbox (2.50961pt too wide) in paragraph at lines 540--540
-[]|\OT1/ptm/m/n/10.95 22:50965683| 
- []
-
-
-Overfull \hbox (4.96146pt too wide) in paragraph at lines 540--540
-[]|\OT1/ptm/m/n/10.95 rs200497106| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 540--540
-[]|\OT1/ptm/m/n/10.95 p.Gly226Arg
- []
-
-
-Overfull \hbox (0.8245pt too wide) in paragraph at lines 540--540
-[]|\OT1/ptm/m/n/10.95 Missense| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 540--540
-[]|\OT1/ptm/m/n/10.95 Uncertain
- []
-
-
-Overfull \hbox (53.12498pt too wide) in alignment at lines 511--543
- [] [] [] [] [] [] [] [] [] 
  []
 
 [60
 
 ] [61]
-Overfull \hbox (2.50961pt too wide) in paragraph at lines 543--543
-[]|\OT1/ptm/m/n/10.95 22:50966082| 
+Underfull \hbox (badness 10000) in paragraph at lines 477--477
+[]|\OT1/ptm/m/n/10.95 Variant
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 543--543
-[]|\OT1/ptm/m/n/10.95 p.Ala194Val
+Underfull \hbox (badness 10000) in paragraph at lines 477--477
+[]|\OT1/ptm/m/n/10.95 Clinical
  []
 
 
-Overfull \hbox (0.8245pt too wide) in paragraph at lines 543--543
+Underfull \hbox (badness 10000) in paragraph at lines 480--480
+[]|\OT1/ptm/m/n/10.95 p.Asp949Val
+ []
+
+
+Overfull \hbox (0.8245pt too wide) in paragraph at lines 480--480
 []|\OT1/ptm/m/n/10.95 Missense| 
  []
 
 
-Overfull \hbox (4.96146pt too wide) in paragraph at lines 547--547
-[]|\OT1/ptm/m/n/10.95 rs151264360| 
+Underfull \hbox (badness 2150) in paragraph at lines 482--483
+\OT1/ptm/m/n/10.95 port or co-fac-tor bind-ing. Re-
  []
 
 
-Overfull \hbox (6.27585pt too wide) in paragraph at lines 547--547
-[]|\OT1/ptm/m/n/9 c.*447[]*452delTTAAAG| 
+Underfull \hbox (badness 1226) in paragraph at lines 482--483
+\OT1/ptm/m/n/10.95 duced DPD ac-tiv-ity with strong
  []
 
 
-Underfull \hbox (badness 1097) in paragraph at lines 547--547
-[]|\OT1/ptm/m/n/10.95 Decreased sta-bil-ity of sec-ondary
- []
-
-
-Underfull \hbox (badness 2735) in paragraph at lines 547--547
-\OT1/ptm/m/n/10.95 mRNA struc-ture and lower TS
- []
-
-
-Underfull \hbox (badness 2368) in paragraph at lines 547--547
-\OT1/ptm/m/n/10.95 rim-i-dine treat-ment, and risk of
- []
-
-
-Overfull \hbox (2.50961pt too wide) in paragraph at lines 551--551
-[]|\OT1/ptm/m/n/10.95 2:234668870| 
- []
-
-
-Overfull \hbox (2.64233pt too wide) in paragraph at lines 551--551
-[]|\OT1/ptm/m/n/10.95 Upstream
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 551--553
-[]|\OT1/ptm/m/n/10.95 [[],
- []
-
-
-Overfull \hbox (2.50961pt too wide) in paragraph at lines 554--554
-[]|\OT1/ptm/m/n/10.95 2:234668879| 
- []
-
-
-Overfull \hbox (2.64233pt too wide) in paragraph at lines 554--554
-[]|\OT1/ptm/m/n/10.95 Upstream
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 554--554
-[]|\OT1/ptm/m/n/10.95 Conflicting
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 554--554
-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 554--554
-\OT1/ptm/m/n/10.95 of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 554--554
+Underfull \hbox (badness 10000) in paragraph at lines 484--486
 []\OT1/ptm/m/n/10.95 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 554--554
+Underfull \hbox (badness 10000) in paragraph at lines 484--486
+[]\OT1/ptm/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 484--486
+[]\OT1/ptm/m/n/10.95 --
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 487--487
+[]|\OT1/ptm/m/n/10.95 p.Val732Ile
+ []
+
+
+Overfull \hbox (0.8245pt too wide) in paragraph at lines 487--487
+[]|\OT1/ptm/m/n/10.95 Missense| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 487--487
+[]|\OT1/ptm/m/n/10.95 Benign/Likely
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 487--487
+\OT1/ptm/m/n/10.95 be-nign,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 487--489
+[]|\OT1/ptm/m/n/10.95 [[],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 487--489
+[]\OT1/ptm/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 487--489
+[]\OT1/ptm/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 490--490
+[]|\OT1/ptm/m/n/10.95 Splice
+ []
+
+
+Underfull \hbox (badness 1270) in paragraph at lines 490--490
+\OT1/ptm/m/n/10.95 in-ac-tive en-zyme with no uracil-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 490--492
+[]\OT1/ptm/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 490--492
+[]\OT1/ptm/m/n/10.95 --
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 493--493
+[]|\OT1/ptm/m/n/10.95 Splice
+ []
+
+
+Underfull \hbox (badness 2828) in paragraph at lines 493--493
+[]|\OT1/ptm/m/n/10.95 Benign vari-ant as pre-dicted by
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 493--495
+[]|\OT1/ptm/m/n/10.95 [[],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 496--496
+[]|\OT1/ptm/m/n/10.95 p.Ser534Asn
+ []
+
+
+Overfull \hbox (0.8245pt too wide) in paragraph at lines 496--496
+[]|\OT1/ptm/m/n/10.95 Missense| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 496--496
+[]|\OT1/ptm/m/n/10.95 Conflicting
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 496--496
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 496--496
+\OT1/ptm/m/n/10.95 of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 496--496
+[]\OT1/ptm/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 496--498
+[]|\OT1/ptm/m/n/10.95 [[],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 496--498
+[]\OT1/ptm/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 499--499
+[]|\OT1/ptm/m/n/10.95 p.Glu412Glu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 499--499
+[]|\OT1/ptm/m/n/10.95 Synonymous vari-ant in high
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 499--499
+\OT1/ptm/m/n/10.95 link-age dis-e-qui-lib-rium with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 499--499
+[] \OT1/ptm/m/n/10.95 (rs75017182)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 499--499
+\OT1/ptm/m/n/10.95 in hap-lo-type B3 (HapB3).
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 499--499
+\OT1/ptm/m/n/10.95 rs75017182 causes non-sense
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 499--499
+\OT1/ptm/m/n/10.95 with fluoropyrimidine-related
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+[]|\OT1/ptm/m/n/10.95 p.Met166Val
+ []
+
+
+Overfull \hbox (0.8245pt too wide) in paragraph at lines 502--502
+[]|\OT1/ptm/m/n/10.95 Missense| 
+ []
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 502--502
+[]|\OT1/ptm/m/n/10.95 Conflicting ev-i-dence on changes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--504
+[]|\OT1/ptm/m/n/10.95 [[],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--504
+[]\OT1/ptm/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--504
+[]\OT1/ptm/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 505--505
+[]|\OT1/ptm/m/n/10.95 p.Cys29Arg
+ []
+
+
+Overfull \hbox (0.8245pt too wide) in paragraph at lines 505--505
+[]|\OT1/ptm/m/n/10.95 Missense| 
+ []
+
+
+Underfull \hbox (badness 6526) in paragraph at lines 505--505
+[]|\OT1/ptm/m/n/10.95 C al-lele causes re-duced DPD
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 505--505
+\OT1/ptm/m/n/10.95 ac-tiv-ity. Con-flict-ing clin-i-cal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 505--505
+\OT1/ptm/m/n/10.95 ev-i-dence on as-so-ci-a-tion with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 505--507
+[]|\OT1/ptm/m/n/10.95 [[],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 505--507
+[]\OT1/ptm/m/n/10.95 ,
+ []
+
+
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 509--509
+[]|\OT1/ptm/m/n/10.95 11:67352689| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 509--509
+[]|\OT1/ptm/m/n/10.95 p.Ile105Val
+ []
+
+
+Overfull \hbox (0.8245pt too wide) in paragraph at lines 509--509
+[]|\OT1/ptm/m/n/10.95 Missense| 
+ []
+
+
+Overfull \hbox (53.12498pt too wide) in alignment at lines 472--512
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 513--513
+[]|\OT1/ptm/m/n/10.95 p.Glu429Ala
+ []
+
+
+Overfull \hbox (0.8245pt too wide) in paragraph at lines 513--513
+[]|\OT1/ptm/m/n/10.95 Missense| 
+ []
+
+
+Underfull \hbox (badness 4303) in paragraph at lines 513--513
+[]|\OT1/ptm/m/n/10.95 Reduced MTHFR ac-tiv-ity with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 513--515
+[]|\OT1/ptm/m/n/10.95 [[],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 516--516
+[]|\OT1/ptm/m/n/10.95 p.Ala222Val
+ []
+
+
+Overfull \hbox (0.8245pt too wide) in paragraph at lines 516--516
+[]|\OT1/ptm/m/n/10.95 Missense| 
+ []
+
+
+Underfull \hbox (badness 3428) in paragraph at lines 516--516
+\OT1/ptm/m/n/10.95 syn-the-sis. In-creased ef-fec-tive-
+ []
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 516--516
+\OT1/ptm/m/n/10.95 al-though con-flict-ing clin-i-cal ev-i-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 516--518
+[]|\OT1/ptm/m/n/10.95 [[],
+ []
+
+
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 520--520
+[]|\OT1/ptm/m/n/10.95 22:50964236| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 520--520
+[]|\OT1/ptm/m/n/10.95 p.Ser471Leu
+ []
+
+
+Overfull \hbox (0.8245pt too wide) in paragraph at lines 520--520
+[]|\OT1/ptm/m/n/10.95 Missense| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 520--520
+[]|\OT1/ptm/m/n/10.95 Benign/Likely
+ []
+
+
+Underfull \hbox (badness 4739) in paragraph at lines 520--520
+\OT1/ptm/m/n/10.95 vival in the pres-ence of high
+ []
+
+
+Underfull \hbox (badness 2293) in paragraph at lines 520--520
+\OT1/ptm/m/n/10.95 platelet counts. Lim-ited clin-i-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 520--522
+[]|\OT1/ptm/m/n/10.95 [[],
+ []
+
+
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 523--523
+[]|\OT1/ptm/m/n/10.95 22:50964255| 
+ []
+
+
+Overfull \hbox (4.96146pt too wide) in paragraph at lines 523--523
+[]|\OT1/ptm/m/n/10.95 rs112723255| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 523--523
+[]|\OT1/ptm/m/n/10.95 p.Ala465Thr
+ []
+
+
+Overfull \hbox (0.8245pt too wide) in paragraph at lines 523--523
+[]|\OT1/ptm/m/n/10.95 Missense| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 523--523
+[]|\OT1/ptm/m/n/10.95 Benign/Likely
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 523--523
+[]|\OT1/ptm/m/n/10.95 No as-so-ci-a-tion with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 523--523
+\OT1/ptm/m/n/10.95 fluoropyrimidine-related tox-i-c-ity.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 523--523
+\OT1/ptm/m/n/10.95 tox-i-c-ity from HLA-matched
+ []
+
+
+Underfull \hbox (badness 5203) in paragraph at lines 523--523
+\OT1/ptm/m/n/10.95 plan-ta-tion. In-creased risk of
+ []
+
+
+Underfull \hbox (badness 2495) in paragraph at lines 523--523
+\OT1/ptm/m/n/10.95 chronic graft-versus-host dis-ease
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 523--523
+\OT1/ptm/m/n/10.95 when donor is a car-rier of the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 523--523
+\OT1/ptm/m/n/10.95 mi-nor al-lele and re-cip-i-ent is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 523--525
+[]|\OT1/ptm/m/n/10.95 [[],
+ []
+
+
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 526--526
+[]|\OT1/ptm/m/n/10.95 22:50964493| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 526--526
+[]|\OT1/ptm/m/n/10.95 p.Glu413Lys
+ []
+
+
+Overfull \hbox (0.8245pt too wide) in paragraph at lines 526--526
+[]|\OT1/ptm/m/n/10.95 Missense| 
+ []
+
+
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 529--529
+[]|\OT1/ptm/m/n/10.95 22:50964907| 
+ []
+
+
+Overfull \hbox (4.96146pt too wide) in paragraph at lines 529--529
+[]|\OT1/ptm/m/n/10.95 rs201685922| 
+ []
+
+
+Overfull \hbox (1.58746pt too wide) in paragraph at lines 529--529
+[]|\OT1/ptm/m/n/10.95 c.929[]932delCCGC| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 529--529
+[]|\OT1/ptm/m/n/10.95 Splice
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 529--529
+[]|\OT1/ptm/m/n/10.95 Conflicting
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 529--529
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 529--529
+\OT1/ptm/m/n/10.95 of
+ []
+
+
+Underfull \hbox (badness 5203) in paragraph at lines 529--529
+\OT1/ptm/m/n/10.95 gas-troin-testi-nal en-cephalomy-opa-
+ []
+
+
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 532--532
+[]|\OT1/ptm/m/n/10.95 22:50965102| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 532--532
+[]|\OT1/ptm/m/n/10.95 p.Leu277Leu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 532--532
+[]|\OT1/ptm/m/n/10.95 Benign/Likely
+ []
+
+
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 535--535
+[]|\OT1/ptm/m/n/10.95 22:50965597| 
+ []
+
+
+Overfull \hbox (4.96146pt too wide) in paragraph at lines 535--535
+[]|\OT1/ptm/m/n/10.95 rs373478014| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 535--535
+[]|\OT1/ptm/m/n/10.95 p.Thr254Thr
+ []
+
+
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 538--538
+[]|\OT1/ptm/m/n/10.95 22:50965624| 
+ []
+
+
+Overfull \hbox (4.96146pt too wide) in paragraph at lines 538--538
+[]|\OT1/ptm/m/n/10.95 rs139223629| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 538--538
+[]|\OT1/ptm/m/n/10.95 p.Gln245Gln
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 538--538
+[]|\OT1/ptm/m/n/10.95 Conflicting
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 538--538
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 538--538
+\OT1/ptm/m/n/10.95 of
+ []
+
+
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 541--541
+[]|\OT1/ptm/m/n/10.95 22:50965683| 
+ []
+
+
+Overfull \hbox (4.96146pt too wide) in paragraph at lines 541--541
+[]|\OT1/ptm/m/n/10.95 rs200497106| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 541--541
+[]|\OT1/ptm/m/n/10.95 p.Gly226Arg
+ []
+
+
+Overfull \hbox (0.8245pt too wide) in paragraph at lines 541--541
+[]|\OT1/ptm/m/n/10.95 Missense| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 541--541
+[]|\OT1/ptm/m/n/10.95 Uncertain
+ []
+
+
+Overfull \hbox (53.12498pt too wide) in alignment at lines 512--544
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+[62
+
+] [63]
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 544--544
+[]|\OT1/ptm/m/n/10.95 22:50966082| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 544--544
+[]|\OT1/ptm/m/n/10.95 p.Ala194Val
+ []
+
+
+Overfull \hbox (0.8245pt too wide) in paragraph at lines 544--544
+[]|\OT1/ptm/m/n/10.95 Missense| 
+ []
+
+
+Overfull \hbox (4.96146pt too wide) in paragraph at lines 548--548
+[]|\OT1/ptm/m/n/10.95 rs151264360| 
+ []
+
+
+Overfull \hbox (6.27585pt too wide) in paragraph at lines 548--548
+[]|\OT1/ptm/m/n/9 c.*447[]*452delTTAAAG| 
+ []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 548--548
+[]|\OT1/ptm/m/n/10.95 Decreased sta-bil-ity of sec-ondary
+ []
+
+
+Underfull \hbox (badness 2735) in paragraph at lines 548--548
+\OT1/ptm/m/n/10.95 mRNA struc-ture and lower TS
+ []
+
+
+Underfull \hbox (badness 2368) in paragraph at lines 548--548
+\OT1/ptm/m/n/10.95 rim-i-dine treat-ment, and risk of
+ []
+
+
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 552--552
+[]|\OT1/ptm/m/n/10.95 2:234668870| 
+ []
+
+
+Overfull \hbox (2.64233pt too wide) in paragraph at lines 552--552
+[]|\OT1/ptm/m/n/10.95 Upstream
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 552--554
+[]|\OT1/ptm/m/n/10.95 [[],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 552--554
+[]\OT1/ptm/m/n/10.95 ,
+ []
+
+
+Overfull \hbox (2.50961pt too wide) in paragraph at lines 555--555
+[]|\OT1/ptm/m/n/10.95 2:234668879| 
+ []
+
+
+Overfull \hbox (2.64233pt too wide) in paragraph at lines 555--555
+[]|\OT1/ptm/m/n/10.95 Upstream
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 555--555
+[]|\OT1/ptm/m/n/10.95 Conflicting
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 555--555
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 555--555
+\OT1/ptm/m/n/10.95 of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 555--555
+[]\OT1/ptm/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 555--555
 \OT1/ptm/m/n/10.95 af-fects,
  []
 
 
-Underfull \hbox (badness 1924) in paragraph at lines 554--554
+Underfull \hbox (badness 1924) in paragraph at lines 555--555
 []|\OT1/ptm/m/n/10.95 Lower UGT1A1 ex-pres-sion and
  []
 
 
-Overfull \hbox (53.12498pt too wide) in alignment at lines 543--558
+Underfull \hbox (badness 10000) in paragraph at lines 555--557
+[]\OT1/ptm/m/n/10.95 ,
+ []
+
+
+Overfull \hbox (53.12498pt too wide) in alignment at lines 544--559
  [] [] [] [] [] [] [] [] [] 
  []
 
-[62] [63] [64]
-Underfull \hbox (badness 10000) in paragraph at lines 561--573
+[64] [65] [66] [67]
+Underfull \hbox (badness 10000) in paragraph at lines 562--574
 
  []
 
-[65]
+[68]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/bar_cancer_ge
-nes_pct.png, id=943, 11442.75pt x 4818.0pt>
+nes_pct.png, id=1052, 11442.75pt x 4818.0pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/bar_canc
 er_genes_pct.png Graphic file (type png)
 
 <use /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/bar_cance
 r_genes_pct.png>
 Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
-er3_figure/bar_cancer_genes_pct.png used on input line 583.
+er3_figure/bar_cancer_genes_pct.png used on input line 584.
 (pdftex.def)             Requested size: 686.53539pt x 289.06754pt.
 
-Overfull \hbox (72.24039pt too wide) in paragraph at lines 583--584
+Overfull \hbox (72.24039pt too wide) in paragraph at lines 584--585
  [][] 
  []
 
-[66
+[69
 
 
  </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/bar_cancer_g
 enes_pct.png>]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/bar_pgx_genes
-_pct.png, id=950, 9636.0pt x 6022.5pt>
+_pct.png, id=1058, 9636.0pt x 6022.5pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/bar_pgx_
 genes_pct.png Graphic file (type png)
 
 <use /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/bar_pgx_g
 enes_pct.png>
 Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
-er3_figure/bar_pgx_genes_pct.png used on input line 597.
+er3_figure/bar_pgx_genes_pct.png used on input line 598.
 (pdftex.def)             Requested size: 578.13507pt x 361.33441pt.
- [67
+ [70
 
 
  </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/bar_pgx_gene
 s_pct.png>]
-
-Package natbib Warning: Citation `Raymond2016' on page 68 undefined on input li
-ne 608.
-
-
-Package natbib Warning: Citation `Meric-Bernstam2016' on page 68 undefined on i
-nput line 608.
-
-
-Package natbib Warning: Citation `Schrader2015' on page 68 undefined on input l
-ine 608.
-
-
-Package natbib Warning: Citation `Jones2015' on page 68 undefined on input line
- 608.
-
-
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/ffpe_blood_co
-nc_venn_gt.png, id=958, 3011.25pt x 3011.25pt>
+nc_venn_gt.png, id=1070, 3011.25pt x 3011.25pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/ffpe_blo
 od_conc_venn_gt.png Graphic file (type png)
 
 <use /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/ffpe_bloo
 d_conc_venn_gt.png>
 Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
-er3_figure/ffpe_blood_conc_venn_gt.png used on input line 619.
+er3_figure/ffpe_blood_conc_venn_gt.png used on input line 620.
 (pdftex.def)             Requested size: 301.14264pt x 301.14264pt.
- [68
+ [71
 
-] [69 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/ffpe_bl
+] [72 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/ffpe_bl
 ood_conc_venn_gt.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 638--638
+Underfull \hbox (badness 10000) in paragraph at lines 639--639
 []|\OT1/ptm/m/n/10.95 p.Asp949Val
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
+Underfull \hbox (badness 10000) in paragraph at lines 641--641
 []|\OT1/ptm/m/n/10.95 p.Val732Ile
  []
 
 
-Underfull \hbox (badness 1014) in paragraph at lines 640--640
+Underfull \hbox (badness 1014) in paragraph at lines 641--641
 []|\OT1/ptm/m/n/10.95 Benign$\OML/ztmcm/m/it/10.95 =$\OT1/ptm/m/n/10.95 Likely 
 be-nign,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 642--642
+Underfull \hbox (badness 10000) in paragraph at lines 643--643
 []|\OT1/ptm/m/n/10.95 p.Met166Val
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 644--644
+Underfull \hbox (badness 10000) in paragraph at lines 645--645
 []|\OT1/ptm/m/n/10.95 p.Cys29Arg
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 646--646
+Underfull \hbox (badness 10000) in paragraph at lines 647--647
 []|\OT1/ptm/m/n/10.95 p.Cys29Arg
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 648--648
+Underfull \hbox (badness 10000) in paragraph at lines 649--649
 []|\OT1/ptm/m/n/10.95 p.Cys29Arg
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 651--651
+Underfull \hbox (badness 10000) in paragraph at lines 652--652
 []|\OT1/ptm/m/n/10.95 rs1050171;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 651--651
+Underfull \hbox (badness 10000) in paragraph at lines 652--652
 []|\OT1/ptm/m/n/10.95 p.Gln787Gln
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--654
+Underfull \hbox (badness 10000) in paragraph at lines 655--655
 []|\OT1/ptm/m/n/10.95 p.Ile105Val
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 656--656
+Underfull \hbox (badness 10000) in paragraph at lines 657--657
 []|\OT1/ptm/m/n/10.95 p.Ile105Val
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 659--659
+Underfull \hbox (badness 10000) in paragraph at lines 660--660
 []|\OT1/ptm/m/n/10.95 rs3733542;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 659--659
+Underfull \hbox (badness 10000) in paragraph at lines 660--660
 []|\OT1/ptm/m/n/10.95 p.Leu862Leu
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 662--662
+Underfull \hbox (badness 10000) in paragraph at lines 663--663
 []|\OT1/ptm/m/n/10.95 p.Glu429Ala
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 664--664
+Underfull \hbox (badness 10000) in paragraph at lines 665--665
 []|\OT1/ptm/m/n/10.95 p.Ala222Val
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 666--666
+Underfull \hbox (badness 10000) in paragraph at lines 667--667
 []|\OT1/ptm/m/n/10.95 p.Ala222Val
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 669--669
+Underfull \hbox (badness 10000) in paragraph at lines 670--670
 []|\OT1/ptm/m/n/10.95 p.Asp2485Asp
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 671--671
+Underfull \hbox (badness 10000) in paragraph at lines 672--672
 []|\OT1/ptm/m/n/10.95 p.Leu2303Leu
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 673--673
+Underfull \hbox (badness 10000) in paragraph at lines 674--674
 []|\OT1/ptm/m/n/10.95 p.Leu2303Leu
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 675--675
+Underfull \hbox (badness 10000) in paragraph at lines 676--676
 []|\OT1/ptm/m/n/10.95 p.Leu2303Leu
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 677--677
+Underfull \hbox (badness 10000) in paragraph at lines 678--678
 []|\OT1/ptm/m/n/10.95 p.Ser1851Ser
  []
 
 
-Overfull \hbox (10.67815pt too wide) in alignment at lines 630--679
+Overfull \hbox (10.67815pt too wide) in alignment at lines 631--680
  [] [] [] [] [] [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 680--680
 []|\OT1/ptm/m/n/10.95 p.Ala1823Ala
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 681--681
+Underfull \hbox (badness 10000) in paragraph at lines 682--682
 []|\OT1/ptm/m/n/10.95 rs1057079;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 681--681
+Underfull \hbox (badness 10000) in paragraph at lines 682--682
 []|\OT1/ptm/m/n/10.95 p.Ala1577Ala
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 683--683
+Underfull \hbox (badness 10000) in paragraph at lines 684--684
 []|\OT1/ptm/m/n/10.95 rs1057079;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 683--683
+Underfull \hbox (badness 10000) in paragraph at lines 684--684
 []|\OT1/ptm/m/n/10.95 p.Ala1577Ala
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 685--685
+Underfull \hbox (badness 10000) in paragraph at lines 686--686
 []|\OT1/ptm/m/n/10.95 p.Arg1154Arg
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 687--687
+Underfull \hbox (badness 10000) in paragraph at lines 688--688
 []|\OT1/ptm/m/n/10.95 p.Asn999Asn
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 689--689
+Underfull \hbox (badness 10000) in paragraph at lines 690--690
 []|\OT1/ptm/m/n/10.95 p.Asn999Asn
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 691--691
+Underfull \hbox (badness 10000) in paragraph at lines 692--692
 []|\OT1/ptm/m/n/10.95 p.Asp479Asp
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 693--693
+Underfull \hbox (badness 10000) in paragraph at lines 694--694
 []|\OT1/ptm/m/n/10.95 p.Asp479Asp
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 696--696
+Underfull \hbox (badness 10000) in paragraph at lines 697--697
 []|\OT1/ptm/m/n/10.95 rs1873778;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 696--696
+Underfull \hbox (badness 10000) in paragraph at lines 697--697
 []|\OT1/ptm/m/n/10.95 p.Pro567Pro
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 698--698
+Underfull \hbox (badness 10000) in paragraph at lines 699--699
 []|\OT1/ptm/m/n/10.95 rs2228230;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 698--698
+Underfull \hbox (badness 10000) in paragraph at lines 699--699
 []|\OT1/ptm/m/n/10.95 p.Val824Val
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 700--700
+Underfull \hbox (badness 10000) in paragraph at lines 701--701
 []|\OT1/ptm/m/n/10.95 rs2228230;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 700--700
+Underfull \hbox (badness 10000) in paragraph at lines 701--701
 []|\OT1/ptm/m/n/10.95 p.Val824Val
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 703--703
+Underfull \hbox (badness 10000) in paragraph at lines 704--704
 []|\OT1/ptm/m/n/10.95 p.Asn118Asn
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 705--705
+Underfull \hbox (badness 10000) in paragraph at lines 706--706
 []|\OT1/ptm/m/n/10.95 rs386556119;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 705--705
+Underfull \hbox (badness 10000) in paragraph at lines 706--706
 []|\OT1/ptm/m/n/10.95 p.Leu21Leu
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 708--708
+Underfull \hbox (badness 10000) in paragraph at lines 709--709
 []|\OT1/ptm/m/n/10.95 p.Lys49Lys
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 711--711
+Underfull \hbox (badness 10000) in paragraph at lines 712--712
 []|\OT1/ptm/m/n/10.95 p.Met243fs
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 713--713
+Underfull \hbox (badness 10000) in paragraph at lines 714--714
 []|\OT1/ptm/m/n/10.95 COSM250061;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 713--713
+Underfull \hbox (badness 10000) in paragraph at lines 714--714
 []|\OT1/ptm/m/n/10.95 p.Arg72Pro
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 715--715
+Underfull \hbox (badness 10000) in paragraph at lines 716--716
 []|\OT1/ptm/m/n/10.95 COSM250061;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 715--715
+Underfull \hbox (badness 10000) in paragraph at lines 716--716
 []|\OT1/ptm/m/n/10.95 p.Arg72Pro
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 717--717
+Underfull \hbox (badness 10000) in paragraph at lines 718--718
 []|\OT1/ptm/m/n/10.95 p.Pro36Pro
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 720--720
+Underfull \hbox (badness 10000) in paragraph at lines 721--721
 []|\OT1/ptm/m/n/10.95 p.Ser471Leu
  []
 
 
-Overfull \hbox (6.27585pt too wide) in paragraph at lines 723--723
+Overfull \hbox (6.27585pt too wide) in paragraph at lines 724--724
 []|\OT1/ptm/m/n/9 c.*447[]*452delTTAAAG| 
  []
 
 
-Overfull \hbox (10.67815pt too wide) in alignment at lines 679--725
+Overfull \hbox (10.67815pt too wide) in alignment at lines 680--726
  [] [] [] [] [] [] [] 
  []
 
-[70
+[73
 
 ]
-Overfull \hbox (6.27585pt too wide) in paragraph at lines 725--725
+Overfull \hbox (6.27585pt too wide) in paragraph at lines 726--726
 []|\OT1/ptm/m/n/9 c.*447[]*452delTTAAAG| 
  []
 
 
-Underfull \hbox (badness 7081) in paragraph at lines 730--730
+Underfull \hbox (badness 7081) in paragraph at lines 731--731
 []|\OT1/ptm/m/n/10.95 Conflicting in-ter-pre-ta-
  []
 
 
-Underfull \hbox (badness 7081) in paragraph at lines 732--732
+Underfull \hbox (badness 7081) in paragraph at lines 733--733
 []|\OT1/ptm/m/n/10.95 Conflicting in-ter-pre-ta-
  []
 
 
-Overfull \hbox (10.67815pt too wide) in alignment at lines 725--741
+Overfull \hbox (10.67815pt too wide) in alignment at lines 726--742
  [] [] [] [] [] [] [] 
  []
 
-[71] [72] [73] [74
+[74] [75] [76] [77
 
 ]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/germline_sens
-_minor.png, id=996, 635.976pt x 277.5168pt>
+_minor.png, id=1110, 635.976pt x 277.5168pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/germline
 _sens_minor.png Graphic file (type png)
 
 <use /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/germline_
 sens_minor.png>
 Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
-er3_figure/germline_sens_minor.png used on input line 774.
+er3_figure/germline_sens_minor.png used on input line 777.
 (pdftex.def)             Requested size: 445.18016pt x 194.26042pt.
 
-Overfull \hbox (11.56015pt too wide) in paragraph at lines 774--775
+Overfull \hbox (11.56015pt too wide) in paragraph at lines 777--778
 [][] 
  []
 
-[75]
+[78]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/germline_ppv_
-minor.png, id=1001, 632.6034pt x 271.7352pt>
+minor.png, id=1116, 632.6034pt x 271.7352pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/germline
 _ppv_minor.png Graphic file (type png)
 
 <use /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/germline_
 ppv_minor.png>
 Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
-er3_figure/germline_ppv_minor.png used on input line 815.
+er3_figure/germline_ppv_minor.png used on input line 818.
 (pdftex.def)             Requested size: 442.81935pt x 190.21332pt.
 
-Overfull \hbox (9.19934pt too wide) in paragraph at lines 815--816
+Overfull \hbox (9.19934pt too wide) in paragraph at lines 818--819
 [][] 
  []
 
-[76 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/germline_
-sens_minor.png>]) [77 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter
+[79 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/germline_
+sens_minor.png>]) [80 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter
 3_figure/germline_ppv_minor.png>]
 \openout2 = `discussion.aux'.
 
  (./discussion.tex
 Chapter 5.
-) [78
+[81
 
 
 
-]
+] [82] [83] [84] [85]) [86]
 \openout2 = `conclusion.aux'.
 
  (./conclusion.tex
 Chapter 6.
-) [79
+) [87
 
 
 
@@ -4162,29 +4159,29 @@ LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
- [80
+ [88
 
 
-] [81]
-[82]
+] [89]
+[90] [91] [92]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
- [83] [84] [85]
-LaTeX Font Info:    Try loading font information for OML+ptm on input line 631.
+ [93] [94] [95] [96]
+LaTeX Font Info:    Try loading font information for OML+ptm on input line 888.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omlptm.fd
 File: omlptm.fd 
 )
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <10.95> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 631.
- [86] [87]
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 888.
+ [97] [98]
+[99]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ” in font ptmr7t!
-
-[88] [89]) [90]
+ [100] [101] [102]) [103]
 \openout2 = `appendix.aux'.
 
  (./appendix.tex
@@ -4194,7 +4191,7 @@ Overfull \hbox (50.71762pt too wide) in alignment at lines 6--59
  [] [] [] [] [] [] 
  []
 
-) [91
+) [104
 
 
 ]
@@ -4209,27 +4206,24 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 459.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 459.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 459.
 Package rerunfilecheck Info: File `diss.out' has not changed.
-(rerunfilecheck)             Checksum: F39F1A8E4DA3F162E2A2239347A6A4B8;4151.
+(rerunfilecheck)             Checksum: 52AF2C8A755BFE00E3E3B2AC6703B15E;4014.
 Package rerunfilecheck Info: File `diss.brf' has not changed.
-(rerunfilecheck)             Checksum: 1B247B731A8651C5162A89EEA7C7F3FA;6106.
+(rerunfilecheck)             Checksum: C6AE9615008A3F9855E2E0FD5EE2AF3C;11333.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.55997pt have occurred.
 
-
-LaTeX Warning: There were undefined references.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 459.
  ) 
 Here is how much of TeX's memory you used:
- 21947 strings out of 493014
- 407770 string characters out of 6133351
- 513795 words of memory out of 5000000
- 24804 multiletter control sequences out of 15000+600000
+ 22197 strings out of 493014
+ 411495 string characters out of 6133351
+ 518507 words of memory out of 5000000
+ 25007 multiletter control sequences out of 15000+600000
  71625 words of font info for 144 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,15n,51p,10389b,1065s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,15n,51p,10389b,1141s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
 xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
@@ -4240,10 +4234,10 @@ ist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
 ype1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/t
 imes/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri
 8a.pfb>
-Output written on diss.pdf (104 pages, 7070427 bytes).
+Output written on diss.pdf (117 pages, 7112418 bytes).
 PDF statistics:
- 1391 PDF objects out of 1440 (max. 8388607)
- 1229 compressed objects within 13 object streams
- 277 named destinations out of 1000 (max. 500000)
- 480 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1759 PDF objects out of 2073 (max. 8388607)
+ 1581 compressed objects within 16 object streams
+ 324 named destinations out of 1000 (max. 500000)
+ 472 words of extra memory for PDF output out of 10000 (max. 10000000)
 

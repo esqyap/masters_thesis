@@ -13,55 +13,52 @@ A level-1 auxiliary file: conclusion.aux
 The style file: abbrvnat.bst
 A level-1 auxiliary file: appendix.aux
 Database file #1: /Users/evayap/Documents/masters_thesis/mendeley_bib/biblio_test.bib.bib
-Warning--I didn't find a database entry for "Raymond2016"
-Warning--I didn't find a database entry for "Meric-Bernstam2016"
-Warning--I didn't find a database entry for "Schrader2015"
 Warning--I didn't find a database entry for "Jones2015"
-Warning--I didn't find a database entry for "McLeod2013"
 Warning--I didn't find a database entry for "Do2015"
-Warning--I didn't find a database entry for "Wong2014"
+Warning--I didn't find a database entry for ""
 Warning--empty journal in Ali-osman1997
+Warning--empty journal in Bombard2014
 Warning--empty journal in Slager2013
 Warning--there's a number but no volume in Stoehlmacher2004
-You've used 85 entries,
+You've used 120 entries,
             2773 wiz_defined-function locations,
-            1387 strings with 43034 characters,
-and the built_in function-call counts, 77174 in all, are:
-= -- 6356
-> -- 8245
-< -- 3
-+ -- 2750
-- -- 2664
-* -- 8150
-:= -- 12809
-add.period$ -- 442
-call.type$ -- 85
-change.case$ -- 1143
-chr.to.int$ -- 84
-cite$ -- 173
-duplicate$ -- 1780
-empty$ -- 3480
-format.name$ -- 2753
-if$ -- 15088
-int.to.chr$ -- 2
+            1680 strings with 58355 characters,
+and the built_in function-call counts, 107896 in all, are:
+= -- 8891
+> -- 11489
+< -- 7
++ -- 3833
+- -- 3711
+* -- 11373
+:= -- 17915
+add.period$ -- 629
+call.type$ -- 120
+change.case$ -- 1597
+chr.to.int$ -- 118
+cite$ -- 244
+duplicate$ -- 2517
+empty$ -- 4888
+format.name$ -- 3839
+if$ -- 21115
+int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 85
-newline$ -- 620
-num.names$ -- 340
-pop$ -- 1935
+missing$ -- 120
+newline$ -- 877
+num.names$ -- 480
+pop$ -- 2696
 preamble$ -- 1
-purify$ -- 1058
+purify$ -- 1477
 quote$ -- 0
-skip$ -- 1910
+skip$ -- 2686
 stack$ -- 0
-substring$ -- 2291
-swap$ -- 85
-text.length$ -- 0
+substring$ -- 3129
+swap$ -- 126
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 935
-warning$ -- 3
-while$ -- 419
+type$ -- 1320
+warning$ -- 4
+while$ -- 587
 width$ -- 0
-write$ -- 1484
-(There were 10 warnings)
+write$ -- 2102
+(There were 7 warnings)
