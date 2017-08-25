@@ -1,41 +1,187 @@
 %% The following is a directive for TeXShop to indicate the main file
 %%!TEX root = diss.tex
 
-\chapter{Identification of Germline Variants in FFPE Tumours}
-\label{ch:IdentificationofGermlineVariantsinFFPETumours}
+\chapter{Identification of Germline Alterations in FFPE Tumours}
+\label{ch:IdentificationofGermlineAlterationsinFFPETumours}
 
-Tumour-only sequencing is commonly adopted by clinical laboratories for detection of targetable somatic mutations. Unlike the research setting, matched normal samples such as blood, saliva, or adjacent normal tissues are not routinely processed by clinical laboratories to minimize cost and turnaround time. The tumour genome also contains germline information that may have clinical implications for patients and their families. For instance, germline variants in cancer-predisposing genes could facilitate implementation of cancer preventative measures and routine surveillance. Moreover, germline alterations in PGx genes could predict response to drug treatment such as chemotherapeutic agents, thereby preventing adverse drug reactions.
+Tumour-only sequencing is commonly performed by clinical laboratories to detect targetable somatic mutations, which can inform clinical decision making. Unlike the research setting, matched normal samples such as blood, saliva, or adjacent normal tissues are not routinely processed in the clinical setting due to limited sample availability, funding, and time \cite{Frampton2013, Fumagalli2010, Lin2014, Wong2014a}. The tumour genome also contains germline information that may have clinical implications for patients and their families. For instance, germline alterations in cancer-predisposing genes could facilitate implementation of cancer preventative measures such as routine screening and sibling testing \cite{Schrader2015, Meric-Bernstam2016}. Moreover, germline PGx variants could predict response to drugs like chemotherapeutic agents, thereby preventing adverse drug reactions \cite{McLeod2013, Dai2008, Lee2014, Morel2006, VanKuilenburg2016, Etienne-Grimaldi2010, Mohelnikova-Duchonova2014, Jennings2013}.
 
-Because the tumour genome consists of both germline and somatic changes, it is important to establish approaches to distinguish between germline and somatic alterations in tumour-only sequencing assays. Subsequently, potential germline variants can be referred to downstream confirmatory testing, which involves genetic counseling and acquisition of germline samples for sequencing and analysis.
+Because the tumour genome consists of both germline and somatic alterations, it is important to establish approaches to distinguish between germline and somatic alterations in cancer diagnostic assays that only sequence tumour DNA. In the absence of matched normal samples, approaches such as constructing a virtual normal by combining variants identified in multiple normal samples from healthy individuals and filtering variants using public databases such as such as dbSNP, 1000 Genomes Project, and COSMIC could enable the differentiation of germline variations from somatic mutations \cite{Hiltemann2015, Jones2015a}. Subsequently, potential germline alterations can be referred to follow-up testing, which involves genetic counseling and collection of germline samples for further sequencing and analysis \cite{Raymond2016, Bombard2014, Green2013}.
 
-The TOP study is comprised of 213 patients with tumour and matched blood specimens. To determine whether tumour DNA can be
+The TOP study is comprised of 213 patients with tumour and matched blood specimens. We interpreted the germline variants identified in blood specimens from TOP patients using the effect prediction software, SnpEff (version 4.2), and ExAC and 1000 Genomes databases, which provide information on population frequency. We also annotated the variant calls with the ClinVar database, which enable assessment of clinical significance. Furthermore, we performed manual literature review to determine the functional and clinical impacts of all germline alterations detected in the blood samples. Because several studies demonstrated that a germline cancer-predisposing variant is present in 3-10\% of patients undergoing tumour-normal sequencing \cite{Raymond2016,Meric-Bernstam2016,Schrader2015,Jones2015a}, we sought to confirm the presence of germline alterations in the tumour genome by measuring variant concordance between blood and tumour DNA. This enables us to determine whether tumour DNA is a reliable substrate for identification of germline alterations.
 
-- Our study has matched specimens, which allows us to identify true germline alterations from the tumour genome through matched analyses.
-- This allow us to calculate true positive rates of our approaches to distinguish between germline and somatic alterations in the tumour genome.
--  How good are our methods?
+Lastly, we differentiated between germline and somatic statuses of variants identified in tumour DNA through applying VAF thresholds. While heterozygous germline variants are expected to have VAF of close to 50\%, homozygous germline variants are expected to have VAF of close to 100\%. In contrast, the VAF of somatic mutations relies on tumour purity. Due to contamination of normal tissues in tumour specimens, it is highly likely that the VAFs of somatic mutations are substantially lower than the expected VAFs for germline alterations \cite{}. Furthermore, other factors such as tumour heterogeneity and formlin-induced DNA damage could cause deviation of somatic VAFs from the expected 50\% and 100\% for heterozygous and homozygous variants, respectively \cite{}. As we have matched blood samples for all tumour samples, we were able to evaluate the sensitivity of using VAF thresholds to discriminate between germline and somatic alterations in tumour DNA. Furthermore, we also assessed the positive predictive value of referring potential germline alterations for follow-up testing. Through these analyses, we hope to establish a VAF cut-off that could maximize true positive rate for identification of potential germline alterations, as well as minimize false positive rate to reduce unnecessary follow-up testing, which could cause patients preventable psychological distress and hassles.
 
-Using blood We first determined the frequency of germline variants in patients from the TOP cohort and the concordance of germline variants between FFPE tumours and blood, which is
+Together, our analyses would provide insights on whether application of VAF thresholds is a practical approach to distinguish between germline and somatic alterations in tumour-only sequencing assays. Hence, this will determine whether tumour-only sequencing assays can be leveraged by clinical laboratories for initial screening of germline alterations that are clinically relevant.
 
-compared different bioinformatics approaches in distinguishing between
-
+\newpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Frequency and characteristics of germline variants in patients from TOP cohort}
-\label{sec:FrequencyandcharacteristicsofgermlinevariantsinpatientsfromTOPcohort}
+\section{Frequency and variant assessment of germline alterations in patients from TOP cohort}
+\label{sec:FrequencyandvariantassessmentofgermlinealterationsinpatientsfromTOPcohort}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-We assessed genetic changes in blood specimens from 213 patients to identify germline alterations in fifteen cancer-related and six PGx genes. A total of 2022 germline alterations were detected with an average of 4.36 variants per patient (range: 1-8). Our analysis also We also showed that 216 out of 217 paired samples 
+We examined 15 cancer-related genes and six PGx genes in DNA isolated from blood samples from the 213 cancer patients in TOP cohort. We identified a total of 1990 germline alterations that passed our filtering criteria (\autoref{fig:variant_pipeline}B). In 212 out of 213 patients, we detected a total of 1205 variants in the 15 cancer-related genes screened by the OncoPanel, with an average of 5.7 variants per patient (standard error = 0.15, range = 1--11 variants; \autoref{tbl:freq_cancer_genes}). These germline alterations were found at 50 genomic positions and interpreted using various bioinformatics approaches and literature review (\autoref{tbl:germline_cancer_genes}). Through effect prediction using the SnpEff software, we demonstrated that 78\% of these variants were synonymous, 16\% were missense variants, 4\% occurred within splice regions, and 2\% were frameshift variants. Eighteen out of the 50 germline variants were classified as common variants by the 1000 Genomes Project with population frequencies of $\geq$ 1\% in the ExAC database, whereas eight out of the 50 variants were classified as rare variants with population frequencies of $<$ 1\% in the ExAC database.
 
-ClinVar  N
-1:                                           NA 24
-2:                       Uncertain_significance  1
-3:                         Benign_Likely_benign  6
-4:                                Likely_benign  8
-5:                                       Benign  8
-6: Conflicting_interpretations_of_pathogenicity  2
-7:                                Drug_response  1
+To assess clinical significance of the 50 germline alterations in cancer-related genes, we used information in the ClinVar database. Our assessment revealed 16\% benign variants, 16\% likely benign variants, 12\% annotated as benign/likely benign, 4\% with conflicting interpretations of pathogenicity, and 2\% with uncertain significance. We were unable to determine the clinical significance of 48\% of the 50 germline variants because these variants were not reported in the ClinVar database. While we found no variants that were pathogenic or likely pathogenic, we identified one TP53 variant, p.Arg72Pro$/$c.215G$>$C (rs1042522), that is associated with drug response. Based on literature review, clinical studies revealed that the Pro/Pro genotype results in severe neutropenia in ovarian cancer patients receiving cisplatin-based chemotherapy, and poor survival and treatment response in gastric cancer patients receiving paclitaxel and capecitabine combination chemotherapy, as well as 5-fluorouracil-based adjuvant chemotherapy \cite{}. The combination of evidence from our literature review and the ClinVar database suggests that the TP53 p.Arg72Pro$/$c.215G$>$C (rs1042522) could be potentially useful in guiding therapeutic intervention for cancer patients.
 
-and identified the germline variants in blood specimens of 213 patients and identified a total of  germline variants.
+Furthermore, we identified a total of 785 variants in the six PGx genes screened by the OncoPanel in 212 out of 213 patients, with an average of 3.7 germline alterations per patient (standard error = 0.10, range = 1--8 variants; \autoref{tbl:freq_germline_pgx_genes}). These PGx variants occurred at 23 genomic positions and were interpreted using similar methods to the germline alterations identified in cancer-related genes (\autoref{tbl:germline_pgx_genes}). Effect prediction using the SnpEff software demonstrated that 57\% of these 23 germline variants were missense variants, 17\% were synonymous, 9\% occurred within splice regions, 9\% occurred upstream of a gene, 4\% were located at splice donor sites, and 4\% were present at the 3' untranslated region. Ten out of the 23 germline variants were classified as common variants by the 1000 Genomes Project with population frequencies of $\geq$ 1\% in the ExAC database, whereas one out of the 23 variants was classified as a rare variant with population frequency of $<$ 1\% in the ExAC database.
 
+We also assessed clinical significance of the germline alterations in the PGx genes using the ClinVar database. This assessment demonstrated that 21\% of the 23 variants were categorized as either benign or likely benign, 17\% with conflicting interpretations of pathogenicity, 9\% submitted without assessment of clinical significance, and 4\% with uncertain significance. There was also 17\% of variants that were not reported in the ClinVar database. Although our analysis showed no variants that were pathogenic or likely pathogenic in the PGx genes, we identified seven out of the 23 germline alterations that were associated with drug response. These alterations are DPYD p.Asp949Val$/$c.2846A$>$T (rs67376798), c.1906G$>$A (rs3918290), p.Met166Val$/$c.496A$>$G \\(rs2297595), GSTP1 p.Ile105Val$/$c.313A$>$G (rs1695), MTHFR p.Glu429Ala$/$c.1286A$>$C \\(rs1801131), p.Ala222Val$/$c.665C$>$T (rs1801133), and TYMS c.*447\_*452delTTAAAG \\(rs151264360), which could serve as predictors for response to chemotherapy. While the germline variants in DPYD, MTHFR, and TYMS are associated with fluoropyrimidine-related toxicities, the germline variant in GSTP1 is associated with adverse drug reactions in response to oxaliplatin treatment \cite{}.
+
+Overall, we found an average of 5.7 variants per patient in cancer-related genes and an average of 3.7 variants per patient in PGx genes in TOP cohort. Our assessment also revealed germline alterations at 50 and 23 genomic positions in cancer-related and PGx genes, respectively. While annotation with the ClinVar database did not identified any pathogenic or likely pathogenic germline alterations, this analysis revealed a total of eight variants (one in a cancer-related gene and seven in PGx genes) that could serve as predictors for drug response. We showed that the TP53 p.Arg72Pro$/$c.215G$>$C (rs1042522) is present in 97 out of 213 patients (46\%), and 208 out of 213 (98\%) TOP patients have at least one germline PGx variant that is associated with drug response (\autoref{fig:bar_cancer_genes}; \autoref{fig:bar_pgx_genes}).
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+\begin{longtable}{p{0.1\linewidth}|p{0.02\linewidth}p{0.1\linewidth}p{0.16\linewidth}p{0.15\linewidth}p{0.16\linewidth}p{0.04\linewidth}p{0.09\linewidth}}
+\caption{Frequency of germline variants in cancer-related genes in blood specimens from TOP patients.}
+\label{tbl:freq_cancer_genes}
+    \\
+    \hline
+    Gene & Chr & Pos & ID\textsuperscript{$\star$} & HGVS\textsuperscript{*} & Zygosity & Total & Pct\textsuperscript{$\ddagger$} (\%)
+		\\
+		&
+    \multicolumn{4}{l}{}
+		&
+		\multicolumn{1}{l}{wt-var\textsuperscript{$\dagger$}, var-var\textsuperscript{$\dagger\dagger$}}
+		&
+		\multicolumn{2}{l}{}
+		\\
+    \hline
+		ALK & 2 & 29443662 & NA & p.Val1185Val c.3555G$>$A & 1, 0 & 1 & 0.5
+		\\
+		\hline
+		EGFR & 7 & 55242453 & NA & p.Pro741Pro c.2223C$>$T & 1, 0 & 1 & 0.5
+		\\
+		& 7 & 55242500 & COSM133588 & p.Lys757Arg c.2270A$>$G & 2, 0 & 2 & 0.9
+		\\
+		& 7 & 55249063 & rs1050171; COSM1451600 & p.Gln787Gln c.2361G$>$A & 96, 60 & 156 & 73
+		\\
+		& 7 & 5524915 & rs56183713; COSM13400 & p.Val819Val c.2457G$>$A & 2, 0 & 2 & 0.9
+		\\
+		& 7 & 55259450 & rs2229066; COSM85893; rs17290559 & p.Arg836Arg c.2508C$>$T & 9, 0 & 9 & 4
+		\\
+    \hline
+		KIT & 4 & 55592059 & rs151016327; COSM3760661 & p.Thr461Thr c.1383A$>$G & 2, 0 & 2 & 0.9
+		\\
+		& 4 & 55599268 & rs55789615; COSM1307 & p.Ile798Ile c.2394C$>$T & 14, 0 & 14 & 7
+		\\
+		& 4 & 55602765 & rs3733542; COSM1325 & p.Leu862Leu c.2586G$>$C & 37, 3 & 40 & 18
+		\\
+		\hline
+		MAPK1 & 22 & 22162126 & rs386488966; rs3729910 & p.Tyr43Tyr c.129T$>$C & 13, 1 & 14 & 7
+		\\
+		& 22 & 22221623 & rs201495639 & p.Tyr36Tyr c.108C$>$T & 3, 0 & 3 & 1
+		\\
+		\hline
+		MTOR & 1 & 11169420 & rs41274506 & p.Asp2485Asp c.7455C$>$T & 1, 0 & 1 & 0.5
+		\\
+		& 1 & 11172909 & NA & p.Glu2456Lys c.7366G$>$A & 1, 0 & 1 & 0.5
+		\\
+		& 1 & 11174452 & NA & p.Arg2408Gln c.7223G$>$A & 1, 0 & 1 & 0.5
+		\\
+		& 1 & 11181327 & rs11121691 & p.Leu2303Leu c.6909G$>$A & 70, 6 & 76 & 36
+		\\
+		& 1 & 11184593 & rs56051835 & p.Leu2208Leu c.6624T$>$C & 2, 0 & 2 & 0.9
+		\\
+		& 1 & 11188172 & rs370318222 & p.Tyr1974Tyr c.5922C$>$T & 1, 0 & 1 & 0.5
+		\\
+		& 1 & 11190646 & rs2275527 & p.Ser1851Ser c.5553C$>$T & 65, 0 & 65 & 31
+		\\
+		& 1 & 11190730 & rs17848553 & p.Ala1823Ala c.5469C$>$T & 8, 0 & 8 & 0.5
+		\\
+		& 1 & 11194521 & COSM180791 & c.5133C$>$T & 1, 0 & 1 & 0.5
+		\\
+		\\
+		& 1 & 11205058 & rs386514433; rs1057079 & p.Ala1577Ala c.4731A$>$G & 81, 12 & 93 & 44
+		\\
+		& 1 & 11269506 & NA & p.Leu1222Phe c.3664C$>$T & 1, 0 & 1 & 0.5
+		\\
+		& 1 & 11272468 & rs17036536 & p.Arg1154Arg c.3462G$>$C & 8, 0 & 8 & 4
+		\\
+		& 1 & 11288758 & rs1064261 & p.Asn999Asn c.2997T$>$C & 85, 0 & 85 & 40
+		\\
+		& 1 & 11298038 & rs55752564 & p.Ala690Ala c.2070G$>$A & 1, 0 & 1 & 0.5
+		\\
+		& 1 & 11298640 & rs55881943 & p.Ala607Ala c.1821G$>$A & 1, 0 & 1 & 0.5
+		\\
+		& 1 & 11301714 & rs1135172 & p.Asp479Asp c.1437T$>$C & 80, 114 & 194 & 92
+		\\
+		& 1 & 11308007 & rs35903812 & p.Ala329Thr c.985G$>$A & 3, 0 & 3 & 1
+		\\
+		& 1 & 11316244 & rs12120294 & p.Leu170Leu c.510G$>$C & 1, 0 & 1 & 0.5
+		\\
+		\hline
+		PDGRRA & 4 & 55141055 & rs1873778; COSM1430082 & p.Pro567Pro c.1701A$>$G & 0, 183 & 183 & 86
+		\\
+		& 4 & 55152040 & rs2228230; COSM22413 & p.Val824Val c.2472C$>$T & 57, 5 & 62 & 29
+		\\
+		\hline
+		STAT1 & 2 & 191851646 & rs41270237 & p.Thr385Thr c.1155G$>$A & 2, 0 & 2 & 0.9
+		\\
+		& 2 & 191856001 & rs41509946 & p.Gln330Gln c.990G$>$A & 3, 0 & 3 & 1
+		\\
+		& 2 & 191859906 & rs61756197 & p.Gln275Gln c.825G$>$A & 1, 0 & 1 & 0.9
+		\\
+		& 2 & 191859935 & rs41473544 & p.Val266Ile c.796G$>$A & 2, 0 & 2 & 0.9
+		\\
+		& 2 & 191872307 & rs45463799 & p.Asn118Asn c.354C$>$T & 3, 0 & 3 & 1
+		\\
+		& 2 & 191874667 & rs386556119; rs2066802 & p.Leu21Leu c.63T$>$C & 42, 3 & 45 & 21
+		\\
+		\hline
+		STAT3 & 17 & 40469241 & COSM979464 & c.2100C$>$T & 1, 0 & 1 & 0.5
+		\\
+		& 17 & 40475056 & rs117691970 & p.Gly618Gly c.1854C$>$T & 4, 0 & 4 & 2
+		\\
+		& 17 & 40486040 & rs200098006 & p.Leu275Leu c.825T$>$G & 2, 0 & 2 & 0.9
+		\\
+		& 17 & 40486043 & NA & p.Gln274Gln c.822A$>$G & 1, 0 & 1 & 0.5
+		\\
+		& 17 & 40498635 & rs146184566; COSM979479 & p.Ser75Ser c.225G$>$A & 1, 0 & 1 & 0.5
+		\\
+		& 17 & 40498713 & NA & p.Lys49Lys c.147A$>$G & 1, 0 & 1 & 0.5
+		\\
+		& 17 & 40498722 & NA & p.Ala46Ala c.138G$>$T & 1, 0 & 1 & 0.5
+		\\
+		\hline
+		TP53 & 17 & 7577069 & rs55819519; COSM44017 & p.Arg290His c.869G$>$A & 1, 0 & 1 & 0.5
+		\\
+		& 17 & 7577553 & COSM44368 & p.Met243fs c.727delA & 1, 0 & 1 & 0.5
+		\\
+		& 17 & 7578210 & rs1800372; COSM249885 & p.Arg213Arg c.639A$>$G & 1, 0 & 1 & 0.5
+		\\
+		& 17 & 7578420 & COSM1386804 & p.Thr170Thr c.510G$>$A & 1, 0 & 1 & 0.5
+		\\
+		& 17 & 7579472 & rs1042522; COSM250061 & p.Arg72Pro c.215G$>$C & 73,24 & 97 & 46
+		\\
+		& 17 & 7579579 & rs1800370 & p.Pro36Pro c.108G$>$A & 5, 0 & 5 & 2
+		\\
+		\hline
+		\\
+		&
+		\multicolumn{6}{r}{Total variants in cancer-related genes = 1205}
+		\\
+		&
+		\multicolumn{6}{r}{Average number of variants per patient = 5.7}
+		\\
+		&
+		\multicolumn{6}{r}{Standard error = 0.15}
+		\\
+		\hline
+\end{longtable}
+
+\newpage
+\noindent\textsuperscript{$\star$}dbSNP and/or COSMIC IDs.
+\\
+\textsuperscript{*}Description of sequence variants according to the HGVS recommendations.
+\\
+\textsuperscript{$\dagger$}wt-var represents heterozygous variant.
+\\
+\textsuperscript{$\dagger\dagger$}var-var represents homozygous variant.
+\\\textsuperscript{$\ddagger$}Percentage of patients with the variant.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -44,7 +190,7 @@ and identified the germline variants in blood specimens of 213 patients and iden
 \begin{landscape}
 
 \begin{longtable}{p{0.07\linewidth}|p{0.09\linewidth}p{0.11\linewidth}p{0.1\linewidth}p{0.05\linewidth}p{0.065\linewidth}p{0.11\linewidth}p{0.25\linewidth}p{0.05\linewidth}}
-		\caption{Description of germline variants in cancer genes detected in blood specimens of TOP patients.}
+		\caption{Variant assessment of germline alterations in cancer-related genes detected in blood specimens of TOP patients.}
     \label{tbl:germline_cancer_genes}
 		\\
     \hline
@@ -115,7 +261,7 @@ and identified the germline variants in blood specimens of 213 patients and iden
 		& 1:11194521 & COSM180791 & c.5133C$>$T & 0.029 & Splice region & NA & NA & NA
 		\\
 		\\
-		& 1:11205058 & rs386514433; rs1057079\textsuperscript{$\ddagger$} & p.Ala1577Ala c.4731G$>$A & 68 & Syn. & NA & One study reported improved clinical response and progression-free survival in advanced esophageal squamous cell carcinoma patients with the AG genotype compared to the AA genotype who were treated with paclitaxel plus cisplatin chemotherapy. & \cite{Liu2016}
+		& 1:11205058 & rs386514433; rs1057079\textsuperscript{$\ddagger$} & p.Ala1577Ala c.4731A$>$G & 32 & Syn. & NA & One study reported improved clinical response and progression-free survival in advanced esophageal squamous cell carcinoma patients with the AG genotype compared to the AA genotype who were treated with paclitaxel plus cisplatin chemotherapy. & \cite{Liu2016}
 		\\
 		\\
 		& 1:11269506 & NA & p.Leu1222Phe c.3664C$>$T & 0.00082 & Missense & NA & NA & NA
@@ -124,7 +270,7 @@ and identified the germline variants in blood specimens of 213 patients and iden
 		& 1:11272468 & rs17036536 & p.Arg1154Arg c.3462G$>$C & 1.8 & Syn. & Benign & NA & NA
 		\\
 		\\
-		& 1:11288758 & rs1064261\textsuperscript{$\ddagger$} & p.Asn999Asn c.2997C$>$T & 74 & Syn. & NA & C allele likely influences exonic splicing enhancer or exonic splicing silencer binding site activity or disrupts a protein domain. Meta-analysis found no association with cancer risk. & \cite{Zining2016}
+		& 1:11288758 & rs1064261\textsuperscript{$\ddagger$} & p.Asn999Asn c.2997T$>$C & 26 & Syn. & NA & C allele likely influences exonic splicing enhancer or exonic splicing silencer binding site activity or disrupts a protein domain. Meta-analysis found no association with cancer risk. & \cite{Zining2016}
 		\\
 		\\
 		& 1:11298038 & rs55752564 & p.Ala690Ala c.2070G$>$A & 0.077 & Syn. & NA & NA & NA
@@ -203,7 +349,7 @@ and identified the germline variants in blood specimens of 213 patients and iden
 		& 17:7578420 & COSM1386804 & p.Thr170Thr c.510G$>$A & 0.012 & Syn. & NA & One study reported that TP53 mutations in exon 5, which include this variant, were associated with the worst prognosis for patients with non-small-cell lung cancer. & \cite{Vega1997}
 		\\
 		\\
-		& 17:7579472 & rs1042522; COSM250061\textsuperscript{$\ddagger$} & p.Pro72Arg c.215C$>$G & 66 & Missense & Drug response & p53 protein with Arg72 was associated with increased apoptosis, while p53 protein with Pro72 demonstrated increased G\textsubscript{1} cell-cycle arrest and activation of p53-dependent DNA repair. Pro/Pro genotype resulted in severe neutropenia in ovarian cancer patients receiving cisplatin-based chemotherapy, and poor survival and treatment response in gastric cancer patients receiving paclitaxel and capecitabine combination chemotherapy, as well as 5-fluorouracil-based adjuvant chemotherapy. Conflicting evidence on risk of predispositon to various cancer types. & \cite{Khrunin2010, Zha2016, Kim2009, Bojesen2008, Bonafe2004, Huang2008, Yoneda2013, Yang2007, Bougeard2006, Cheng2012, Zhu2007, Zhang2012a}
+		& 17:7579472 & rs1042522; COSM250061\textsuperscript{$\ddagger$} & p.Arg72Pro c.215G$>$C & 34 & Missense & Drug response & p53 protein with Arg72 was associated with increased apoptosis, while p53 protein with Pro72 demonstrated increased G\textsubscript{1} cell-cycle arrest and activation of p53-dependent DNA repair. Pro/Pro genotype resulted in severe neutropenia in ovarian cancer patients receiving cisplatin-based chemotherapy, and poor survival and treatment response in gastric cancer patients receiving paclitaxel and capecitabine combination chemotherapy, as well as 5-fluorouracil-based adjuvant chemotherapy. Conflicting evidence on risk of predispositon to various cancer types. & \cite{Khrunin2010, Zha2016, Kim2009, Bojesen2008, Bonafe2004, Huang2008, Yoneda2013, Yang2007, Bougeard2006, Cheng2012, Zhu2007, Zhang2012a}
 		\\
 		\\
 		& 17:7579579 & rs1800370 & p.Pro36Pro c.108G$>$A & 1.3 & Syn. & Benign/Likely benign & NA & NA
@@ -230,129 +376,93 @@ and identified the germline variants in blood specimens of 213 patients and iden
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{longtable}{p{0.1\linewidth}|p{0.02\linewidth}p{0.1\linewidth}p{0.16\linewidth}p{0.15\linewidth}p{0.08\linewidth}p{0.08\linewidth}p{0.08\linewidth}}
-\caption{Frequency of germline variants in cancer genes detected in blood specimens of TOP patients.}
-\label{tbl:freq_cancer_pgx_genes}
-		\\
-    \hline
-    Gene & Chr & Pos & ID\textsuperscript{$\star$} & HGVS\textsuperscript{*} & wt--wt & wt--var & var--var
-		\\
-    \hline
-		ALK & 2 & 29443662 & NA & p.Val1185Val c.3555G$>$A & & &
+\newpage
+\begin{longtable}{p{0.09\linewidth}|p{0.02\linewidth}p{0.1\linewidth}p{0.14\linewidth}p{0.2\linewidth}p{0.08\linewidth}p{0.04\linewidth}p{0.09\linewidth}}
+\caption{Frequency of germline variants in pharmacogenomic genes detected in blood specimens of TOP patients.}
+\label{tbl:freq_germline_pgx_genes}
 		\\
 		\hline
-		EGFR & 7 & 55242453 & NA & p.Pro741Pro c.2223C$>$T & & &
+		Gene & Chr & Pos & dbSNP ID & HGVS\textsuperscript{*} & Zygosity & Total & Pct\textsuperscript{$\ddagger$} (\%)
 		\\
-		& 7 & 55242500 & COSM133588 & p.Lys757Arg c.2270A$>$G & & &
-		\\
-		& 7 & 55249063 & rs1050171; COSM1451600 & p.Gln787Gln c.2361G$>$A & & &
-		\\
-		& 7 & 5524915 & rs56183713; COSM13400 & p.Val819Val c.2457G$>$A & & &
-		\\
-		& 7 & 55259450 & rs2229066; COSM85893; rs17290559 & p.Arg836Arg c.2508C$>$T & & &
-		\\
-    \hline
-		KIT & 4 & 55592059 & rs151016327; COSM3760661 & p.Thr461Thr c.1383A$>$G & & &
-		\\
-		& 4 & 55599268 & rs55789615; COSM1307 & p.Ile798Ile c.2394C$>$T & & &
-		\\
-		& 4 & 55602765 & rs3733542; COSM1325 & p.Leu862Leu c.2586G$>$C & & &
+		&
+		\multicolumn{4}{l}{}
+		&
+		\multicolumn{1}{l}{wt-var\textsuperscript{$\dagger$}, var-var\textsuperscript{$\dagger\dagger$}}
+		&
+		\multicolumn{2}{l}{}
 		\\
 		\hline
-		MAPK1 & 22 & 22162126 & rs386488966; rs3729910 & p.Tyr43Tyr c.129T$>$C & & &
+		DPYD & 1 & 97547947 & rs67376798 & p.Asp949Val c.2846A$>$T & 2, 0 & 2 & 0.9
 		\\
-		& 22 & 22221623 & rs201495639 & p.Tyr36Tyr c.108C$>$T & & &
+		& 1 & 97770920 & rs1801160 & p.Val732Ile c.2194G$>$A & 24, 0 & 24 & 11
 		\\
-		\hline
-		MTOR & 1 & 11169420 & rs41274506 & p.Asp2485Asp c.7455C$>$T & & &
+		& 1 & 97915614 & rs3918290 & c.1906G$>$A & 1, 0 & 1 & 0.5
 		\\
-		& 1 & 11172909 & NA & p.Glu2456Lys c.7366G$>$A & & &
+		& 1 & 97915615 & rs3918289 & c.1905C$>$T & 1, 0 & 1 & 0.5
 		\\
-		& 1 & 11174452 & NA & p.Arg2408Gln c.7223G$>$A & & &
+		& 1 & 97981421 & rs1801158 & p.Ser534Asn c.1601G$>$A & 3, 0 & 3 & 2
 		\\
-		& 1 & 11181327 & rs11121691 & p.Leu2303Leu c.6909G$>$A & & &
+		& 1 & 98039419 & rs56038477 & p.Glu412Glu c.1236G$>$A & 7, 0 & 7 & 3
 		\\
-		& 1 & 11184593 & rs56051835 & p.Leu2208Leu c.6624T$>$C & & &
+		& 1 & 98165091 & rs2297595 & p.Met166Val c.496A$>$G & 34, 0 & 34 & 16
 		\\
-		& 1 & 11188172 & rs370318222 & p.Tyr1974Tyr c.5922C$>$T & & &
-		\\
-		& 1 & 11190646 & rs2275527 & p.Ser1851Ser c.5553C$>$T & & &
-		\\
-		& 1 & 11190730 & rs17848553 & p.Ala1823Ala c.5469C$>$T & & &
-		\\
-		& 1 & 11194521 & COSM180791 & c.5133C$>$T & & &
-		\\
-		\\
-		& 1 & 11205058 & rs386514433; rs1057079 & p.Ala1577Ala c.4731G$>$A & & &
-		\\
-		& 1 & 11269506 & NA & p.Leu1222Phe c.3664C$>$T & & &
-		\\
-		& 1 & 11272468 & rs17036536 & p.Arg1154Arg c.3462G$>$C & & &
-		\\
-		& 1 & 11288758 & rs1064261 & p.Asn999Asn c.2997C$>$T & & &
-		\\
-		& 1 & 11298038 & rs55752564 & p.Ala690Ala c.2070G$>$A & & &
-		\\
-		& 1 & 11298640 & rs55881943 & p.Ala607Ala c.1821G$>$A & & &
-		\\
-		& 1 & 11301714 & rs1135172 & p.Asp479Asp c.1437T$>$C & & &
-		\\
-		& 1 & 11308007 & rs35903812 & p.Ala329Thr c.985G$>$A & & &
-		\\
-		& 1 & 11316244 & rs12120294 & p.Leu170Leu c.510G$>$C & & &
+		& 1 & 98348885 & rs1801265 & p.Cys29Arg c.85T$>$C & 69, 11 & 80 & 37
 		\\
 		\hline
-		PDGRRA & 4 & 55141055 & rs1873778; COSM1430082 & p.Pro567Pro c.1701A$>$G & & &
-		\\
-		& 4 & 55152040 & rs2228230; COSM22413 & p.Val824Val c.2472C$>$T & & &
+		GSTP1 & 11 & 67352689 & rs1695 & p.Ile105Val c.313A$>$G & 89, 20 & 109 & 51
 		\\
 		\hline
-		STAT1 & 2 & 191851646 & rs41270237 & p.Thr385Thr c.1155G$>$A & & &
+		MTHFR & 1 & 11854476 & rs1801131 & p.Glu429Ala c.1286A$>$C & 86, 16 & 102 & 47
 		\\
-		& 2 & 191856001 & rs41509946 & p.Gln330Gln c.990G$>$A & & &
-		\\
-		& 2 & 191859906 & rs61756197 & p.Gln275Gln c.825G$>$A & & &
-		\\
-		& 2 & 191859935 & rs41473544 & p.Val266Ile c.796G$>$A & & &
-		\\
-		& 2 & 191872307 & rs45463799 & p.Asn118Asn c.354C$>$T & & &
-		\\
-		& 2 & 191874667 & rs386556119; rs2066802 & p.Leu21Leu c.63T$>$C & & &
+		& 1 & 11856378 & rs1801133 & p.Ala222Val c.665C$>$T & 90, 20 & 110 & 51
 		\\
 		\hline
-		STAT3 & 17 & 40469241 & COSM979464 & c.2100C$>$T & & &
+		TYMP & 22 & 50964236 & rs11479 & p.Ser471Leu c.1412C$>$T & 51, 6 & 57 & 27
 		\\
-		& 17 & 40475056 & rs117691970 & p.Gly618Gly c.1854C$>$T & & &
+		& 22 & 50964255 & rs112723255 & p.Ala465Thr c.1393G$>$A & 16, 1 & 17 & 8
 		\\
-		& 17 & 40486040 & rs200098006 & p.Leu275Leu c.825T$>$G & & &
+		& 22 & 50964493 & NA & p.Glu413Lys c.1237G$>$A & 1, 0 & 1 & 0.5
 		\\
-		& 17 & 40486043 & NA & p.Gln274Gln c.822A$>$G & & &
+		& 22 & 50964907 & rs201685922 & c.929\_932delCCGC & 1, 0 & 1 & 0.5
 		\\
-		& 17 & 40498635 & rs146184566; COSM979479 & p.Ser75Ser c.225G$>$A & & &
+		& 22 & 50965102 & rs8141558 & p.Leu277Leu c.831G$>$A & 1, 0 & 1 & 0.5
 		\\
-		& 17 & 40498713 & NA & p.Lys49Lys c.147A$>$G & & &
+		& 22 & 50965597 & rs373478014 & p.Thr254Thr c.762G$>$A & 1, 0 & 1 & 0.5
 		\\
-		& 17 & 40498722 & NA & p.Ala46Ala c.138G$>$T & & &
+		& 22 & 50965624 & rs139223629 & p.Gln245Gln c.735G$>$A & 1, 0 & 1 & 0.5
+		\\
+		& 22 & 50965683 & rs200497106 & p.Gly226Arg c.676G$>$A & 1, 0 & 1 & 0.5
+		\\
+		& 22 & 50966082 & NA & p.Ala194Val c.581C$>$T & 1, 0 & 1 & 0.5
 		\\
 		\hline
-		TP53 & 17 & 7577069 & rs55819519; COSM44017 & p.Arg290His c.869G$>$A & & &
+		TYMS & 22 & 673443 & rs151264360 & \footnotesize{c.*447\_*452delTTAAAG} & 89, 43 & 132 & 62
 		\\
-		& 17 & 7577553 & COSM44368 & p.Met243fs c.727delA & & &
+		\hline
+		UGT1A1 & 2 & 234668870 & rs873478 & c.-64G$>$C & 1, 0 & 1 & 0.5
 		\\
-		& 17 & 7578210 & rs1800372; COSM249885 & p.Arg213Arg c.639A$>$G & & &
+		& 2 & 234668879 & rs34983651 & c.-55\_-54insAT & 81, 17 & 98 & 46
 		\\
-		& 17 & 7578420 & COSM1386804 & p.Thr170Thr c.510G$>$A & & &
+		\hline
 		\\
-		& 17 & 7579472 & rs1042522; COSM250061 & p.Pro72Arg c.215C$>$G & & &
+		&
+		\multicolumn{6}{r}{Total variants in PGx genes = 785}
 		\\
-		& 17 & 7579579 & rs1800370 & p.Pro36Pro c.108G$>$A & & &
+		&
+		\multicolumn{6}{r}{Average number of variants per patient = 3.7}
+		\\
+		&
+		\multicolumn{6}{r}{Standard error = 0.10}
 		\\
 		\hline
 \end{longtable}
-
-\noindent\textsuperscript{$\star$}dbSNP and/or COSMIC IDs.
+\noindent\textsuperscript{*}Description of sequence variants according to the HGVS recommendations.
 \\
-\textsuperscript{*}Description of sequence variants according to the HGVS recommendations.
+\textsuperscript{$\dagger$}wt-var represents heterozygous variant.
+\\
+\textsuperscript{$\dagger\dagger$}var-var represents homozygous variant.
+\\\textsuperscript{$\ddagger$}Percentage of patients with the variant.
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -360,7 +470,7 @@ and identified the germline variants in blood specimens of 213 patients and iden
 \begin{landscape}
 
 \begin{longtable}{p{0.07\linewidth}|p{0.09\linewidth}p{0.085\linewidth}p{0.14\linewidth}p{0.05\linewidth}p{0.065\linewidth}p{0.11\linewidth}p{0.25\linewidth}p{0.05\linewidth}}
-	\caption{Description of germline variants in pharmacogenomic genes detected in blood specimens of TOP patients.}
+	\caption{Variant assessment of germline alterations in pharmacogenomic genes detected in blood specimens of TOP patients.}
 	\label{tbl:germline_pgx_genes}
 	\\
 	\hline
@@ -392,7 +502,7 @@ and identified the germline variants in blood specimens of 213 patients and iden
 	& 1:98165091 & rs2297595 & p.Met166Val c.496A$>$G & 8.6 & Missense & Drug response & Conflicting evidence on changes to DPD activity. Associated with fluoropyrimidine-related toxicity. & \cite{Swen2011, Kuilenburg2000, Gentile2016, Deenen2011, VanKuilenburg2016, Offer2014}
 	\\
 	\\
-	& 1:98348885 & rs1801265\textsuperscript{$\ddagger$} & p.Arg29Cys c.85C$>$T & 77 & Missense & Not provided & C allele causes reduced DPD activity. Conflicting clinical evidence on association with fluoropyrimidine-related toxicity. & \cite{VanKuilenburg2016, Gentile2016, Caudle2013, Morel2006, Tanaka2005}
+	& 1:98348885 & rs1801265\textsuperscript{$\ddagger$} & p.Cys29Arg c.85T$>$C & 23 & Missense & Not provided & C allele causes reduced DPD activity. Conflicting clinical evidence on association with fluoropyrimidine-related toxicity. & \cite{VanKuilenburg2016, Gentile2016, Caudle2013, Morel2006, Tanaka2005}
 	\\
 	\\
 	\hline
@@ -467,191 +577,292 @@ and identified the germline variants in blood specimens of 213 patients and iden
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{longtable}{p{0.09\linewidth}|p{0.02\linewidth}p{0.1\linewidth}p{0.14\linewidth}p{0.2\linewidth}p{0.08\linewidth}p{0.08\linewidth}p{0.08\linewidth}}
-\caption{Frequency of germline variants in pharmacogenomic genes detected in blood specimens of TOP patients.}
-\label{tbl:freq_germline_pgx_genes}
-		\\
-		\hline
-    Gene & Chr & Pos & dbSNP ID & HGVS\textsuperscript{*} & wt--wt & wt--var & var--var
-		\\
-		\hline
-		DPYD & 1 & 97547947 & rs67376798 & p.Asp949Val c.2846A$>$T & & &
-		\\
-		& 1 & 97770920 & rs1801160 & p.Val732Ile c.2194G$>$A & & &
-		\\
-		& 1 & 97915614 & rs3918290 & c.1906G$>$A & & &
-		\\
-		& 1 & 97915615 & rs3918289 & c.1905C$>$T & & &
-		\\
-		& 1 & 97981421 & rs1801158 & p.Ser534Asn c.1601G$>$A & & &
-		\\
-		& 1 & 98039419 & rs56038477 & p.Glu412Glu c.1236G$>$A & & &
-		\\
-		& 1 & 98165091 & rs2297595 & p.Met166Val c.496A$>$G & & &
-		\\
-		& 1 & 98348885 & rs1801265 & p.Arg29Cys c.85C$>$T & & &
-		\\
-		\hline
-		GSTP1 & 11 & 67352689 & rs1695 & p.Ile105Val c.313A$>$G & & &
-		\\
-		\hline
-		MTHFR & 1 & 11854476 & rs1801131 & p.Glu429Ala c.1286A$>$C & & &
-		\\
-		& 1 & 11856378 & rs1801133 & p.Ala222Val c.665C$>$T & & &
-		\\
-		\hline
-		TYMP & 22 & 50964236 & rs11479 & p.Ser471Leu c.1412C$>$T & & &
-		\\
-		& 22 & 50964255 & rs112723255 & p.Ala465Thr c.1393G$>$A & & &
-		\\
-		& 22 & 50964493 & NA & p.Glu413Lys c.1237G$>$A & & &
-		\\
-		& 22 & 50964907 & rs201685922 & c.929\_932delCCGC & hello & &
-		\\
-		& 22 & 50965102 & rs8141558 & p.Leu277Leu c.831G$>$A & & &
-		\\
-		& 22 & 50965597 & rs373478014 & p.Thr254Thr c.762G$>$A & & &
-		\\
-		& 22 & 50965624 & rs139223629 & p.Gln245Gln c.735G$>$A & & &
-		\\
-		& 22 & 50965683 & rs200497106 & p.Gly226Arg c.676G$>$A & & &
-		\\
-		& 22 & 50966082 & NA & p.Ala194Val c.581C$>$T & & &
-		\\
-		\hline
-		TYMS & 22 & 673443 & rs151264360 & \footnotesize{c.*447\_*452delTTAAAG} & & &
-		\\
-		\hline
-		UGT1A1 & 2 & 234668870 & rs873478 & c.-64G$>$C & & &
-		\\
-		& 2 & 234668879 & rs34983651 & c.-55\_-54insAT & & &
-		\\
-		\hline
-\end{longtable}
-\noindent\textsuperscript{*}Description of sequence variants according to the HGVS recommendations.
+\begin{landscape}
 
+\begin{figure}[H]
+\centering
+	\includegraphics[scale=0.06]{bar_cancer_genes_pct.png}
+	\caption{Distribution of germline alterations in cancer-related genes in patients from TOP study. Percentage of patients is calculated for each variant and annotated above individual bars. Color of bars represent options for clinical significance in the ClinVar database. The TP53 variant, p.Arg72Pro$/$c.215G$>$C, that is associated with drug response is present in 97 out of 213 (45.5 \%) patients in TOP cohort. log(1 + x) transformation is applied to change the scale of set values on the Y-axis.}
+	\label{fig:bar_cancer_genes}
+\end{figure}
+
+\end{landscape}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Germline variants are highly concordant between blood and FFPE specimens}
-\label{sec:GermlinevariantsarehighlyconcordantbetweenbloodandFFPEspecimens}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\begin{landscape}
+
+\begin{figure}[H]
+\centering
+	\includegraphics[scale=0.06]{bar_pgx_genes_pct.png}
+	\caption{Distribution of germline alterations in PGx genes in patients from TOP study. Percentage of patients is calculated for each variant and annotated above individual bars. Color of bars represent options for clinical significance in the ClinVar database. 208 out of 213 patients in TOP cohort have at least one germline PGx variant that is associated with drug response. log(1 + x) transformation is applied to change the scale of set values on the Y-axis.}
+	\label{fig:bar_pgx_genes}
+\end{figure}
+
+\end{landscape}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Germline alterations are highly concordant between blood and FFPE specimens}
+\label{sec:GermlinealterationsarehighlyconcordantbetweenbloodandFFPEspecimens}
+
+The tumour genome consists of germline and somatic alterations. In fact, several studies demonstrated that a germline cancer-predisposing variant is present in 3-10\% of patients undergoing tumour-normal sequencing \cite{Raymond2016, Meric-Bernstam2016, Schrader2015, Jones2015a}. While we were unable to detect any pathogenic or likely pathogenic germline variants due to the rarity of these variants and the small cohort size of TOP study, we were still able to identified eight germline alterations that could serve as predictors for drug response, in addition to other germline alterations. Because paired tumour-blood samples were collected for patients in TOP cohort, we sought to determine variant concordance of germline alterations between tumour and blood specimens. This analysis would reveal the extent to which germline alterations can be detected in DNA isolated from tumours.
+
+Because there are four tumour specimens in TOP cohort with duplicates, we examined a total of 217 tumour-normal paired samples. A total of 4434 variants were identified, in which 4003 variants were germline and 431 variants were somatic. Out of the 4003 germline variants, 3792 variants were concordant between tumour and blood specimens, whereas 211 variants were discordant between specimen types (\autoref{fig:ffpe_blood_conc_venn}). Thus, the concordance rate for the 217 tumour-normal paired samples was 93.8\%. Out of the 211 discordant germline alterations, 166 (3.7\%) demonstrated loss of heterozygosity in the tumours, 34 (0.77\%) were heterozygous in the blood specimens but wild type in the tumours, 7 (0.16\%) have low sequencing depth ($<$ 100x) in the tumours, and 4 (0.090\%) were called as homozygous in the blood specimens but heterozygous in the tumours (\autoref{tbl:freq_discordant_germline}).
+
+Multiple factors could contribute to the discordant calls including position of the variant within regions of somatic copy number mutations, genomic rearrangements due to the presence of intragenic fragile sites, and DNA damage caused by formalin fixation \cite{}. Nevertheless, despite the presence of discordant germline alterations, our analysis revealed that the majority of germline alterations identified in the blood could be detected in tumour specimens with correct designation of zygosity.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{figure}[H]
 \centering
-	\includegraphics[scale=0.1]{ffpe_blood_conc_venn.png}
-	\caption{Add caption.}
+	\includegraphics[scale=0.1]{ffpe_blood_conc_venn_gt.png}
+	\caption{Venn diagram demonstrating concordance of variants identified in 217 tumour-blood paired samples.}
 	\label{fig:ffpe_blood_conc_venn}
 \end{figure}
 
-\begin{figure}[H]
-\centering
-	\includegraphics[scale=0.79]{true_positive_rate_variants.png}
-	\caption{Add caption.}
-	\label{fig:true_positive_rate_variants}
-\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\newpage
+\begin{landscape}
+
+\begin{longtable}{p{0.09\linewidth}|p{0.1\linewidth}p{0.12\linewidth}p{0.14\linewidth}p{0.17\linewidth}p{0.2\linewidth}p{0.06\linewidth}}
+\caption{Distribution of discordant germline alterations identified in patients from TOP cohort.}
+\label{tbl:freq_discordant_germline}
+		\\
+		\hline
+		Gene & Chr:Pos & ID\textsuperscript{$\star$} & HGVS\textsuperscript{*} & Clinical Significance\textsuperscript{$\dagger$} & Reason for discordance & Count
+		\\
+		\hline
+		DPYD & 1:97547947 & rs67376798 & p.Asp949Val c.2846A$>$T & Drug response & Het$/$WT & 1
+		\\
+		& 1:97770920 & rs1801160 & p.Val732Ile c.2194G$>$A & Benign$/$Likely benign, Not provided & Het$/$Hom & 2
+		\\
+		& 1:98165091 & rs2297595 & p.Met166Val c.496A$>$G & Drug response &  Het$/$Hom & 2
+		\\
+		& 1:98348885 & rs1801265 & p.Cys29Arg c.85T$>$C & Not provided & Low coverage in tumour & 2
+		\\
+		& 1:98348885 & rs1801265 & p.Cys29Arg c.85T$>$C & Not provided & Het$/$WT & 2
+		\\
+		& 1:98348885 & rs1801265 & p.Cys29Arg c.85T$>$C & Not provided & Het$/$Hom & 6
+		\\
+		\hline
+		EGFR & 7:55249063 & rs1050171; COSM1451600 & p.Gln787Gln c.2361G$>$A & Benign$/$Likely benign & Het$/$Hom & 2
+		\\
+		\hline
+		GSTP1 & 11:67352689 & rs1695 & p.Ile105Val c.313A$>$G & Drug response & Het$/$WT & 3
+		\\
+		& 11:67352689 & rs1695 & p.Ile105Val c.313A$>$G & Drug response & Het$/$Hom & 14
+		\\
+		\hline
+		KIT & 4:55602765 & rs3733542; COSM1325 & p.Leu862Leu c.2586G$>$C & Benign$/$Likely benign & Het$/$Hom & 8
+		\\
+		\hline
+		MTHFR & 1:11854476 & rs1801131 & p.Glu429Ala c.1286A$>$C & Drug response & Het$/$Hom & 12
+		\\
+		& 1:11856378 & rs1801133 & p.Ala222Val c.665C$>$T & Drug response & Het$/$Hom & 12
+		\\
+		& 1:11856378 & rs1801133 & p.Ala222Val c.665C$>$T & Drug response & Het$/$WT & 3
+		\\
+		\hline
+		MTOR & 1:11169420 & rs41274506 & p.Asp2485Asp c.7455C$>$T & NA & Het$/$WT & 1
+		\\
+		& 1:11181327 & rs11121691 & p.Leu2303Leu c.6909G$>$A & NA & Het$/$Hom & 2
+		\\
+		& 1:11181327 & rs11121691 & p.Leu2303Leu c.6909G$>$A & NA & Low coverage in tumour & 1
+		\\
+		& 1:11181327 & rs11121691 & p.Leu2303Leu c.6909G$>$A & NA & Het$/$WT & 2
+		\\
+		& 1:11190646 & rs2275527 & p.Ser1851Ser c.5553C$>$T & Benign & Het$/$WT & 1
+		\\
+		& 1:11190730 & rs17848553 & p.Ala1823Ala c.5469C$>$T & Benign & Het$/$Hom & 4
+		\\
+		& 1:11205058 & rs1057079; rs386514433 & p.Ala1577Ala c.4731A$>$G & NA & Het$/$Hom & 8
+		\\
+		& 1:11205058 & rs1057079; rs386514433 & p.Ala1577Ala c.4731A$>$G & NA & Het$/$WT & 4
+		\\
+		& 1:1272468 & rs17036536 & p.Arg1154Arg c.3462G$>$C & Benign & Het$/$Hom & 4
+		\\
+		& 1:11288758 & rs1064261 & p.Asn999Asn c.2997T$>$C & NA & Het$/$Hom & 4
+		\\
+		& 1:11288758 & rs1064261 & p.Asn999Asn c.2997T$>$C & NA & Het$/$WT & 3
+		\\
+		& 1:11301714 & rs1135172 & p.Asp479Asp c.1437T$>$C & NA & Low coverage in tumour & 1
+		\\
+		& 1:11301714 & rs1135172 & p.Asp479Asp c.1437T$>$C & NA & Het$/$Hom & 8
+		\\
+		\hline
+		PDGFRA & 4:55141055 & rs1873778; COSM1430082 & p.Pro567Pro c.1701A$>$G & Benign & Low coverage in tumour & 3
+		\\
+		& 4:55152040 & rs2228230; COSM22413 & p.Val824Val c.2472C$>$T & Benign & Het$/$WT & 2
+		\\
+		& 4:55152040 & rs2228230; COSM22413 & p.Val824Val c.2472C$>$T & Benign & Het$/$Hom & 4
+		\\
+		\hline
+		STAT1 & 2:191872307 & rs45463799 & p.Asn118Asn c.354C$>$T & Likely benign & Het$/$WT & 1
+		\\
+		& 2:191874667 & rs386556119; rs2066802 & p.Leu21Leu c.63T$>$C & Benign & Het$/$WT & 1
+		\\
+		\hline
+		STAT3 & 17:40498713 & NA & p.Lys49Lys c.147A$>$G & NA & Het$/$WT & 1
+		\\
+		\hline
+		TP53 & 17:7577553 & COSM44368 & p.Met243fs c.727delA & NA & Het$/$WT & 1
+		\\
+		& 17:7579472 & COSM250061; rs1042522 & p.Arg72Pro c.215G$>$C & Drug response & Het$/$Hom & 26
+		\\
+		& 17:7579472 & COSM250061; rs1042522 & p.Arg72Pro c.215G$>$C & Drug response & Het$/$WT & 4
+		\\
+		& 17:7579579 & rs1800370 & p.Pro36Pro c.108G$>$A & Benign$/$Likely benign & Het$/$Hom & 2
+		\\
+		\hline
+		TYMP & 22:50964236 & rs11479 & p.Ser471Leu c.1412C$>$T & Benign$/$Likely benign & Het$/$Hom & 14
+		\\
+		\hline
+		TYMS & 18:673443 & rs151264360 & \footnotesize{c.*447\_*452delTTAAAG} & Drug response & Het$/$Hom & 32
+		\\
+		& 18:673443 & rs151264360 & \footnotesize{c.*447\_*452delTTAAAG} & Drug response & Het$/$WT & 1
+		\\
+		\hline
+		UGT1A1 & 2:234668870 & rs873478 & c.-64G$>$C & NA & Het$/$WT & 1
+		\\
+		& 2:234668879 & rs34983651 & c.-55\_-54insAT & Conflicting interpretations of pathogenicity, Association & Hom$/$Het & 4
+		\\
+		& 2:234668879 & rs34983651 & c.-55\_-54insAT & Conflicting interpretations of pathogenicity, Association & Hom$/$WT & 2
+		\\
+		\hline
+		\\
+		&
+		\multicolumn{5}{r}{Total discordant variants = 211}
+		&
+		\\
+		\hline
+\end{longtable}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Bioinformatics approaches for discriminating between germline and somatic variants in FFPE tumours}
-\label{sec:BioinformaticsapproachesfordiscriminatingbetweengermlineandsomaticstatusesofvariantsinFFPEtumours}
+\noindent\textsuperscript{$\star$}dbSNP and/or COSMIC IDs.
+\\
+\textsuperscript{*}Description of sequence variants according to the HGVS recommendations.
+\\
+\textsuperscript{$\dagger$}Clinical significance on ClinVar database.
+\\
+Het$/$Hom = Loss of heterozygosity in the tumour
+\\
+Het$/$WT = Heterozygous in the blood, but wild type in the tumour
+\\
+Hom$/$Het = Homozygous in the blood, but heterozygous in the tumour
 
+\end{landscape}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Reduced sensitivity is observed for detection of germline variants in FFPE specimens compared to blood}
-\label{sec:ReducedsensitivityisobservedfordetectionofgermlinevariantsinFFPEspecimenscomparedtoblood}
+\section{Application of tumour content to separate germline alterations from somatic mutations in tumour-only analyses}
+\label{sec:Applicationoftumourcontenttoseparategermlinealterationsfromsomaticmutationsintumour-onlyanalyses}
+
+Through variant analysis of DNA from blood specimens, we identified germline alterations that are associated with drug response, which could predict risk of developing chemotherapy-induced toxicity. Furthermore, we assessed the concordance of germline variants between blood and tumour samples, which demonstrated a high concordance rate of 93.8\%. Together, these analyses confirmed that germline alterations that are clinically relevant are present in our dataset and a large proportion of germline alterations can be identified in tumour DNA with the correct designation of allelic statuses. Next, we sought to evaluate the use of VAF thresholds to separate germline alterations from somatic mutations in tumour-only analyses. Because of the lack of availability of matched normal samples in clinical genomic sequencing, this assessment would determine whether application of VAF thresholds is an accurate method to identify potential germline alterations in clinical tumour sequencing for referral to follow-up testing. While our dataset does not contain pathogenic germline variants, we anticipate that this approach can be used to detect genetic events associated with cancer predisposition for future patients.
+
+We compared the VAF distributions of germline variants detected in blood and tumour specimens, and we found a significant difference (Kolmogorov-Smirnov test, D = 0.17, \textit{p} = 0; \autoref{fig:germline_sens_minor}). As expected, we showed that heterozygous alterations in blood tend to have VAFs close to 50\%, whereas homozygous alterations in the blood tend to have VAFs close to 100\%. However, the VAF distribution of germline variants in the tumours tend to deviate from 50\% and 100\% for heterozygous and homozygous statuses, respectively. This variation in VAF distributions between blood and tumour samples, which could be caused by tumour content, tumour heterogeneity, or DNA damage as a result of formalin fixation, indicates that the sensitivity of using a VAF cut-off to distinguish between germline and somatic alterations in tumour-only analyses could be compromised. Thus, we explored the sensitivity of identifying germline alterations at various VAF thresholds to select a VAF cut-off that maximizes true positive rate. At each VAF cut-off, we determined the number of true positives by identifying variants in the tumours that overlap with germline variants in matched blood samples. True positive rate (sensitivity) is then calculated as the fraction of variants that are correctly identified as germline using the VAF threshold over the total number of germline variants in the tumours. At a VAF cut-off of 30\%, we achieved a sensitivity of 0.94 (95\% CI = 0.93--0.95; \autoref{fig:germline_sens_minor}; \autoref{tbl:sensitivity}), resulting in 1864 true positives and 117 false negatives out of a total of 1981 calls.
+
+Because clinical genomics require accurate identification of genetic alterations that are clinically important, potential germline alterations identified through tumour-only analyses must be referred to follow-up testing \cite{Raymond2016, Bombard2014, Green2013}. Hence, not only must our approach for discriminating between germline and somatic alterations be highly sensitive, but also highly precise to minimize submission of somatic mutations (false positives) for downstream germline testing, which could incur additional cost and time. For similar reasons that cause VAFs of germline alterations in tumour samples to differ from germline alterations in the blood, we presumed VAFs of somatic mutations to be lower. We assessed this variation in VAF distributions between germline and somatic alterations in the tumours and found a significant difference (Kolmogorov-Smirnov test, D = 0.52, \textit{p} = 0; \autoref{fig:germline_ppv_minor}). Indeed, VAFs of somatic mutations tend to be concentrated at lower percentages compared to VAFs of germline variants. To select a VAF cut-off that would achieve high precision, we measured positive predictive values at various VAF thresholds. At each VAF cut-off, we identified true germline alterations by overlapping the variants in the tumours with germline variants called in matched blood samples. Positive predictive value is then calculated as the fraction of true positives over total number of variants identified in the tumours, including somatic mutations (false positives). At a VAF cut-off of 30\%, we achieved a positive predictive value of 0.90 (95\% CT = 0.89--0.91; \autoref{fig:germline_ppv_minor}; \autoref{tbl:ppv}), resulting in 1864 true positives and 203 false positives out of a total of 2067 calls.
+
+Despite the difference in VAF distributions between germline alterations in blood and tumour samples, we managed to apply a VAF cut-off of 30\% to obtain a sensitivity of 0.94. This also means that this cut-off would result in a miss rate of 0.059 (95\% CI = 0.049--0.07), in which approximately 6\% of true germline variants will be missed. Moreover, we were also able to leverage the difference in VAFs of germline and somatic variants to distinguish germline variants from somatic mutations in tumour-only analyses. At the 30\% VAF cut-off, we were not only able to achieve sensitivity of 0.94, but also a positive predictive value of 0.90, meaning that close to 10\% of calls identified using this approach are somatic mutations. Overall, we demonstrated that the use of VAF thresholds to identify potential germline alterations in clinical tumour sequencing is a promising approach towards mitigating challenges caused by the lack of matched normal samples and funding in the clinical setting.
+
+need to address PGx variants
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{figure}[H]
-	\includegraphics[scale=0.7]{germline_vaf_sens.png}
-	\caption{Add caption.}
-	\label{fig:germline_vaf_sens}
+	\includegraphics[scale=0.7]{germline_sens_minor.png}
+	\caption{Assessment of using a VAF cut-off approach to identify germline alterations in tumour-only analyses. (A) Comparison of VAF distributions of germline alterations between blood and tumour (Kolmogorov-Smirnov test). (B) Empirical cumulative distribution of VAFs of germline alterations in tumour samples. Black line indicates VAF cut-off at 30\%, in which sensitivity of identifying germline variants is 0.94.}
+	\label{fig:germline_sens_minor}
 \end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{table}[H]
-\caption{Sensitivity of detecting germline variants in blood and FFPE specimens at various variant allele frequency thresholds.}
-\label{sensitivity}
+\caption{Sensitivity of identifying germline variants in tumour-only analyses at various variant allele frequency thresholds. 95\% confidence interval is the binomial confidence interval calculated using the Clopper-Pearson method.}
+\label{tbl:sensitivity}
 \centering
-      \begin{tabular}{cllcclllccl}
+      \begin{tabular}{ccccl}
         \hline
-				\multicolumn{1}{l}{ }
-				&
-				\multicolumn{4}{l}{Blood}
-				&&
-				\multicolumn{4}{l}{FFPE Tumour}
-        \\
-				\cline{2-5}\cline{7-10}
-        VAF (\%) & FN\mbox{*} & TP\mbox{**} & Sensitivity & 95\% CI && FN\mbox{*} & TP\mbox{**} & Sensitivity & 95\% CI
+        VAF (\%) & False Negative & True Positive & Sensitivity & 95\% CI
         \\
         \hline
-        10 & 0 & 2461 & 1.0 & 1.0--1.0 && 0 & 2428 & 1.0 & 1.0--1.0
+        10 & 0 & 1981 & 1.0 & 1.0--1.0
         \\
-        15 & 2 & 2459 & 1.0 & 1.0-1.0 && 12 & 2416 & 1.0 & 0.99--1.0
+        15 & 13 & 1968 & 0.99 & 0.99-1.0
         \\
-        20 & 3 & 2458 & 1.0 & 1.0--1.0 && 48 & 2380 & 0.98 & 0.97--0.99
+        20 & 46 & 1935 & 0.98 & 0.97--0.98
         \\
-        25 & 15 & 2446 & 0.99 & 0.99--1.00 && 79 & 2349 & 0.97 & 0.96--0.97
+        25 & 77 & 1904 & 0.96 & 0.95--0.97
         \\
-        30 & 20 & 2441 & 0.99 & 0.99--1.00 && 121 & 2307 & 0.95 & 0.94--0.96
+        30 & 117 & 1864 & 0.94 & 0.93--0.95
         \\
-        35 & 33 & 2428 & 0.99 & 0.98--0.99 && 197 & 2231 & 0.92 & 0.91--0.93
+        35 & 192 & 1789 & 0.90 & 0.89--0.92
         \\
-        40 & 107 & 2354 & 0.96 & 0.95--0.96 && 328 & 2100 & 0.86 & 0.85--0.88
+        40 & 313 & 1668 & 0.84 & 0.83--0.86
         \\
-        45 & 234 & 2227 & 0.90 & 0.89--0.92 && 470 & 1958 & 0.81 & 0.79--0.82
+        45 & 458 & 1523 & 0.77 & 0.75--0.79
         \\
 				\hline
       \end{tabular} \\
 \end{table}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \begin{figure}[H]
-	\includegraphics[scale=0.7]{germline_somatic_ppv.png}
-	\caption{Add caption.}
-	\label{fig:germline_somatic_ppv}
+	\includegraphics[scale=0.7]{germline_ppv_minor.png}
+	\caption{Assessment of using a VAF cut-off approach to refer potential germline alterations in tumour-only analyses to follow-up testing. (A) Comparison of VAF distributions between germline and somatic alterations in tumour specimens (Kolmogorov-Smirnov test). (B) Empirical cumulative distribution of VAFs of germline and somatic alterations in tumour samples. Black line indicates VAF cut-off at 30\%, in which positive predictive value of referring potential germline variants to follow-up testing is 0.90.}
+	\label{fig:germline_ppv_minor}
 \end{figure}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \begin{table}[H]
-\caption{Positive predictive value for referral of potential germline variants for downstream confirmatory testing.}
-\label{ppv}
+\caption{Positive predictive values for referral of potential germline variants to downstream confirmatory testing at various variant allele frequency thresholds. 95\% confidence interval is the binomial confidence interval calculated using the Clopper-Pearson method.}
+\label{tbl:ppv}
 \centering
-      \begin{tabular}{ccccccl}
+      \begin{tabular}{cccccll}
         \hline
         VAF (\%) & False Positive & True Positive & Total Calls & Positive Predictive Value & 95\% CI
         \\
         \hline
-        10 & 431 & 2428 & 2859 & 0.85 & 0.84--0.86
+        10 & 431 & 1981 & 2412 & 0.82 & 0.81--0.84
         \\
-        15 & 319 & 2416 & 2735 & 0.88 & 0.87--0.90
+        15 & 319 & 1968 & 2287 & 0.86 & 0.85--0.87
         \\
-        20 & 273 & 2380 & 2653 & 0.90 & 0.88--0.91
+        20 & 273 & 1935 & 2208 & 0.88 & 0.86--0.89
         \\
-        25 & 245 & 2349 & 2594 & 0.91 & 0.89--0.92
+        25 & 245 & 1904 & 2149 & 0.89 & 0.87--0.90
         \\
-        30 & 203 & 2307 & 2510 & 0.92 & 0.91--0.93
+        30 & 203 & 1864 & 2067 & 0.90 & 0.89--0.91
         \\
-        35 & 178 & 2231 & 2409 & 0.93 & 0.91--0.94
+        35 & 178 & 1789 & 1967 & 0.91 & 0.90--0.92
         \\
-        40 & 146 & 2100 & 2246 & 0.93 & 0.92--0.94
+        40 & 146 & 1668 & 1814 & 0.92 & 0.91--0.93
         \\
-        45 & 118 & 1958 & 2076 & 0.94 & 0.93--0.95
+        45 & 118 & 1523 & 1641 & 0.93 & 0.91--0.94
         \\
 				\hline
       \end{tabular} \\
 \end{table}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Factors underlying reduced sensitivity of germline variant calling in FFPE specimens}
-\label{sec:FactorsunderlyingreducedsensitivityofgermlinevariantcallinginFFPEspecimens}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Discussion}
-\label{sec:Discussion}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \endinput
+
+Look at PGx variants with drug response and calculate the probability of not achieving 30\% VAF.
+
 \pagebreak
+
 \begin{table}[H]
 \caption{Frequency of germline and somatic variants detected in the tumours of 213 patients in the TOP cohort.}\label{freqvariants}
 \centering
