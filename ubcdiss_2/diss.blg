@@ -16,49 +16,52 @@ Database file #1: /Users/evayap/Documents/masters_thesis/mendeley_bib/biblio_tes
 Warning--I didn't find a database entry for "Jones2015"
 Warning--I didn't find a database entry for "Do2015"
 Warning--I didn't find a database entry for ""
+Warning--I didn't find a database entry for "ones2015a"
 Warning--empty journal in Ali-osman1997
+Warning--empty journal in Arlt2004
 Warning--empty journal in Bombard2014
+Warning--empty journal in Kim2017a
 Warning--empty journal in Slager2013
 Warning--there's a number but no volume in Stoehlmacher2004
-You've used 120 entries,
+You've used 133 entries,
             2773 wiz_defined-function locations,
-            1680 strings with 58355 characters,
-and the built_in function-call counts, 107896 in all, are:
-= -- 8891
-> -- 11489
-< -- 7
-+ -- 3833
-- -- 3711
-* -- 11373
-:= -- 17915
-add.period$ -- 629
-call.type$ -- 120
-change.case$ -- 1597
-chr.to.int$ -- 118
-cite$ -- 244
-duplicate$ -- 2517
-empty$ -- 4888
-format.name$ -- 3839
-if$ -- 21115
-int.to.chr$ -- 3
+            1787 strings with 63007 characters,
+and the built_in function-call counts, 117324 in all, are:
+= -- 9703
+> -- 12365
+< -- 9
++ -- 4126
+- -- 3990
+* -- 12334
+:= -- 19466
+add.period$ -- 700
+call.type$ -- 133
+change.case$ -- 1729
+chr.to.int$ -- 130
+cite$ -- 272
+duplicate$ -- 2787
+empty$ -- 5393
+format.name$ -- 4135
+if$ -- 22989
+int.to.chr$ -- 4
 int.to.str$ -- 1
-missing$ -- 120
-newline$ -- 877
-num.names$ -- 480
-pop$ -- 2696
+missing$ -- 133
+newline$ -- 974
+num.names$ -- 532
+pop$ -- 2908
 preamble$ -- 1
-purify$ -- 1477
+purify$ -- 1596
 quote$ -- 0
-skip$ -- 2686
+skip$ -- 2936
 stack$ -- 0
-substring$ -- 3129
-swap$ -- 126
+substring$ -- 3391
+swap$ -- 139
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1320
-warning$ -- 4
-while$ -- 587
+type$ -- 1463
+warning$ -- 6
+while$ -- 646
 width$ -- 0
-write$ -- 2102
-(There were 7 warnings)
+write$ -- 2332
+(There were 10 warnings)

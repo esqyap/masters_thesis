@@ -1,4 +1,4 @@
-\begin{thebibliography}{120}
+\begin{thebibliography}{133}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -70,6 +70,15 @@ S.~L. Arcand, C.~M. Maugard, P.~Ghadirian, A.~Robidoux, C.~Perret, P.~Zhang,
   (3):\penalty0 399--408, 2008.
 \newblock ISSN 01676806.
 \newblock \doi{10.1007/s10549-007-9608-6}.
+
+\bibitem[Arlt et~al.(2004)Arlt, Xu, Durkin, Casper, Kastan, and
+  Glover]{Arlt2004}
+M.~F. Arlt, B.~Xu, S.~G. Durkin, A.~M. Casper, M.~B. Kastan, and T.~W. Glover.
+\newblock {BRCA1 Is Required for Common-Fragile-Site Stability via Its G 2 / M
+  Checkpoint Function BRCA1 Is Required for Common-Fragile-Site Stability via
+  Its G 2 / M Checkpoint Function}.
+\newblock 24\penalty0 (15):\penalty0 6701--6709, 2004.
+\newblock \doi{10.1128/MCB.24.15.6701}.
 
 \bibitem[Bass et~al.(2014)Bass, Engel, Greytak, and Moore]{Bass2014}
 B.~P. Bass, K.~B. Engel, S.~R. Greytak, and H.~M. Moore.
@@ -185,6 +194,17 @@ G.~Bougeard, S.~Baert-Desurmont, I.~Tournier, S.~Vasseur, C.~Martin,
 \newblock URL
   \url{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=1904480{\&}tool=pmcentrez{\&}rendertype=abstract}.
 
+\bibitem[Cai et~al.(2016)Cai, Yuan, Zhang, He, and Chou]{Cai2016}
+L.~Cai, W.~Yuan, Z.~Zhang, L.~He, and K.-C. Chou.
+\newblock {In-depth comparison of somatic point mutation callers based on
+  different tumor next-generation sequencing depth data.}
+\newblock \emph{Scientific reports}, 6\penalty0 (November):\penalty0 36540,
+  2016.
+\newblock ISSN 2045-2322.
+\newblock \doi{10.1038/srep36540}.
+\newblock URL
+  \url{http://www.ncbi.nlm.nih.gov/pubmed/27874022{\%}5Cnhttp://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC5118795}.
+
 \bibitem[Caronia et~al.(2011)Caronia, Martin, Sastre, {De La Torre},
   Garc{\'{i}}a-S{\'{a}}enz, Alonso, Moreno, Pita, D{\'{i}}az-Rubio,
   Ben{\'{i}}tez, and Gonz{\'{a}}lez-Neira]{Caronia2011}
@@ -210,6 +230,16 @@ D.~M. Carrick, M.~G. Mehaffey, M.~C. Sachs, S.~Altekruse, C.~Camalier,
 \newblock \emph{PLoS ONE}, 10\penalty0 (7):\penalty0 3--10, 2015.
 \newblock ISSN 19326203.
 \newblock \doi{10.1371/journal.pone.0127353}.
+
+\bibitem[Carrot-Zhang and Majewski(2016)]{Carrot-Zhang2016}
+J.~Carrot-Zhang and J.~Majewski.
+\newblock {LoLoPicker: Detecting Low Allelic-Fraction Variants in Low-Quality
+  Cancer Samples from Whole-exome Sequencing Data}.
+\newblock \emph{bioRxiv}, 8\penalty0 (23):\penalty0 043612, 2016.
+\newblock ISSN 1949-2553.
+\newblock \doi{10.1101/043612}.
+\newblock URL
+  \url{http://biorxiv.org/content/early/2016/04/24/043612.abstract}.
 
 \bibitem[Caudle et~al.(2013)Caudle, Thorn, Klein, Swen, McLeod, Diasio, and
   Schwab]{Caudle2013}
@@ -278,6 +308,19 @@ V.~Cohen, V.~Panet-raymond, N.~Sabbaghian, I.~Morin, and G.~Batist.
   Methylenetetrahydrofolate Reductase Polymorphism in Advanced Colorecta}.
 \newblock \emph{Clinical Cancer Research}, 9\penalty0 (May):\penalty0
   1611--1615, 2003.
+
+\bibitem[Costello et~al.(2013)Costello, Pugh, Fennell, Stewart, Lichtenstein,
+  Meldrim, Fostel, Friedrich, Perrin, Dionne, Kim, Gabriel, Lander, Fisher, and
+  Getz]{Costello2013}
+M.~Costello, T.~J. Pugh, T.~J. Fennell, C.~Stewart, L.~Lichtenstein, J.~C.
+  Meldrim, J.~L. Fostel, D.~C. Friedrich, D.~Perrin, D.~Dionne, S.~Kim, S.~B.
+  Gabriel, E.~S. Lander, S.~Fisher, and G.~Getz.
+\newblock {Discovery and characterization of artifactual mutations in deep
+  coverage targeted capture sequencing data due to oxidative DNA damage during
+  sample preparation}.
+\newblock \emph{Nucleic Acids Research}, 41\penalty0 (6):\penalty0 1--12, 2013.
+\newblock ISSN 03051048.
+\newblock \doi{10.1093/nar/gks1443}.
 
 \bibitem[Dai et~al.(2008)Dai, Papp, Wang, Hampel, and Sadee]{Dai2008}
 Z.~Dai, A.~C. Papp, D.~Wang, H.~Hampel, and W.~Sadee.
@@ -396,6 +439,21 @@ E.~Dotor, M.~Cuatrecases, M.~Mart{\'{i}}nez-Iniesta, M.~Navarro, F.~Vilardell,
   1603--1611, 2006.
 \newblock ISSN 0732183X.
 \newblock \doi{10.1200/JCO.2005.03.5253}.
+
+\bibitem[Eijkelenboom et~al.(2016)Eijkelenboom, Kamping, {Kastner-van Raaij},
+  Hendriks-Cornelissen, Neveling, Kuiper, Hoischen, Nelen, Ligtenberg, and
+  Tops]{Eijkelenboom2016}
+A.~Eijkelenboom, E.~J. Kamping, A.~W. {Kastner-van Raaij}, S.~J.
+  Hendriks-Cornelissen, K.~Neveling, R.~P. Kuiper, A.~Hoischen, M.~R. Nelen,
+  M.~J. Ligtenberg, and B.~B. Tops.
+\newblock {Reliable Next-Generation Sequencing of Formalin-Fixed,
+  Paraffin-Embedded Tissue Using Single Molecule Tags}.
+\newblock \emph{The Journal of Molecular Diagnostics}, 18\penalty0
+  (6):\penalty0 851--863, 2016.
+\newblock ISSN 15251578.
+\newblock \doi{10.1016/j.jmoldx.2016.06.010}.
+\newblock URL \url{http://dx.doi.org/10.1016/j.jmoldx.2016.06.010
+  http://linkinghub.elsevier.com/retrieve/pii/S1525157816301416}.
 
 \bibitem[Estevez-Garcia et~al.(2012)Estevez-Garcia, Casta{\~{n}}o, Martin,
   Lopez-Rios, Iglesias, Mu{\~{n}}oz-Galv{\'{a}}n, Lopez-Calderero,
@@ -532,6 +590,20 @@ R.~C. Green, J.~S. Berg, W.~W. Grody, S.~S. Kalia, B.~R. Korf, C.~L. Martin,
 \newblock \doi{10.1038/gim.2013.73}.
 \newblock URL
   \url{http://www.ncbi.nlm.nih.gov/pubmed/23788249{\%}5Cnhttp://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC3727274}.
+
+\bibitem[Gross et~al.(2013)Gross, Meul, Raab, Propping, Avril, Aubele,
+  Gkazepis, Schuster, Grebenchtchikov, Schmitt, Kiechle, Meijer, Vijzelaar,
+  Meindl, and van Kuilenburg]{Gross2013}
+E.~Gross, C.~Meul, S.~Raab, C.~Propping, S.~Avril, M.~Aubele, A.~Gkazepis,
+  T.~Schuster, N.~Grebenchtchikov, M.~Schmitt, M.~Kiechle, J.~Meijer,
+  R.~Vijzelaar, A.~Meindl, and A.~B.~P. van Kuilenburg.
+\newblock {Somatic copy number changes in DPYD are associated with lower risk
+  of recurrence in triple-negative breast cancers}.
+\newblock \emph{British Journal of Cancer}, 109\penalty0 (9):\penalty0
+  2347--2355, 2013.
+\newblock ISSN 0007-0920.
+\newblock \doi{10.1038/bjc.2013.621}.
+\newblock URL \url{http://www.nature.com/doifinder/10.1038/bjc.2013.621}.
 
 \bibitem[Guillem et~al.(2013)Guillem, Hernandez-Boluda, Gallardo, Buno, Bosch,
   Martinez-Laperche, de~la Camara, Brunet, Martin, Nieto, Martinez, Perez,
@@ -675,6 +747,16 @@ A.~V. Khrunin, A.~Moisseev, V.~Gorbunova, and S.~Limborska.
 \newblock \doi{10.1038/tpj.2009.45}.
 \newblock URL \url{http://www.nature.com/doifinder/10.1038/tpj.2009.45}.
 
+\bibitem[Kim et~al.(2017{\natexlab{a}})Kim, Kim, Lim, Maeng, Son, Kang, Nam,
+  Lee, and Kim]{Kim2017a}
+J.~Kim, D.~Kim, J.~S. Lim, J.~H. Maeng, H.~Son, H.-C. Kang, H.~Nam, J.~H. Lee,
+  and S.~Kim.
+\newblock {Accurate detection of low-level somatic mutations with technical
+  replication for next-generation sequencing}.
+\newblock 2017{\natexlab{a}}.
+\newblock \doi{10.1101/179713}.
+\newblock URL \url{http://dx.doi.org/10.1101/179713}.
+
 \bibitem[Kim et~al.(2009)Kim, Sohn, Chae, Song, Kwon, Do, Kim, Lee, Hyun, Lee,
   Sohn, Jung, Kim, Chung, and Yu]{Kim2009}
 J.~G. Kim, S.~K. Sohn, Y.~S. Chae, H.~S. Song, K.~Y. Kwon, Y.~R. Do, M.~K. Kim,
@@ -687,14 +769,14 @@ J.~G. Kim, S.~K. Sohn, Y.~S. Chae, H.~S. Song, K.~Y. Kwon, Y.~R. Do, M.~K. Kim,
 \newblock ISSN 03445704.
 \newblock \doi{10.1007/s00280-008-0879-3}.
 
-\bibitem[Kim et~al.(2017)Kim, Park, Ji, Kim, Bae, van Vrancken, Kim, and
-  Kim]{Kim2017}
+\bibitem[Kim et~al.(2017{\natexlab{b}})Kim, Park, Ji, Kim, Bae, van Vrancken,
+  Kim, and Kim]{Kim2017}
 S.~Kim, C.~Park, Y.~Ji, D.~G. Kim, H.~Bae, M.~van Vrancken, D.~H. Kim, and
   K.~M. Kim.
 \newblock {Deamination Effects in Formalin-Fixed, Paraffin-Embedded Tissue
   Samples in the Era of Precision Medicine}.
 \newblock \emph{Journal of Molecular Diagnostics}, 19\penalty0 (1):\penalty0
-  137--146, 2017.
+  137--146, 2017{\natexlab{b}}.
 \newblock ISSN 19437811.
 \newblock \doi{10.1016/j.jmoldx.2016.09.006}.
 \newblock URL \url{http://dx.doi.org/10.1016/j.jmoldx.2016.09.006}.
@@ -969,6 +1051,16 @@ E.~Oh, Y.-L. Choi, M.~J. Kwon, R.~N. Kim, Y.~J. Kim, J.-Y. Song, K.~S. Jung,
 \newblock URL
   \url{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=4671711{\&}tool=pmcentrez{\&}rendertype=abstract}.
 
+\bibitem[Peng et~al.(2015)Peng, {Vijaya Satya}, Lewis, Randad, and
+  Wang]{Peng2015}
+Q.~Peng, R.~{Vijaya Satya}, M.~Lewis, P.~Randad, and Y.~Wang.
+\newblock {Reducing amplification artifacts in high multiplex amplicon
+  sequencing by using molecular barcodes}.
+\newblock \emph{BMC Genomics}, 16\penalty0 (1):\penalty0 589, 2015.
+\newblock ISSN 1471-2164.
+\newblock \doi{10.1186/s12864-015-1806-8}.
+\newblock URL \url{http://www.biomedcentral.com/1471-2164/16/589}.
+
 \bibitem[Pennington et~al.(2013)Pennington, Walsh, Lee, Pennil, Novetsky,
   Agnew, Thornton, Garcia, Mutch, King, Goodfellow, and
   Swisher]{Pennington2013}
@@ -1055,6 +1147,16 @@ A.~Ruzzo, F.~Graziano, F.~Loupakis, D.~Santini, V.~Catalano, R.~Bisonni,
 \newblock ISSN 1470-269X.
 \newblock \doi{10.1038/sj.tpj.6500463}.
 \newblock URL \url{http://www.nature.com/doifinder/10.1038/sj.tpj.6500463}.
+
+\bibitem[Samorodnitsky et~al.(2015)Samorodnitsky, Jewell, Hagopian, Miya, Wing,
+  Lyon, Damodaran, Bhatt, Reeser, Datta, and Roychowdhury]{Samorodnitsky2015}
+E.~Samorodnitsky, B.~M. Jewell, R.~Hagopian, J.~Miya, M.~R. Wing, E.~Lyon,
+  S.~Damodaran, D.~Bhatt, J.~W. Reeser, J.~Datta, and S.~Roychowdhury.
+\newblock {Evaluation of Hybridization Capture Versus Amplicon-Based Methods
+  for Whole-Exome Sequencing}.
+\newblock \emph{Human Mutation}, 36\penalty0 (9):\penalty0 903--914, 2015.
+\newblock ISSN 10981004.
+\newblock \doi{10.1002/humu.22825}.
 
 \bibitem[Schrader et~al.(2015)Schrader, Cheng, Joseph, Prasad, Walsh, Zehir,
   Ni, Thomas, Benayed, Ashraf, Lincoln, Arcila, Stadler, Solit, Hyman, Zhang,
@@ -1193,6 +1295,16 @@ D.~Tanaka, A.~Hishida, K.~Matsuo, H.~Iwata, M.~Shinoda, Y.~Yamamura, T.~Kato,
   1):\penalty0 117--124, 2005.
 \newblock ISSN 0027-7622.
 
+\bibitem[Tian et~al.(2015)Tian, Basu, and Capriotti]{Tian2015}
+R.~Tian, M.~K. Basu, and E.~Capriotti.
+\newblock {Computational methods and resources for the interpretation of
+  genomic variants in cancer.}
+\newblock \emph{BMC genomics}, 16 Suppl 8\penalty0 (Suppl 8):\penalty0 S7,
+  2015.
+\newblock ISSN 1471-2164.
+\newblock \doi{10.1186/1471-2164-16-S8-S7}.
+\newblock URL \url{http://www.biomedcentral.com/1471-2164/16/S8/S7}.
+
 \bibitem[Toffoli et~al.(2006)Toffoli, Cecchin, Corona, Russo, Buonadonna,
   D'Andrea, Pasetto, Pessa, Errante, {De Pangher}, Giusto, Medici, Gaion,
   Sandri, Galligioni, Bonura, Boccalon, Biason, and Frustaci]{Toffoli2006}
@@ -1267,6 +1379,15 @@ A.~Villani, U.~Tabori, J.~Schiffman, A.~Shlien, J.~Beyene, H.~Druker,
 \newblock ISSN 14702045.
 \newblock \doi{10.1016/S1470-2045(11)70119-X}.
 
+\bibitem[Wang and Meng(2010)]{Wang2010}
+H.~Wang and F.~Meng.
+\newblock {Theoretical study of proton-catalyzed hydrolytic deamination
+  mechanism of adenine}.
+\newblock \emph{Theoretical Chemistry Accounts}, 127\penalty0 (5):\penalty0
+  561--571, 2010.
+\newblock ISSN 1432881X.
+\newblock \doi{10.1007/s00214-010-0747-1}.
+
 \bibitem[Wang et~al.(2013)Wang, Bao, Shi, Jiang, and Zhang]{Wang2013}
 Y.~Wang, W.~Bao, H.~Shi, C.~Jiang, and Y.~Zhang.
 \newblock {Epidermal growth factor receptor exon 20 mutation increased in
@@ -1278,6 +1399,15 @@ Y.~Wang, W.~Bao, H.~Shi, C.~Jiang, and Y.~Zhang.
 \newblock \doi{10.1593/tlo.13391}.
 \newblock URL
   \url{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3730025{\&}tool=pmcentrez{\&}rendertype=abstract}.
+
+\bibitem[Wong et~al.(1998)Wong, DiCioccio, Allen, Werness, and Piver]{Wong1998}
+C.~Wong, R.~A. DiCioccio, H.~J. Allen, B.~A. Werness, and M.~S. Piver.
+\newblock {Mutations in BRCA1 from fixed, paraffin-embedded tissue can be
+  artifacts of preservation}.
+\newblock \emph{Cancer Genetics and Cytogenetics}, 107\penalty0 (1):\penalty0
+  21--27, 1998.
+\newblock ISSN 01654608.
+\newblock \doi{10.1016/S0165-4608(98)00079-X}.
 
 \bibitem[Wong et~al.(2014{\natexlab{a}})Wong, Gonzalez, Salto-Tellez, Butler,
   Diaz-Cano, Ilyas, Newman, Shaw, Taniere, and Walsh]{Wong2014a}
@@ -1317,6 +1447,15 @@ S.~Q. Wong, J.~Li, A.~{Y-C Tan}, R.~Vedururu, J.-M.~B. Pang, H.~Do, J.~Ellul,
 \newblock ISSN 1755-8794.
 \newblock \doi{10.1186/1755-8794-7-23}.
 \newblock URL \url{http://www.biomedcentral.com/1755-8794/7/23}.
+
+\bibitem[Xu et~al.(2017)Xu, {Nezami Ranjbar}, Wu, DiCarlo, and Wang]{Xu2017}
+C.~Xu, M.~{Nezami Ranjbar}, Z.~Wu, J.~DiCarlo, and Y.~Wang.
+\newblock {Detecting very low allele fraction variants using targeted DNA
+  sequencing and a novel molecular barcode-aware variant caller}.
+\newblock \emph{BMC Genomics}, 18\penalty0 (1):\penalty0 1--11, 2017.
+\newblock ISSN 1471-2164.
+\newblock \doi{10.1186/s12864-016-3425-4}.
+\newblock URL \url{http://dx.doi.org/10.1186/s12864-016-3425-4}.
 
 \bibitem[Yang et~al.(2007)Yang, Guo, Zhang, Miao, Tan, Sun, Zhao, Yu, Liu, and
   Lin]{Yang2007}

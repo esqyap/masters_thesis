@@ -39,9 +39,9 @@
 \contentsline {section}{\numberline {3.4}Increased age of paraffin block results in reduced amplicon yield and elevated level of C$>$T/G$>$A sequence artifacts}{37}{section.3.4}
 \contentsline {chapter}{\numberline {4}Identification of Germline Alterations in FFPE Tumours}{42}{chapter.4}
 \contentsline {section}{\numberline {4.1}Frequency and variant assessment of germline alterations in patients from TOP cohort}{44}{section.4.1}
-\contentsline {section}{\numberline {4.2}Germline alterations are highly concordant between blood and FFPE specimens}{71}{section.4.2}
-\contentsline {section}{\numberline {4.3}Application of tumour content to separate germline alterations from somatic mutations in tumour-only analyses}{77}{section.4.3}
-\contentsline {chapter}{\numberline {5}Discussion}{81}{chapter.5}
-\contentsline {chapter}{\numberline {6}Conclusion}{87}{chapter.6}
-\contentsline {chapter}{Bibliography}{88}{chapter*.39}
-\contentsline {chapter}{\numberline {A}Supporting Materials}{104}{appendix.A}
+\contentsline {section}{\numberline {4.2}Germline alterations are highly concordant between blood and FFPE specimens}{72}{section.4.2}
+\contentsline {section}{\numberline {4.3}Application of tumour content to separate germline alterations from somatic mutations in tumour-only analyses}{78}{section.4.3}
+\contentsline {chapter}{\numberline {5}Discussion}{82}{chapter.5}
+\contentsline {chapter}{\numberline {6}Conclusion}{91}{chapter.6}
+\contentsline {chapter}{Bibliography}{92}{chapter*.39}
+\contentsline {chapter}{\numberline {A}Supporting Materials}{109}{appendix.A}
