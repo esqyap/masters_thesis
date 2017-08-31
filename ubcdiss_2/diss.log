@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  24 AUG 2017 16:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  31 AUG 2017 11:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3179,6 +3179,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 490--492
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 490--492
+[]\OT1/ptm/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 490--492
+[]\OT1/ptm/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 490--492
 []\OT1/ptm/m/n/10.95 --
  []
 
@@ -3230,6 +3240,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 496--496
 
 Underfull \hbox (badness 10000) in paragraph at lines 496--498
 []|\OT1/ptm/m/n/10.95 [[],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 496--498
+[]\OT1/ptm/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 496--498
+[]\OT1/ptm/m/n/10.95 ,
  []
 
 
@@ -3353,6 +3373,11 @@ Overfull \hbox (0.8245pt too wide) in paragraph at lines 509--509
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 509--511
+[]\OT1/ptm/m/n/10.95 ,
+ []
+
+
 Overfull \hbox (53.12498pt too wide) in alignment at lines 472--512
  [] [] [] [] [] [] [] [] [] 
  []
@@ -3400,6 +3425,11 @@ Underfull \hbox (badness 1173) in paragraph at lines 516--516
 
 Underfull \hbox (badness 10000) in paragraph at lines 516--518
 []|\OT1/ptm/m/n/10.95 [[],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 516--518
+[]\OT1/ptm/m/n/10.95 ,
  []
 
 
@@ -3500,6 +3530,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 523--523
 
 Underfull \hbox (badness 10000) in paragraph at lines 523--525
 []|\OT1/ptm/m/n/10.95 [[],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 523--525
+[]\OT1/ptm/m/n/10.95 ,
  []
 
 
@@ -3649,7 +3684,7 @@ Overfull \hbox (53.12498pt too wide) in alignment at lines 512--544
 
 [62
 
-] [63]
+] [63] [64]
 Overfull \hbox (2.50961pt too wide) in paragraph at lines 544--544
 []|\OT1/ptm/m/n/10.95 22:50966082| 
  []
@@ -3687,6 +3722,11 @@ Underfull \hbox (badness 2735) in paragraph at lines 548--548
 
 Underfull \hbox (badness 2368) in paragraph at lines 548--548
 \OT1/ptm/m/n/10.95 rim-i-dine treat-ment, and risk of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 548--550
+[]\OT1/ptm/m/n/10.95 ,
  []
 
 
@@ -3759,14 +3799,14 @@ Overfull \hbox (53.12498pt too wide) in alignment at lines 544--559
  [] [] [] [] [] [] [] [] [] 
  []
 
-[64] [65] [66] [67]
+[65] [66] [67]
 Underfull \hbox (badness 10000) in paragraph at lines 562--574
 
  []
 
-[68]
+[68] [69]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/bar_cancer_ge
-nes_pct.png, id=1052, 11442.75pt x 4818.0pt>
+nes_pct.png, id=1056, 11442.75pt x 4818.0pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/bar_canc
 er_genes_pct.png Graphic file (type png)
 
@@ -3780,13 +3820,13 @@ Overfull \hbox (72.24039pt too wide) in paragraph at lines 584--585
  [][] 
  []
 
-[69
+[70
 
 
  </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/bar_cancer_g
 enes_pct.png>]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/bar_pgx_genes
-_pct.png, id=1058, 9636.0pt x 6022.5pt>
+_pct.png, id=1062, 9636.0pt x 6022.5pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/bar_pgx_
 genes_pct.png Graphic file (type png)
 
@@ -3795,13 +3835,13 @@ enes_pct.png>
 Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
 er3_figure/bar_pgx_genes_pct.png used on input line 598.
 (pdftex.def)             Requested size: 578.13507pt x 361.33441pt.
- [70
+ [71
 
 
  </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/bar_pgx_gene
 s_pct.png>]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/ffpe_blood_co
-nc_venn_gt.png, id=1070, 3011.25pt x 3011.25pt>
+nc_venn_gt.png, id=1074, 3011.25pt x 3011.25pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/ffpe_blo
 od_conc_venn_gt.png Graphic file (type png)
 
@@ -3810,9 +3850,9 @@ d_conc_venn_gt.png>
 Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
 er3_figure/ffpe_blood_conc_venn_gt.png used on input line 620.
 (pdftex.def)             Requested size: 301.14264pt x 301.14264pt.
- [71
+ [72
 
-] [72 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/ffpe_bl
+] [73 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/ffpe_bl
 ood_conc_venn_gt.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 639--639
 []|\OT1/ptm/m/n/10.95 p.Asp949Val
@@ -4069,7 +4109,7 @@ Overfull \hbox (10.67815pt too wide) in alignment at lines 680--726
  [] [] [] [] [] [] [] 
  []
 
-[73
+[74
 
 ]
 Overfull \hbox (6.27585pt too wide) in paragraph at lines 726--726
@@ -4091,11 +4131,11 @@ Overfull \hbox (10.67815pt too wide) in alignment at lines 726--742
  [] [] [] [] [] [] [] 
  []
 
-[74] [75] [76] [77
+[75] [76] [77] [78
 
 ]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/germline_sens
-_minor.png, id=1110, 635.976pt x 277.5168pt>
+_minor.png, id=1115, 635.976pt x 277.5168pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/germline
 _sens_minor.png Graphic file (type png)
 
@@ -4109,9 +4149,9 @@ Overfull \hbox (11.56015pt too wide) in paragraph at lines 777--778
 [][] 
  []
 
-[78]
+[79]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/germline_ppv_
-minor.png, id=1116, 632.6034pt x 271.7352pt>
+minor.png, id=1120, 632.6034pt x 271.7352pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/germline
 _ppv_minor.png Graphic file (type png)
 
@@ -4125,23 +4165,56 @@ Overfull \hbox (9.19934pt too wide) in paragraph at lines 818--819
 [][] 
  []
 
-[79 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/germline_
-sens_minor.png>]) [80 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter
+[80 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/germline_
+sens_minor.png>]) [81 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter
 3_figure/germline_ppv_minor.png>]
 \openout2 = `discussion.aux'.
 
  (./discussion.tex
 Chapter 5.
-[81
+[82
 
 
 
-] [82] [83] [84] [85]) [86]
+] [83] [84] [85]
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+
+
+Package natbib Warning: Citation `ones2015a' on page 86 undefined on input line
+ 25.
+
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+
+Overfull \hbox (3.6693pt too wide) in paragraph at lines 39--40
+[]\OT1/ptm/m/n/10.95 However, it is known that tumour-specific mu-ta-tions oc-c
+ur, which can af-fect re-ten-tion of germline
+ []
+
+[86] [87] [88] [89]) [90]
 \openout2 = `conclusion.aux'.
 
  (./conclusion.tex
 Chapter 6.
-) [87
+) [91
 
 
 
@@ -4159,29 +4232,29 @@ LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
- [88
+ [92
 
 
-] [89]
-[90] [91] [92]
+] [93]
+[94] [95] [96] [97]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
- [93] [94] [95] [96]
-LaTeX Font Info:    Try loading font information for OML+ptm on input line 888.
+ [98] [99] [100] [101]
+LaTeX Font Info:    Try loading font information for OML+ptm on input line 970.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omlptm.fd
 File: omlptm.fd 
 )
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <10.95> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 888.
- [97] [98]
-[99]
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 970.
+ [102] [103]
+[104]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ” in font ptmr7t!
- [100] [101] [102]) [103]
+ [105] [106] [107]) [108]
 \openout2 = `appendix.aux'.
 
  (./appendix.tex
@@ -4191,7 +4264,7 @@ Overfull \hbox (50.71762pt too wide) in alignment at lines 6--59
  [] [] [] [] [] [] 
  []
 
-) [104
+) [109
 
 
 ]
@@ -4208,7 +4281,7 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 459.
 Package rerunfilecheck Info: File `diss.out' has not changed.
 (rerunfilecheck)             Checksum: 52AF2C8A755BFE00E3E3B2AC6703B15E;4014.
 Package rerunfilecheck Info: File `diss.brf' has not changed.
-(rerunfilecheck)             Checksum: C6AE9615008A3F9855E2E0FD5EE2AF3C;11333.
+(rerunfilecheck)             Checksum: BFC0E5B84141EA69ED40536C979110E1;12606.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -4217,13 +4290,13 @@ LaTeX Font Warning: Size substitutions with differences
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 459.
  ) 
 Here is how much of TeX's memory you used:
- 22197 strings out of 493014
- 411495 string characters out of 6133351
- 518507 words of memory out of 5000000
- 25007 multiletter control sequences out of 15000+600000
+ 22294 strings out of 493014
+ 412996 string characters out of 6133351
+ 519735 words of memory out of 5000000
+ 25086 multiletter control sequences out of 15000+600000
  71625 words of font info for 144 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,15n,51p,10389b,1141s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,15n,51p,10389b,1159s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
 xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
@@ -4234,10 +4307,10 @@ ist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
 ype1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/t
 imes/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri
 8a.pfb>
-Output written on diss.pdf (117 pages, 7112418 bytes).
+Output written on diss.pdf (122 pages, 7128696 bytes).
 PDF statistics:
- 1759 PDF objects out of 2073 (max. 8388607)
- 1581 compressed objects within 16 object streams
- 324 named destinations out of 1000 (max. 500000)
+ 1877 PDF objects out of 2073 (max. 8388607)
+ 1693 compressed objects within 17 object streams
+ 342 named destinations out of 1000 (max. 500000)
  472 words of extra memory for PDF output out of 10000 (max. 10000000)
 
