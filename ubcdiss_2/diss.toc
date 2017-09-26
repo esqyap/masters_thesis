@@ -6,42 +6,45 @@
 \contentsline {chapter}{List of Abbreviations}{xii}{chapter*.6}
 \contentsline {chapter}{Acknowledgments}{xiii}{chapter*.7}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}Cancer as a Genetic Disease}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}The Evolution of Molecular Diagnostics in Cancer}{2}{section.1.2}
-\contentsline {section}{\numberline {1.3}The Era of Precision Oncology}{4}{section.1.3}
-\contentsline {section}{\numberline {1.4}Next-generation Sequencing Technologies}{4}{section.1.4}
-\contentsline {section}{\numberline {1.5}Applications of Next-generation Sequencing}{4}{section.1.5}
-\contentsline {subsection}{\numberline {1.5.1}Targeted Sequencing}{4}{subsection.1.5.1}
-\contentsline {subsection}{\numberline {1.5.2}Whole Exome Sequencing}{4}{subsection.1.5.2}
-\contentsline {subsection}{\numberline {1.5.3}Whole Genome Sequencing}{4}{subsection.1.5.3}
-\contentsline {section}{\numberline {1.6}Variant Calling Pipeline}{4}{section.1.6}
-\contentsline {section}{\numberline {1.7}Germline Variants in The Tumour Genome}{4}{section.1.7}
-\contentsline {subsection}{\numberline {1.7.1}Incidental Findings}{4}{subsection.1.7.1}
-\contentsline {subsection}{\numberline {1.7.2}Pharmacogenomic Variants}{5}{subsection.1.7.2}
-\contentsline {subsection}{\numberline {1.7.3}Challenges}{5}{subsection.1.7.3}
-\contentsline {section}{\numberline {1.8}ACCE Model Process for Evaluating Genetic Tests}{6}{section.1.8}
-\contentsline {section}{\numberline {1.9}Objectives}{6}{section.1.9}
-\contentsline {chapter}{\numberline {2}Materials and Methods}{7}{chapter.2}
-\contentsline {section}{\numberline {2.1}Overview of study design}{7}{section.2.1}
-\contentsline {section}{\numberline {2.2}Patient samples}{7}{section.2.2}
-\contentsline {section}{\numberline {2.3}Sample preparation, library construction, and Illumina sequencing}{8}{section.2.3}
-\contentsline {section}{\numberline {2.4}OncoPanel (Amplicon-based targeted sequencing panel for solid tumours)}{9}{section.2.4}
-\contentsline {section}{\numberline {2.5}Variant calling pipeline}{10}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Read alignment and variant calling}{10}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Variant filtering}{11}{subsection.2.5.2}
-\contentsline {subsection}{\numberline {2.5.3}Variant annotation and interpretation}{11}{subsection.2.5.3}
-\contentsline {section}{\numberline {2.6}Sequence analysis}{15}{section.2.6}
-\contentsline {section}{\numberline {2.7}Application of VAF thresholds to separate germline alterations from somatic mutations}{15}{section.2.7}
-\contentsline {chapter}{\numberline {3}Assessment of Formalin-Induced DNA Damage in FFPE Specimens}{17}{chapter.3}
-\contentsline {section}{\numberline {3.1}Comparison of efficiency in amplicon enrichment and sequencing results between blood and FFPE specimens}{17}{section.3.1}
-\contentsline {section}{\numberline {3.2}Reduced coverage depth in FFPE specimens is more pronounced for longer amplicons}{24}{section.3.2}
-\contentsline {section}{\numberline {3.3}Deamination effects lead to increased C$>$T/G$>$A transitions in FFPE specimens}{29}{section.3.3}
-\contentsline {section}{\numberline {3.4}Increased age of paraffin block results in reduced amplicon yield and elevated level of C$>$T/G$>$A sequence artifacts}{37}{section.3.4}
-\contentsline {chapter}{\numberline {4}Identification of Germline Alterations in FFPE Tumours}{42}{chapter.4}
-\contentsline {section}{\numberline {4.1}Frequency and variant assessment of germline alterations in patients from TOP cohort}{44}{section.4.1}
-\contentsline {section}{\numberline {4.2}Germline alterations are highly concordant between blood and FFPE specimens}{72}{section.4.2}
-\contentsline {section}{\numberline {4.3}Application of tumour content to separate germline alterations from somatic mutations in tumour-only analyses}{78}{section.4.3}
-\contentsline {chapter}{\numberline {5}Discussion}{82}{chapter.5}
-\contentsline {chapter}{\numberline {6}Conclusion}{91}{chapter.6}
-\contentsline {chapter}{Bibliography}{92}{chapter*.39}
-\contentsline {chapter}{\numberline {A}Supporting Materials}{109}{appendix.A}
+\contentsline {section}{\numberline {1.1}The emergence of precision oncology}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Overview of next-generation sequencing technologies}{2}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Illumina sequencing}{3}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Clinical applications of NGS}{3}{subsection.1.2.2}
+\contentsline {section}{\numberline {1.3}Variant analysis pipeline}{5}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Quality control and pre-processing of raw data}{6}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Read alignment and post-alignment processing}{6}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Variant calling}{7}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.4}Variant annotation}{7}{subsection.1.3.4}
+\contentsline {subsection}{\numberline {1.3.5}Variant interpretation and reporting}{7}{subsection.1.3.5}
+\contentsline {section}{\numberline {1.4}ACCE model process for evaluating genetic tests}{7}{section.1.4}
+\contentsline {section}{\numberline {1.5}Clinical implications of germline alterations in cancer}{9}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}Cancer predisposition}{9}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {1.5.2}Pharmacogenomics}{10}{subsection.1.5.2}
+\contentsline {section}{\numberline {1.6}Technical challenges in implementing germline testing in clinical oncology}{12}{section.1.6}
+\contentsline {subsection}{\numberline {1.6.1}Tumour-only sequencing}{12}{subsection.1.6.1}
+\contentsline {subsection}{\numberline {1.6.2}Formalin-fixed paraffin-embedded tumours}{13}{subsection.1.6.2}
+\contentsline {section}{\numberline {1.7}Objectives}{14}{section.1.7}
+\contentsline {chapter}{\numberline {2}Materials and Methods}{15}{chapter.2}
+\contentsline {section}{\numberline {2.1}Overview of study design}{15}{section.2.1}
+\contentsline {section}{\numberline {2.2}Patient samples}{15}{section.2.2}
+\contentsline {section}{\numberline {2.3}Sample preparation, library construction, and Illumina sequencing}{16}{section.2.3}
+\contentsline {section}{\numberline {2.4}OncoPanel (Amplicon-based targeted sequencing panel for solid tumours)}{17}{section.2.4}
+\contentsline {section}{\numberline {2.5}Variant calling pipeline}{18}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Read alignment and variant calling}{18}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Variant filtering}{19}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.3}Variant annotation and interpretation}{19}{subsection.2.5.3}
+\contentsline {section}{\numberline {2.6}Sequence analysis}{23}{section.2.6}
+\contentsline {section}{\numberline {2.7}Application of VAF thresholds to separate germline alterations from somatic mutations}{23}{section.2.7}
+\contentsline {chapter}{\numberline {3}Assessment of Formalin-Induced DNA Damage in FFPE Specimens}{25}{chapter.3}
+\contentsline {section}{\numberline {3.1}Comparison of efficiency in amplicon enrichment and sequencing results between blood and FFPE specimens}{25}{section.3.1}
+\contentsline {section}{\numberline {3.2}Reduced coverage depth in FFPE specimens is more pronounced for longer amplicons}{32}{section.3.2}
+\contentsline {section}{\numberline {3.3}Deamination effects lead to increased C$>$T/G$>$A transitions in FFPE specimens}{37}{section.3.3}
+\contentsline {section}{\numberline {3.4}Increased age of paraffin block results in reduced amplicon yield and elevated level of C$>$T/G$>$A sequence artifacts}{45}{section.3.4}
+\contentsline {chapter}{\numberline {4}Identification of Germline Alterations in FFPE Tumours}{50}{chapter.4}
+\contentsline {section}{\numberline {4.1}Frequency and variant assessment of germline alterations in patients from TOP cohort}{52}{section.4.1}
+\contentsline {section}{\numberline {4.2}Germline alterations are highly concordant between blood and FFPE specimens}{80}{section.4.2}
+\contentsline {section}{\numberline {4.3}Application of tumour content to separate germline alterations from somatic mutations in tumour-only analyses}{86}{section.4.3}
+\contentsline {chapter}{\numberline {5}Discussion}{90}{chapter.5}
+\contentsline {chapter}{\numberline {6}Conclusion}{97}{chapter.6}
+\contentsline {chapter}{Bibliography}{98}{chapter*.39}
+\contentsline {chapter}{\numberline {A}Supporting Materials}{118}{appendix.A}
