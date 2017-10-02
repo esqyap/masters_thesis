@@ -4,7 +4,7 @@
 \chapter{Assessment of Formalin-Induced DNA Damage in FFPE Specimens}
 \label{ch:AssessmentofFormalin-InducedDNADamageinFFPESpecimens}
 
-Tumour biopsies and resections are often formalin-fixed and paraffin-embedded to preserve cellular morphology for pathological review. The FFPE method also enables storage of tissues at room temperature, minimizing cost and mitigating logistical difficulties in procurement of large archives of clinical specimens \cite{Lou2014}. However, formaldehyde, the main component of formalin, is known to induce DNA damage such as fragmentation and cytosine deamination, which could affect the use of FFPE DNA in clinical genomic testing \cite{Do2015a, Kim2017, Ofner2017, Oh2015, Wong2013, Wong2014, Sikorsky2007}. As DNA derived from blood is one of the gold standards for germline testing, we characterized formalin-induced DNA damage in our data to assess its impact on identification of germline alterations in FFPE DNA. With blood specimens serving as non-formalin-fixed controls, we compared efficiency in amplicon enrichment and sequencing results of FFPE specimens to blood.
+Tumour biopsies and resections are often FFPE to preserve cellular morphology for pathological review. The FFPE method also enables storage of tissues at room temperature, minimizing cost and mitigating logistical difficulties in procurement of large archives of clinical specimens \cite{Lou2014}. However, formaldehyde, the main component of formalin, is known to induce DNA damage such as fragmentation and cytosine deamination, which could affect the use of FFPE DNA in clinical genomic testing \cite{Do2015a, Kim2017, Ofner2017, Oh2015, Wong2013, Wong2014, Sikorsky2007}. As DNA derived from blood is one of the gold standards for germline testing, we characterized formalin-induced DNA damage in our data to assess its impact on identification of germline alterations in FFPE DNA. With blood specimens serving as non-formalin-fixed controls, we compared efficiency in amplicon enrichment and sequencing results of FFPE specimens to blood.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Comparison of efficiency in amplicon enrichment and sequencing results between blood and FFPE specimens}
@@ -23,8 +23,8 @@ Although blood and FFPE specimens demonstrated no significant difference in the 
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.8]{dna_input_amp_yield.png}
-	\caption{Comparison of efficiency in amplicon enrichment between blood and FFPE specimens. (A) Distributions of amplicon yield in blood and FFPE specimens (Wilcoxon signed-rank test). Dashed lines indicate median amplicon yield in blood and FFPE specimens, which are 299.3 ng and 103.6 ng, respectively. (B) Correlations between amplicon yield and the amount of DNA input for amplicon enrichment in blood and FFPE specimens (Spearman's rank correlation). (C) Distributions of fold change between DNA input and amplicon yield (log\textsubscript{2}), which is used to measure efficiency in amplicon enrichment in blood and FFPE specimens (Wilcoxon signed-rank test). Dashed lines indicate median log\textsubscript{2} fold change in blood and FFPE specimens, which are 1.04 and -0.332, respectively.}
+	\includegraphics[scale=0.75]{dna_input_amp_yield.png}
+	\caption[Comparison of efficiency in amplicon enrichment between blood and FFPE specimens.]{Comparison of efficiency in amplicon enrichment between blood and FFPE specimens. (A) Distributions of amplicon yield in blood and FFPE specimens (Wilcoxon signed-rank test). Dashed lines indicate median amplicon yield in blood and FFPE specimens, which are 299.3 ng and 103.6 ng, respectively. (B) Correlations between amplicon yield and the amount of DNA input for amplicon enrichment in blood and FFPE specimens (Spearman's rank correlation). (C) Distributions of fold change between DNA input and amplicon yield (log\textsubscript{2}), which is used to measure efficiency in amplicon enrichment in blood and FFPE specimens (Wilcoxon signed-rank test). Dashed lines indicate median log\textsubscript{2} fold change in blood and FFPE specimens, which are 1.04 and -0.332, respectively.}
 	\label{fig:dna_input_amp_yield}
 \end{figure}
 
@@ -34,7 +34,7 @@ Although blood and FFPE specimens demonstrated no significant difference in the 
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=1]{alignment_pct.png}
-	\caption{Assessment of read alignments between blood and FFPE specimens (Wilcoxon signed-rank test). Box plots show the median (horizontal bar within) and interquartile range (IQR) of percentage of reads, with whiskers representing the range of data not exceeding 1.5x the IQR and circles indicating outliers.}
+	\caption[Assessment of read alignments between blood and FFPE specimens (Wilcoxon signed-rank test).]{Assessment of read alignments between blood and FFPE specimens (Wilcoxon signed-rank test). Box plots show the median (horizontal bar within) and interquartile range (IQR) of percentage of reads, with whiskers representing the range of data not exceeding 1.5x the IQR and circles indicating outliers.}
 	\label{fig:alignment_pct}
 \end{figure}
 
@@ -44,7 +44,7 @@ Although blood and FFPE specimens demonstrated no significant difference in the 
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.9]{coverage_stats.png}
-	\caption{Evaluation of coverage uniformity in blood and FFPE specimens (Wilcoxon signed-rank test, ****\textit{p} $<$ 0.0001, ns = not significant). Per base coverage was normalized to account for difference in library size. Percentage of target bases that met various coverage thresholds was calculated. Box plots show the median (horizontal bar within) and IQR of percentage of target bases that met the respective coverage thresholds, with whiskers representing the range of data not exceeding 1.5x the IQR and circles indicating outliers.}
+	\caption[Evaluation of coverage uniformity in blood and FFPE specimens (Wilcoxon signed-rank test, ****\textit{p} $<$ 0.0001, ns = not significant).]{Evaluation of coverage uniformity in blood and FFPE specimens (Wilcoxon signed-rank test, ****\textit{p} $<$ 0.0001, ns = not significant). Per base coverage was normalized to account for difference in library size. Percentage of target bases that met various coverage thresholds was calculated. Box plots show the median (horizontal bar within) and IQR of percentage of target bases that met the respective coverage thresholds, with whiskers representing the range of data not exceeding 1.5x the IQR and circles indicating outliers.}
 	\label{fig:coverage_stats}
 \end{figure}
 
@@ -112,8 +112,8 @@ Because amplicon length and GC content demonstrated significant correlations wit
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.14]{amp_norm_depth_med_wilcoxon_volcano.png}
-	\caption{Amplicon-specific differences in coverage depth between blood and FFPE specimens. Difference in amplicon coverage depth between specimen types was determined using the Wilcoxon signed-rank test with Benjamini-Hochberg correction (adjusted \textit{p} $<$ 0.0001). Volcano plot illustrates the -log\textsubscript{10} adjusted \textit{p}-value in relation to log\textsubscript{2} fold change between median coverage depth in blood and FFPE specimens (\mbox{log\textsubscript{2} (Median Coverage\textsubscript{FFPE}/Median Coverage\textsubscript{Blood})}) for amplicons in the panel. Negative log\textsubscript{2} fold change indicates lower coverage depth of the amplicon in FFPE specimens relative to blood ($\downarrow \text{Coverage\textsubscript{FFPE}}$), whereas positive log\textsubscript{2} fold change indicates higher coverage depth of the amplicon in FFPE specimens relative to blood ($\uparrow\text{Coverage\textsubscript{FFPE}}$). N = number of amplicons; ns = not significant}
+	\includegraphics[scale=0.13]{amp_norm_depth_med_wilcoxon_volcano.png}
+	\caption[Amplicon-specific differences in coverage depth between blood and FFPE specimens.]{Amplicon-specific differences in coverage depth between blood and FFPE specimens. Difference in amplicon coverage depth between specimen types was determined using the Wilcoxon signed-rank test with Benjamini-Hochberg correction (adjusted \textit{p} $<$ 0.0001). Volcano plot illustrates the -log\textsubscript{10} adjusted \textit{p}-value in relation to log\textsubscript{2} fold change between median coverage depth in blood and FFPE specimens (\mbox{log\textsubscript{2} (Median Coverage\textsubscript{FFPE}/Median Coverage\textsubscript{Blood})}) for amplicons in the panel. Negative log\textsubscript{2} fold change indicates lower coverage depth of the amplicon in FFPE specimens relative to blood ($\downarrow \text{Coverage\textsubscript{FFPE}}$), whereas positive log\textsubscript{2} fold change indicates higher coverage depth of the amplicon in FFPE specimens relative to blood ($\uparrow\text{Coverage\textsubscript{FFPE}}$). N = number of amplicons; ns = not significant}
 	\label{fig:amp_norm_depth_med_wilcoxon_volcano}
 \end{figure}
 
@@ -123,7 +123,7 @@ Because amplicon length and GC content demonstrated significant correlations wit
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.14]{amp_gc_length.png}
-	\caption{The relationship between amplicon GC content and amplicon length (Pearson's correlation). Solid line represents the fitted linear relationship between the two variables, and the shaded band indicates pointwise 95\% confidence interval of the fitted linear regression line.}
+	\caption[The relationship between amplicon GC content and amplicon length (Pearson's correlation).]{The relationship between amplicon GC content and amplicon length (Pearson's correlation). Solid line represents the fitted linear relationship between the two variables, and the shaded band indicates pointwise 95\% confidence interval of the fitted linear regression line.}
 	\label{fig:amp_gc_length}
 \end{figure}
 
@@ -132,8 +132,8 @@ Because amplicon length and GC content demonstrated significant correlations wit
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.85]{amp_cov_lm_len_gc.png}
-	\caption{Scatter plots showing log\textsubscript{2} fold change between amplicon coverage depth in blood and FFPE specimens (\mbox{log\textsubscript{2} (Median Coverage\textsubscript{FFPE}/Median Coverage\textsubscript{Blood})}) in relation to (A) amplicon length and (B) GC content (Pearson's correlation). Solid line represents the fitted linear relationship between the two variables, and the shaded band indicates pointwise 95\% confidence interval of the fitted linear regression line.}
+	\includegraphics[scale=0.8]{amp_cov_lm_len_gc.png}
+	\caption[Scatter plots showing log\textsubscript{2} fold change between amplicon coverage depth in blood and FFPE specimens in relation to (A) amplicon length and (B) GC content (Pearson's correlation).]{Scatter plots showing log\textsubscript{2} fold change between amplicon coverage depth in blood and FFPE specimens (\mbox{log\textsubscript{2} (Median Coverage\textsubscript{FFPE}/Median Coverage\textsubscript{Blood})}) in relation to (A) amplicon length and (B) GC content (Pearson's correlation). Solid line represents the fitted linear relationship between the two variables, and the shaded band indicates pointwise 95\% confidence interval of the fitted linear regression line.}
 	\label{fig:amp_cov_lm_len_gc}
 \end{figure}
 
@@ -141,7 +141,7 @@ Because amplicon length and GC content demonstrated significant correlations wit
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{table}[H]
-\caption{Multiple linear regression to predict log\textsubscript{2} fold change between amplicon coverage depth in blood and FFPE specimens (\mbox{log\textsubscript{2} (Median Coverage\textsubscript{FFPE}/Median Coverage\textsubscript{Blood})}) based on amplicon length and GC content.}
+\caption[Multiple linear regression to predict log\textsubscript{2} fold change between amplicon coverage depth in blood and FFPE specimens based on amplicon length and GC content.]{Multiple linear regression to predict log\textsubscript{2} fold change between amplicon coverage depth in blood and FFPE specimens (\mbox{log\textsubscript{2} (Median Coverage\textsubscript{FFPE}/Median Coverage\textsubscript{Blood})}) based on amplicon length and GC content.}
 \label{tbl:multiple_regression}
 \centering
       \begin{tabular}{l|ccccl}
@@ -167,7 +167,7 @@ Because amplicon length and GC content demonstrated significant correlations wit
 \section{Deamination effects lead to increased C$>$T/G$>$A transitions in FFPE specimens}
 \label{sec:DeaminationeffectsleadtoincreasedC$>$T/G$>$AtransitionsinFFPEspecimens}
 
-Formalin fixation not only induces DNA fragmentation, but also base modifications that give rise to sequence artifacts \cite{Do2012, Do2013, Do2015a, Kim2017, Hofreiter2001, Wong2014, Ofner2017, Oh2015}. A prominent type of formalin-induced sequence artifact is C$>$T/G$>$A transitions as a result of deamination of cytosine bases \cite{Do2015a, Kim2017, Wong2014, Oh2015, Lin2014}. To measure the level of formalin-induced artifacts in FFPE specimens, we quantified the fraction of base changes that were not identified as true SNVs by our variant calling pipeline. We only considered high quality bases (BAQ $\geq$ 20) and base changes that were $\geq$ 1\% allele frequency to exclude sequencing errors from our analysis. Base changes were categorized into C$>$T/G$>$A and A$>$G/T$>$C, which are nucleotide transitions, as well as C$>$A/G$>$T, A$>$C/T$>$G, C$>$G/G$>$C, and A$>$T/T$>$A, which are nucleotide transversions. We compared the fraction of base changes between specimen types and found significant differences in fraction of C$>$T/G$>$A and A$>$G/T$>$C between blood and FFPE specimens (Wilcoxon signed rank test, \textit{p} $<$ 0.0001; \autoref{fig:deamination_effect_blood_ffpe}A). As blood DNA is not affected by formalin fixation, we evaluated the prevalence of artifactual base changes in FFPE specimens with respect to blood by calculating the fold change between the median fraction of base changes in blood and FFPE specimens (\autoref{tbl:sum_stats_base_changes}). We noted a substantially higher fold change for C$>$T/G$>$A compared to A$>$G/T$>$C: fraction of C$>$T/G$>$A was 23 times higher in FFPE specimens relative to blood, whereas fraction of A$>$G/T$>$C was 3.1 times higher in FFPE specimens relative to blood. This result is consistent with cytosine deamination effects that are reportedly predominant in FFPE DNA. As well, increased A$>$G/T$>$C base changes could be caused by incorporation of guanines at abasic sites \cite{Heyn2010}. In the presence of atmospheric oxygen, formaldehyde can be oxidized into formic acid, causing depurination, which gives rise to abasic sites \cite{Do2015a}.
+Formalin fixation not only induces DNA fragmentation, but also base modifications that give rise to sequence artifacts \cite{Do2012, Do2013, Do2015a, Kim2017, Hofreiter2001, Wong2014, Ofner2017, Oh2015}. A prominent type of formalin-induced sequence artifact is C$>$T/G$>$A transitions as a result of deamination of cytosine bases \cite{Do2015a, Kim2017, Wong2014, Oh2015, Lin2014}. To measure the level of formalin-induced artifacts in FFPE specimens, we quantified the fraction of base changes that were not identified as true SNVs by our variant calling pipeline. We only considered high quality bases (BAQ $\geq$ 20) and base changes that were $\geq$ 1\% allele frequency to exclude sequencing errors from our analysis. Base changes were categorized into C$>$T/G$>$A and A$>$G/T$>$C, which are nucleotide transitions, as well as C$>$A/G$>$T, A$>$C/T$>$G, C$>$G/G$>$C, and A$>$T/T$>$A, which are nucleotide transversions. We compared the fraction of base changes between specimen types and found significant differences in fraction of C$>$T/G$>$A and A$>$G/T$>$C between blood and FFPE specimens (Wilcoxon signed rank test, \textit{p} $<$ 0.0001; \autoref{fig:deamination_effect_blood_ffpe}A). As blood DNA is not affected by formalin fixation, we evaluated the prevalence of artifactual base changes in FFPE specimens with respect to blood by calculating the fold change between the median fraction of base changes in blood and FFPE specimens (\autoref{tbl:sum_stats_base_changes}). We noted a substantially higher fold change for C$>$T/G$>$A compared to A$>$G/T$>$C: fraction of C$>$T/G$>$A was 23 times higher in FFPE specimens relative to blood, whereas fraction of A$>$G/T$>$C was 3.1 times higher in FFPE specimens relative to blood. Increased C$>$T/G$>$A artifacts is consistent with cytosine deamination effects that are reportedly predominant in FFPE DNA. On the other hand, A$>$G/T$>$C artifacts could be caused by deamination of adenine to generate hypoxanthine, which forms base pairs with cytosine instead of thymine, changing A-T base pairs to G-C base pairs. Deamination of adenine to hypoxanthine can be catalyzed by an acidic environment \cite{Wang2010}, which can arise in FFPE specimens because formaldehyde can be oxidized to generate formic acid \cite{Do2015a}.
 
 To assess the relative difference in fraction of base changes in FFPE specimens compared to blood specimens, we calculated the log\textsubscript{2} fold change in fraction of base changes between paired blood and FFPE specimens (log\textsubscript{2} (Fraction of Base Changes\textsubscript{FFPE}/Fraction of Base Changes\textsubscript{Blood})). We compared the relative difference in fraction of base changes across different types of base changes, and a Kruskal-Wallis test indicated that type of base changes has a significant effect on the relative difference in fraction of base changes (\textit{H} = 428.5, \textit{p} = \num{2.1e-90}; \autoref{fig:deamination_effect_blood_ffpe_fc}). Multiple pairwise comparison of the relative difference in fraction of base changes was performed using a post-hoc Dunn's test with Benjamini-Hochberg correction. Relative difference in fraction of C$>$T/G$>$A was significantly different compared to the five other types of base changes, and this was similar for A$>$G/T$>$C (adjusted \textit{p} $<$ 0.0001; \autoref{tbl:dunntest}). Although both C$>$T/G$>$A and A$>$G/T$>$C were elevated in FFPE specimens compared to the other base transversions, the magnitude of difference was larger for C$>$T/G$>$A than A$>$G/T$>$C (median log\textsubscript{2} fold change: C$>$T/G$>$A = 4.2, A$>$G/T$>$C = 1.6), which further confirms that deamination of cytosine bases is the most frequent form of sequence artifact in FFPE DNA.
 
@@ -179,7 +179,7 @@ Formalin-induced sequence artifacts often occur at low allele frequency; hence, 
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.8]{deamination_effect_blood_ffpe.png}
-	\caption{Assessment of formalin-induced sequence artifacts in FFPE specimens. (A) Comparison of fraction of base changes in blood and FFPE specimens (Wilcoxon signed-rank test). Box plots show the median (horizontal bar within) and IQR of fraction of base changes for different types of base changes, with whiskers representing the range of data not exceeding 1.5x the IQR and circles indicating outliers. (B) Box plots showing square root-transformed fraction of base changes on the Y-axis.}
+	\caption[Assessment of formalin-induced sequence artifacts in FFPE specimens.]{Assessment of formalin-induced sequence artifacts in FFPE specimens. (A) Comparison of fraction of base changes in blood and FFPE specimens (Wilcoxon signed-rank test). Box plots show the median (horizontal bar within) and IQR of fraction of base changes for different types of base changes, with whiskers representing the range of data not exceeding 1.5x the IQR and circles indicating outliers. (B) Box plots showing square root-transformed fraction of base changes on the Y-axis.}
 	\label{fig:deamination_effect_blood_ffpe}
 \end{figure}
 
@@ -227,7 +227,7 @@ Formalin-induced sequence artifacts often occur at low allele frequency; hence, 
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.8]{deamination_effect_blood_ffpe_fc.png}
-	\caption{Comparison of relative difference in fraction of base changes in FFPE specimens compared to blood (Kruskal-Wallis test). Relative difference was measured as log\textsubscript{2} fold change between fraction of base changes in blood and FFPE specimens \mbox{(log\textsubscript{2} (Fraction of Base Changes\textsubscript{FFPE}/Fraction of Base Changes\textsubscript{Blood}))}. Box plots show the median (horizontal bar within) and IQR of log\textsubscript{2} fold change for different types of base changes, with whiskers representing the range of data not exceeding 1.5x the IQR and circles indicating outliers.}
+	\caption[Comparison of relative difference in fraction of base changes in FFPE specimens compared to blood (Kruskal-Wallis test).]{Comparison of relative difference in fraction of base changes in FFPE specimens compared to blood (Kruskal-Wallis test). Relative difference was measured as log\textsubscript{2} fold change between fraction of base changes in blood and FFPE specimens \mbox{(log\textsubscript{2} (Fraction of Base Changes\textsubscript{FFPE}/Fraction of Base Changes\textsubscript{Blood}))}. Box plots show the median (horizontal bar within) and IQR of log\textsubscript{2} fold change for different types of base changes, with whiskers representing the range of data not exceeding 1.5x the IQR and circles indicating outliers.}
 	\label{fig:deamination_effect_blood_ffpe_fc}
 \end{figure}
 
@@ -235,7 +235,7 @@ Formalin-induced sequence artifacts often occur at low allele frequency; hence, 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{table}[H]
-\caption{Multiple pairwise comparison of log\textsubscript{2} fold change in fraction of base changes between blood and FFPE specimens using Dunn's test with Benjamini-Hochberg multiple hypothesis testing correction. Top values represent Dunn's pairwise \textit{z} statistics, whereas bottom values represent adjusted \textit{p}-value. Asterisk(*) indicates significance level of adjusted \textit{p}-value $<$ 0.0001.}
+\caption[Multiple pairwise comparison of log\textsubscript{2} fold change in fraction of base changes between blood and FFPE specimens using Dunn's test with Benjamini-Hochberg multiple hypothesis testing correction.]{Multiple pairwise comparison of log\textsubscript{2} fold change in fraction of base changes between blood and FFPE specimens using Dunn's test with Benjamini-Hochberg multiple hypothesis testing correction. Top values represent Dunn's pairwise \textit{z} statistics, whereas bottom values represent adjusted \textit{p}-value. Asterisk(*) indicates significance level of adjusted \textit{p}-value $<$ 0.0001.}
 \label{tbl:dunntest}
 \centering
       \begin{tabular}{r|l|l|l|l|ll}
@@ -280,7 +280,7 @@ Formalin-induced sequence artifacts often occur at low allele frequency; hence, 
 
 %\addtocounter{figure}{-1}
 \begin{figure}[H]
-  \caption{Assessment of formalin-induced sequence artifacts in FFPE specimens at different ranges of allele frequency. (A) Comparison of fraction of base changes across different ranges of allele frequency (Kruskal-Wallis test). Box plots show the median (horizontal bar within) and IQR of fraction of base changes for different types of base changes, with whiskers representing the range of data not exceeding 1.5x the IQR and circles indicating outliers. (B) Box plots demonstrating square root-transformed fraction of base changes across different ranges of allele frequency. Dashed lines equal to 0.05 to indicate that the Y-axis scales are different for blood and FFPE tumour plots.}
+  \caption[Assessment of formalin-induced sequence artifacts in FFPE specimens at different ranges of allele frequency.]{Assessment of formalin-induced sequence artifacts in FFPE specimens at different ranges of allele frequency. (A) Comparison of fraction of base changes across different ranges of allele frequency (Kruskal-Wallis test). Box plots show the median (horizontal bar within) and IQR of fraction of base changes for different types of base changes, with whiskers representing the range of data not exceeding 1.5x the IQR and circles indicating outliers. (B) Box plots demonstrating square root-transformed fraction of base changes across different ranges of allele frequency. Dashed lines equal to 0.05 to indicate that the Y-axis scales are different for blood and FFPE tumour plots.}
 	\label{fig:deamination_effect_af_range}
 \end{figure}
 
@@ -341,8 +341,8 @@ We subsequently examined how pre-sequencing variables such as age of paraffin bl
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.66]{deamination_effect_age_amp_yield.png}
-	\caption{Scatter plots showing (A) amplicon yield and (B) efficiency in amplicon enrichment, which is represented by the log\textsubscript{2} fold change between the amount of DNA input for producing amplicons and amplicon yield, in relation to age of paraffin blocks (Spearman's rank correlation). Solid lines represent locally weighted smoothing (LOESS) curves, with shaded bands indicating 95\% confidence interval of the LOESS curves.}
+	\includegraphics[scale=0.58]{deamination_effect_age_amp_yield.png}
+	\caption[Scatter plots showing (A) amplicon yield and (B) efficiency in amplicon enrichment, which is represented by the log\textsubscript{2} fold change between the amount of DNA input for producing amplicons and amplicon yield, in relation to age of paraffin blocks (Spearman's rank correlation).]{Scatter plots showing (A) amplicon yield and (B) efficiency in amplicon enrichment, which is represented by the log\textsubscript{2} fold change between the amount of DNA input for producing amplicons and amplicon yield, in relation to age of paraffin blocks (Spearman's rank correlation). Solid lines represent locally weighted smoothing (LOESS) curves, with shaded bands indicating 95\% confidence interval of the LOESS curves.}
 	\label{fig:deamination_effect_age_amp_yield}
 \end{figure}
 
@@ -351,7 +351,7 @@ We subsequently examined how pre-sequencing variables such as age of paraffin bl
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.8]{deamination_effect_age.png}
+	\includegraphics[scale=0.7]{deamination_effect_age.png}
 	\caption{The relationship between fraction of base changes and age of paraffin block for different types of base changes (Spearman's rank correlation).}
 	\label{fig:deamination_effect_age}
 \end{figure}
@@ -361,7 +361,7 @@ We subsequently examined how pre-sequencing variables such as age of paraffin bl
 
 
 \begin{table}[H]
-\caption{Spearman's rank correlation between pre-sequencing variables (e.g. enrichment efficiency and age of paraffin block) and sequencing metrics (e.g. fraction of C$>$T/G$>$A, average per base normalized coverage, and on-target aligned reads). Top values represent Spearman's \textit{rho} and 95\% confidence interval in brackets, whereas bottom values represent \textit{p}-value. Asterisk(*) indicates significance level of \textit{p}-value $<$ 0.05.}
+\caption[Spearman's rank correlation between pre-sequencing variables (e.g. enrichment efficiency and age of paraffin block) and sequencing metrics (e.g. fraction of C$>$T/G$>$A, average per base normalized coverage, and on-target aligned reads).]{Spearman's rank correlation between pre-sequencing variables (e.g. enrichment efficiency and age of paraffin block) and sequencing metrics (e.g. fraction of C$>$T/G$>$A, average per base normalized coverage, and on-target aligned reads). Top values represent Spearman's \textit{rho} and 95\% confidence interval in brackets, whereas bottom values represent \textit{p}-value. Asterisk(*) indicates significance level of \textit{p}-value $<$ 0.05.}
 \label{tbl:spearman_corr}
 \centering
       \begin{tabular}{l|l|l|l|ll}
