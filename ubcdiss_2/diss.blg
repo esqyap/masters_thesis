@@ -12,59 +12,52 @@ A level-1 auxiliary file: chapter3.aux
 A level-1 auxiliary file: discussion.aux
 The style file: abbrvnat.bst
 A level-1 auxiliary file: appendix.aux
-Reallocated field_info (elt_size=4) to 11524 items from 5000.
-Database file #1: /Users/evayap/Documents/masters_thesis/mendeley_bib/biblio_test.bib.bib
-Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Reallocated field_info (elt_size=4) to 11552 items from 5000.
+Database file #1: /Users/evayap/Documents/masters_thesis_appendix/results/bib/test.bib.bib
 Warning--to sort, need author or key in Paget2006
 Warning--to sort, need author or key in NationalHumanGenomeResearchInstitute2010
 Warning--empty author in Paget2006
-Warning--empty journal in Ali-osman1997
 Warning--empty year in Andrews2017
-Warning--empty journal in Arlt2004
-Warning--empty journal in Bombard2014
-Warning--there's a number but no volume in Eid2009
-Warning--empty journal in Kim2017a
-Warning--empty journal in Slager2013
 Warning--there's a number but no volume in Stoehlmacher2004
-You've used 233 entries,
+You've used 234 entries,
             2773 wiz_defined-function locations,
-            2605 strings with 117770 characters,
-and the built_in function-call counts, 241154 in all, are:
-= -- 19108
-> -- 28133
+            2173 strings with 58845 characters,
+and the built_in function-call counts, 120822 in all, are:
+= -- 10716
+> -- 7826
 < -- 44
-+ -- 9394
-- -- 9157
-* -- 25722
-:= -- 40507
-add.period$ -- 1211
-call.type$ -- 233
-change.case$ -- 3750
-chr.to.int$ -- 229
-cite$ -- 479
-duplicate$ -- 4846
-empty$ -- 9422
-format.name$ -- 9438
-if$ -- 46700
++ -- 2684
+- -- 2446
+* -- 11145
+:= -- 18883
+add.period$ -- 702
+call.type$ -- 234
+change.case$ -- 1339
+chr.to.int$ -- 230
+cite$ -- 475
+duplicate$ -- 4860
+empty$ -- 9451
+format.name$ -- 2730
+if$ -- 24730
 int.to.chr$ -- 5
 int.to.str$ -- 1
-missing$ -- 231
-newline$ -- 1684
-num.names$ -- 926
-pop$ -- 6590
+missing$ -- 232
+newline$ -- 1177
+num.names$ -- 930
+pop$ -- 2265
 preamble$ -- 1
-purify$ -- 3518
+purify$ -- 1106
 quote$ -- 0
-skip$ -- 5904
+skip$ -- 3678
 stack$ -- 0
-substring$ -- 5929
-swap$ -- 250
-text.length$ -- 3
+substring$ -- 5938
+swap$ -- 251
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2558
-warning$ -- 11
-while$ -- 1122
+type$ -- 2569
+warning$ -- 5
+while$ -- 1125
 width$ -- 0
-write$ -- 4048
-(There were 11 warnings)
+write$ -- 3042
+(There were 5 warnings)
