@@ -12,52 +12,52 @@ A level-1 auxiliary file: chapter3.aux
 A level-1 auxiliary file: discussion.aux
 The style file: abbrvnat.bst
 A level-1 auxiliary file: appendix.aux
-Reallocated field_info (elt_size=4) to 11552 items from 5000.
+Reallocated field_info (elt_size=4) to 11524 items from 5000.
 Database file #1: /Users/evayap/Documents/masters_thesis_appendix/results/bib/test.bib.bib
 Warning--to sort, need author or key in Paget2006
 Warning--to sort, need author or key in NationalHumanGenomeResearchInstitute2010
 Warning--empty author in Paget2006
 Warning--empty year in Andrews2017
 Warning--there's a number but no volume in Stoehlmacher2004
-You've used 234 entries,
+You've used 233 entries,
             2773 wiz_defined-function locations,
-            2173 strings with 58845 characters,
-and the built_in function-call counts, 120822 in all, are:
-= -- 10716
-> -- 7826
+            2166 strings with 58395 characters,
+and the built_in function-call counts, 120316 in all, are:
+= -- 10675
+> -- 7788
 < -- 44
-+ -- 2684
-- -- 2446
-* -- 11145
-:= -- 18883
-add.period$ -- 702
-call.type$ -- 234
-change.case$ -- 1339
-chr.to.int$ -- 230
-cite$ -- 475
-duplicate$ -- 4860
-empty$ -- 9451
-format.name$ -- 2730
-if$ -- 24730
++ -- 2671
+- -- 2434
+* -- 11097
+:= -- 18801
+add.period$ -- 699
+call.type$ -- 233
+change.case$ -- 1333
+chr.to.int$ -- 229
+cite$ -- 473
+duplicate$ -- 4839
+empty$ -- 9413
+format.name$ -- 2717
+if$ -- 24627
 int.to.chr$ -- 5
 int.to.str$ -- 1
-missing$ -- 232
-newline$ -- 1177
-num.names$ -- 930
-pop$ -- 2265
+missing$ -- 231
+newline$ -- 1172
+num.names$ -- 926
+pop$ -- 2255
 preamble$ -- 1
-purify$ -- 1106
+purify$ -- 1101
 quote$ -- 0
-skip$ -- 3678
+skip$ -- 3662
 stack$ -- 0
-substring$ -- 5938
-swap$ -- 251
+substring$ -- 5924
+swap$ -- 250
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2569
+type$ -- 2558
 warning$ -- 5
-while$ -- 1125
+while$ -- 1121
 width$ -- 0
-write$ -- 3042
+write$ -- 3029
 (There were 5 warnings)

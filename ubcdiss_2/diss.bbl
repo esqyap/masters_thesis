@@ -1,4 +1,4 @@
-\begin{thebibliography}{234}
+\begin{thebibliography}{233}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -101,14 +101,6 @@ R.~Bao, L.~Huang, J.~Andrade, et~al.
 \newblock {Review of Current Methods, Applications, and Data Management for the
   Bioinformatics Analysis of Whole Exome Sequencing}.
 \newblock \emph{Libertas Academica}, 13:\penalty0 67--82, 2014.
-
-\bibitem[Bass et~al.(2014)Bass, Engel, Greytak, et~al.]{Bass2014}
-B.~P. Bass, K.~B. Engel, S.~R. Greytak, et~al.
-\newblock {A review of preanalytical factors affecting molecular, protein, and
-  morphological analysis of Formalin-Fixed, Paraffin-Embedded (FFPE) tissue:
-  How well do you know your FFPE specimen?}
-\newblock \emph{Archives of Pathology and Laboratory Medicine}, 138\penalty0
-  (11):\penalty0 1520--1530, 2014.
 
 \bibitem[Baynes et~al.(2007)Baynes, Healey, Pooley, et~al.]{Baynes2007}
 C.~Baynes, C.~S. Healey, K.~a. Pooley, et~al.
@@ -877,6 +869,11 @@ G.~Lunter and M.~Goodson.
   Illumina sequence reads}.
 \newblock \emph{Genome Research}, 21\penalty0 (6):\penalty0 936--939, 2011.
 
+\bibitem[Mamanova et~al.(2010)Mamanova, Coffey, Scott, et~al.]{Mamanova2010}
+L.~Mamanova, A.~J. Coffey, C.~E. Scott, et~al.
+\newblock {Target-enrichment strategies for next-generation sequencing}.
+\newblock \emph{Nature Methods}, 7\penalty0 (2):\penalty0 111--118, 2010.
+
 \bibitem[Mandola et~al.(2004)Mandola, Stoehlmacher, Zhang, et~al.]{Mandola2004}
 M.~V. Mandola, J.~Stoehlmacher, W.~Zhang, et~al.
 \newblock {A 6 bp polymorphism in the thymidylate synthase gene causes message
@@ -1256,12 +1253,6 @@ A.~D. Seidman, D.~Berry, C.~Cirrincione, et~al.
   nonoverexpressors: final results of Cancer and Leu}.
 \newblock \emph{Journal of Clinical Oncology}, 26\penalty0 (10):\penalty0
   1642--9, 2008.
-
-\bibitem[Seiler et~al.(2016)Seiler, Sharpe, Barrett, et~al.]{Seiler2016}
-C.~Seiler, A.~Sharpe, J.~C. Barrett, et~al.
-\newblock {Nucleic acid extraction from formalin-fixed paraffin-embedded cancer
-  cell line samples: a trade off between quantity and quality?}
-\newblock \emph{BMC Clinical Pathology}, 16\penalty0 (1):\penalty0 17, 2016.
 
 \bibitem[Sheffield et~al.(2016)Sheffield, Tessier-Cloutier, Li-Chang,
   et~al.]{Sheffield2016}
