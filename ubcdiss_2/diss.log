@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  15 OCT 2017 13:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  16 OCT 2017 14:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1554,14 +1554,14 @@ Chapter 3.
 
 ] [36]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/dna_input_amp
-_yield.png, id=1027, 601.7682pt x 502.5174pt>
+_yield_xlabel.png, id=1027, 601.7682pt x 502.5174pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/dna_inpu
-t_amp_yield.png Graphic file (type png)
+t_amp_yield_xlabel.png Graphic file (type png)
 
 <use /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/dna_input
-_amp_yield.png>
+_amp_yield_xlabel.png>
 Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
-er2_figure/dna_input_amp_yield.png used on input line 26.
+er2_figure/dna_input_amp_yield_xlabel.png used on input line 26.
 (pdftex.def)             Requested size: 451.32504pt x 376.88712pt.
 
 Overfull \hbox (17.70503pt too wide) in paragraph at lines 26--27
@@ -1580,7 +1580,7 @@ Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
 er2_figure/alignment_pct.png used on input line 36.
 (pdftex.def)             Requested size: 347.85875pt x 347.85875pt.
  [38 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/dna_inpu
-t_amp_yield.png>]
+t_amp_yield_xlabel.png>]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/coverage_stat
 s.png, id=1039, 421.575pt x 344.9688pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/coverage
@@ -1595,14 +1595,15 @@ er2_figure/coverage_stats.png used on input line 46.
 t_pct.png>] [40 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figu
 re/coverage_stats.png (PNG copy)>] [41] [42]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_norm_dept
-h_med_wilcoxon_volcano_85.png, id=1064, 3312.375pt x 2409.0pt>
+h_med_wilcoxon_volcano_85_xlabel.png, id=1064, 3312.375pt x 2409.0pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_norm
-_depth_med_wilcoxon_volcano_85.png Graphic file (type png)
+_depth_med_wilcoxon_volcano_85_xlabel.png Graphic file (type png)
 
 <use /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_norm_
-depth_med_wilcoxon_volcano_85.png>
+depth_med_wilcoxon_volcano_85_xlabel.png>
 Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
-er2_figure/amp_norm_depth_med_wilcoxon_volcano_85.png used on input line 115.
+er2_figure/amp_norm_depth_med_wilcoxon_volcano_85_xlabel.png used on input line
+ 115.
 (pdftex.def)             Requested size: 430.62387pt x 313.181pt.
  [43]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_gc_length
@@ -1616,16 +1617,16 @@ Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
 er2_figure/amp_gc_length.png used on input line 125.
 (pdftex.def)             Requested size: 289.06754pt x 289.06754pt.
  [44 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_norm
-_depth_med_wilcoxon_volcano_85.png (PNG copy)>]
+_depth_med_wilcoxon_volcano_85_xlabel.png (PNG copy)>]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_cov_lm_le
-n_gc_85.png, id=1074, 538.6524pt x 287.1528pt>
+n_gc_85_ylabel.png, id=1074, 538.6524pt x 287.1528pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_cov_
-lm_len_gc_85.png Graphic file (type png)
+lm_len_gc_85_ylabel.png Graphic file (type png)
 
 <use /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_cov_l
-m_len_gc_85.png>
+m_len_gc_85_ylabel.png>
 Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
-er2_figure/amp_cov_lm_len_gc_85.png used on input line 135.
+er2_figure/amp_cov_lm_len_gc_85_ylabel.png used on input line 135.
 (pdftex.def)             Requested size: 430.92252pt x 229.72253pt.
  [45 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_gc_l
 ength.png (PNG copy)>]
@@ -1634,7 +1635,7 @@ Overfull \hbox (48.1391pt too wide) in paragraph at lines 147--162
  []
 
 [46 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/amp_cov_l
-m_len_gc_85.png>]
+m_len_gc_85_ylabel.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 167.
@@ -1675,14 +1676,14 @@ Overfull \hbox (25.41896pt too wide) in paragraph at lines 193--220
 [49 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminati
 on_effect_blood_ffpe.png>]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deamination_e
-ffect_blood_ffpe_fc.png, id=1126, 523.7166pt x 299.1978pt>
+ffect_blood_ffpe_fc_ylabel.png, id=1126, 523.7166pt x 299.1978pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminat
-ion_effect_blood_ffpe_fc.png Graphic file (type png)
+ion_effect_blood_ffpe_fc_ylabel.png Graphic file (type png)
 
 <use /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminati
-on_effect_blood_ffpe_fc.png>
+on_effect_blood_ffpe_fc_ylabel.png>
 Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
-er2_figure/deamination_effect_blood_ffpe_fc.png used on input line 229.
+er2_figure/deamination_effect_blood_ffpe_fc_ylabel.png used on input line 229.
 (pdftex.def)             Requested size: 418.97385pt x 239.35855pt.
 
 Overfull \hbox (12.85786pt too wide) in paragraph at lines 241--270
@@ -1690,7 +1691,7 @@ Overfull \hbox (12.85786pt too wide) in paragraph at lines 241--270
  []
 
 [50 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminati
-on_effect_blood_ffpe_fc.png>]
+on_effect_blood_ffpe_fc_ylabel.png>]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deamination_e
 ffect_af_range_2.png, id=1132, 607.068pt x 886.0302pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminat
@@ -1725,14 +1726,14 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 [55] [56]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deamination_e
-ffect_age_amp_yield.png, id=1170, 740.5266pt x 310.761pt>
+ffect_age_amp_yield_ylabel.png, id=1170, 740.5266pt x 310.761pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminat
-ion_effect_age_amp_yield.png Graphic file (type png)
+ion_effect_age_amp_yield_ylabel.png Graphic file (type png)
 
 <use /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminati
-on_effect_age_amp_yield.png>
+on_effect_age_amp_yield_ylabel.png>
 Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
-er2_figure/deamination_effect_age_amp_yield.png used on input line 345.
+er2_figure/deamination_effect_age_amp_yield_ylabel.png used on input line 345.
 (pdftex.def)             Requested size: 429.50572pt x 180.2415pt.
 
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deamination_e
@@ -1746,8 +1747,8 @@ Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
 er2_figure/deamination_effect_age.png used on input line 355.
 (pdftex.def)             Requested size: 420.56033pt x 280.5984pt.
  [57 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter2_figure/deaminat
-ion_effect_age_amp_yield.png> </Users/evayap/Documents/masters_thesis/ubcdiss_2
-/chapter2_figure/deamination_effect_age.png>] [58
+ion_effect_age_amp_yield_ylabel.png> </Users/evayap/Documents/masters_thesis/ub
+cdiss_2/chapter2_figure/deamination_effect_age.png>] [58
 
 ])
 \openout2 = `chapter3.aux'.
@@ -4663,7 +4664,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 465.
  ) 
 Here is how much of TeX's memory you used:
  23221 strings out of 493014
- 429544 string characters out of 6133351
+ 429719 string characters out of 6133351
  516475 words of memory out of 5000000
  25849 multiletter control sequences out of 15000+600000
  68135 words of font info for 140 fonts, out of 8000000 for 9000
@@ -4679,7 +4680,7 @@ ist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
 ype1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/t
 imes/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri
 8a.pfb>
-Output written on diss.pdf (157 pages, 7916679 bytes).
+Output written on diss.pdf (157 pages, 7944862 bytes).
 PDF statistics:
  2458 PDF objects out of 2487 (max. 8388607)
  2211 compressed objects within 23 object streams
