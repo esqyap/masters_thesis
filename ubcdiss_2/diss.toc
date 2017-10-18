@@ -12,7 +12,7 @@
 \contentsline {subsection}{\numberline {1.2.1}Illumina sequencing}{5}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}Clinical applications of NGS}{7}{subsection.1.2.2}
 \contentsline {section}{\numberline {1.3}Variant analysis pipeline}{10}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Quality control and pre-processing of raw data}{11}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.1}Quality control and pre-processing of raw sequencing reads}{11}{subsection.1.3.1}
 \contentsline {subsection}{\numberline {1.3.2}Read alignment and post-alignment processing}{12}{subsection.1.3.2}
 \contentsline {subsection}{\numberline {1.3.3}Variant calling}{12}{subsection.1.3.3}
 \contentsline {subsection}{\numberline {1.3.4}Variant annotation and interpretation}{14}{subsection.1.3.4}

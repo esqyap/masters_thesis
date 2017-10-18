@@ -13,7 +13,7 @@ CP=		cp -p
 all: bmcpdf
 
 bmcpdf: $(NAME1).tex
-	rm $(NAME1).pdf && $(PDFLATEX) $<
+	$(PDFLATEX) $<
 
 clean:
 	$(RM) ${BUILTPDFFIGURES} $(NAME1).aux $(NAME1).dvi \
@@ -23,4 +23,4 @@ clean:
 
 watch:
 	@echo Watching for changes...
-	@fswatch -0 -e ".*" -i "\\.tex$$" . | xargs -0 -n 1 -I {} sh -c 'make; ./buildFinished.sh'
+	@fswatch -0 -e ".*" -i "\\.tex$$" . | xargs -0 -n 1 -I {} sh -c 'rm bmc_article.pdf; make; ./buildFinished.sh'
