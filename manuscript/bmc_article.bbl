@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{13}
+\begin{thebibliography}{47}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -43,169 +43,1021 @@
 \csname PreBibitemsHook\endcsname
 
 %%% 1
-\bibitem{koon}
+\bibitem{Rahman2014}
 \begin{barticle}
-\bauthor{\bsnm{Koonin}, \binits{E.V.}},
-\bauthor{\bsnm{Altschul}, \binits{S.F.}},
-\bauthor{\bsnm{Bork}, \binits{P.}}:
-\batitle{Brca1 protein products: functional motifs}.
-\bjtitle{Nat Genet}
-\bvolume{13},
-\bfpage{266}--\blpage{267}
-(\byear{1996})
+\bauthor{\bsnm{Rahman}, \binits{N.}}:
+\batitle{{Realizing the promise of cancer predisposition genes}}.
+\bjtitle{Nature}
+\bvolume{505}(\bissue{7483}),
+\bfpage{302}--\blpage{308}
+(\byear{2014}).
+doi:\doiurl{10.1038/nature12981}
 \end{barticle}
 \endbibitem
 
 %%% 2
-\bibitem{khar}
-\begin{botherref}
-\oauthor{\bsnm{Kharitonov}, \binits{S.A.}},
-\oauthor{\bsnm{Barnes}, \binits{P.J.}}:
-Clinical Aspects of Exhaled Nitric Oxide.
-in press
-\end{botherref}
+\bibitem{Panczyk2014}
+\begin{barticle}
+\bauthor{\bsnm{Panczyk}, \binits{M.}}:
+\batitle{{Pharmacogenetics research on chemotherapy resistance in colorectal
+  cancer over the last 20 years}}.
+\bjtitle{World Journal of Gastroenterology}
+\bvolume{20}(\bissue{29}),
+\bfpage{9775}--\blpage{9827}
+(\byear{2014}).
+doi:\doiurl{10.3748/wjg.v20.i29.9775}
+\end{barticle}
 \endbibitem
 
 %%% 3
-\bibitem{zvai}
+\bibitem{Mohelnikova-Duchonova2014}
 \begin{barticle}
-\bauthor{\bsnm{Zvaifler}, \binits{N.J.}},
-\bauthor{\bsnm{Burger}, \binits{J.A.}},
-\bauthor{\bsnm{Marinova-Mutafchieva}, \binits{L.}},
-\bauthor{\bsnm{Taylor}, \binits{P.}},
-\bauthor{\bsnm{Maini}, \binits{R.N.}}:
-\batitle{Mesenchymal cells, stromal derived factor-1 and rheumatoid arthritis
-  [abstract]}.
-\bjtitle{Arthritis Rheum}
-\bvolume{42},
-\bfpage{250}
-(\byear{1999})
+\bauthor{\bsnm{Mohelnikova-Duchonova}, \binits{B.}},
+\bauthor{\bsnm{Melichar}, \binits{B.}},
+\bauthor{\bsnm{Soucek}, \binits{P.}}:
+\batitle{{FOLFOX/FOLFIRI pharmacogenetics: The call for a personalized approach
+  in colorectal cancer therapy}}.
+\bjtitle{World Journal of Gastroenterology}
+\bvolume{20}(\bissue{30}),
+\bfpage{10316}--\blpage{10330}
+(\byear{2014}).
+doi:\doiurl{10.3748/wjg.v20.i30.10316}
 \end{barticle}
 \endbibitem
 
 %%% 4
-\bibitem{xjon}
-\begin{bchapter}
-\bauthor{\bsnm{Jones}, \binits{X.}}:
-\bctitle{Zeolites and synthetic mechanisms}.
-In: \beditor{\bsnm{Smith}, \binits{Y.}} (ed.)
-\bbtitle{Proceedings of the First National Conference on Porous Sieves: 27-30
-  June 1996; Baltimore},
-pp. \bfpage{16}--\blpage{27}
-(\byear{1996}).
-\bcomment{Stoneham: Butterworth-Heinemann}
-\end{bchapter}
+\bibitem{Wetterstrand2016}
+\begin{botherref}
+\oauthor{\bsnm{Wetterstrand}, \binits{K.}}:
+{DNA sequencing costs: data from the NHGRI genome sequencing program (GSP)}
+(2016).
+\url{https://www.genome.gov/27541954/dna-sequencing-costs-data/}
+Accessed 2017-09-12
+\end{botherref}
 \endbibitem
 
 %%% 5
-\bibitem{marg}
-\begin{bbook}
-\bauthor{\bsnm{Margulis}, \binits{L.}}:
-\bbtitle{Origin of Eukaryotic Cells}.
-\bpublisher{Yale University Press},
-\blocation{New Haven}
-(\byear{1970})
-\end{bbook}
-\endbibitem
-
-%%% 6
-\bibitem{oreg}
+\bibitem{Schrader2015}
 \begin{barticle}
-\bauthor{\bsnm{Orengo}, \binits{C.A.}},
-\bauthor{\bsnm{Bray}, \binits{J.E.}},
-\bauthor{\bsnm{Hubbard}, \binits{T.}},
-\bauthor{\bsnm{LoConte}, \binits{L.}},
-\bauthor{\bsnm{Sillitoe}, \binits{I.}}:
-\batitle{Analysis and assessment of ab initio three-dimensional prediction,
-  secondary structure, and contacts prediction}.
-\bjtitle{Proteins}
-\bvolume{Suppl 3},
-\bfpage{149}--\blpage{170}
-(\byear{1999})
+\bauthor{\bsnm{Schrader}, \binits{K.A.}},
+\bauthor{\bsnm{Cheng}, \binits{D.T.}},
+\bauthor{\bsnm{Joseph}, \binits{V.}},
+\bauthor{\bsnm{Prasad}, \binits{M.}},
+\bauthor{\bsnm{Walsh}, \binits{M.}},
+\bauthor{\bsnm{Zehir}, \binits{A.}},
+\bauthor{\bsnm{Ni}, \binits{A.}},
+\bauthor{\bsnm{Thomas}, \binits{T.}},
+\bauthor{\bsnm{Benayed}, \binits{R.}},
+\bauthor{\bsnm{Ashraf}, \binits{A.}},
+\bauthor{\bsnm{Lincoln}, \binits{A.}},
+\bauthor{\bsnm{Arcila}, \binits{M.}},
+\bauthor{\bsnm{Stadler}, \binits{Z.}},
+\bauthor{\bsnm{Solit}, \binits{D.}},
+\bauthor{\bsnm{Hyman}, \binits{D.}},
+\bauthor{\bsnm{Zhang}, \binits{L.}},
+\bauthor{\bsnm{Klimstra}, \binits{D.}},
+\bauthor{\bsnm{Ladanyi}, \binits{M.}},
+\bauthor{\bsnm{Offit}, \binits{K.}},
+\bauthor{\bsnm{Berger}, \binits{M.}},
+\bauthor{\bsnm{Robson}, \binits{M.}}:
+\batitle{{Germline Variants in Targeted Tumor Sequencing Using Matched Normal
+  DNA.}}
+\bjtitle{JAMA Oncology}
+\bvolume{2}(\bissue{1}),
+\bfpage{1}--\blpage{8}
+(\byear{2015}).
+doi:\doiurl{10.1001/jamaoncol.2015.5208}
 \end{barticle}
 \endbibitem
 
+%%% 6
+\bibitem{Jones2015a}
+\begin{botherref}
+\oauthor{\bsnm{Jones}, \binits{S.}},
+\oauthor{\bsnm{Anagnostou}, \binits{V.}},
+\oauthor{\bsnm{Lytle}, \binits{K.}},
+\oauthor{\bsnm{Parpart-li}, \binits{S.}},
+\oauthor{\bsnm{Nesselbush}, \binits{M.}},
+\oauthor{\bsnm{Riley}, \binits{D.R.}},
+\oauthor{\bsnm{Shukla}, \binits{M.}},
+\oauthor{\bsnm{Chesnick}, \binits{B.}},
+\oauthor{\bsnm{Kadan}, \binits{M.}},
+\oauthor{\bsnm{Papp}, \binits{E.}},
+\oauthor{\bsnm{Galens}, \binits{K.G.}},
+\oauthor{\bsnm{Murphy}, \binits{D.}},
+\oauthor{\bsnm{Zhang}, \binits{T.}},
+\oauthor{\bsnm{Kann}, \binits{L.}},
+\oauthor{\bsnm{Sausen}, \binits{M.}},
+\oauthor{\bsnm{Angiuoli}, \binits{S.V.}},
+\oauthor{\bsnm{Jr}, \binits{L.A.D.}},
+\oauthor{\bsnm{Velculescu}, \binits{V.E.}}:
+{Personalized genomic analyses for cancer mutation discovery and
+  interpretation}.
+Science Translational Medicine
+\textbf{7}(283ra53)
+(2015).
+doi:\doiurl{10.1126/scitranslmed.aaa7161}
+\end{botherref}
+\endbibitem
+
 %%% 7
-\bibitem{schn}
-\begin{bchapter}
-\bauthor{\bsnm{Schnepf}, \binits{E.}}:
-\bctitle{From prey via endosymbiont to plastids: comparative studies in
-  dinoflagellates}.
-In: \beditor{\bsnm{Lewin}, \binits{R.A.}} (ed.)
-\bbtitle{Origins of Plastids}
-vol. \bseriesno{2},
-\bedition{2nd} edn.,
-pp. \bfpage{53}--\blpage{76}.
-\bpublisher{Chapman and Hall},
-\blocation{New York}
-(\byear{1993})
-\end{bchapter}
+\bibitem{Meric-Bernstam2016}
+\begin{barticle}
+\bauthor{\bsnm{Meric-Bernstam}, \binits{F.}},
+\bauthor{\bsnm{Brusco}, \binits{L.}},
+\bauthor{\bsnm{Daniels}, \binits{M.}},
+\bauthor{\bsnm{Wathoo}, \binits{C.}},
+\bauthor{\bsnm{Bailey}, \binits{A.M.}},
+\bauthor{\bsnm{Strong}, \binits{L.}},
+\bauthor{\bsnm{Shaw}, \binits{K.}},
+\bauthor{\bsnm{Lu}, \binits{K.}},
+\bauthor{\bsnm{Qi}, \binits{Y.}},
+\bauthor{\bsnm{Zhao}, \binits{H.}},
+\bauthor{\bsnm{Lara-Guerra}, \binits{H.}},
+\bauthor{\bsnm{Litton}, \binits{J.}},
+\bauthor{\bsnm{Arun}, \binits{B.}},
+\bauthor{\bsnm{Eterovic}, \binits{A.K.}},
+\bauthor{\bsnm{Aytac}, \binits{U.}},
+\bauthor{\bsnm{Routbort}, \binits{M.}},
+\bauthor{\bsnm{Subbiah}, \binits{V.}},
+\bauthor{\bsnm{Janku}, \binits{F.}},
+\bauthor{\bsnm{Davies}, \binits{M.A.}},
+\bauthor{\bsnm{Kopetz}, \binits{S.}},
+\bauthor{\bsnm{Mendelsohn}, \binits{J.}},
+\bauthor{\bsnm{Mills}, \binits{G.B.}},
+\bauthor{\bsnm{Chen}, \binits{K.}}:
+\batitle{{Incidental germline variants in 1000 advanced cancers on a
+  prospective somatic genomic profiling protocol}}.
+\bjtitle{Annals of Oncology}
+\bvolume{27}(\bissue{5}),
+\bfpage{795}--\blpage{800}
+(\byear{2016}).
+doi:\doiurl{10.1093/annonc/mdw018}
+\end{barticle}
 \endbibitem
 
 %%% 8
-\bibitem{pond}
-\begin{botherref}
-Innovative Oncology
-\end{botherref}
+\bibitem{Bombard2014}
+\begin{barticle}
+\bauthor{\bsnm{Bombard}, \binits{Y.}},
+\bauthor{\bsnm{Robson}, \binits{M.}},
+\bauthor{\bsnm{Offit}, \binits{K.}}:
+\batitle{{Revealing the Incidentalome When Targeting the Tumor Genome}}.
+\bjtitle{The Journal of the American Medical Association}
+\bvolume{310}(\bissue{8}),
+\bfpage{795}--\blpage{6}
+(\byear{2014}).
+doi:\doiurl{10.1038/gim.2013.37.Barriers}
+\end{barticle}
 \endbibitem
 
 %%% 9
-\bibitem{smith}
-\begin{bbook}
-\beditor{\bsnm{Smith}, \binits{Y.}} (ed.):
-\bbtitle{Proceedings of the First National Conference on Porous Sieves: 27-30
-  June 1996; Baltimore}.
-\bpublisher{Butterworth-Heinemann},
-\blocation{Stoneham}
-(\byear{1996})
-\end{bbook}
+\bibitem{WcWhinney2009}
+\begin{barticle}
+\bauthor{\bsnm{McWhinney}, \binits{S.R.}},
+\bauthor{\bsnm{McLeod}, \binits{H.L.}}:
+\batitle{{Using germline genotype in cancer pharmacogenetic studies}}.
+\bjtitle{Pharmacogenomics}
+\bvolume{10}(\bissue{3}),
+\bfpage{489}--\blpage{493}
+(\byear{2009}).
+doi:\doiurl{10.2217/14622416.10.3.489.Using}
+\end{barticle}
 \endbibitem
 
 %%% 10
-\bibitem{hunn}
-\begin{bchapter}
-\bauthor{\bsnm{Hunninghake}, \binits{G.W.}},
-\bauthor{\bsnm{Gadek}, \binits{J.E.}}:
-\bctitle{The alveloar macrophage}.
-In: \beditor{\bsnm{Harris}, \binits{T.J.R.}} (ed.)
-\bbtitle{Cultured Human Cells and Tissues},
-pp. \bfpage{54}--\blpage{56}.
-\bpublisher{Academic Press},
-\blocation{New York}
-(\byear{1995}).
-\bcomment{Stoner G (Series Editor): Methods and Perspectives in Cell Biology,
-  vol 1}
-\end{bchapter}
+\bibitem{Hiltemann2015}
+\begin{barticle}
+\bauthor{\bsnm{Hiltemann}, \binits{S.}},
+\bauthor{\bsnm{Jenster}, \binits{G.}},
+\bauthor{\bsnm{Trapman}, \binits{J.}},
+\bauthor{\bsnm{{Van Der Spek}}, \binits{P.}},
+\bauthor{\bsnm{Stubbs}, \binits{A.}}:
+\batitle{{Discriminating somatic and germline mutations in tumor DNA samples
+  without matching normals}}.
+\bjtitle{Genome Research}
+\bvolume{25}(\bissue{9}),
+\bfpage{1382}--\blpage{1390}
+(\byear{2015}).
+doi:\doiurl{10.1101/gr.183053.114}
+\end{barticle}
 \endbibitem
 
 %%% 11
-\bibitem{advi}
-\begin{botherref}
-Advisory Committee on Genetic Modification:
-Annual Report.
-London
-(1999).
-Advisory Committee on Genetic Modification
-\end{botherref}
+\bibitem{Shi2002}
+\begin{barticle}
+\bauthor{\bsnm{Shi}, \binits{S.-R.}},
+\bauthor{\bsnm{Cote}, \binits{R.J.}},
+\bauthor{\bsnm{Wu}, \binits{L.}},
+\bauthor{\bsnm{Liu}, \binits{C.}},
+\bauthor{\bsnm{Datar}, \binits{R.}},
+\bauthor{\bsnm{Shi}, \binits{Y.}},
+\bauthor{\bsnm{Liu}, \binits{D.}},
+\bauthor{\bsnm{Lim}, \binits{H.}},
+\bauthor{\bsnm{Taylor}, \binits{C.R.}}:
+\batitle{{DNA extraction from archival formalin-fixed, paraffin-embedded tissue
+  sections based on the antigen retrieval principle: heating under the
+  influence of pH.}}
+\bjtitle{Journal of Histochemistry and Cytochemistry}
+\bvolume{50}(\bissue{8}),
+\bfpage{1005}--\blpage{1011}
+(\byear{2002}).
+doi:\doiurl{10.1177/002215540205000802}
+\end{barticle}
 \endbibitem
 
 %%% 12
-\bibitem{koha}
-\begin{botherref}
-\oauthor{\bsnm{Kohavi}, \binits{R.}}:
-Wrappers for performance enhancement and obvious decision graphs.
-PhD thesis,
-Stanford University, Computer Science Department
-(1995)
-\end{botherref}
+\bibitem{Didelot2013}
+\begin{barticle}
+\bauthor{\bsnm{Didelot}, \binits{A.}},
+\bauthor{\bsnm{Kotsopoulos}, \binits{S.K.}},
+\bauthor{\bsnm{Lupo}, \binits{A.}},
+\bauthor{\bsnm{Pekin}, \binits{D.}},
+\bauthor{\bsnm{Li}, \binits{X.}},
+\bauthor{\bsnm{Atochin}, \binits{I.}},
+\bauthor{\bsnm{Srinivasan}, \binits{P.}},
+\bauthor{\bsnm{Zhong}, \binits{Q.}},
+\bauthor{\bsnm{Olson}, \binits{J.}},
+\bauthor{\bsnm{Link}, \binits{D.R.}},
+\bauthor{\bsnm{Laurent-Puig}, \binits{P.}},
+\bauthor{\bsnm{Blons}, \binits{H.}},
+\bauthor{\bsnm{Hutchison}, \binits{J.B.}},
+\bauthor{\bsnm{Taly}, \binits{V.}}:
+\batitle{{Multiplex picoliter-droplet digital PCR for quantitative assessment
+  of DNA integrity in clinical samples}}.
+\bjtitle{Clinical Chemistry}
+\bvolume{59}(\bissue{5}),
+\bfpage{815}--\blpage{823}
+(\byear{2013}).
+doi:\doiurl{10.1373/clinchem.2012.193409}
+\end{barticle}
 \endbibitem
 
 %%% 13
-\bibitem{mouse}
-\begin{botherref}
-The Mouse Tumor Biology Database.
-\url{http://tumor.informatics.jax.org/cancer\_links.html}
-\end{botherref}
+\bibitem{Wong2013}
+\begin{barticle}
+\bauthor{\bsnm{Wong}, \binits{S.Q.}},
+\bauthor{\bsnm{Li}, \binits{J.}},
+\bauthor{\bsnm{Salemi}, \binits{R.}},
+\bauthor{\bsnm{Sheppard}, \binits{K.E.}},
+\bauthor{\bsnm{Do}, \binits{H.}},
+\bauthor{\bsnm{Tothill}, \binits{R.W.}},
+\bauthor{\bsnm{McArthur}, \binits{G.a.}},
+\bauthor{\bsnm{Dobrovic}, \binits{A.}}:
+\batitle{{Targeted-capture massively-parallel sequencing enables robust
+  detection of clinically informative mutations from formalin-fixed tumours.}}
+\bjtitle{Scientific Reports}
+\bvolume{3}(\bissue{3}),
+\bfpage{3494}
+(\byear{2013}).
+doi:\doiurl{10.1038/srep03494}
+\end{barticle}
+\endbibitem
+
+%%% 14
+\bibitem{Do2015a}
+\begin{barticle}
+\bauthor{\bsnm{Do}, \binits{H.}},
+\bauthor{\bsnm{Dobrovic}, \binits{A.}}:
+\batitle{{Sequence artifacts in DNA from formalin-fixed tissues: Causes and
+  strategies for minimization}}.
+\bjtitle{Clinical Chemistry}
+\bvolume{61}(\bissue{1}),
+\bfpage{64}--\blpage{71}
+(\byear{2015}).
+doi:\doiurl{10.1373/clinchem.2014.223040}
+\end{barticle}
+\endbibitem
+
+%%% 15
+\bibitem{Wong2014}
+\begin{barticle}
+\bauthor{\bsnm{Wong}, \binits{S.Q.}},
+\bauthor{\bsnm{Li}, \binits{J.}},
+\bauthor{\bsnm{{Y-C Tan}}, \binits{A.}},
+\bauthor{\bsnm{Vedururu}, \binits{R.}},
+\bauthor{\bsnm{Pang}, \binits{J.-M.B.}},
+\bauthor{\bsnm{Do}, \binits{H.}},
+\bauthor{\bsnm{Ellul}, \binits{J.}},
+\bauthor{\bsnm{Doig}, \binits{K.}},
+\bauthor{\bsnm{Bell}, \binits{A.}},
+\bauthor{\bsnm{MacArthur}, \binits{G.A.}},
+\bauthor{\bsnm{Fox}, \binits{S.B.}},
+\bauthor{\bsnm{Thomas}, \binits{D.M.}},
+\bauthor{\bsnm{Fellowes}, \binits{A.}},
+\bauthor{\bsnm{Parisot}, \binits{J.P.}},
+\bauthor{\bsnm{Dobrovic}, \binits{A.}}:
+\batitle{{Sequence artefacts in a prospective series of formalin-fixed tumours
+  tested for mutations in hotspot regions by massively parallel sequencing}}.
+\bjtitle{BMC Medical Genomics}
+\bvolume{7}(\bissue{1}),
+\bfpage{1}--\blpage{10}
+(\byear{2014}).
+doi:\doiurl{10.1186/1755-8794-7-23}
+\end{barticle}
+\endbibitem
+
+%%% 16
+\bibitem{Bosdet2013}
+\begin{barticle}
+\bauthor{\bsnm{Bosdet}, \binits{I.E.}},
+\bauthor{\bsnm{Docking}, \binits{T.R.}},
+\bauthor{\bsnm{Butterfield}, \binits{Y.S.}},
+\bauthor{\bsnm{Mungall}, \binits{A.J.}},
+\bauthor{\bsnm{Zeng}, \binits{T.}},
+\bauthor{\bsnm{Coope}, \binits{R.J.}},
+\bauthor{\bsnm{Yorida}, \binits{E.}},
+\bauthor{\bsnm{Chow}, \binits{K.}},
+\bauthor{\bsnm{Bala}, \binits{M.}},
+\bauthor{\bsnm{Young}, \binits{S.S.}},
+\bauthor{\bsnm{Hirst}, \binits{M.}},
+\bauthor{\bsnm{Birol}, \binits{I.}},
+\bauthor{\bsnm{Moore}, \binits{R.A.}},
+\bauthor{\bsnm{Jones}, \binits{S.J.}},
+\bauthor{\bsnm{Marra}, \binits{M.A.}},
+\bauthor{\bsnm{Holt}, \binits{R.}},
+\bauthor{\bsnm{Karsan}, \binits{A.}}:
+\batitle{{A clinically validated diagnostic second-generation sequencing assay
+  for detection of hereditary BRCA1 and BRCA2 mutations}}.
+\bjtitle{Journal of Molecular Diagnostics}
+\bvolume{15}(\bissue{6}),
+\bfpage{796}--\blpage{809}
+(\byear{2013}).
+doi:\doiurl{10.1016/j.jmoldx.2013.07.004}
+\end{barticle}
+\endbibitem
+
+%%% 17
+\bibitem{Do2012}
+\begin{barticle}
+\bauthor{\bsnm{Do}, \binits{H.}},
+\bauthor{\bsnm{Dobrovic}, \binits{A.}}:
+\batitle{{Dramatic reduction of sequence artefacts from DNA isolated from
+  formalin-fixed cancer biopsies by treatment with uracil- DNA glycosylase.}}
+\bjtitle{Oncotarget}
+\bvolume{3}(\bissue{5}),
+\bfpage{546}--\blpage{58}
+(\byear{2012}).
+doi:\doiurl{10.18632/oncotarget.503}
+\end{barticle}
+\endbibitem
+
+%%% 18
+\bibitem{Do2013}
+\begin{barticle}
+\bauthor{\bsnm{Do}, \binits{H.}},
+\bauthor{\bsnm{Wong}, \binits{S.Q.}},
+\bauthor{\bsnm{Li}, \binits{J.}},
+\bauthor{\bsnm{Dobrovic}, \binits{A.}}:
+\batitle{{Reducing sequence artifacts in amplicon-based massively parallel
+  sequencing of formalin-fixed paraffin-embedded DNA by enzymatic depletion of
+  uracil-containing templates}}.
+\bjtitle{Clinical Chemistry}
+\bvolume{59}(\bissue{9}),
+\bfpage{1376}--\blpage{1383}
+(\byear{2013}).
+doi:\doiurl{10.1373/clinchem.2012.202390}
+\end{barticle}
+\endbibitem
+
+%%% 19
+\bibitem{Kim2017}
+\begin{barticle}
+\bauthor{\bsnm{Kim}, \binits{S.}},
+\bauthor{\bsnm{Park}, \binits{C.}},
+\bauthor{\bsnm{Ji}, \binits{Y.}},
+\bauthor{\bsnm{Kim}, \binits{D.G.}},
+\bauthor{\bsnm{Bae}, \binits{H.}},
+\bauthor{\bparticle{van} \bsnm{Vrancken}, \binits{M.}},
+\bauthor{\bsnm{Kim}, \binits{D.H.}},
+\bauthor{\bsnm{Kim}, \binits{K.M.}}:
+\batitle{{Deamination Effects in Formalin-Fixed, Paraffin-Embedded Tissue
+  Samples in the Era of Precision Medicine}}.
+\bjtitle{Journal of Molecular Diagnostics}
+\bvolume{19}(\bissue{1}),
+\bfpage{137}--\blpage{146}
+(\byear{2017}).
+doi:\doiurl{10.1016/j.jmoldx.2016.09.006}
+\end{barticle}
+\endbibitem
+
+%%% 20
+\bibitem{Hofreiter2001}
+\begin{barticle}
+\bauthor{\bsnm{Hofreiter}, \binits{M.}},
+\bauthor{\bsnm{Jaenicke}, \binits{V.}},
+\bauthor{\bsnm{Serre}, \binits{D.}},
+\bauthor{\bparticle{von} \bsnm{Haeseler}, \binits{A.}},
+\bauthor{\bsnm{P{\"{a}}{\"{a}}bo}, \binits{S.}}:
+\batitle{{DNA sequences from multiple amplifications reveal artifacts induced
+  by cytosine deamination in ancient DNA}}.
+\bjtitle{Nucleic Acids Research}
+\bvolume{29}(\bissue{23}),
+\bfpage{4793}--\blpage{4799}
+(\byear{2001}).
+doi:\doiurl{10.1093/nar/29.23.4793}
+\end{barticle}
+\endbibitem
+
+%%% 21
+\bibitem{Ofner2017}
+\begin{barticle}
+\bauthor{\bsnm{Ofner}, \binits{R.}},
+\bauthor{\bsnm{Ritter}, \binits{C.}},
+\bauthor{\bsnm{Ugurel}, \binits{S.}},
+\bauthor{\bsnm{Cerroni}, \binits{L.}},
+\bauthor{\bsnm{Stiller}, \binits{M.}},
+\bauthor{\bsnm{Bogenrieder}, \binits{T.}},
+\bauthor{\bsnm{Solca}, \binits{F.}},
+\bauthor{\bsnm{Schrama}, \binits{D.}}:
+\batitle{{Non-reproducible sequence artifacts in FFPE tissue : an experience
+  report}}.
+\bjtitle{Journal of Cancer Research and Clinical Oncology}
+\bvolume{143}(\bissue{7}),
+\bfpage{1199}--\blpage{1207}
+(\byear{2017}).
+doi:\doiurl{10.1007/s00432-017-2399-1}
+\end{barticle}
+\endbibitem
+
+%%% 22
+\bibitem{Oh2015}
+\begin{barticle}
+\bauthor{\bsnm{Oh}, \binits{E.}},
+\bauthor{\bsnm{Choi}, \binits{Y.-L.}},
+\bauthor{\bsnm{Kwon}, \binits{M.J.}},
+\bauthor{\bsnm{Kim}, \binits{R.N.}},
+\bauthor{\bsnm{Kim}, \binits{Y.J.}},
+\bauthor{\bsnm{Song}, \binits{J.-Y.}},
+\bauthor{\bsnm{Jung}, \binits{K.S.}},
+\bauthor{\bsnm{Shin}, \binits{Y.K.}}:
+\batitle{{Comparison of Accuracy of Whole-Exome Sequencing with Formalin-Fixed
+  Paraffin-Embedded and Fresh Frozen Tissue Samples.}}
+\bjtitle{PloS One}
+\bvolume{10}(\bissue{12}),
+\bfpage{0144162}
+(\byear{2015}).
+doi:\doiurl{10.1371/journal.pone.0144162}
+\end{barticle}
+\endbibitem
+
+%%% 23
+\bibitem{Lin2014}
+\begin{barticle}
+\bauthor{\bsnm{Lin}, \binits{M.-T.}},
+\bauthor{\bsnm{Mosier}, \binits{S.L.}},
+\bauthor{\bsnm{Thiess}, \binits{M.}},
+\bauthor{\bsnm{Beierl}, \binits{K.F.}},
+\bauthor{\bsnm{Debeljak}, \binits{M.}},
+\bauthor{\bsnm{Tseng}, \binits{L.-H.}},
+\bauthor{\bsnm{Chen}, \binits{G.}},
+\bauthor{\bsnm{Yegnasubramanian}, \binits{S.}},
+\bauthor{\bsnm{Ho}, \binits{H.}},
+\bauthor{\bsnm{Cope}, \binits{L.}},
+\bauthor{\bsnm{Wheelan}, \binits{S.J.}},
+\bauthor{\bsnm{Gocke}, \binits{C.D.}},
+\bauthor{\bsnm{Eshleman}, \binits{J.R.}}:
+\batitle{{Clinical validation of KRAS, BRAF, and EGFR mutation detection using
+  next-generation sequencing.}}
+\bjtitle{American Journal of Clinical Pathology}
+\bvolume{141}(\bissue{6}),
+\bfpage{856}--\blpage{66}
+(\byear{2014}).
+doi:\doiurl{10.1309/AJCPMWGWGO34EGOD}.
+\arxivurl{NIHMS150003}
+\end{barticle}
+\endbibitem
+
+%%% 24
+\bibitem{Wang2010}
+\begin{barticle}
+\bauthor{\bsnm{Wang}, \binits{H.}},
+\bauthor{\bsnm{Meng}, \binits{F.}}:
+\batitle{{Theoretical study of proton-catalyzed hydrolytic deamination
+  mechanism of adenine}}.
+\bjtitle{Theoretical Chemistry Accounts}
+\bvolume{127}(\bissue{5}),
+\bfpage{561}--\blpage{571}
+(\byear{2010}).
+doi:\doiurl{10.1007/s00214-010-0747-1}
+\end{barticle}
+\endbibitem
+
+%%% 25
+\bibitem{Carrick2015}
+\begin{barticle}
+\bauthor{\bsnm{Carrick}, \binits{D.M.}},
+\bauthor{\bsnm{Mehaffey}, \binits{M.G.}},
+\bauthor{\bsnm{Sachs}, \binits{M.C.}},
+\bauthor{\bsnm{Altekruse}, \binits{S.}},
+\bauthor{\bsnm{Camalier}, \binits{C.}},
+\bauthor{\bsnm{Chuaqui}, \binits{R.}},
+\bauthor{\bsnm{Cozen}, \binits{W.}},
+\bauthor{\bsnm{Das}, \binits{B.}},
+\bauthor{\bsnm{Hernandez}, \binits{B.Y.}},
+\bauthor{\bsnm{Lih}, \binits{C.J.}},
+\bauthor{\bsnm{Lynch}, \binits{C.F.}},
+\bauthor{\bsnm{Makhlouf}, \binits{H.}},
+\bauthor{\bsnm{McGregor}, \binits{P.}},
+\bauthor{\bsnm{McShane}, \binits{L.M.}},
+\bauthor{\bsnm{Rohan}, \binits{J.P.}},
+\bauthor{\bsnm{Walsh}, \binits{W.D.}},
+\bauthor{\bsnm{Williams}, \binits{P.M.}},
+\bauthor{\bsnm{Gillanders}, \binits{E.M.}},
+\bauthor{\bsnm{Mechanic}, \binits{L.E.}},
+\bauthor{\bsnm{Schully}, \binits{S.D.}}:
+\batitle{{Robustness of next generation sequencing on older formalin-fixed
+  paraffin-embedded tissue}}.
+\bjtitle{PLoS ONE}
+\bvolume{10}(\bissue{7}),
+\bfpage{3}--\blpage{10}
+(\byear{2015}).
+doi:\doiurl{10.1371/journal.pone.0127353}
+\end{barticle}
+\endbibitem
+
+%%% 26
+\bibitem{Khrunin2010}
+\begin{barticle}
+\bauthor{\bsnm{Khrunin}, \binits{A.V.}},
+\bauthor{\bsnm{Moisseev}, \binits{A.}},
+\bauthor{\bsnm{Gorbunova}, \binits{V.}},
+\bauthor{\bsnm{Limborska}, \binits{S.}}:
+\batitle{{Genetic polymorphisms and the efficacy and toxicity of
+  cisplatin-based chemotherapy in ovarian cancer patients}}.
+\bjtitle{The Pharmacogenomics Journal}
+\bvolume{10}(\bissue{1}),
+\bfpage{54}--\blpage{61}
+(\byear{2010}).
+doi:\doiurl{10.1038/tpj.2009.45}
+\end{barticle}
+\endbibitem
+
+%%% 27
+\bibitem{Zha2016}
+\begin{barticle}
+\bauthor{\bsnm{Zha}, \binits{Y.}},
+\bauthor{\bsnm{Gan}, \binits{P.}},
+\bauthor{\bsnm{Liu}, \binits{Q.}},
+\bauthor{\bsnm{Yao}, \binits{Q.}}:
+\batitle{{TP53 Codon 72 Polymorphism Predicts Efficacy of Paclitaxel Plus
+  Capecitabine Chemotherapy in Advanced Gastric Cancer Patients}}.
+\bjtitle{Archives of Medical Research}
+\bvolume{47}(\bissue{1}),
+\bfpage{13}--\blpage{18}
+(\byear{2016}).
+doi:\doiurl{10.1016/j.arcmed.2015.12.001}
+\end{barticle}
+\endbibitem
+
+%%% 28
+\bibitem{Kim2009}
+\begin{barticle}
+\bauthor{\bsnm{Kim}, \binits{J.G.}},
+\bauthor{\bsnm{Sohn}, \binits{S.K.}},
+\bauthor{\bsnm{Chae}, \binits{Y.S.}},
+\bauthor{\bsnm{Song}, \binits{H.S.}},
+\bauthor{\bsnm{Kwon}, \binits{K.Y.}},
+\bauthor{\bsnm{Do}, \binits{Y.R.}},
+\bauthor{\bsnm{Kim}, \binits{M.K.}},
+\bauthor{\bsnm{Lee}, \binits{K.H.}},
+\bauthor{\bsnm{Hyun}, \binits{M.S.}},
+\bauthor{\bsnm{Lee}, \binits{W.S.}},
+\bauthor{\bsnm{Sohn}, \binits{C.H.}},
+\bauthor{\bsnm{Jung}, \binits{J.S.}},
+\bauthor{\bsnm{Kim}, \binits{G.C.}},
+\bauthor{\bsnm{Chung}, \binits{H.Y.}},
+\bauthor{\bsnm{Yu}, \binits{W.}}:
+\batitle{{TP53 codon 72 polymorphism associated with prognosis in patients with
+  advanced gastric cancer treated with paclitaxel and cisplatin}}.
+\bjtitle{Cancer Chemotherapy and Pharmacology}
+\bvolume{64}(\bissue{2}),
+\bfpage{355}--\blpage{360}
+(\byear{2009}).
+doi:\doiurl{10.1007/s00280-008-0879-3}
+\end{barticle}
+\endbibitem
+
+%%% 29
+\bibitem{Bojesen2008}
+\begin{barticle}
+\bauthor{\bsnm{Bojesen}, \binits{S.E.}},
+\bauthor{\bsnm{Nordestgaard}, \binits{B.G.}}:
+\batitle{{The common germline Arg72Pro polymorphism of p53 and increased
+  longevity in humans}}.
+\bjtitle{Cell Cycle}
+\bvolume{7}(\bissue{2}),
+\bfpage{158}--\blpage{163}
+(\byear{2008}).
+doi:\doiurl{10.4161/cc.7.2.5249}
+\end{barticle}
+\endbibitem
+
+%%% 30
+\bibitem{Bonafe2004}
+\begin{barticle}
+\bauthor{\bsnm{Bonaf{\'{e}}}, \binits{M.}},
+\bauthor{\bsnm{Salvioli}, \binits{S.}},
+\bauthor{\bsnm{Barbi}, \binits{C.}},
+\bauthor{\bsnm{Trapassi}, \binits{C.}},
+\bauthor{\bsnm{Tocco}, \binits{F.}},
+\bauthor{\bsnm{Storci}, \binits{G.}},
+\bauthor{\bsnm{Invidia}, \binits{L.}},
+\bauthor{\bsnm{Vannini}, \binits{I.}},
+\bauthor{\bsnm{Rossi}, \binits{M.}},
+\bauthor{\bsnm{Marzi}, \binits{E.}},
+\bauthor{\bsnm{Mishto}, \binits{M.}},
+\bauthor{\bsnm{Capri}, \binits{M.}},
+\bauthor{\bsnm{Olivieri}, \binits{F.}},
+\bauthor{\bsnm{Antonicelli}, \binits{R.}},
+\bauthor{\bsnm{Memo}, \binits{M.}},
+\bauthor{\bsnm{Uberti}, \binits{D.}},
+\bauthor{\bsnm{Nacmias}, \binits{B.}},
+\bauthor{\bsnm{Sorbi}, \binits{S.}},
+\bauthor{\bsnm{Monti}, \binits{D.}},
+\bauthor{\bsnm{Franceschi}, \binits{C.}}:
+\batitle{{The different apoptotic potential of the p53 codon 72 alleles
+  increases with age and modulates in vivo ischaemia-induced cell death}}.
+\bjtitle{Cell Death and Differentiation}
+\bvolume{11}(\bissue{9}),
+\bfpage{962}--\blpage{973}
+(\byear{2004}).
+doi:\doiurl{10.1038/sj.cdd.4401415}
+\end{barticle}
+\endbibitem
+
+%%% 31
+\bibitem{Huang2008}
+\begin{barticle}
+\bauthor{\bsnm{Huang}, \binits{Z.-H.}},
+\bauthor{\bsnm{Hua}, \binits{D.}},
+\bauthor{\bsnm{Li}, \binits{L.-H.}},
+\bauthor{\bsnm{Zhu}, \binits{J.-D.}}:
+\batitle{{Prognostic role of p53 codon 72 polymorphism in gastric cancer
+  patients treated with fluorouracil-based adjuvant chemotherapy.}}
+\bjtitle{Journal of Cancer Research and Clinical Oncology}
+\bvolume{134}(\bissue{10}),
+\bfpage{1129}--\blpage{1134}
+(\byear{2008}).
+doi:\doiurl{10.1007/s00432-008-0380-8}
+\end{barticle}
+\endbibitem
+
+%%% 32
+\bibitem{Yoneda2013}
+\begin{barticle}
+\bauthor{\bsnm{Yoneda}, \binits{T.}},
+\bauthor{\bsnm{Kuboyama}, \binits{A.}},
+\bauthor{\bsnm{Kato}, \binits{K.}},
+\bauthor{\bsnm{Ohgami}, \binits{T.}},
+\bauthor{\bsnm{Okamoto}, \binits{K.}},
+\bauthor{\bsnm{Saito}, \binits{T.}},
+\bauthor{\bsnm{Wake}, \binits{N.}}:
+\batitle{{Association of MDM2 SNP309 and TP53 Arg72Pro polymorphisms with risk
+  of endometrial cancer}}.
+\bjtitle{Oncology Reports}
+\bvolume{30}(\bissue{1}),
+\bfpage{25}--\blpage{34}
+(\byear{2013}).
+doi:\doiurl{10.3892/or.2013.2433}
+\end{barticle}
+\endbibitem
+
+%%% 33
+\bibitem{Yang2007}
+\begin{barticle}
+\bauthor{\bsnm{Yang}, \binits{M.}},
+\bauthor{\bsnm{Guo}, \binits{Y.}},
+\bauthor{\bsnm{Zhang}, \binits{X.}},
+\bauthor{\bsnm{Miao}, \binits{X.}},
+\bauthor{\bsnm{Tan}, \binits{W.}},
+\bauthor{\bsnm{Sun}, \binits{T.}},
+\bauthor{\bsnm{Zhao}, \binits{D.}},
+\bauthor{\bsnm{Yu}, \binits{D.}},
+\bauthor{\bsnm{Liu}, \binits{J.}},
+\bauthor{\bsnm{Lin}, \binits{D.}}:
+\batitle{{Interaction of P53 Arg72Pro and MDM2 T309G polymorphisms and their
+  associations with risk of gastric cardia cancer}}.
+\bjtitle{Carcinogenesis}
+\bvolume{28}(\bissue{9}),
+\bfpage{1996}--\blpage{2001}
+(\byear{2007}).
+doi:\doiurl{10.1093/carcin/bgm168}
+\end{barticle}
+\endbibitem
+
+%%% 34
+\bibitem{Bougeard2006}
+\begin{barticle}
+\bauthor{\bsnm{Bougeard}, \binits{G.}},
+\bauthor{\bsnm{Baert-Desurmont}, \binits{S.}},
+\bauthor{\bsnm{Tournier}, \binits{I.}},
+\bauthor{\bsnm{Vasseur}, \binits{S.}},
+\bauthor{\bsnm{Martin}, \binits{C.}},
+\bauthor{\bsnm{Brugieres}, \binits{L.}},
+\bauthor{\bsnm{Chompret}, \binits{A.}},
+\bauthor{\bsnm{{Bressac-de Paillerets}}, \binits{B.}},
+\bauthor{\bsnm{Stoppa-Lyonnet}, \binits{D.}},
+\bauthor{\bsnm{Bonaiti-Pellie}, \binits{C.}},
+\bauthor{\bsnm{Frebourg}, \binits{T.}}:
+\batitle{{Impact of the MDM2 SNP309 and p53 Arg72Pro polymorphism on age of
+  tumour onset in Li-Fraumeni syndrome.}}
+\bjtitle{Journal of Medical Genetics}
+\bvolume{43}(\bissue{6}),
+\bfpage{531}--\blpage{3}
+(\byear{2006}).
+doi:\doiurl{10.1136/jmg.2005.037952}
+\end{barticle}
+\endbibitem
+
+%%% 35
+\bibitem{Cheng2012}
+\begin{barticle}
+\bauthor{\bsnm{Cheng}, \binits{H.}},
+\bauthor{\bsnm{Ma}, \binits{B.}},
+\bauthor{\bsnm{Jiang}, \binits{R.}},
+\bauthor{\bsnm{Wang}, \binits{W.}},
+\bauthor{\bsnm{Guo}, \binits{H.}},
+\bauthor{\bsnm{Shen}, \binits{N.}},
+\bauthor{\bsnm{Li}, \binits{D.}},
+\bauthor{\bsnm{Zhao}, \binits{Q.}},
+\bauthor{\bsnm{Wang}, \binits{R.}},
+\bauthor{\bsnm{Yi}, \binits{P.}},
+\bauthor{\bsnm{Zhao}, \binits{Y.}},
+\bauthor{\bsnm{Liu}, \binits{Z.}},
+\bauthor{\bsnm{Huang}, \binits{T.}}:
+\batitle{{Individual and combined effects of MDM2 SNP309 and TP53 Arg72Pro on
+  breast cancer risk: An updated meta-analysis}}.
+\bjtitle{Molecular Biology Reports}
+\bvolume{39}(\bissue{9}),
+\bfpage{9265}--\blpage{9274}
+(\byear{2012}).
+doi:\doiurl{10.1007/s11033-012-1800-z}
+\end{barticle}
+\endbibitem
+
+%%% 36
+\bibitem{Zhu2007}
+\begin{barticle}
+\bauthor{\bsnm{Zhu}, \binits{Z.Z.}},
+\bauthor{\bsnm{Wang}, \binits{A.Z.}},
+\bauthor{\bsnm{Jia}, \binits{H.R.}},
+\bauthor{\bsnm{Jin}, \binits{X.X.}},
+\bauthor{\bsnm{He}, \binits{X.L.}},
+\bauthor{\bsnm{Hou}, \binits{L.F.}},
+\bauthor{\bsnm{Zhu}, \binits{G.}}:
+\batitle{{Association of the TP53 codon 72 polymorphism with colorectal cancer
+  in a Chinese population}}.
+\bjtitle{Japanese Journal of Clinical Oncology}
+\bvolume{37}(\bissue{5}),
+\bfpage{385}--\blpage{390}
+(\byear{2007}).
+doi:\doiurl{10.1093/jjco/hym034}
+\end{barticle}
+\endbibitem
+
+%%% 37
+\bibitem{Zhang2012a}
+\begin{barticle}
+\bauthor{\bsnm{Zhang}, \binits{Y.}},
+\bauthor{\bsnm{Liu}, \binits{L.}},
+\bauthor{\bsnm{Tang}, \binits{Y.}},
+\bauthor{\bsnm{Chen}, \binits{C.}},
+\bauthor{\bsnm{Wang}, \binits{Q.}},
+\bauthor{\bsnm{Xu}, \binits{J.}},
+\bauthor{\bsnm{Yang}, \binits{C.}},
+\bauthor{\bsnm{Miao}, \binits{X.}},
+\bauthor{\bsnm{Wei}, \binits{S.}},
+\bauthor{\bsnm{Chen}, \binits{J.}},
+\bauthor{\bsnm{Nie}, \binits{S.}}:
+\batitle{{Polymorphisms in TP53 and MDM2 contribute to higher risk of
+  colorectal cancer in Chinese population: A hospital-based, case-control
+  study}}.
+\bjtitle{Molecular Biology Reports}
+\bvolume{39}(\bissue{10}),
+\bfpage{9661}--\blpage{9668}
+(\byear{2012}).
+doi:\doiurl{10.1007/s11033-012-1831-5}
+\end{barticle}
+\endbibitem
+
+%%% 38
+\bibitem{Raymond2016}
+\begin{barticle}
+\bauthor{\bsnm{Raymond}, \binits{V.M.}},
+\bauthor{\bsnm{Gray}, \binits{S.W.}},
+\bauthor{\bsnm{Roychowdhury}, \binits{S.}},
+\bauthor{\bsnm{Joffe}, \binits{S.}},
+\bauthor{\bsnm{Chinnaiyan}, \binits{A.M.}},
+\bauthor{\bsnm{Parsons}, \binits{D.W.}},
+\bauthor{\bsnm{Plon}, \binits{S.E.}}:
+\batitle{{Germline findings in tumor-only sequencing: Points to consider for
+  clinicians and laboratories}}.
+\bjtitle{Journal of the National Cancer Institute}
+\bvolume{108}(\bissue{4}),
+\bfpage{1}--\blpage{5}
+(\byear{2016}).
+doi:\doiurl{10.1093/jnci/djv351}
+\end{barticle}
+\endbibitem
+
+%%% 39
+\bibitem{Green2013}
+\begin{barticle}
+\bauthor{\bsnm{Green}, \binits{R.C.}},
+\bauthor{\bsnm{Berg}, \binits{J.S.}},
+\bauthor{\bsnm{Grody}, \binits{W.W.}},
+\bauthor{\bsnm{Kalia}, \binits{S.S.}},
+\bauthor{\bsnm{Korf}, \binits{B.R.}},
+\bauthor{\bsnm{Martin}, \binits{C.L.}},
+\bauthor{\bsnm{McGuire}, \binits{A.L.}},
+\bauthor{\bsnm{Nussbaum}, \binits{R.L.}},
+\bauthor{\bsnm{O'Daniel}, \binits{J.M.}},
+\bauthor{\bsnm{Ormond}, \binits{K.E.}},
+\bauthor{\bsnm{Rehm}, \binits{H.L.}},
+\bauthor{\bsnm{Watson}, \binits{M.S.}},
+\bauthor{\bsnm{Williams}, \binits{M.S.}},
+\bauthor{\bsnm{Biesecker}, \binits{L.G.}},
+\bauthor{\bsnm{{American College of Medical Genetics and Genomics}}}:
+\batitle{{ACMG recommendations for reporting of incidental findings in clinical
+  exome and genome sequencing.}}
+\bjtitle{Genetics in Medicine}
+\bvolume{15}(\bissue{7}),
+\bfpage{565}--\blpage{74}
+(\byear{2013}).
+doi:\doiurl{10.1038/gim.2013.73}
+\end{barticle}
+\endbibitem
+
+%%% 40
+\bibitem{Spencer2013}
+\begin{barticle}
+\bauthor{\bsnm{Spencer}, \binits{D.H.}},
+\bauthor{\bsnm{Sehn}, \binits{J.K.}},
+\bauthor{\bsnm{Abel}, \binits{H.J.}},
+\bauthor{\bsnm{Watson}, \binits{M.A.}},
+\bauthor{\bsnm{Pfeifer}, \binits{J.D.}},
+\bauthor{\bsnm{Duncavage}, \binits{E.J.}}:
+\batitle{{Comparison of clinical targeted next-generation sequence data from
+  formalin-fixed and fresh-frozen tissue specimens}}.
+\bjtitle{Journal of Molecular Diagnostics}
+\bvolume{15}(\bissue{5}),
+\bfpage{623}--\blpage{633}
+(\byear{2013}).
+doi:\doiurl{10.1016/j.jmoldx.2013.05.004}
+\end{barticle}
+\endbibitem
+
+%%% 41
+\bibitem{Chen2014}
+\begin{barticle}
+\bauthor{\bsnm{Chen}, \binits{G.}},
+\bauthor{\bsnm{Mosier}, \binits{S.}},
+\bauthor{\bsnm{Gocke}, \binits{C.D.}},
+\bauthor{\bsnm{Lin}, \binits{M.-T.}},
+\bauthor{\bsnm{Eshleman}, \binits{J.R.}}:
+\batitle{{Cytosine Deamination is a Major Cause of Baseline Noise in Next
+  Generation Sequencing}}.
+\bjtitle{Molecular Diagnosis {\&} Therapy}
+\bvolume{18}(\bissue{5}),
+\bfpage{587}--\blpage{593}
+(\byear{2014}).
+doi:\doiurl{10.1007/s40291-014-0115-2.Cytosine}
+\end{barticle}
+\endbibitem
+
+%%% 42
+\bibitem{Wong1998}
+\begin{barticle}
+\bauthor{\bsnm{Wong}, \binits{C.}},
+\bauthor{\bsnm{DiCioccio}, \binits{R.A.}},
+\bauthor{\bsnm{Allen}, \binits{H.J.}},
+\bauthor{\bsnm{Werness}, \binits{B.A.}},
+\bauthor{\bsnm{Piver}, \binits{M.S.}}:
+\batitle{{Mutations in BRCA1 from fixed, paraffin-embedded tissue can be
+  artifacts of preservation}}.
+\bjtitle{Cancer Genetics and Cytogenetics}
+\bvolume{107}(\bissue{1}),
+\bfpage{21}--\blpage{27}
+(\byear{1998}).
+doi:\doiurl{10.1016/S0165-4608(98)00079-X}
+\end{barticle}
+\endbibitem
+
+%%% 43
+\bibitem{Ludyga2012}
+\begin{barticle}
+\bauthor{\bsnm{Ludyga}, \binits{N.}},
+\bauthor{\bsnm{Gr??nwald}, \binits{B.}},
+\bauthor{\bsnm{Azimzadeh}, \binits{O.}},
+\bauthor{\bsnm{Englert}, \binits{S.}},
+\bauthor{\bsnm{H??fler}, \binits{H.}},
+\bauthor{\bsnm{Tapio}, \binits{S.}},
+\bauthor{\bsnm{Aubele}, \binits{M.}}:
+\batitle{{Nucleic acids from long-term preserved FFPE tissues are suitable for
+  downstream analyses}}.
+\bjtitle{Virchows Archiv}
+\bvolume{460}(\bissue{2}),
+\bfpage{131}--\blpage{140}
+(\byear{2012}).
+doi:\doiurl{10.1007/s00428-011-1184-9}
+\end{barticle}
+\endbibitem
+
+%%% 44
+\bibitem{Gross2013}
+\begin{barticle}
+\bauthor{\bsnm{Gross}, \binits{E.}},
+\bauthor{\bsnm{Meul}, \binits{C.}},
+\bauthor{\bsnm{Raab}, \binits{S.}},
+\bauthor{\bsnm{Propping}, \binits{C.}},
+\bauthor{\bsnm{Avril}, \binits{S.}},
+\bauthor{\bsnm{Aubele}, \binits{M.}},
+\bauthor{\bsnm{Gkazepis}, \binits{A.}},
+\bauthor{\bsnm{Schuster}, \binits{T.}},
+\bauthor{\bsnm{Grebenchtchikov}, \binits{N.}},
+\bauthor{\bsnm{Schmitt}, \binits{M.}},
+\bauthor{\bsnm{Kiechle}, \binits{M.}},
+\bauthor{\bsnm{Meijer}, \binits{J.}},
+\bauthor{\bsnm{Vijzelaar}, \binits{R.}},
+\bauthor{\bsnm{Meindl}, \binits{A.}},
+\bauthor{\bparticle{van} \bsnm{Kuilenburg}, \binits{A.B.P.}}:
+\batitle{{Somatic copy number changes in DPYD are associated with lower risk of
+  recurrence in triple-negative breast cancers}}.
+\bjtitle{British Journal of Cancer}
+\bvolume{109}(\bissue{9}),
+\bfpage{2347}--\blpage{2355}
+(\byear{2013}).
+doi:\doiurl{10.1038/bjc.2013.621}
+\end{barticle}
+\endbibitem
+
+%%% 45
+\bibitem{Arlt2004}
+\begin{barticle}
+\bauthor{\bsnm{Arlt}, \binits{M.F.}},
+\bauthor{\bsnm{Xu}, \binits{B.}},
+\bauthor{\bsnm{Durkin}, \binits{S.G.}},
+\bauthor{\bsnm{Casper}, \binits{A.M.}},
+\bauthor{\bsnm{Kastan}, \binits{M.B.}},
+\bauthor{\bsnm{Glover}, \binits{T.W.}}:
+\batitle{{BRCA1 Is Required for Common-Fragile-Site Stability via Its G 2 / M
+  Checkpoint Function BRCA1 Is Required for Common-Fragile-Site Stability via
+  Its G 2 / M Checkpoint Function}}.
+\bjtitle{Molecular and Cellular Biology}
+\bvolume{24}(\bissue{15}),
+\bfpage{6701}--\blpage{6709}
+(\byear{2004}).
+doi:\doiurl{10.1128/MCB.24.15.6701}
+\end{barticle}
+\endbibitem
+
+%%% 46
+\bibitem{Strom2016}
+\begin{barticle}
+\bauthor{\bsnm{Strom}, \binits{S.P.}}:
+\batitle{{Current practices and guidelines for clinical next-generation
+  sequencing oncology testing.}}
+\bjtitle{Cancer Biology {\&} Medicine}
+\bvolume{13}(\bissue{1}),
+\bfpage{3}--\blpage{11}
+(\byear{2016}).
+doi:\doiurl{10.28092/j.issn.2095-3941.2016.0004}
+\end{barticle}
+\endbibitem
+
+%%% 47
+\bibitem{Garofalo2016}
+\begin{barticle}
+\bauthor{\bsnm{Garofalo}, \binits{A.}},
+\bauthor{\bsnm{Sholl}, \binits{L.}},
+\bauthor{\bsnm{Reardon}, \binits{B.}},
+\bauthor{\bsnm{Taylor-Weiner}, \binits{A.}},
+\bauthor{\bsnm{Amin-Mansour}, \binits{A.}},
+\bauthor{\bsnm{Miao}, \binits{D.}},
+\bauthor{\bsnm{Liu}, \binits{D.}},
+\bauthor{\bsnm{Oliver}, \binits{N.}},
+\bauthor{\bsnm{MacConaill}, \binits{L.}},
+\bauthor{\bsnm{Ducar}, \binits{M.}},
+\bauthor{\bsnm{Rojas-Rudilla}, \binits{V.}},
+\bauthor{\bsnm{Giannakis}, \binits{M.}},
+\bauthor{\bsnm{Ghazani}, \binits{A.}},
+\bauthor{\bsnm{Gray}, \binits{S.}},
+\bauthor{\bsnm{Janne}, \binits{P.}},
+\bauthor{\bsnm{Garber}, \binits{J.}},
+\bauthor{\bsnm{Joffe}, \binits{S.}},
+\bauthor{\bsnm{Lindeman}, \binits{N.}},
+\bauthor{\bsnm{Wagle}, \binits{N.}},
+\bauthor{\bsnm{Garraway}, \binits{L.A.}},
+\bauthor{\bsnm{{Van Allen}}, \binits{E.M.}}:
+\batitle{{The impact of tumor profiling approaches and genomic data strategies
+  for cancer precision medicine}}.
+\bjtitle{Genome Medicine}
+\bvolume{8}(\bissue{1}),
+\bfpage{79}
+(\byear{2016}).
+doi:\doiurl{10.1186/s13073-016-0333-9}
+\end{barticle}
 \endbibitem
 
 \end{thebibliography}
@@ -217,155 +1069,1049 @@ The Mouse Tumor Biology Database.
 <refgrp>
 
 <bibl id="B1">
-  <title><p>BRCA1 protein products: functional motifs</p></title>
+  <title><p>{Realizing the promise of cancer predisposition genes}</p></title>
   <aug>
-    <au><snm>Koonin</snm><fnm>E V</fnm></au>
-    <au><snm>Altschul</snm><fnm>S F</fnm></au>
-    <au><snm>Bork</snm><fnm>P</fnm></au>
+    <au><snm>Rahman</snm><fnm>N</fnm></au>
   </aug>
-  <source>Nat Genet</source>
-  <pubdate>1996</pubdate>
-  <volume>13</volume>
-  <fpage>266</fpage>
-  <lpage>267</lpage>
+  <source>Nature</source>
+  <pubdate>2014</pubdate>
+  <volume>505</volume>
+  <issue>7483</issue>
+  <fpage>302</fpage>
+  <lpage>-308</lpage>
+  <url>http://www.nature.com/doifinder/10.1038/nature12981</url>
 </bibl>
 
 <bibl id="B2">
-  <title><p>Clinical aspects of exhaled nitric oxide</p></title>
+  <title><p>{Pharmacogenetics research on chemotherapy resistance in colorectal
+  cancer over the last 20 years}</p></title>
   <aug>
-    <au><snm>Kharitonov</snm><fnm>S A</fnm></au>
-    <au><snm>Barnes</snm><fnm>P J</fnm></au>
+    <au><snm>Panczyk</snm><fnm>M</fnm></au>
   </aug>
-  <source>Eur Respir J</source>
-  <inpress />
+  <source>World Journal of Gastroenterology</source>
+  <pubdate>2014</pubdate>
+  <volume>20</volume>
+  <issue>29</issue>
+  <fpage>9775</fpage>
+  <lpage>-9827</lpage>
 </bibl>
 
 <bibl id="B3">
-  <title><p>Mesenchymal cells, stromal derived factor-1 and rheumatoid
-  arthritis [abstract]</p></title>
+  <title><p>{FOLFOX/FOLFIRI pharmacogenetics: The call for a personalized
+  approach in colorectal cancer therapy}</p></title>
   <aug>
-    <au><snm>Zvaifler</snm><fnm>N J</fnm></au>
-    <au><snm>Burger</snm><fnm>J A</fnm></au>
-    <au><snm>Marinova Mutafchieva</snm><fnm>L</fnm></au>
-    <au><snm>Taylor</snm><fnm>P</fnm></au>
-    <au><snm>Maini</snm><fnm>R N</fnm></au>
+    <au><snm>Mohelnikova Duchonova</snm><fnm>B</fnm></au>
+    <au><snm>Melichar</snm><fnm>B</fnm></au>
+    <au><snm>Soucek</snm><fnm>P</fnm></au>
   </aug>
-  <source>Arthritis Rheum</source>
-  <pubdate>1999</pubdate>
-  <volume>42</volume>
-  <fpage>s250</fpage>
+  <source>World Journal of Gastroenterology</source>
+  <pubdate>2014</pubdate>
+  <volume>20</volume>
+  <issue>30</issue>
+  <fpage>10316</fpage>
+  <lpage>-10330</lpage>
 </bibl>
 
 <bibl id="B4">
-  <title><p>Zeolites and synthetic mechanisms</p></title>
+  <title><p>{DNA sequencing costs: data from the NHGRI genome sequencing
+  program (GSP)}</p></title>
   <aug>
-    <au><snm>Jones</snm><fnm>X</fnm></au>
+    <au><snm>Wetterstrand</snm><fnm>K</fnm></au>
   </aug>
-  <source>Proceedings of the First National Conference on Porous Sieves: 27-30
-  June 1996; Baltimore</source>
-  <editor>Y Smith</editor>
-  <pubdate>1996</pubdate>
-  <fpage>16</fpage>
-  <lpage>27</lpage>
+  <source>National Human Genome Research Institute</source>
+  <pubdate>2016</pubdate>
+  <url>https://www.genome.gov/27541954/dna-sequencing-costs-data/</url>
 </bibl>
 
 <bibl id="B5">
-  <title><p>Origin of Eukaryotic Cells</p></title>
+  <title><p>{Germline Variants in Targeted Tumor Sequencing Using Matched
+  Normal DNA.}</p></title>
   <aug>
-    <au><snm>Margulis</snm><fnm>L</fnm></au>
+    <au><snm>Schrader</snm><fnm>KA</fnm></au>
+    <au><snm>Cheng</snm><fnm>DT</fnm></au>
+    <au><snm>Joseph</snm><fnm>V</fnm></au>
+    <au><snm>Prasad</snm><fnm>M</fnm></au>
+    <au><snm>Walsh</snm><fnm>M</fnm></au>
+    <au><snm>Zehir</snm><fnm>A</fnm></au>
+    <au><snm>Ni</snm><fnm>A</fnm></au>
+    <au><snm>Thomas</snm><fnm>T</fnm></au>
+    <au><snm>Benayed</snm><fnm>R</fnm></au>
+    <au><snm>Ashraf</snm><fnm>A</fnm></au>
+    <au><snm>Lincoln</snm><fnm>A</fnm></au>
+    <au><snm>Arcila</snm><fnm>M</fnm></au>
+    <au><snm>Stadler</snm><fnm>Z</fnm></au>
+    <au><snm>Solit</snm><fnm>D</fnm></au>
+    <au><snm>Hyman</snm><fnm>D</fnm></au>
+    <au><snm>Zhang</snm><fnm>L</fnm></au>
+    <au><snm>Klimstra</snm><fnm>D</fnm></au>
+    <au><snm>Ladanyi</snm><fnm>M</fnm></au>
+    <au><snm>Offit</snm><fnm>K</fnm></au>
+    <au><snm>Berger</snm><fnm>M</fnm></au>
+    <au><snm>Robson</snm><fnm>M</fnm></au>
   </aug>
-  <publisher>New Haven: Yale University Press</publisher>
-  <pubdate>1970</pubdate>
+  <source>JAMA Oncology</source>
+  <pubdate>2015</pubdate>
+  <volume>2</volume>
+  <issue>1</issue>
+  <fpage>1</fpage>
+  <lpage>-8</lpage>
+  <url>http://oncology.jamanetwork.com/article.aspx?articleid=2469517</url>
 </bibl>
 
 <bibl id="B6">
-  <title><p>Analysis and assessment of ab initio three-dimensional prediction,
-  secondary structure, and contacts prediction</p></title>
+  <title><p>{Personalized genomic analyses for cancer mutation discovery and
+  interpretation}</p></title>
   <aug>
-    <au><snm>Orengo</snm><fnm>C A</fnm></au>
-    <au><snm>Bray</snm><fnm>J E</fnm></au>
-    <au><snm>Hubbard</snm><fnm>T</fnm></au>
-    <au><snm>LoConte</snm><fnm>L</fnm></au>
-    <au><snm>Sillitoe</snm><fnm>I</fnm></au>
+    <au><snm>Jones</snm><fnm>S</fnm></au>
+    <au><snm>Anagnostou</snm><fnm>V</fnm></au>
+    <au><snm>Lytle</snm><fnm>K</fnm></au>
+    <au><snm>Parpart li</snm><fnm>S</fnm></au>
+    <au><snm>Nesselbush</snm><fnm>M</fnm></au>
+    <au><snm>Riley</snm><fnm>DR</fnm></au>
+    <au><snm>Shukla</snm><fnm>M</fnm></au>
+    <au><snm>Chesnick</snm><fnm>B</fnm></au>
+    <au><snm>Kadan</snm><fnm>M</fnm></au>
+    <au><snm>Papp</snm><fnm>E</fnm></au>
+    <au><snm>Galens</snm><fnm>KG</fnm></au>
+    <au><snm>Murphy</snm><fnm>D</fnm></au>
+    <au><snm>Zhang</snm><fnm>T</fnm></au>
+    <au><snm>Kann</snm><fnm>L</fnm></au>
+    <au><snm>Sausen</snm><fnm>M</fnm></au>
+    <au><snm>Angiuoli</snm><fnm>SV</fnm></au>
+    <au><snm>Jr</snm><fnm>LAD</fnm></au>
+    <au><snm>Velculescu</snm><fnm>VE</fnm></au>
   </aug>
-  <source>Proteins</source>
-  <pubdate>1999</pubdate>
-  <volume>Suppl 3</volume>
-  <fpage>149</fpage>
-  <lpage>170</lpage>
+  <source>Science Translational Medicine</source>
+  <pubdate>2015</pubdate>
+  <volume>7</volume>
+  <issue>283ra53</issue>
 </bibl>
 
 <bibl id="B7">
-  <title><p>From prey via endosymbiont to plastids: comparative studies in
-  dinoflagellates</p></title>
+  <title><p>{Incidental germline variants in 1000 advanced cancers on a
+  prospective somatic genomic profiling protocol}</p></title>
   <aug>
-    <au><snm>Schnepf</snm><fnm>E</fnm></au>
+    <au><snm>Meric Bernstam</snm><fnm>F.</fnm></au>
+    <au><snm>Brusco</snm><fnm>L.</fnm></au>
+    <au><snm>Daniels</snm><fnm>M.</fnm></au>
+    <au><snm>Wathoo</snm><fnm>C.</fnm></au>
+    <au><snm>Bailey</snm><fnm>A. M.</fnm></au>
+    <au><snm>Strong</snm><fnm>L.</fnm></au>
+    <au><snm>Shaw</snm><fnm>K.</fnm></au>
+    <au><snm>Lu</snm><fnm>K.</fnm></au>
+    <au><snm>Qi</snm><fnm>Y.</fnm></au>
+    <au><snm>Zhao</snm><fnm>H.</fnm></au>
+    <au><snm>Lara Guerra</snm><fnm>H.</fnm></au>
+    <au><snm>Litton</snm><fnm>J.</fnm></au>
+    <au><snm>Arun</snm><fnm>B.</fnm></au>
+    <au><snm>Eterovic</snm><fnm>A. K.</fnm></au>
+    <au><snm>Aytac</snm><fnm>U.</fnm></au>
+    <au><snm>Routbort</snm><fnm>M.</fnm></au>
+    <au><snm>Subbiah</snm><fnm>V.</fnm></au>
+    <au><snm>Janku</snm><fnm>F.</fnm></au>
+    <au><snm>Davies</snm><fnm>M. A.</fnm></au>
+    <au><snm>Kopetz</snm><fnm>S.</fnm></au>
+    <au><snm>Mendelsohn</snm><fnm>J.</fnm></au>
+    <au><snm>Mills</snm><fnm>G. B.</fnm></au>
+    <au><snm>Chen</snm><fnm>K.</fnm></au>
   </aug>
-  <source>Origins of Plastids</source>
-  <publisher>New York: Chapman and Hall</publisher>
-  <editor>R A Lewin</editor>
-  <edition>2</edition>
-  <pubdate>1993</pubdate>
-  <volume>2</volume>
-  <fpage>53</fpage>
-  <lpage>76</lpage>
+  <source>Annals of Oncology</source>
+  <pubdate>2016</pubdate>
+  <volume>27</volume>
+  <issue>5</issue>
+  <fpage>795</fpage>
+  <lpage>-800</lpage>
 </bibl>
 
 <bibl id="B8">
-  <title><p>Innovative oncology</p></title>
-  <source>Breast Cancer Res</source>
-  <editor>B Ponder and S Johnston and L Chodosh</editor>
-  <pubdate>1998</pubdate>
-  <volume>10</volume>
-  <fpage>1</fpage>
-  <lpage>72</lpage>
+  <title><p>{Revealing the Incidentalome When Targeting the Tumor
+  Genome}</p></title>
+  <aug>
+    <au><snm>Bombard</snm><fnm>Y</fnm></au>
+    <au><snm>Robson</snm><fnm>M</fnm></au>
+    <au><snm>Offit</snm><fnm>K</fnm></au>
+  </aug>
+  <source>The Journal of the American Medical Association</source>
+  <pubdate>2014</pubdate>
+  <volume>310</volume>
+  <issue>8</issue>
+  <fpage>795</fpage>
+  <lpage>-6</lpage>
 </bibl>
 
 <bibl id="B9">
-  <title><p>Proceedings of the First National Conference on Porous Sieves:
-  27-30 June 1996; Baltimore</p></title>
-  <publisher>Stoneham: Butterworth-Heinemann</publisher>
-  <editor>Y Smith</editor>
-  <pubdate>1996</pubdate>
+  <title><p>{Using germline genotype in cancer pharmacogenetic
+  studies}</p></title>
+  <aug>
+    <au><snm>McWhinney</snm><fnm>SR</fnm></au>
+    <au><snm>McLeod</snm><fnm>HL</fnm></au>
+  </aug>
+  <source>Pharmacogenomics</source>
+  <pubdate>2009</pubdate>
+  <volume>10</volume>
+  <issue>3</issue>
+  <fpage>489</fpage>
+  <lpage>-493</lpage>
 </bibl>
 
 <bibl id="B10">
-  <title><p>The alveloar macrophage</p></title>
+  <title><p>{Discriminating somatic and germline mutations in tumor DNA samples
+  without matching normals}</p></title>
   <aug>
-    <au><snm>Hunninghake</snm><fnm>G W</fnm></au>
-    <au><snm>Gadek</snm><fnm>J E</fnm></au>
+    <au><snm>Hiltemann</snm><fnm>S</fnm></au>
+    <au><snm>Jenster</snm><fnm>G</fnm></au>
+    <au><snm>Trapman</snm><fnm>J</fnm></au>
+    <au><snm>{Van Der Spek}</snm><fnm>P</fnm></au>
+    <au><snm>Stubbs</snm><fnm>A</fnm></au>
   </aug>
-  <source>Cultured Human Cells and Tissues</source>
-  <publisher>New York: Academic Press</publisher>
-  <editor>T J R Harris</editor>
-  <pubdate>1995</pubdate>
-  <fpage>54</fpage>
-  <lpage>56</lpage>
-  <note>Stoner G (Series Editor): Methods and Perspectives in Cell Biology, vol
-  1</note>
+  <source>Genome Research</source>
+  <pubdate>2015</pubdate>
+  <volume>25</volume>
+  <issue>9</issue>
+  <fpage>1382</fpage>
+  <lpage>-1390</lpage>
 </bibl>
 
 <bibl id="B11">
-  <title><p>Annual Report</p></title>
-  <aug><au><cnm>Advisory Committee on Genetic Modification</cnm></au></aug>
-  <publisher>London</publisher>
-  <pubdate>1999</pubdate>
+  <title><p>{DNA extraction from archival formalin-fixed, paraffin-embedded
+  tissue sections based on the antigen retrieval principle: heating under the
+  influence of pH.}</p></title>
+  <aug>
+    <au><snm>Shi</snm><fnm>SR</fnm></au>
+    <au><snm>Cote</snm><fnm>RJ</fnm></au>
+    <au><snm>Wu</snm><fnm>L</fnm></au>
+    <au><snm>Liu</snm><fnm>C</fnm></au>
+    <au><snm>Datar</snm><fnm>R</fnm></au>
+    <au><snm>Shi</snm><fnm>Y</fnm></au>
+    <au><snm>Liu</snm><fnm>D</fnm></au>
+    <au><snm>Lim</snm><fnm>H</fnm></au>
+    <au><snm>Taylor</snm><fnm>CR</fnm></au>
+  </aug>
+  <source>Journal of Histochemistry and Cytochemistry</source>
+  <pubdate>2002</pubdate>
+  <volume>50</volume>
+  <issue>8</issue>
+  <fpage>1005</fpage>
+  <lpage>-1011</lpage>
 </bibl>
 
 <bibl id="B12">
-  <title><p>Wrappers for performance enhancement and obvious decision
-  graphs</p></title>
+  <title><p>{Multiplex picoliter-droplet digital PCR for quantitative
+  assessment of DNA integrity in clinical samples}</p></title>
   <aug>
-    <au><snm>Kohavi</snm><fnm>R</fnm></au>
+    <au><snm>Didelot</snm><fnm>A</fnm></au>
+    <au><snm>Kotsopoulos</snm><fnm>SK</fnm></au>
+    <au><snm>Lupo</snm><fnm>A</fnm></au>
+    <au><snm>Pekin</snm><fnm>D</fnm></au>
+    <au><snm>Li</snm><fnm>X</fnm></au>
+    <au><snm>Atochin</snm><fnm>I</fnm></au>
+    <au><snm>Srinivasan</snm><fnm>P</fnm></au>
+    <au><snm>Zhong</snm><fnm>Q</fnm></au>
+    <au><snm>Olson</snm><fnm>J</fnm></au>
+    <au><snm>Link</snm><fnm>DR</fnm></au>
+    <au><snm>Laurent Puig</snm><fnm>P</fnm></au>
+    <au><snm>Blons</snm><fnm>H</fnm></au>
+    <au><snm>Hutchison</snm><fnm>JB</fnm></au>
+    <au><snm>Taly</snm><fnm>V</fnm></au>
   </aug>
-  <source>PhD thesis</source>
-  <publisher>Stanford University, Computer Science Department</publisher>
-  <pubdate>1995</pubdate>
+  <source>Clinical Chemistry</source>
+  <pubdate>2013</pubdate>
+  <volume>59</volume>
+  <issue>5</issue>
+  <fpage>815</fpage>
+  <lpage>-823</lpage>
 </bibl>
 
 <bibl id="B13">
-  <title><p>The Mouse Tumor Biology Database</p></title>
-  <url>http://tumor.informatics.jax.org/cancer\_links.html</url>
+  <title><p>{Targeted-capture massively-parallel sequencing enables robust
+  detection of clinically informative mutations from formalin-fixed
+  tumours.}</p></title>
+  <aug>
+    <au><snm>Wong</snm><fnm>SQ</fnm></au>
+    <au><snm>Li</snm><fnm>J</fnm></au>
+    <au><snm>Salemi</snm><fnm>R</fnm></au>
+    <au><snm>Sheppard</snm><fnm>KE</fnm></au>
+    <au><snm>Do</snm><fnm>H</fnm></au>
+    <au><snm>Tothill</snm><fnm>RW</fnm></au>
+    <au><snm>McArthur</snm><fnm>Ga</fnm></au>
+    <au><snm>Dobrovic</snm><fnm>A</fnm></au>
+  </aug>
+  <source>Scientific Reports</source>
+  <pubdate>2013</pubdate>
+  <volume>3</volume>
+  <issue>3</issue>
+  <fpage>3494</fpage>
+  <url>http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3861801{\&}tool=pmcentrez{\&}rendertype=abstract</url>
+</bibl>
+
+<bibl id="B14">
+  <title><p>{Sequence artifacts in DNA from formalin-fixed tissues: Causes and
+  strategies for minimization}</p></title>
+  <aug>
+    <au><snm>Do</snm><fnm>H</fnm></au>
+    <au><snm>Dobrovic</snm><fnm>A</fnm></au>
+  </aug>
+  <source>Clinical Chemistry</source>
+  <pubdate>2015</pubdate>
+  <volume>61</volume>
+  <issue>1</issue>
+  <fpage>64</fpage>
+  <lpage>-71</lpage>
+</bibl>
+
+<bibl id="B15">
+  <title><p>{Sequence artefacts in a prospective series of formalin-fixed
+  tumours tested for mutations in hotspot regions by massively parallel
+  sequencing}</p></title>
+  <aug>
+    <au><snm>Wong</snm><fnm>SQ</fnm></au>
+    <au><snm>Li</snm><fnm>J</fnm></au>
+    <au><snm>{Y-C Tan}</snm><fnm>A</fnm></au>
+    <au><snm>Vedururu</snm><fnm>R</fnm></au>
+    <au><snm>Pang</snm><fnm>JMB</fnm></au>
+    <au><snm>Do</snm><fnm>H</fnm></au>
+    <au><snm>Ellul</snm><fnm>J</fnm></au>
+    <au><snm>Doig</snm><fnm>K</fnm></au>
+    <au><snm>Bell</snm><fnm>A</fnm></au>
+    <au><snm>MacArthur</snm><fnm>GA</fnm></au>
+    <au><snm>Fox</snm><fnm>SB</fnm></au>
+    <au><snm>Thomas</snm><fnm>DM</fnm></au>
+    <au><snm>Fellowes</snm><fnm>A</fnm></au>
+    <au><snm>Parisot</snm><fnm>JP</fnm></au>
+    <au><snm>Dobrovic</snm><fnm>A</fnm></au>
+  </aug>
+  <source>BMC Medical Genomics</source>
+  <pubdate>2014</pubdate>
+  <volume>7</volume>
+  <issue>1</issue>
+  <fpage>1</fpage>
+  <lpage>-10</lpage>
+  <url>http://www.biomedcentral.com/1755-8794/7/23</url>
+</bibl>
+
+<bibl id="B16">
+  <title><p>{A clinically validated diagnostic second-generation sequencing
+  assay for detection of hereditary BRCA1 and BRCA2 mutations}</p></title>
+  <aug>
+    <au><snm>Bosdet</snm><fnm>IE</fnm></au>
+    <au><snm>Docking</snm><fnm>TR</fnm></au>
+    <au><snm>Butterfield</snm><fnm>YS</fnm></au>
+    <au><snm>Mungall</snm><fnm>AJ</fnm></au>
+    <au><snm>Zeng</snm><fnm>T</fnm></au>
+    <au><snm>Coope</snm><fnm>RJ</fnm></au>
+    <au><snm>Yorida</snm><fnm>E</fnm></au>
+    <au><snm>Chow</snm><fnm>K</fnm></au>
+    <au><snm>Bala</snm><fnm>M</fnm></au>
+    <au><snm>Young</snm><fnm>SS</fnm></au>
+    <au><snm>Hirst</snm><fnm>M</fnm></au>
+    <au><snm>Birol</snm><fnm>I</fnm></au>
+    <au><snm>Moore</snm><fnm>RA</fnm></au>
+    <au><snm>Jones</snm><fnm>SJ</fnm></au>
+    <au><snm>Marra</snm><fnm>MA</fnm></au>
+    <au><snm>Holt</snm><fnm>R</fnm></au>
+    <au><snm>Karsan</snm><fnm>A</fnm></au>
+  </aug>
+  <source>Journal of Molecular Diagnostics</source>
+  <pubdate>2013</pubdate>
+  <volume>15</volume>
+  <issue>6</issue>
+  <fpage>796</fpage>
+  <lpage>-809</lpage>
+</bibl>
+
+<bibl id="B17">
+  <title><p>{Dramatic reduction of sequence artefacts from DNA isolated from
+  formalin-fixed cancer biopsies by treatment with uracil- DNA
+  glycosylase.}</p></title>
+  <aug>
+    <au><snm>Do</snm><fnm>H</fnm></au>
+    <au><snm>Dobrovic</snm><fnm>A</fnm></au>
+  </aug>
+  <source>Oncotarget</source>
+  <pubdate>2012</pubdate>
+  <volume>3</volume>
+  <issue>5</issue>
+  <fpage>546</fpage>
+  <lpage>-58</lpage>
+  <url>http://www.ncbi.nlm.nih.gov/pubmed/22643842{\%}5Cnhttp://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC3388184</url>
+</bibl>
+
+<bibl id="B18">
+  <title><p>{Reducing sequence artifacts in amplicon-based massively parallel
+  sequencing of formalin-fixed paraffin-embedded DNA by enzymatic depletion of
+  uracil-containing templates}</p></title>
+  <aug>
+    <au><snm>Do</snm><fnm>H</fnm></au>
+    <au><snm>Wong</snm><fnm>SQ</fnm></au>
+    <au><snm>Li</snm><fnm>J</fnm></au>
+    <au><snm>Dobrovic</snm><fnm>A</fnm></au>
+  </aug>
+  <source>Clinical Chemistry</source>
+  <pubdate>2013</pubdate>
+  <volume>59</volume>
+  <issue>9</issue>
+  <fpage>1376</fpage>
+  <lpage>-1383</lpage>
+</bibl>
+
+<bibl id="B19">
+  <title><p>{Deamination Effects in Formalin-Fixed, Paraffin-Embedded Tissue
+  Samples in the Era of Precision Medicine}</p></title>
+  <aug>
+    <au><snm>Kim</snm><fnm>S</fnm></au>
+    <au><snm>Park</snm><fnm>C</fnm></au>
+    <au><snm>Ji</snm><fnm>Y</fnm></au>
+    <au><snm>Kim</snm><fnm>DG</fnm></au>
+    <au><snm>Bae</snm><fnm>H</fnm></au>
+    <au><snm>Vrancken</snm><fnm>M</fnm></au>
+    <au><snm>Kim</snm><fnm>DH</fnm></au>
+    <au><snm>Kim</snm><fnm>KM</fnm></au>
+  </aug>
+  <source>Journal of Molecular Diagnostics</source>
+  <publisher>American Society for Investigative Pathology and the Association
+  for Molecular Pathology</publisher>
+  <pubdate>2017</pubdate>
+  <volume>19</volume>
+  <issue>1</issue>
+  <fpage>137</fpage>
+  <lpage>-146</lpage>
+  <url>http://dx.doi.org/10.1016/j.jmoldx.2016.09.006</url>
+</bibl>
+
+<bibl id="B20">
+  <title><p>{DNA sequences from multiple amplifications reveal artifacts
+  induced by cytosine deamination in ancient DNA}</p></title>
+  <aug>
+    <au><snm>Hofreiter</snm><fnm>M</fnm></au>
+    <au><snm>Jaenicke</snm><fnm>V</fnm></au>
+    <au><snm>Serre</snm><fnm>D</fnm></au>
+    <au><snm>Haeseler</snm><fnm>A</fnm></au>
+    <au><snm>P{\"{a}}{\"{a}}bo</snm><fnm>S</fnm></au>
+  </aug>
+  <source>Nucleic Acids Research</source>
+  <pubdate>2001</pubdate>
+  <volume>29</volume>
+  <issue>23</issue>
+  <fpage>4793</fpage>
+  <lpage>-4799</lpage>
+</bibl>
+
+<bibl id="B21">
+  <title><p>{Non-reproducible sequence artifacts in FFPE tissue : an experience
+  report}</p></title>
+  <aug>
+    <au><snm>Ofner</snm><fnm>R</fnm></au>
+    <au><snm>Ritter</snm><fnm>C</fnm></au>
+    <au><snm>Ugurel</snm><fnm>S</fnm></au>
+    <au><snm>Cerroni</snm><fnm>L</fnm></au>
+    <au><snm>Stiller</snm><fnm>M</fnm></au>
+    <au><snm>Bogenrieder</snm><fnm>T</fnm></au>
+    <au><snm>Solca</snm><fnm>F</fnm></au>
+    <au><snm>Schrama</snm><fnm>D</fnm></au>
+  </aug>
+  <source>Journal of Cancer Research and Clinical Oncology</source>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <pubdate>2017</pubdate>
+  <volume>143</volume>
+  <issue>7</issue>
+  <fpage>1199</fpage>
+  <lpage>-1207</lpage>
+</bibl>
+
+<bibl id="B22">
+  <title><p>{Comparison of Accuracy of Whole-Exome Sequencing with
+  Formalin-Fixed Paraffin-Embedded and Fresh Frozen Tissue
+  Samples.}</p></title>
+  <aug>
+    <au><snm>Oh</snm><fnm>E</fnm></au>
+    <au><snm>Choi</snm><fnm>YL</fnm></au>
+    <au><snm>Kwon</snm><fnm>MJ</fnm></au>
+    <au><snm>Kim</snm><fnm>RN</fnm></au>
+    <au><snm>Kim</snm><fnm>YJ</fnm></au>
+    <au><snm>Song</snm><fnm>JY</fnm></au>
+    <au><snm>Jung</snm><fnm>KS</fnm></au>
+    <au><snm>Shin</snm><fnm>YK</fnm></au>
+  </aug>
+  <source>PloS One</source>
+  <pubdate>2015</pubdate>
+  <volume>10</volume>
+  <issue>12</issue>
+  <fpage>e0144162</fpage>
+  <url>http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=4671711{\&}tool=pmcentrez{\&}rendertype=abstract</url>
+</bibl>
+
+<bibl id="B23">
+  <title><p>{Clinical validation of KRAS, BRAF, and EGFR mutation detection
+  using next-generation sequencing.}</p></title>
+  <aug>
+    <au><snm>Lin</snm><fnm>MT</fnm></au>
+    <au><snm>Mosier</snm><fnm>SL</fnm></au>
+    <au><snm>Thiess</snm><fnm>M</fnm></au>
+    <au><snm>Beierl</snm><fnm>KF</fnm></au>
+    <au><snm>Debeljak</snm><fnm>M</fnm></au>
+    <au><snm>Tseng</snm><fnm>LH</fnm></au>
+    <au><snm>Chen</snm><fnm>G</fnm></au>
+    <au><snm>Yegnasubramanian</snm><fnm>S</fnm></au>
+    <au><snm>Ho</snm><fnm>H</fnm></au>
+    <au><snm>Cope</snm><fnm>L</fnm></au>
+    <au><snm>Wheelan</snm><fnm>SJ</fnm></au>
+    <au><snm>Gocke</snm><fnm>CD</fnm></au>
+    <au><snm>Eshleman</snm><fnm>JR</fnm></au>
+  </aug>
+  <source>American Journal of Clinical Pathology</source>
+  <pubdate>2014</pubdate>
+  <volume>141</volume>
+  <issue>6</issue>
+  <fpage>856</fpage>
+  <lpage>-66</lpage>
+  <url>http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=4332779{\&}tool=pmcentrez{\&}rendertype=abstract</url>
+</bibl>
+
+<bibl id="B24">
+  <title><p>{Theoretical study of proton-catalyzed hydrolytic deamination
+  mechanism of adenine}</p></title>
+  <aug>
+    <au><snm>Wang</snm><fnm>H</fnm></au>
+    <au><snm>Meng</snm><fnm>F</fnm></au>
+  </aug>
+  <source>Theoretical Chemistry Accounts</source>
+  <pubdate>2010</pubdate>
+  <volume>127</volume>
+  <issue>5</issue>
+  <fpage>561</fpage>
+  <lpage>-571</lpage>
+</bibl>
+
+<bibl id="B25">
+  <title><p>{Robustness of next generation sequencing on older formalin-fixed
+  paraffin-embedded tissue}</p></title>
+  <aug>
+    <au><snm>Carrick</snm><fnm>DM</fnm></au>
+    <au><snm>Mehaffey</snm><fnm>MG</fnm></au>
+    <au><snm>Sachs</snm><fnm>MC</fnm></au>
+    <au><snm>Altekruse</snm><fnm>S</fnm></au>
+    <au><snm>Camalier</snm><fnm>C</fnm></au>
+    <au><snm>Chuaqui</snm><fnm>R</fnm></au>
+    <au><snm>Cozen</snm><fnm>W</fnm></au>
+    <au><snm>Das</snm><fnm>B</fnm></au>
+    <au><snm>Hernandez</snm><fnm>BY</fnm></au>
+    <au><snm>Lih</snm><fnm>CJ</fnm></au>
+    <au><snm>Lynch</snm><fnm>CF</fnm></au>
+    <au><snm>Makhlouf</snm><fnm>H</fnm></au>
+    <au><snm>McGregor</snm><fnm>P</fnm></au>
+    <au><snm>McShane</snm><fnm>LM</fnm></au>
+    <au><snm>Rohan</snm><fnm>JP</fnm></au>
+    <au><snm>Walsh</snm><fnm>WD</fnm></au>
+    <au><snm>Williams</snm><fnm>PM</fnm></au>
+    <au><snm>Gillanders</snm><fnm>EM</fnm></au>
+    <au><snm>Mechanic</snm><fnm>LE</fnm></au>
+    <au><snm>Schully</snm><fnm>SD</fnm></au>
+  </aug>
+  <source>PLoS ONE</source>
+  <pubdate>2015</pubdate>
+  <volume>10</volume>
+  <issue>7</issue>
+  <fpage>3</fpage>
+  <lpage>-10</lpage>
+</bibl>
+
+<bibl id="B26">
+  <title><p>{Genetic polymorphisms and the efficacy and toxicity of
+  cisplatin-based chemotherapy in ovarian cancer patients}</p></title>
+  <aug>
+    <au><snm>Khrunin</snm><fnm>A V</fnm></au>
+    <au><snm>Moisseev</snm><fnm>A</fnm></au>
+    <au><snm>Gorbunova</snm><fnm>V</fnm></au>
+    <au><snm>Limborska</snm><fnm>S</fnm></au>
+  </aug>
+  <source>The Pharmacogenomics Journal</source>
+  <publisher>Nature Publishing Group</publisher>
+  <pubdate>2010</pubdate>
+  <volume>10</volume>
+  <issue>1</issue>
+  <fpage>54</fpage>
+  <lpage>-61</lpage>
+  <url>http://www.nature.com/doifinder/10.1038/tpj.2009.45</url>
+</bibl>
+
+<bibl id="B27">
+  <title><p>{TP53 Codon 72 Polymorphism Predicts Efficacy of Paclitaxel Plus
+  Capecitabine Chemotherapy in Advanced Gastric Cancer Patients}</p></title>
+  <aug>
+    <au><snm>Zha</snm><fnm>Y</fnm></au>
+    <au><snm>Gan</snm><fnm>P</fnm></au>
+    <au><snm>Liu</snm><fnm>Q</fnm></au>
+    <au><snm>Yao</snm><fnm>Q</fnm></au>
+  </aug>
+  <source>Archives of Medical Research</source>
+  <publisher>Elsevier Inc</publisher>
+  <pubdate>2016</pubdate>
+  <volume>47</volume>
+  <issue>1</issue>
+  <fpage>13</fpage>
+  <lpage>-18</lpage>
+  <url>http://linkinghub.elsevier.com/retrieve/pii/S0188440915002854</url>
+</bibl>
+
+<bibl id="B28">
+  <title><p>{TP53 codon 72 polymorphism associated with prognosis in patients
+  with advanced gastric cancer treated with paclitaxel and
+  cisplatin}</p></title>
+  <aug>
+    <au><snm>Kim</snm><fnm>JG</fnm></au>
+    <au><snm>Sohn</snm><fnm>SK</fnm></au>
+    <au><snm>Chae</snm><fnm>YS</fnm></au>
+    <au><snm>Song</snm><fnm>HS</fnm></au>
+    <au><snm>Kwon</snm><fnm>KY</fnm></au>
+    <au><snm>Do</snm><fnm>YR</fnm></au>
+    <au><snm>Kim</snm><fnm>MK</fnm></au>
+    <au><snm>Lee</snm><fnm>KH</fnm></au>
+    <au><snm>Hyun</snm><fnm>MS</fnm></au>
+    <au><snm>Lee</snm><fnm>WS</fnm></au>
+    <au><snm>Sohn</snm><fnm>CH</fnm></au>
+    <au><snm>Jung</snm><fnm>JS</fnm></au>
+    <au><snm>Kim</snm><fnm>GC</fnm></au>
+    <au><snm>Chung</snm><fnm>HY</fnm></au>
+    <au><snm>Yu</snm><fnm>W</fnm></au>
+  </aug>
+  <source>Cancer Chemotherapy and Pharmacology</source>
+  <pubdate>2009</pubdate>
+  <volume>64</volume>
+  <issue>2</issue>
+  <fpage>355</fpage>
+  <lpage>-360</lpage>
+</bibl>
+
+<bibl id="B29">
+  <title><p>{The common germline Arg72Pro polymorphism of p53 and increased
+  longevity in humans}</p></title>
+  <aug>
+    <au><snm>Bojesen</snm><fnm>SE</fnm></au>
+    <au><snm>Nordestgaard</snm><fnm>BG</fnm></au>
+  </aug>
+  <source>Cell Cycle</source>
+  <pubdate>2008</pubdate>
+  <volume>7</volume>
+  <issue>2</issue>
+  <fpage>158</fpage>
+  <lpage>-163</lpage>
+</bibl>
+
+<bibl id="B30">
+  <title><p>{The different apoptotic potential of the p53 codon 72 alleles
+  increases with age and modulates in vivo ischaemia-induced cell
+  death}</p></title>
+  <aug>
+    <au><snm>Bonaf{\'{e}}</snm><fnm>M</fnm></au>
+    <au><snm>Salvioli</snm><fnm>S</fnm></au>
+    <au><snm>Barbi</snm><fnm>C</fnm></au>
+    <au><snm>Trapassi</snm><fnm>C</fnm></au>
+    <au><snm>Tocco</snm><fnm>F</fnm></au>
+    <au><snm>Storci</snm><fnm>G</fnm></au>
+    <au><snm>Invidia</snm><fnm>L</fnm></au>
+    <au><snm>Vannini</snm><fnm>I</fnm></au>
+    <au><snm>Rossi</snm><fnm>M</fnm></au>
+    <au><snm>Marzi</snm><fnm>E</fnm></au>
+    <au><snm>Mishto</snm><fnm>M</fnm></au>
+    <au><snm>Capri</snm><fnm>M</fnm></au>
+    <au><snm>Olivieri</snm><fnm>F</fnm></au>
+    <au><snm>Antonicelli</snm><fnm>R</fnm></au>
+    <au><snm>Memo</snm><fnm>M</fnm></au>
+    <au><snm>Uberti</snm><fnm>D</fnm></au>
+    <au><snm>Nacmias</snm><fnm>B</fnm></au>
+    <au><snm>Sorbi</snm><fnm>S</fnm></au>
+    <au><snm>Monti</snm><fnm>D</fnm></au>
+    <au><snm>Franceschi</snm><fnm>C</fnm></au>
+  </aug>
+  <source>Cell Death and Differentiation</source>
+  <pubdate>2004</pubdate>
+  <volume>11</volume>
+  <issue>9</issue>
+  <fpage>962</fpage>
+  <lpage>-973</lpage>
+  <url>http://www.nature.com/doifinder/10.1038/sj.cdd.4401415</url>
+</bibl>
+
+<bibl id="B31">
+  <title><p>{Prognostic role of p53 codon 72 polymorphism in gastric cancer
+  patients treated with fluorouracil-based adjuvant chemotherapy.}</p></title>
+  <aug>
+    <au><snm>Huang</snm><fnm>ZH</fnm></au>
+    <au><snm>Hua</snm><fnm>D</fnm></au>
+    <au><snm>Li</snm><fnm>LH</fnm></au>
+    <au><snm>Zhu</snm><fnm>JD</fnm></au>
+  </aug>
+  <source>Journal of Cancer Research and Clinical Oncology</source>
+  <pubdate>2008</pubdate>
+  <volume>134</volume>
+  <issue>10</issue>
+  <fpage>1129</fpage>
+  <lpage>-1134</lpage>
+</bibl>
+
+<bibl id="B32">
+  <title><p>{Association of MDM2 SNP309 and TP53 Arg72Pro polymorphisms with
+  risk of endometrial cancer}</p></title>
+  <aug>
+    <au><snm>Yoneda</snm><fnm>T</fnm></au>
+    <au><snm>Kuboyama</snm><fnm>A</fnm></au>
+    <au><snm>Kato</snm><fnm>K</fnm></au>
+    <au><snm>Ohgami</snm><fnm>T</fnm></au>
+    <au><snm>Okamoto</snm><fnm>K</fnm></au>
+    <au><snm>Saito</snm><fnm>T</fnm></au>
+    <au><snm>Wake</snm><fnm>N</fnm></au>
+  </aug>
+  <source>Oncology Reports</source>
+  <pubdate>2013</pubdate>
+  <volume>30</volume>
+  <issue>1</issue>
+  <fpage>25</fpage>
+  <lpage>-34</lpage>
+</bibl>
+
+<bibl id="B33">
+  <title><p>{Interaction of P53 Arg72Pro and MDM2 T309G polymorphisms and their
+  associations with risk of gastric cardia cancer}</p></title>
+  <aug>
+    <au><snm>Yang</snm><fnm>M</fnm></au>
+    <au><snm>Guo</snm><fnm>Y</fnm></au>
+    <au><snm>Zhang</snm><fnm>X</fnm></au>
+    <au><snm>Miao</snm><fnm>X</fnm></au>
+    <au><snm>Tan</snm><fnm>W</fnm></au>
+    <au><snm>Sun</snm><fnm>T</fnm></au>
+    <au><snm>Zhao</snm><fnm>D</fnm></au>
+    <au><snm>Yu</snm><fnm>D</fnm></au>
+    <au><snm>Liu</snm><fnm>J</fnm></au>
+    <au><snm>Lin</snm><fnm>D</fnm></au>
+  </aug>
+  <source>Carcinogenesis</source>
+  <pubdate>2007</pubdate>
+  <volume>28</volume>
+  <issue>9</issue>
+  <fpage>1996</fpage>
+  <lpage>-2001</lpage>
+</bibl>
+
+<bibl id="B34">
+  <title><p>{Impact of the MDM2 SNP309 and p53 Arg72Pro polymorphism on age of
+  tumour onset in Li-Fraumeni syndrome.}</p></title>
+  <aug>
+    <au><snm>Bougeard</snm><fnm>G</fnm></au>
+    <au><snm>Baert Desurmont</snm><fnm>S</fnm></au>
+    <au><snm>Tournier</snm><fnm>I</fnm></au>
+    <au><snm>Vasseur</snm><fnm>S</fnm></au>
+    <au><snm>Martin</snm><fnm>C</fnm></au>
+    <au><snm>Brugieres</snm><fnm>L</fnm></au>
+    <au><snm>Chompret</snm><fnm>A</fnm></au>
+    <au><snm>{Bressac-de Paillerets}</snm><fnm>B</fnm></au>
+    <au><snm>Stoppa Lyonnet</snm><fnm>D</fnm></au>
+    <au><snm>Bonaiti Pellie</snm><fnm>C</fnm></au>
+    <au><snm>Frebourg</snm><fnm>T</fnm></au>
+  </aug>
+  <source>Journal of Medical Genetics</source>
+  <pubdate>2006</pubdate>
+  <volume>43</volume>
+  <issue>6</issue>
+  <fpage>531</fpage>
+  <lpage>-3</lpage>
+  <url>http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=1904480{\&}tool=pmcentrez{\&}rendertype=abstract</url>
+</bibl>
+
+<bibl id="B35">
+  <title><p>{Individual and combined effects of MDM2 SNP309 and TP53 Arg72Pro
+  on breast cancer risk: An updated meta-analysis}</p></title>
+  <aug>
+    <au><snm>Cheng</snm><fnm>H</fnm></au>
+    <au><snm>Ma</snm><fnm>B</fnm></au>
+    <au><snm>Jiang</snm><fnm>R</fnm></au>
+    <au><snm>Wang</snm><fnm>W</fnm></au>
+    <au><snm>Guo</snm><fnm>H</fnm></au>
+    <au><snm>Shen</snm><fnm>N</fnm></au>
+    <au><snm>Li</snm><fnm>D</fnm></au>
+    <au><snm>Zhao</snm><fnm>Q</fnm></au>
+    <au><snm>Wang</snm><fnm>R</fnm></au>
+    <au><snm>Yi</snm><fnm>P</fnm></au>
+    <au><snm>Zhao</snm><fnm>Y</fnm></au>
+    <au><snm>Liu</snm><fnm>Z</fnm></au>
+    <au><snm>Huang</snm><fnm>T</fnm></au>
+  </aug>
+  <source>Molecular Biology Reports</source>
+  <pubdate>2012</pubdate>
+  <volume>39</volume>
+  <issue>9</issue>
+  <fpage>9265</fpage>
+  <lpage>-9274</lpage>
+</bibl>
+
+<bibl id="B36">
+  <title><p>{Association of the TP53 codon 72 polymorphism with colorectal
+  cancer in a Chinese population}</p></title>
+  <aug>
+    <au><snm>Zhu</snm><fnm>ZZ</fnm></au>
+    <au><snm>Wang</snm><fnm>AZ</fnm></au>
+    <au><snm>Jia</snm><fnm>HR</fnm></au>
+    <au><snm>Jin</snm><fnm>XX</fnm></au>
+    <au><snm>He</snm><fnm>XL</fnm></au>
+    <au><snm>Hou</snm><fnm>LF</fnm></au>
+    <au><snm>Zhu</snm><fnm>G</fnm></au>
+  </aug>
+  <source>Japanese Journal of Clinical Oncology</source>
+  <pubdate>2007</pubdate>
+  <volume>37</volume>
+  <issue>5</issue>
+  <fpage>385</fpage>
+  <lpage>-390</lpage>
+</bibl>
+
+<bibl id="B37">
+  <title><p>{Polymorphisms in TP53 and MDM2 contribute to higher risk of
+  colorectal cancer in Chinese population: A hospital-based, case-control
+  study}</p></title>
+  <aug>
+    <au><snm>Zhang</snm><fnm>Y</fnm></au>
+    <au><snm>Liu</snm><fnm>L</fnm></au>
+    <au><snm>Tang</snm><fnm>Y</fnm></au>
+    <au><snm>Chen</snm><fnm>C</fnm></au>
+    <au><snm>Wang</snm><fnm>Q</fnm></au>
+    <au><snm>Xu</snm><fnm>J</fnm></au>
+    <au><snm>Yang</snm><fnm>C</fnm></au>
+    <au><snm>Miao</snm><fnm>X</fnm></au>
+    <au><snm>Wei</snm><fnm>S</fnm></au>
+    <au><snm>Chen</snm><fnm>J</fnm></au>
+    <au><snm>Nie</snm><fnm>S</fnm></au>
+  </aug>
+  <source>Molecular Biology Reports</source>
+  <pubdate>2012</pubdate>
+  <volume>39</volume>
+  <issue>10</issue>
+  <fpage>9661</fpage>
+  <lpage>-9668</lpage>
+</bibl>
+
+<bibl id="B38">
+  <title><p>{Germline findings in tumor-only sequencing: Points to consider for
+  clinicians and laboratories}</p></title>
+  <aug>
+    <au><snm>Raymond</snm><fnm>VM</fnm></au>
+    <au><snm>Gray</snm><fnm>SW</fnm></au>
+    <au><snm>Roychowdhury</snm><fnm>S</fnm></au>
+    <au><snm>Joffe</snm><fnm>S</fnm></au>
+    <au><snm>Chinnaiyan</snm><fnm>AM</fnm></au>
+    <au><snm>Parsons</snm><fnm>DW</fnm></au>
+    <au><snm>Plon</snm><fnm>SE</fnm></au>
+  </aug>
+  <source>Journal of the National Cancer Institute</source>
+  <pubdate>2016</pubdate>
+  <volume>108</volume>
+  <issue>4</issue>
+  <fpage>1</fpage>
+  <lpage>-5</lpage>
+</bibl>
+
+<bibl id="B39">
+  <title><p>{ACMG recommendations for reporting of incidental findings in
+  clinical exome and genome sequencing.}</p></title>
+  <aug>
+    <au><snm>Green</snm><fnm>RC</fnm></au>
+    <au><snm>Berg</snm><fnm>JS</fnm></au>
+    <au><snm>Grody</snm><fnm>WW</fnm></au>
+    <au><snm>Kalia</snm><fnm>SS</fnm></au>
+    <au><snm>Korf</snm><fnm>BR</fnm></au>
+    <au><snm>Martin</snm><fnm>CL</fnm></au>
+    <au><snm>McGuire</snm><fnm>AL</fnm></au>
+    <au><snm>Nussbaum</snm><fnm>RL</fnm></au>
+    <au><snm>O'Daniel</snm><fnm>JM</fnm></au>
+    <au><snm>Ormond</snm><fnm>KE</fnm></au>
+    <au><snm>Rehm</snm><fnm>HL</fnm></au>
+    <au><snm>Watson</snm><fnm>MS</fnm></au>
+    <au><snm>Williams</snm><fnm>MS</fnm></au>
+    <au><snm>Biesecker</snm><fnm>LG</fnm></au>
+    <au><cnm>{American College of Medical Genetics and Genomics}</cnm></au>
+  </aug>
+  <source>Genetics in Medicine</source>
+  <pubdate>2013</pubdate>
+  <volume>15</volume>
+  <issue>7</issue>
+  <fpage>565</fpage>
+  <lpage>-74</lpage>
+  <url>http://www.ncbi.nlm.nih.gov/pubmed/23788249{\%}5Cnhttp://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC3727274</url>
+</bibl>
+
+<bibl id="B40">
+  <title><p>{Comparison of clinical targeted next-generation sequence data from
+  formalin-fixed and fresh-frozen tissue specimens}</p></title>
+  <aug>
+    <au><snm>Spencer</snm><fnm>DH</fnm></au>
+    <au><snm>Sehn</snm><fnm>JK</fnm></au>
+    <au><snm>Abel</snm><fnm>HJ</fnm></au>
+    <au><snm>Watson</snm><fnm>MA</fnm></au>
+    <au><snm>Pfeifer</snm><fnm>JD</fnm></au>
+    <au><snm>Duncavage</snm><fnm>EJ</fnm></au>
+  </aug>
+  <source>Journal of Molecular Diagnostics</source>
+  <publisher>American Society for Investigative Pathology</publisher>
+  <pubdate>2013</pubdate>
+  <volume>15</volume>
+  <issue>5</issue>
+  <fpage>623</fpage>
+  <lpage>-633</lpage>
+  <url>http://dx.doi.org/10.1016/j.jmoldx.2013.05.004</url>
+</bibl>
+
+<bibl id="B41">
+  <title><p>{Cytosine Deamination is a Major Cause of Baseline Noise in Next
+  Generation Sequencing}</p></title>
+  <aug>
+    <au><snm>Chen</snm><fnm>G</fnm></au>
+    <au><snm>Mosier</snm><fnm>S</fnm></au>
+    <au><snm>Gocke</snm><fnm>CD</fnm></au>
+    <au><snm>Lin</snm><fnm>MT</fnm></au>
+    <au><snm>Eshleman</snm><fnm>JR</fnm></au>
+  </aug>
+  <source>Molecular Diagnosis {\&} Therapy</source>
+  <pubdate>2014</pubdate>
+  <volume>18</volume>
+  <issue>5</issue>
+  <fpage>587</fpage>
+  <lpage>-593</lpage>
+</bibl>
+
+<bibl id="B42">
+  <title><p>{Mutations in BRCA1 from fixed, paraffin-embedded tissue can be
+  artifacts of preservation}</p></title>
+  <aug>
+    <au><snm>Wong</snm><fnm>C</fnm></au>
+    <au><snm>DiCioccio</snm><fnm>RA</fnm></au>
+    <au><snm>Allen</snm><fnm>HJ</fnm></au>
+    <au><snm>Werness</snm><fnm>BA</fnm></au>
+    <au><snm>Piver</snm><fnm>MS</fnm></au>
+  </aug>
+  <source>Cancer Genetics and Cytogenetics</source>
+  <pubdate>1998</pubdate>
+  <volume>107</volume>
+  <issue>1</issue>
+  <fpage>21</fpage>
+  <lpage>-27</lpage>
+</bibl>
+
+<bibl id="B43">
+  <title><p>{Nucleic acids from long-term preserved FFPE tissues are suitable
+  for downstream analyses}</p></title>
+  <aug>
+    <au><snm>Ludyga</snm><fnm>N</fnm></au>
+    <au><snm>Gr??nwald</snm><fnm>B</fnm></au>
+    <au><snm>Azimzadeh</snm><fnm>O</fnm></au>
+    <au><snm>Englert</snm><fnm>S</fnm></au>
+    <au><snm>H??fler</snm><fnm>H</fnm></au>
+    <au><snm>Tapio</snm><fnm>S</fnm></au>
+    <au><snm>Aubele</snm><fnm>M</fnm></au>
+  </aug>
+  <source>Virchows Archiv</source>
+  <pubdate>2012</pubdate>
+  <volume>460</volume>
+  <issue>2</issue>
+  <fpage>131</fpage>
+  <lpage>-140</lpage>
+</bibl>
+
+<bibl id="B44">
+  <title><p>{Somatic copy number changes in DPYD are associated with lower risk
+  of recurrence in triple-negative breast cancers}</p></title>
+  <aug>
+    <au><snm>Gross</snm><fnm>E</fnm></au>
+    <au><snm>Meul</snm><fnm>C</fnm></au>
+    <au><snm>Raab</snm><fnm>S</fnm></au>
+    <au><snm>Propping</snm><fnm>C</fnm></au>
+    <au><snm>Avril</snm><fnm>S</fnm></au>
+    <au><snm>Aubele</snm><fnm>M</fnm></au>
+    <au><snm>Gkazepis</snm><fnm>A</fnm></au>
+    <au><snm>Schuster</snm><fnm>T</fnm></au>
+    <au><snm>Grebenchtchikov</snm><fnm>N</fnm></au>
+    <au><snm>Schmitt</snm><fnm>M</fnm></au>
+    <au><snm>Kiechle</snm><fnm>M</fnm></au>
+    <au><snm>Meijer</snm><fnm>J</fnm></au>
+    <au><snm>Vijzelaar</snm><fnm>R</fnm></au>
+    <au><snm>Meindl</snm><fnm>A</fnm></au>
+    <au><snm>Kuilenburg</snm><fnm>A B P</fnm></au>
+  </aug>
+  <source>British Journal of Cancer</source>
+  <publisher>Nature Publishing Group</publisher>
+  <pubdate>2013</pubdate>
+  <volume>109</volume>
+  <issue>9</issue>
+  <fpage>2347</fpage>
+  <lpage>-2355</lpage>
+  <url>http://www.nature.com/doifinder/10.1038/bjc.2013.621</url>
+</bibl>
+
+<bibl id="B45">
+  <title><p>{BRCA1 Is Required for Common-Fragile-Site Stability via Its G 2 /
+  M Checkpoint Function BRCA1 Is Required for Common-Fragile-Site Stability via
+  Its G 2 / M Checkpoint Function}</p></title>
+  <aug>
+    <au><snm>Arlt</snm><fnm>MF</fnm></au>
+    <au><snm>Xu</snm><fnm>B</fnm></au>
+    <au><snm>Durkin</snm><fnm>SG</fnm></au>
+    <au><snm>Casper</snm><fnm>AM</fnm></au>
+    <au><snm>Kastan</snm><fnm>MB</fnm></au>
+    <au><snm>Glover</snm><fnm>TW</fnm></au>
+  </aug>
+  <source>Molecular and Cellular Biology</source>
+  <pubdate>2004</pubdate>
+  <volume>24</volume>
+  <issue>15</issue>
+  <fpage>6701</fpage>
+  <lpage>-6709</lpage>
+</bibl>
+
+<bibl id="B46">
+  <title><p>{Current practices and guidelines for clinical next-generation
+  sequencing oncology testing.}</p></title>
+  <aug>
+    <au><snm>Strom</snm><fnm>SP</fnm></au>
+  </aug>
+  <source>Cancer Biology {\&} Medicine</source>
+  <pubdate>2016</pubdate>
+  <volume>13</volume>
+  <issue>1</issue>
+  <fpage>3</fpage>
+  <lpage>-11</lpage>
+  <url>http://www.ncbi.nlm.nih.gov/pubmed/27144058{\%}5Cnhttp://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC4850126</url>
+</bibl>
+
+<bibl id="B47">
+  <title><p>{The impact of tumor profiling approaches and genomic data
+  strategies for cancer precision medicine}</p></title>
+  <aug>
+    <au><snm>Garofalo</snm><fnm>A</fnm></au>
+    <au><snm>Sholl</snm><fnm>L</fnm></au>
+    <au><snm>Reardon</snm><fnm>B</fnm></au>
+    <au><snm>Taylor Weiner</snm><fnm>A</fnm></au>
+    <au><snm>Amin Mansour</snm><fnm>A</fnm></au>
+    <au><snm>Miao</snm><fnm>D</fnm></au>
+    <au><snm>Liu</snm><fnm>D</fnm></au>
+    <au><snm>Oliver</snm><fnm>N</fnm></au>
+    <au><snm>MacConaill</snm><fnm>L</fnm></au>
+    <au><snm>Ducar</snm><fnm>M</fnm></au>
+    <au><snm>Rojas Rudilla</snm><fnm>V</fnm></au>
+    <au><snm>Giannakis</snm><fnm>M</fnm></au>
+    <au><snm>Ghazani</snm><fnm>A</fnm></au>
+    <au><snm>Gray</snm><fnm>S</fnm></au>
+    <au><snm>Janne</snm><fnm>P</fnm></au>
+    <au><snm>Garber</snm><fnm>J</fnm></au>
+    <au><snm>Joffe</snm><fnm>S</fnm></au>
+    <au><snm>Lindeman</snm><fnm>N</fnm></au>
+    <au><snm>Wagle</snm><fnm>N</fnm></au>
+    <au><snm>Garraway</snm><fnm>LA</fnm></au>
+    <au><snm>{Van Allen}</snm><fnm>EM</fnm></au>
+  </aug>
+  <source>Genome Medicine</source>
+  <publisher>Genome Medicine</publisher>
+  <pubdate>2016</pubdate>
+  <volume>8</volume>
+  <issue>1</issue>
+  <fpage>79</fpage>
+  <url>http://genomemedicine.biomedcentral.com/articles/10.1186/s13073-016-0333-9</url>
 </bibl>
 
 </refgrp>

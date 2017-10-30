@@ -13,7 +13,7 @@ CP=		cp -p
 all: bmcpdf
 
 bmcpdf: $(NAME1).tex
-	$(PDFLATEX) $<
+	$(PDFLATEX) $< && bibtex $(NAME1) && $(PDFLATEX) $< && $(PDFLATEX) $<
 
 clean:
 	$(RM) ${BUILTPDFFIGURES} $(NAME1).aux $(NAME1).dvi \
