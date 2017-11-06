@@ -21,7 +21,7 @@ Warning--empty year in Andrews2017
 Warning--there's a number but no volume in Stoehlmacher2004
 You've used 233 entries,
             2773 wiz_defined-function locations,
-            2166 strings with 58395 characters,
+            2166 strings with 58413 characters,
 and the built_in function-call counts, 120316 in all, are:
 = -- 10675
 > -- 7788

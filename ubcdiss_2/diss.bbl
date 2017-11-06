@@ -857,8 +857,9 @@ J.~J. Lou, L.~Mirsadraei, D.~E. Sanchez, et~al.
   nucleic acids for anatomic pathology laboratories and biorepositories}.
 \newblock \emph{Clinical Biochemistry}, 47:\penalty0 267--273, 2014.
 
-\bibitem[Ludyga et~al.(2012)Ludyga, Gr??nwald, Azimzadeh, et~al.]{Ludyga2012}
-N.~Ludyga, B.~Gr??nwald, O.~Azimzadeh, et~al.
+\bibitem[Ludyga et~al.(2012)Ludyga, Gr{\"{u}}nwald, Azimzadeh,
+  et~al.]{Ludyga2012}
+N.~Ludyga, B.~Gr{\"{u}}nwald, O.~Azimzadeh, et~al.
 \newblock {Nucleic acids from long-term preserved FFPE tissues are suitable for
   downstream analyses}.
 \newblock \emph{Virchows Archiv}, 460\penalty0 (2):\penalty0 131--140, 2012.
@@ -1079,9 +1080,9 @@ K.~P. Pennington, T.~Walsh, M.~Lee, et~al.
 \bibitem[Pilger et~al.(2007)Pilger, {Da Costa Lopez}, Segal,
   et~al.]{Pilger2007}
 D.~A. Pilger, P.~L. {Da Costa Lopez}, F.~Segal, et~al.
-\newblock {Analysis of R213R and 13494 g???a polymorphisms of the p53 gene in
-  individuals with esophagitis, intestinal metaplasia of the cardia and
-  Barrett's Esophagus compared with a control group}.
+\newblock {Analysis of R213R and 13494 g {\textgreater} a polymorphisms of the
+  p53 gene in individuals with esophagitis, intestinal metaplasia of the cardia
+  and Barrett's Esophagus compared with a control group}.
 \newblock \emph{Genomic Medicine}, 1\penalty0 (1-2):\penalty0 57--63, 2007.
 
 \bibitem[Quesnel et~al.(1999)Quesnel, Verselis, Portwine, et~al.]{Quesnel1999}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  5 NOV 2017 22:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  6 NOV 2017 14:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4498,14 +4498,14 @@ Missing character: There is no “ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
-LaTeX Font Info:    Try loading font information for OML+ptm on input line 958.
+LaTeX Font Info:    Try loading font information for OML+ptm on input line 959.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omlptm.fd
 File: omlptm.fd 
 )
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <10.95> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 958.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 959.
  [116] [117]
 [118] [119] [120]
 Missing character: There is no â in font ptmr7t!
@@ -4656,10 +4656,10 @@ LaTeX Font Warning: Size substitutions with differences
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 465.
  ) 
 Here is how much of TeX's memory you used:
- 23223 strings out of 493014
- 429808 string characters out of 6133351
- 515524 words of memory out of 5000000
- 25851 multiletter control sequences out of 15000+600000
+ 23224 strings out of 493014
+ 429816 string characters out of 6133351
+ 515528 words of memory out of 5000000
+ 25852 multiletter control sequences out of 15000+600000
  68135 words of font info for 140 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,15n,55p,10389b,1367s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -4673,7 +4673,7 @@ ist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
 ype1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/t
 imes/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri
 8a.pfb>
-Output written on diss.pdf (157 pages, 7956324 bytes).
+Output written on diss.pdf (157 pages, 7956458 bytes).
 PDF statistics:
  2455 PDF objects out of 2487 (max. 8388607)
  2208 compressed objects within 23 object streams
