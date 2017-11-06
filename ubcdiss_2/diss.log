@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  29 OCT 2017 23:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  5 NOV 2017 16:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4122,19 +4122,19 @@ er3_figure/bar_pgx_genes_pct.png used on input line 589.
  </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/bar_pgx_gene
 s_pct.png>]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/ffpe_blood_co
-nc_venn_gt.png, id=1566, 3011.25pt x 3011.25pt>
+nc_venn.png, id=1566, 3011.25pt x 3011.25pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/ffpe_blo
-od_conc_venn_gt.png Graphic file (type png)
+od_conc_venn.png Graphic file (type png)
 
 <use /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/ffpe_bloo
-d_conc_venn_gt.png>
+d_conc_venn.png>
 Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
-er3_figure/ffpe_blood_conc_venn_gt.png used on input line 611.
+er3_figure/ffpe_blood_conc_venn.png used on input line 611.
 (pdftex.def)             Requested size: 301.14264pt x 301.14264pt.
  [88
 
 ] [89 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/ffpe_bl
-ood_conc_venn_gt.png>]
+ood_conc_venn.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 627--627
 []|[]
  []
@@ -4417,25 +4417,18 @@ Overfull \hbox (10.67815pt too wide) in alignment at lines 717--733
  [] [] [] [] [] [] [] 
  []
 
-[91] [92] [93]
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
- [94
+[91] [92] [93] [94
 
 ]
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/germline_sens
-_minor.png, id=1613, 635.976pt x 277.5168pt>
+_minor_no_line.png, id=1610, 635.976pt x 277.5168pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/germline
-_sens_minor.png Graphic file (type png)
+_sens_minor_no_line.png Graphic file (type png)
 
 <use /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/germline_
-sens_minor.png>
+sens_minor_no_line.png>
 Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
-er3_figure/germline_sens_minor.png used on input line 766.
+er3_figure/germline_sens_minor_no_line.png used on input line 766.
 (pdftex.def)             Requested size: 445.18016pt x 194.26042pt.
 
 Overfull \hbox (11.56015pt too wide) in paragraph at lines 766--767
@@ -4449,14 +4442,14 @@ Overfull \hbox (4.24829pt too wide) in paragraph at lines 778--800
 
 
 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/germline_ppv_
-minor.png, id=1618, 632.6034pt x 271.7352pt>
+minor_no_line.png, id=1615, 632.6034pt x 271.7352pt>
 File: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/germline
-_ppv_minor.png Graphic file (type png)
+_ppv_minor_no_line.png Graphic file (type png)
 
 <use /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/germline_
-ppv_minor.png>
+ppv_minor_no_line.png>
 Package pdftex.def Info: /Users/evayap/Documents/masters_thesis/ubcdiss_2/chapt
-er3_figure/germline_ppv_minor.png used on input line 807.
+er3_figure/germline_ppv_minor_no_line.png used on input line 807.
 (pdftex.def)             Requested size: 442.81935pt x 190.21332pt.
 
 Overfull \hbox (9.19934pt too wide) in paragraph at lines 807--808
@@ -4464,8 +4457,8 @@ Overfull \hbox (9.19934pt too wide) in paragraph at lines 807--808
  []
 
 [96 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter3_figure/germline_
-sens_minor.png>]) [97 </Users/evayap/Documents/masters_thesis/ubcdiss_2/chapter
-3_figure/germline_ppv_minor.png>]
+sens_minor_no_line.png>]) [97 </Users/evayap/Documents/masters_thesis/ubcdiss_2
+/chapter3_figure/germline_ppv_minor_no_line.png>]
 \openout2 = `discussion.aux'.
 
  (./discussion.tex
@@ -4479,7 +4472,7 @@ Chapter 5.
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 13.
 
-[99] [100] [101] [102] [103]) [104] [105] (./diss.bbl (./diss.brf)
+[99] [100] [101] [102] [103] [104]) [105] (./diss.bbl (./diss.brf)
 \tf@brf=\write9
 \openout9 = `diss.brf'.
 
@@ -4652,7 +4645,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 465.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 465.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 465.
 Package rerunfilecheck Info: File `diss.out' has not changed.
-(rerunfilecheck)             Checksum: 1843EAE20E0C41F23B3B4FD35E7F1722;5370.
+(rerunfilecheck)             Checksum: 314D812709E5ADE57F8A842D7802F443;5326.
 Package rerunfilecheck Info: File `diss.brf' has not changed.
 (rerunfilecheck)             Checksum: EA7AF59E529B4831B1252EB78A7B3A36;24400.
 
@@ -4664,8 +4657,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 465.
  ) 
 Here is how much of TeX's memory you used:
  23223 strings out of 493014
- 429735 string characters out of 6133351
- 515517 words of memory out of 5000000
+ 429808 string characters out of 6133351
+ 515524 words of memory out of 5000000
  25851 multiletter control sequences out of 15000+600000
  68135 words of font info for 140 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -4680,10 +4673,10 @@ ist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
 ype1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/t
 imes/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri
 8a.pfb>
-Output written on diss.pdf (157 pages, 7956248 bytes).
+Output written on diss.pdf (157 pages, 7956328 bytes).
 PDF statistics:
- 2458 PDF objects out of 2487 (max. 8388607)
- 2211 compressed objects within 23 object streams
+ 2455 PDF objects out of 2487 (max. 8388607)
+ 2208 compressed objects within 23 object streams
  499 named destinations out of 1000 (max. 500000)
  589 words of extra memory for PDF output out of 10000 (max. 10000000)
 
