@@ -8,7 +8,7 @@
 \section{Overview of study design}
 \label{sec:Overviewofstudydesign}
 
-This study examined whether potential germline alterations can be accurately identified in FFPE tumours. Targeted sequencing data from 213 cancer patients with FFPE tumour and matched blood samples were retrospectively analyzed (\autoref{fig:study_design}). Extracted DNA from samples were sheared and enriched for amplicons in the OncoPanel, a clinical targeted NGS panel for solid tumours. Amplicons were barcoded and subjected to NGS. Sequencing data were processed and analyzed with a custom variant analysis pipeline. To assess the degree of formalin-induced DNA damage, the efficiency in amplicon enrichment and sequencing results of FFPE samples were compared to blood. Furthermore, variant concordance between blood and FFPE tumours was measured to determine whether tumour DNA is a reliable resource for detecting germline alterations. Lastly, the use of VAF thresholds in distinguishing between germline and somatic alterations in tumour-only analyses was evaluated.
+This study examined whether potential germline alterations can be accurately identified in FFPE tumours. Targeted sequencing data from 213 cancer patients with FFPE tumour and matched blood samples were retrospectively analyzed (\autoref{fig:study_design}). DNA was extracted from the peripheral blood mononuclear cell fraction, hereafter referred to as blood, and FFPE specimens. The DNA samples were sheared and enriched for amplicons in the OncoPanel, a clinical targeted NGS panel for solid tumours. Amplicons were barcoded and subjected to NGS. Sequencing data were processed and analyzed with a custom variant analysis pipeline. To assess the degree of formalin-induced DNA damage, the efficiency in amplicon enrichment and sequencing results of FFPE samples were compared to blood. Furthermore, variant concordance between blood and FFPE tumours was measured to determine whether tumour DNA is a reliable resource for detecting germline alterations. Lastly, the use of VAF thresholds in distinguishing between germline and somatic alterations in tumour-only analyses was evaluated.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -59,7 +59,7 @@ Blood and FFPE tumour samples were acquired from 213 patients who provided infor
 \section{Sample preparation, library construction, and Illumina sequencing}
 \label{sec:Samplepreparation,libraryconstruction,andIlluminasequencing}
 
-Genomic DNA was extracted from blood and FFPE tumour samples using the Gentra Autopure LS DNA preparation platform and QIAamp DNA FFPE tissue kit (Qiagen, Hilden, Germany), respectively. The extracted DNA was sheared according to a previously described protocol \cite{Bosdet2013} to obtain approximate sizes of 3 Kb followed by PCR primer merging, amplification of target regions, and adapter ligation using the Thunderstorm NGS Targeted Enrichment System (RainDance Technologies, Lexington, MA) as per manufacturer's protocol. Barcoded amplicons were sequenced with the Illumina MiSeq system for paired end sequencing with a v2 250-bp kit (Illumina, San Diego, CA).
+Genomic DNA was extracted from the peripheral blood mononuclear cell fraction and FFPE tumour samples using the Gentra Autopure LS DNA preparation platform and QIAamp DNA FFPE tissue kit (Qiagen, Hilden, Germany), respectively. The extracted DNA was sheared according to a previously described protocol \cite{Bosdet2013} to obtain approximate sizes of 3 Kb followed by PCR primer merging, amplification of target regions, and adapter ligation using the Thunderstorm NGS Targeted Enrichment System (RainDance Technologies, Lexington, MA) as per manufacturer's protocol. Barcoded amplicons were sequenced with the Illumina MiSeq system for paired end sequencing with a v2 250-bp kit (Illumina, San Diego, CA).
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
@@ -146,7 +146,7 @@ Four genomic positions at which the hg19 human reference genome contained potent
 
 \subsection{Variant filtering}
 
-Variant calls were filtered using the VarScan2 \texttt{fpfilter} function with fraction of variant reads from each strand $\geq$ 0.1 and default thresholds for other parameters (\autoref{tbl:varscan_fpfilter_parameters}). The VarScan2 \texttt{fpfilter} removed 247 low quality variants. Seventy germline variants in the blood were also excluded from our analysis because these variants in the tumours were filtered by the VarScan2 \texttt{fpfilter}. There were also 16 risk allele calls in tumour samples that did not pass the strand filter, causing the removal of 10 risk allele calls in the blood samples from our evaluation. Overall, a total of 343 calls were excluded by the VarScan2 \texttt{fpfilter} and strand filter. Manual inspection was performed for a subset of variants, including variants detected within primer regions and in PGx genes, using the Integrative Genomics Viewer (IGV, version 2.3). This resulted in the removal of 500 spurious calls, which stemmed from software bugs, sequencing artifacts, primer masking, and primer artifacts (\autoref{tbl:spurious_calls}). Eleven low coverage calls ($\leq$ 100x) were also excluded from our analysis. Implementation of this filtering pipeline reduced the raw variant output of 5288 calls from 217 paired tumour-blood samples (434 sequencing libraries) to 4434 calls (\autoref{fig:variant_pipeline}B).
+Variant calls were filtered using the VarScan2 \texttt{fpfilter} function with fraction of variant reads from each strand $\geq$ 0.1 and default thresholds for other parameters (\autoref{tbl:varscan_fpfilter_parameters}). The VarScan2 \texttt{fpfilter} removed 247 low quality variants. Seventy germline variants in the blood were also excluded from our analysis because these variants in the tumours were filtered by the VarScan2 \texttt{fpfilter}. There were also 16 risk allele calls in tumour samples that did not pass the strand filter, causing the removal of 10 risk allele calls in the blood samples from our evaluation. Overall, a total of 343 calls were excluded by the VarScan2 \texttt{fpfilter} and strand filter. Eleven low coverage calls ($\leq$ 100x) were also excluded from our analysis. Manual inspection was performed for a subset of variants, including variants detected within primer regions and in PGx genes, using the Integrative Genomics Viewer (IGV, version 2.3). This resulted in the removal of 500 spurious calls, which stemmed from misalignment near indels, sequencing artifacts, primer masking, and primer artifacts (\autoref{tbl:spurious_calls}). Implementation of this filtering pipeline reduced the raw variant output of 5288 calls from 217 paired tumour-blood samples (434 sequencing libraries) to 4434 calls (\autoref{fig:variant_pipeline}B).
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -227,23 +227,39 @@ SnpEff (version 4.2) was used for effect prediction, and the SnpSift package in 
         Gene & Chr & Pos & Ref & Alt & Reason
 				\\
 				\hline
+				EGFR & chr7 & 55249112 & G & A & Sequencing artifact, alignment of different sized amplicons
+				\\
+				EGFR & chr7 & 55249115 & C & T & Sequencing artifact, alignment of different sized amplicons
+				\\
+				KIT & chr4 & 55595593 & G & A & Sequencing artifact
+				\\
 				KIT & chr4 & 55599268 & C & T & Variant masked by primer in FFPE specimen
 				\\
         MAPK1 & chr22 & 22162126 & A & G & Variant masked by primer in FFPE specimen
         \\
+				MTHFR & chr1 & 11856378 & G & A & Sequence artifact
+				\\
         MTOR & chr1 & 11186783 & G & A & Sequencing artifact within primer region
         \\
         MTOR & chr1 & 11190646 & G & A & Variant masked by primer in FFPE specimen
         \\
+				MTOR & chr1 & 11199428 & G & T & Sequencing artifact
+				\\
+				MTOR & chr1 & 11269434 & C & T & Sequencing artifact
+				\\
+				MTOR & chr1 & 11298014 & C & T & Sequencing artifact
+				\\
+				STAT3 & chr17 & 40476769 & C & T & Sequencing artifact, alignment of different sized amplicons
+				\\
         TYMP & chr22 & 50964446 & A & T & Poor target region, alignment of different sized amplicons
         \\
         TYMP & chr22 & 50964862 & A & T & Poor target region, alignment of different sized amplicons
         \\
-        TYMS & chr18 & 673449 & G & C & VarScan2 bug after chr18:673443 c.*447\_*452delTTAAAG
+        TYMS & chr18 & 673449 & G & C & Alignment error near the indel, chr18:673443 c.*447\_*452delTTAAAG
         \\
-        UGT1A1 & chr2 & 234668879 & CAT & C & Sequencing artifact at AT repeats in promoter
+        UGT1A1 & chr2 & 234668879 & CAT & C & Sequencing artifact at poly-AT sequence in promoter
         \\
-        UGT1A1 & chr2 & 234668881 & T & TAC & VarScan2 bug after AT insertion in promoter
+        UGT1A1 & chr2 & 234668881 & T & TAC & Alignment error$/$sequencing artifact at poly-AT sequence in promoter
         \\
 				\hline
 \end{longtable}

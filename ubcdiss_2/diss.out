@@ -45,12 +45,12 @@
 \BOOKMARK [1][-]{section.4.2}{4.2 Germline alterations are highly concordant between blood and FFPE specimens}{chapter.4}% 45
 \BOOKMARK [1][-]{section.4.3}{4.3 Application of VAF thresholds to separate germline alterations from somatic mutations in tumour-only analyses}{chapter.4}% 46
 \BOOKMARK [0][-]{chapter.5}{5 Discussion}{}% 47
-\BOOKMARK [1][-]{subsection.5.0.1}{5.0.1 Formalin-induced DNA damage has minor effects on sequencing metrics}{chapter.5}% 48
-\BOOKMARK [2][-]{subsection.5.0.2}{5.0.2 Sequence artifacts induced by cytosine deamination tend to occur at low allelic frequency}{subsection.5.0.1}% 49
-\BOOKMARK [2][-]{subsection.5.0.3}{5.0.3 Sequence artifacts other than those caused by cytosine deamination are detected}{subsection.5.0.1}% 50
-\BOOKMARK [2][-]{subsection.5.0.4}{5.0.4 Storage time of FFPE blocks correlates with the extent of formalin-induced DNA damage}{subsection.5.0.1}% 51
-\BOOKMARK [2][-]{subsection.5.0.5}{5.0.5 Germline variants are highly retained in the tumour genome}{subsection.5.0.1}% 52
-\BOOKMARK [2][-]{subsection.5.0.6}{5.0.6 The use of VAF thresholds is feasible for distinguishing between germline and somatic alterations in tumour-only analyses}{subsection.5.0.1}% 53
-\BOOKMARK [2][-]{subsection.5.0.7}{5.0.7 Limitations and future directions}{subsection.5.0.1}% 54
+\BOOKMARK [1][-]{section.5.1}{5.1 Formalin-induced DNA damage has minor effects on sequencing metrics}{chapter.5}% 48
+\BOOKMARK [1][-]{section.5.2}{5.2 Sequence artifacts induced by cytosine deamination tend to occur at low allelic frequency}{chapter.5}% 49
+\BOOKMARK [1][-]{section.5.3}{5.3 Sequence artifacts other than those caused by cytosine deamination are detected}{chapter.5}% 50
+\BOOKMARK [1][-]{section.5.4}{5.4 Storage time of FFPE blocks correlates with the extent of formalin-induced DNA damage}{chapter.5}% 51
+\BOOKMARK [1][-]{section.5.5}{5.5 Germline variants are highly retained in the tumour genome}{chapter.5}% 52
+\BOOKMARK [1][-]{section.5.6}{5.6 The use of VAF thresholds is feasible for distinguishing between germline and somatic alterations in tumour-only analyses}{chapter.5}% 53
+\BOOKMARK [1][-]{section.5.7}{5.7 Limitations and future directions}{chapter.5}% 54
 \BOOKMARK [0][-]{chapter*.49}{Bibliography}{}% 55
 \BOOKMARK [0][-]{appendix.A}{A Supporting Materials}{}% 56

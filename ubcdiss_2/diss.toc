@@ -38,19 +38,19 @@
 \contentsline {chapter}{\numberline {3}Results: Assessment of Formalin-Induced DNA Damage in FFPE Specimens}{35}{chapter.3}
 \contentsline {section}{\numberline {3.1}Comparison of efficiency in amplicon enrichment and sequencing results between blood and FFPE specimens}{35}{section.3.1}
 \contentsline {section}{\numberline {3.2}Reduced coverage depth in FFPE specimens is more pronounced for longer amplicons}{42}{section.3.2}
-\contentsline {section}{\numberline {3.3}Deamination effects lead to increased C$>$T/G$>$A transitions in FFPE specimens}{47}{section.3.3}
-\contentsline {section}{\numberline {3.4}Increased age of paraffin block results in reduced amplicon yield and elevated level of C$>$T/G$>$A sequence artifacts}{55}{section.3.4}
-\contentsline {chapter}{\numberline {4}Results: Identification of Germline Alterations in FFPE Tumours}{59}{chapter.4}
-\contentsline {section}{\numberline {4.1}Frequency and interpretation of germline alterations in patients from the TOP cohort}{59}{section.4.1}
-\contentsline {section}{\numberline {4.2}Germline alterations are highly concordant between blood and FFPE specimens}{88}{section.4.2}
-\contentsline {section}{\numberline {4.3}Application of VAF thresholds to separate germline alterations from somatic mutations in tumour-only analyses}{94}{section.4.3}
-\contentsline {chapter}{\numberline {5}Discussion}{98}{chapter.5}
-\contentsline {subsection}{\numberline {5.0.1}Formalin-induced DNA damage has minor effects on sequencing metrics}{99}{subsection.5.0.1}
-\contentsline {subsection}{\numberline {5.0.2}Sequence artifacts induced by cytosine deamination tend to occur at low allelic frequency}{99}{subsection.5.0.2}
-\contentsline {subsection}{\numberline {5.0.3}Sequence artifacts other than those caused by cytosine deamination are detected}{100}{subsection.5.0.3}
-\contentsline {subsection}{\numberline {5.0.4}Storage time of FFPE blocks correlates with the extent of formalin-induced DNA damage}{101}{subsection.5.0.4}
-\contentsline {subsection}{\numberline {5.0.5}Germline variants are highly retained in the tumour genome}{101}{subsection.5.0.5}
-\contentsline {subsection}{\numberline {5.0.6}The use of VAF thresholds is feasible for distinguishing between germline and somatic alterations in tumour-only analyses}{102}{subsection.5.0.6}
-\contentsline {subsection}{\numberline {5.0.7}Limitations and future directions}{103}{subsection.5.0.7}
-\contentsline {chapter}{Bibliography}{106}{chapter*.49}
-\contentsline {chapter}{\numberline {A}Supporting Materials}{125}{appendix.A}
+\contentsline {section}{\numberline {3.3}Deamination effects lead to increased C$>$T/G$>$A transitions in FFPE specimens}{48}{section.3.3}
+\contentsline {section}{\numberline {3.4}Increased age of paraffin block results in reduced amplicon yield and elevated level of C$>$T/G$>$A sequence artifacts}{56}{section.3.4}
+\contentsline {chapter}{\numberline {4}Results: Identification of Germline Alterations in FFPE Tumours}{60}{chapter.4}
+\contentsline {section}{\numberline {4.1}Frequency and interpretation of germline alterations in patients from the TOP cohort}{60}{section.4.1}
+\contentsline {section}{\numberline {4.2}Germline alterations are highly concordant between blood and FFPE specimens}{89}{section.4.2}
+\contentsline {section}{\numberline {4.3}Application of VAF thresholds to separate germline alterations from somatic mutations in tumour-only analyses}{95}{section.4.3}
+\contentsline {chapter}{\numberline {5}Discussion}{99}{chapter.5}
+\contentsline {section}{\numberline {5.1}Formalin-induced DNA damage has minor effects on sequencing metrics}{100}{section.5.1}
+\contentsline {section}{\numberline {5.2}Sequence artifacts induced by cytosine deamination tend to occur at low allelic frequency}{100}{section.5.2}
+\contentsline {section}{\numberline {5.3}Sequence artifacts other than those caused by cytosine deamination are detected}{101}{section.5.3}
+\contentsline {section}{\numberline {5.4}Storage time of FFPE blocks correlates with the extent of formalin-induced DNA damage}{102}{section.5.4}
+\contentsline {section}{\numberline {5.5}Germline variants are highly retained in the tumour genome}{102}{section.5.5}
+\contentsline {section}{\numberline {5.6}The use of VAF thresholds is feasible for distinguishing between germline and somatic alterations in tumour-only analyses}{103}{section.5.6}
+\contentsline {section}{\numberline {5.7}Limitations and future directions}{104}{section.5.7}
+\contentsline {chapter}{Bibliography}{107}{chapter*.49}
+\contentsline {chapter}{\numberline {A}Supporting Materials}{126}{appendix.A}

@@ -1,5 +1,5 @@
-This is BibTeX, Version 0.99d (TeX Live 2016)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: diss.aux
 A level-1 auxiliary file: abstract.aux
 A level-1 auxiliary file: lay_summary.aux
@@ -21,16 +21,16 @@ Warning--empty year in Andrews2017
 Warning--there's a number but no volume in Stoehlmacher2004
 You've used 233 entries,
             2773 wiz_defined-function locations,
-            2166 strings with 58413 characters,
-and the built_in function-call counts, 120316 in all, are:
-= -- 10675
+            2168 strings with 58464 characters,
+and the built_in function-call counts, 120343 in all, are:
+= -- 10681
 > -- 7788
 < -- 44
 + -- 2671
 - -- 2434
 * -- 11097
-:= -- 18801
-add.period$ -- 699
+:= -- 18807
+add.period$ -- 702
 call.type$ -- 233
 change.case$ -- 1333
 chr.to.int$ -- 229
@@ -38,17 +38,17 @@ cite$ -- 473
 duplicate$ -- 4839
 empty$ -- 9413
 format.name$ -- 2717
-if$ -- 24627
+if$ -- 24633
 int.to.chr$ -- 5
 int.to.str$ -- 1
 missing$ -- 231
-newline$ -- 1172
+newline$ -- 1175
 num.names$ -- 926
-pop$ -- 2255
+pop$ -- 2258
 preamble$ -- 1
 purify$ -- 1101
 quote$ -- 0
-skip$ -- 3662
+skip$ -- 3656
 stack$ -- 0
 substring$ -- 5924
 swap$ -- 250
@@ -59,5 +59,5 @@ type$ -- 2558
 warning$ -- 5
 while$ -- 1121
 width$ -- 0
-write$ -- 3029
+write$ -- 3035
 (There were 5 warnings)

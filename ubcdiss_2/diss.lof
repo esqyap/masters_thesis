@@ -23,17 +23,17 @@
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Evaluation of coverage uniformity in blood and FFPE specimens (Wilcoxon signed-rank test, ****\textit {p} $<$ 0.0001, ns = not significant).}}{40}{figure.caption.26}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Amplicon-specific differences in coverage depth between blood and FFPE specimens.}}{44}{figure.caption.28}
 \contentsline {figure}{\numberline {3.5}{\ignorespaces The relationship between amplicon GC content and amplicon length (Pearson's correlation).}}{45}{figure.caption.29}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Scatter plots showing log\textsubscript {2} fold change between amplicon coverage depth in blood and FFPE specimens in relation to (A) amplicon length and (B) GC content (Pearson's correlation).}}{46}{figure.caption.30}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Assessment of formalin-induced sequence artifacts in FFPE specimens.}}{49}{figure.caption.32}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Comparison of relative difference in fraction of base changes in FFPE specimens compared to blood (Kruskal-Wallis test).}}{50}{figure.caption.34}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Assessment of formalin-induced sequence artifacts in FFPE specimens at different ranges of allele frequency.}}{53}{figure.caption.37}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Scatter plots showing (A) amplicon yield and (B) efficiency in amplicon enrichment, which is represented by the log\textsubscript {2} fold change between the amount of DNA input for producing amplicons and amplicon yield, in relation to age of paraffin blocks (Spearman's rank correlation).}}{57}{figure.caption.39}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces The relationship between fraction of base changes and age of paraffin block for different types of base changes (Spearman's rank correlation).\relax }}{57}{figure.caption.40}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Scatter plots showing log\textsubscript {2} fold change between amplicon coverage depth in blood and FFPE specimens in relation to (A) amplicon length, (B) GC content, (C) top 100 longest amplicons, and (D) top 100 amplicons with the highest GC content (Pearson's correlation).}}{46}{figure.caption.30}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Assessment of formalin-induced sequence artifacts in FFPE specimens.}}{50}{figure.caption.32}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Comparison of relative difference in fraction of base changes in FFPE specimens compared to blood (Kruskal-Wallis test).}}{51}{figure.caption.34}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Assessment of formalin-induced sequence artifacts in FFPE specimens at different ranges of allele frequency.}}{54}{figure.caption.37}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Scatter plots showing (A) amplicon yield and (B) efficiency in amplicon enrichment, which is represented by the log\textsubscript {2} fold change between the amount of DNA input for producing amplicons and amplicon yield, in relation to age of paraffin blocks (Spearman's rank correlation).}}{58}{figure.caption.39}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces The relationship between fraction of base changes and age of paraffin block for different types of base changes (Spearman's rank correlation).\relax }}{58}{figure.caption.40}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Distribution of germline alterations in cancer-related genes in patients from the TOP study.}}{86}{figure.caption.42}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Distribution of germline alterations in PGx genes in patients from the TOP study.}}{87}{figure.caption.43}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Venn diagram demonstrating concordance of variants identified in 217 tumour-blood paired samples.\relax }}{89}{figure.caption.44}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Assessment of using a VAF cut-off approach to identify germline alterations in tumour-only analyses.}}{96}{figure.caption.45}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Assessment of using a VAF cut-off approach to refer potential germline alterations in tumour-only analyses to follow-up testing.}}{97}{figure.caption.47}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Distribution of germline alterations in cancer-related genes in patients from the TOP study.}}{87}{figure.caption.42}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Distribution of germline alterations in PGx genes in patients from the TOP study.}}{88}{figure.caption.43}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Venn diagram demonstrating concordance of variants identified in 217 tumour-blood paired samples.\relax }}{90}{figure.caption.44}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Assessment of using a VAF cut-off approach to identify germline alterations in tumour-only analyses.}}{97}{figure.caption.45}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Assessment of using a VAF cut-off approach to refer potential germline alterations in tumour-only analyses to follow-up testing.}}{98}{figure.caption.47}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

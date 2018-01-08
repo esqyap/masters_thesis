@@ -1,0 +1,7 @@
+\beamer@sectionintoc {1}{Background}{3}{0}{1}
+\beamer@sectionintoc {2}{Research Question}{22}{0}{2}
+\beamer@sectionintoc {3}{Thesis Aims}{26}{0}{3}
+\beamer@sectionintoc {4}{Aim 1: Formalin-induced DNA damage could be mitigated by using shorter amplicons and avoiding older FFPE blocks.}{36}{0}{4}
+\beamer@sectionintoc {5}{Aim 2: FFPE tumour DNA is a reliable source for germline variant calling.}{61}{0}{5}
+\beamer@sectionintoc {6}{Aim 3: The use of a VAF cut-off could result in high sensitivity in identifying germline variants in FFPE tumours with an acceptable positive predictive value.}{69}{0}{6}
+\beamer@sectionintoc {7}{Conclusions}{82}{0}{7}
